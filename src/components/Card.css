@@ -1,6 +1,28 @@
+.card {
+  border: 1px solid;
+  border-radius: 4px;
+  flex: 0 0 5rem;
+  height: 8rem;
+  background: #fff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1rem 1fr 1rem;
+}
+
 .red {
   color: #c00;
 }
+
 .black {
   color: #222;
+}
+
+.abbr-and-symbol.top {
+  grid-row: 1 / 2;
+}
+
+.abbr-and-symbol.bottom {
+  grid-row: 3 / 4;
+  transform: rotate(0.5turn);
 }
