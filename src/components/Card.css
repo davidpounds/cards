@@ -1,41 +1,62 @@
 .card {
-  border: 1px solid;
-  border-radius: 4px;
-  flex: 0 0 5rem;
-  height: 8rem;
-  background: #fff;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1rem 1fr 1rem;
+  --card-height: 540px;
+  --card-width: 360px;
+  background-image: url('../deck.svg');
+  background-repeat: no-repeat;
+  width: var(--card-width);
+  height: var(--card-height);
+  outline: 1px dashed red;
 }
 
-.red {
-  color: #c00;
+.Spades {
+  background-position-y: calc(var(--card-height) * 0);
+}
+.Hearts {
+  background-position-y: calc(var(--card-height) * -1);
+}
+.Diamonds {
+  background-position-y: calc(var(--card-height) * -2);
+}
+.Clubs {
+  background-position-y: calc(var(--card-height) * -3);
 }
 
-.black {
-  color: #222;
+.val1 {
+  background-position-x: calc(var(--card-width) * 0);
 }
-
-.abbr-and-symbol.top {
-  grid-row: 1 / 2;
+.val2 {
+  background-position-x: calc(var(--card-width) * -1);
 }
-
-.abbr-and-symbol.bottom {
-  grid-row: 3 / 4;
-  transform: rotate(0.5turn);
+.val3 {
+  background-position-x: calc(var(--card-width) * -2);
 }
-
-.symbol-pattern {
-  display: grid;
-  grid-template-columns: repeat(3, 33.3%);
-  grid-template-rows: repeat(4, 25%);
+.val4 {
+  background-position-x: calc(var(--card-width) * -3);
 }
-
-.symbol-pattern span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: 1px dashed green;
+.val5 {
+  background-position-x: calc(var(--card-width) * -4);
+}
+.val6 {
+  background-position-x: calc(var(--card-width) * -5);
+}
+.val7 {
+  background-position-x: calc(var(--card-width) * -6);
+}
+.val8 {
+  background-position-x: calc(var(--card-width) * -7);
+}
+.val9 {
+  background-position-x: calc(var(--card-width) * -8);
+}
+.val10 {
+  background-position-x: calc(var(--card-width) * -9);
+}
+.val11 {
+  background-position-x: calc(var(--card-width) * -10);
+}
+.val12 {
+  background-position-x: calc(var(--card-width) * -11);
+}
+.val13 {
+  background-position-x: calc(var(--card-width) * -12);
 }

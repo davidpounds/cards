@@ -5,12 +5,9 @@ import deckImg from './deck.svg';
 
 function App() {
   return (
-    <>
-      <div className="app">
-        {DECK.map(card => <Card {...card} />)}
-      </div>
-      <img src={deckImg} style={{ width: '100%', height: 'auto', outline: '1px dashed green' }} />
-    </>
+    <div className="app">
+      {DECK.map(card => <Card {...card} />)}
+    </div>
   );
 }
 
