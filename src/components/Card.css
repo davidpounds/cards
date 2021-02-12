@@ -26,3 +26,16 @@
   grid-row: 3 / 4;
   transform: rotate(0.5turn);
 }
+
+.symbol-pattern {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  grid-template-rows: repeat(4, 25%);
+}
+
+.symbol-pattern span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px dashed green;
+}

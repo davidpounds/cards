@@ -34,7 +34,6 @@ const CARD_NAME = Object.freeze([
 ]);
 
 const DECK = Object.freeze([
-  // Hearts
   { colour: COLOUR.RED, suit: SUIT.HEARTS, symbol: SUIT_SYMBOL.HEARTS, value: 1, name: CARD_NAME[0] },
   { colour: COLOUR.RED, suit: SUIT.HEARTS, symbol: SUIT_SYMBOL.HEARTS, value: 2, name: CARD_NAME[1] },
   { colour: COLOUR.RED, suit: SUIT.HEARTS, symbol: SUIT_SYMBOL.HEARTS, value: 3, name: CARD_NAME[2] },
@@ -48,8 +47,6 @@ const DECK = Object.freeze([
   { colour: COLOUR.RED, suit: SUIT.HEARTS, symbol: SUIT_SYMBOL.HEARTS, value: 11, name: CARD_NAME[10] },
   { colour: COLOUR.RED, suit: SUIT.HEARTS, symbol: SUIT_SYMBOL.HEARTS, value: 12, name: CARD_NAME[11] },
   { colour: COLOUR.RED, suit: SUIT.HEARTS, symbol: SUIT_SYMBOL.HEARTS, value: 13, name: CARD_NAME[12] },
-
-  // Diamonds
   { colour: COLOUR.RED, suit: SUIT.DIAMONDS, symbol: SUIT_SYMBOL.DIAMONDS, value: 1, name: CARD_NAME[0] },
   { colour: COLOUR.RED, suit: SUIT.DIAMONDS, symbol: SUIT_SYMBOL.DIAMONDS, value: 2, name: CARD_NAME[1] },
   { colour: COLOUR.RED, suit: SUIT.DIAMONDS, symbol: SUIT_SYMBOL.DIAMONDS, value: 3, name: CARD_NAME[2] },
@@ -63,8 +60,6 @@ const DECK = Object.freeze([
   { colour: COLOUR.RED, suit: SUIT.DIAMONDS, symbol: SUIT_SYMBOL.DIAMONDS, value: 11, name: CARD_NAME[10] },
   { colour: COLOUR.RED, suit: SUIT.DIAMONDS, symbol: SUIT_SYMBOL.DIAMONDS, value: 12, name: CARD_NAME[11] },
   { colour: COLOUR.RED, suit: SUIT.DIAMONDS, symbol: SUIT_SYMBOL.DIAMONDS, value: 13, name: CARD_NAME[12] },
-
-  // Clubs
   { colour: COLOUR.BLACK, suit: SUIT.CLUBS, symbol: SUIT_SYMBOL.CLUBS, value: 1, name: CARD_NAME[0] },
   { colour: COLOUR.BLACK, suit: SUIT.CLUBS, symbol: SUIT_SYMBOL.CLUBS, value: 2, name: CARD_NAME[1] },
   { colour: COLOUR.BLACK, suit: SUIT.CLUBS, symbol: SUIT_SYMBOL.CLUBS, value: 3, name: CARD_NAME[2] },
@@ -78,8 +73,6 @@ const DECK = Object.freeze([
   { colour: COLOUR.BLACK, suit: SUIT.CLUBS, symbol: SUIT_SYMBOL.CLUBS, value: 11, name: CARD_NAME[10] },
   { colour: COLOUR.BLACK, suit: SUIT.CLUBS, symbol: SUIT_SYMBOL.CLUBS, value: 12, name: CARD_NAME[11] },
   { colour: COLOUR.BLACK, suit: SUIT.CLUBS, symbol: SUIT_SYMBOL.CLUBS, value: 13, name: CARD_NAME[12] },
-
-  // Spades
   { colour: COLOUR.BLACK, suit: SUIT.SPADES, symbol: SUIT_SYMBOL.SPADES, value: 1, name: CARD_NAME[0] },
   { colour: COLOUR.BLACK, suit: SUIT.SPADES, symbol: SUIT_SYMBOL.SPADES, value: 2, name: CARD_NAME[1] },
   { colour: COLOUR.BLACK, suit: SUIT.SPADES, symbol: SUIT_SYMBOL.SPADES, value: 3, name: CARD_NAME[2] },
