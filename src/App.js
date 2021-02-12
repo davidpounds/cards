@@ -9,7 +9,7 @@ function App() {
       <div className="app">
         {DECK.map(card => <Card {...card} />)}
       </div>
-      <img src={deckImg} style={{ width: '100%', height: 'auto' }} />
+      <img src={deckImg} style={{ width: '100%', height: 'auto', outline: '1px dashed green' }} />
     </>
   );
 }
