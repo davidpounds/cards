@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import DECK from './data/deck';
-import { dealHand } from './utils/cardorder';
+import CONFIG from './data/config';
+import { dealHand, shuffle } from './utils/cardorder';
 import Card from './components/Card';
 import Hand from './components/Hand';
 import DeckSvgInline from './components/DeckSvgInline';
@@ -9,22 +10,30 @@ import DeckSvgInline from './components/DeckSvgInline';
 function App() {
 
   const [deck, setDeck] = useState(DECK);
-  const [dealtHand, setDealtHand] = useState([]);
+  const [players, setPlayers] = useState([]);
 
   const shuffleDeck = () => {
-    const shuffledDeck = [...deck].sort((a, b) => Math.random() - 0.5);
-    setDeck(shuffledDeck);
+    setDeck(shuffle(deck));
   };
 
-  const deal = () => {
-    const { hand, newDeck } = dealHand(deck, 7);
-    setDealtHand(hand);
+  const addPlayer = () => {
+    const playerCount = players.length;
+    if (playerCount >= CONFIG.MAX_PLAYERS) {
+      return;
+    }
+    const playerNo = playerCount + 1;
+    const { hand, newDeck } = dealHand(deck, CONFIG.CARDS_TO_DEAL);
     setDeck(newDeck);
+    const newPlayer = {
+      playerNo,
+      hand,
+    };
+    setPlayers([...players, newPlayer]);
   };
 
   const reset = () => {
     setDeck(DECK);
-    setDealtHand([]);
+    setPlayers([]);
   };
 
   return (
@@ -35,13 +44,10 @@ function App() {
       </div>
       <div>
         <button onClick={shuffleDeck}>Shuffle</button>
-        <button onClick={deal}>Deal</button>
+        <button onClick={addPlayer}>Add player</button>
         <button onClick={reset}>Reset</button>
       </div>
-      <Hand hand={dealtHand} />
-      <Hand hand={7} />
-      <Hand hand={7} />
-      <Hand hand={7} />
+      {players.map(player => <Hand hand={player.hand} playerNo={player.playerNo} />)}
     </>
   );
 }

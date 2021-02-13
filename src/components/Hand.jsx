@@ -2,16 +2,14 @@ import { sortHand } from '../utils/cardorder';
 import Card from './Card';
 
 const Hand = props => {
-  const { hand } = props;
-  if (Array.isArray(hand)) {
-    const sortedHand = sortHand(hand);
-    return <div className="cardlist">
+  const { hand, playerNo = '' } = props;
+  const sortedHand = sortHand(hand);
+  return <>
+    <h2>Player {playerNo}</h2>
+    <div className="cardlist">
       {sortedHand.map(card => <Card key={`${card.suit}${card.value}`} value={card.value} suit={card.suit} />)}
-    </div>;
-  }
-  return <div className="cardlist">
-    {[...Array(hand).keys()].map(idx => <Card key={idx} />)}
-  </div>;
+    </div>
+  </>;
 };
 
 export default Hand;
