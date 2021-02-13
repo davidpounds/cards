@@ -39,6 +39,9 @@ function App() {
         <button onClick={reset}>Reset</button>
       </div>
       <Hand hand={dealtHand} />
+      <Hand hand={7} />
+      <Hand hand={7} />
+      <Hand hand={7} />
     </>
   );
 }
