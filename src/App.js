@@ -14,11 +14,13 @@ function App() {
   };
 
   return (
-    <div className="app">
-      {deck.map(card => <Card {...card} />)}
+    <>
+      <div className="app">
+        {deck.map(card => <Card {...card} />)}
+        <DeckSvgInline />
+      </div>
       <button onClick={shuffleDeck}>Shuffle</button>
-      <DeckSvgInline />
-    </div>
+    </>
   );
 }
 

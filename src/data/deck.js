@@ -3,7 +3,7 @@ const COLOUR = Object.freeze({
   BLACK: 'black',
 });
 
-const SUIT = Object.freeze({
+export const SUIT = Object.freeze({
   HEARTS: 'Hearts',
   DIAMONDS: 'Diamonds',
   CLUBS: 'Clubs',
