@@ -44,7 +44,7 @@ function App() {
       </div>
       <div>
         <button onClick={shuffleDeck}>Shuffle</button>
-        <button onClick={addPlayer}>Add player</button>
+        <button onClick={addPlayer} disabled={players.length >= CONFIG.MAX_PLAYERS}>Add player</button>
         <button onClick={reset}>Reset</button>
       </div>
       {players.map(player => <Hand hand={player.hand} playerNo={player.playerNo} />)}
