@@ -7,7 +7,7 @@ body {
   background: #ccc;
 }
 
-.app {
+.cardlist {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
