@@ -4,7 +4,7 @@ import DECK from './data/deck';
 import CONFIG from './data/config';
 import { dealHand, shuffle } from './utils/cardorder';
 import Card from './components/Card';
-import Hand from './components/Hand';
+import Players from './components/Players';
 import InPlay from './components/InPlay';
 import DeckSvgInline from './components/DeckSvgInline';
 
@@ -57,7 +57,7 @@ function App() {
         <button onClick={addPlayer} disabled={players.length >= CONFIG.MAX_PLAYERS}>Add player</button>
         <button onClick={reset}>Reset</button>
       </div>
-      {players.map(player => <Hand key={player.playerNo} hand={player.hand} playerNo={player.playerNo} addToInPlay={addToInPlay} />)}
+      <Players players={players} addToInPlay={addToInPlay} />
       <InPlay inPlay={inPlay} />
     </main>
   );

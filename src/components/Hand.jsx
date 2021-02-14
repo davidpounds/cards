@@ -9,7 +9,7 @@ const Hand = props => {
     addToInPlay = () => null,
   } = props;
   const sortedHand = sortHand(hand);
-  return <>
+  return <section className="player">
     <h2>Player {playerNo}</h2>
     <div className="cardlist hand">
       {sortedHand.map(card => (
@@ -20,7 +20,7 @@ const Hand = props => {
           onClick={addToInPlay(playerNo, card)}
         />))}
     </div>
-  </>;
+  </section>;
 };
 
 export default Hand;
