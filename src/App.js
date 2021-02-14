@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import DECK from './data/deck';
 import CONFIG from './data/config';
-import { dealHand, shuffle } from './utils/cardorder';
+import { dealHand, shuffle, unassignedCards } from './utils/cardorder';
 import Card from './components/Card';
 import Players from './components/Players';
 import InPlay from './components/InPlay';
@@ -14,6 +14,10 @@ function App() {
   const [players, setPlayers] = useState([]);
   const [inPlay, setInPlay] = useState([]);
 
+  useEffect(() => {
+    setInPlay(deck.filter(card => card.inPlay));
+  }, [deck]);
+
   const shuffleDeck = () => {
     setDeck(shuffle(deck));
   };
@@ -24,41 +28,38 @@ function App() {
       return;
     }
     const playerNo = playerCount + 1;
-    const { hand, newDeck } = dealHand(deck, CONFIG.CARDS_TO_DEAL);
-    setDeck(newDeck);
-    const newPlayer = {
-      playerNo,
-      hand,
-    };
+    const newPlayer = `Player ${playerNo}`;
+    const updatedDeck = dealHand(deck, CONFIG.CARDS_TO_DEAL, newPlayer);
+    console.table(updatedDeck);
+    setDeck(updatedDeck);
     setPlayers([...players, newPlayer]);
   };
 
   const reset = () => {
-    setDeck(DECK);
+    // TODO
+    deck.forEach(card => {
+      card.player = null;
+      card.inPlay = false;
+    });
+    setDeck(deck);
     setPlayers([]);
-    setInPlay([]);
   };
 
-  const addToInPlay = (playerNo, card) => () => {
-    setInPlay([...inPlay, card]);
-    const playerHand = players[playerNo - 1];
-    playerHand.hand = playerHand.hand.filter(c => c !== card);
-    setPlayers([...players]);
-  };
+  const unassigned = unassignedCards(deck);
 
   return (
     <main className="app" style={{ '--card-width': CONFIG.CARD_WIDTH, '--card-height': CONFIG.CARD_HEIGHT }}>
       <div className="cardlist deck">
-        {deck.map(card => <Card key={`${card.suit}${card.value}`} {...card} />)}
-        <DeckSvgInline />
+        {unassigned.map(card => <Card key={`${card.suit}${card.value}`} {...card} />)}
       </div>
       <div>
         <button onClick={shuffleDeck}>Shuffle</button>
         <button onClick={addPlayer} disabled={players.length >= CONFIG.MAX_PLAYERS}>Add player</button>
         <button onClick={reset}>Reset</button>
       </div>
-      <Players players={players} addToInPlay={addToInPlay} />
+      <Players players={players} deck={deck} />
       <InPlay inPlay={inPlay} />
+      <DeckSvgInline />
     </main>
   );
 }
