@@ -5,12 +5,14 @@ import CONFIG from './data/config';
 import { dealHand, shuffle } from './utils/cardorder';
 import Card from './components/Card';
 import Hand from './components/Hand';
+import InPlay from './components/InPlay';
 import DeckSvgInline from './components/DeckSvgInline';
 
 function App() {
 
   const [deck, setDeck] = useState(DECK);
   const [players, setPlayers] = useState([]);
+  const [inPlay, setInPlay] = useState([]);
 
   const shuffleDeck = () => {
     setDeck(shuffle(deck));
@@ -36,10 +38,17 @@ function App() {
     setPlayers([]);
   };
 
+  const addToInPlay = (playerNo, card) => () => {
+    setInPlay([...inPlay, card]);
+    const playerHand = players[playerNo - 1];
+    playerHand.hand = playerHand.hand.filter(c => c !== card);
+    setPlayers([...players]);
+  };
+
   return (
     <>
       <div className="app cardlist">
-        {deck.map(card => <Card {...card} />)}
+        {deck.map(card => <Card key={`${card.suit}${card.value}`} {...card} />)}
         <DeckSvgInline />
       </div>
       <div>
@@ -47,7 +56,8 @@ function App() {
         <button onClick={addPlayer} disabled={players.length >= CONFIG.MAX_PLAYERS}>Add player</button>
         <button onClick={reset}>Reset</button>
       </div>
-      {players.map(player => <Hand hand={player.hand} playerNo={player.playerNo} />)}
+      {players.map(player => <Hand key={player.playerNo} hand={player.hand} playerNo={player.playerNo} addToInPlay={addToInPlay} />)}
+      <InPlay inPlay={inPlay} />
     </>
   );
 }

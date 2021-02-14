@@ -68,10 +68,10 @@ const DeckSvgInline = () => (
       <path
         d="M3631 570v5h5v35a5 5 0 01-10 0v-5h-5v5a10 10 0 1020 0v-40zm300 480v-5h-5v-35a5 5 0 0110 0v5h5v-5a10 10 0 00-20 0v40z"
         fill="#f55" />
-      <path d="M3661 570h270v360m-300-240v360h270" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M3661 570h270v360m-300-240v360h270" fill="none" stroke="#55a" strokeWidth="2" />
       <path
         d="M3631 886l49 31m-49-38l53 34m-53-41l52 33m-52-41l37 24m-37-31l28 18m-28-26l23 16m-23-23l19 12m-16-18l13 9m-8-12l8 5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3731 687l-17 11a665 665 0 00-48 32l-20 18-15 15v75l13-8 5 20a131 131 0 0018 38l9 10 11 12 53-70h8l10-21 16 1v-19h-17v-21h19l-7-25a173 173 0 00-24-49z" />
       <path
@@ -79,99 +79,99 @@ const DeckSvgInline = () => (
         fill="#ff5" />
       <path d="M3741 683l7-3 99 1 4 4-10 12h-97l-3-6-5-6z" />
       <path d="M3931 595v123l-19-12-1-98z" fill="#f55" />
-      <path d="M3710 570l29 36 16-3a140 140 0 0153-1l37 7 28-39z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3710 570l29 36 16-3a140 140 0 0153-1l37 7 28-39z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3727 572l17 26 21-4-5-22h-6l6 19-13 2-13-21zm43 0l4 22h30l6-22h-7l-4 17h-20l-3-17zm50 0l-7 23 27 6 16-29h-7l-12 24-17-4 6-20z"
-        fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3795 602c2 6 5 11 6 18a63 63 0 01-3 33l-7 11c-3 4-8 8-12 10l-10 4-9 2c-4 0-9 1-12-1l-1-3v-7l-2-2-2-1 1-3h4l4-1 4 2c1-1-1-2-2-3l-3 1h-9l-1-2v-1l2-2-1-5c0-2-2-2-3-3l-5-2-3-1c-1-2 0-4 1-6 1-4 4-7 6-11l3-8v-5l-2-5v-5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3775 622c-4-4-8-6-13-8-3-2-6-3-10-3l-6 1 1 1h7l8 2c5 2 10 4 13 7z" fill="#55a" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3747 620h3l4-1a26 26 0 0115 4l4 3m-24-4l4 1h5l6 2 8 5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3750 624v4l4 3h4l5-1 3-1 3-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3758 624l1 3-1 2-2 2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3753 628l2-1-1-2-2 2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3750 630l4 4 4 2 3 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3747 620h3l4-1a26 26 0 0115 4l4 3m-24-4l4 1h5l6 2 8 5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3750 624v4l4 3h4l5-1 3-1 3-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3758 624l1 3-1 2-2 2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3753 628l2-1-1-2-2 2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3750 630l4 4 4 2 3 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3752 641l2 2-1 3-2 2h-3l-3-2-3-1h-3l-1-1 3-1 3 2 3 2 3 1 3-3v-2zm12 7l5 2c1 1 2 3 1 4l-2 4-4 1-5-1-4-1-3-1-4 1-1-2 1-2h5l3 2 5 2h4l4-2v-3l-2-3z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3889 692l42 27v10l-47-32zm-3-102c-4 7-9 12-11 18l-3 18c1 7 2 14 5 20 2 6 7 10 10 14 2-4 2-10 5-14l8-11 6-4-1-15-9-5-7-9c-2-3-2-8-3-12z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3886 591l-5 17c0 4 3 10 3 10l-11 7 11 8-2 12 5 16 4-15 7-9 7-7v-15s-8-3-10-6c-3-2-5-5-6-8-2-3-3-10-3-10zm-11 34h30m-21-6l20-1m-22-7h15m-14-7l7-1m-7 30h19m-19 7h11m-10 7h6m41-61l-26 18v98l6 4v-98l20-13z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3844 678l3 3h-88l6-1 5-1 4-1zm-100 19h97l-4 5h-89zm24-14v12h13v-12zm29 1v11h13v-11zm28 0v11h12v-12zm-85-1h13v12l-10 1-3-5-4-6z"
         fill="#ff5" />
       <path
         d="M3750 689a3 3 0 11-6 0 3 3 0 016 0zm28 0a3 3 0 11-6 0 3 3 0 016 0zm28 0a3 3 0 11-6 0 3 3 0 016 0zm28 0a3 3 0 11-6 0 3 3 0 016 0z"
-        fill="#ff5" stroke="#000" stroke-width="2" />
+        fill="#ff5" stroke="#000" strokeWidth="2" />
       <path
         d="M3765 690a4 4 0 11-7 0 4 4 0 017 0zm28-1a4 4 0 11-7 0 4 4 0 017 0zm29 1a4 4 0 11-7 0 4 4 0 017 0zm26-1l-4 4c-1 2-3-1-3-3s2-4 4-4 4 1 3 3z"
         fill="#ff5" />
       <path d="M3748 702h90l-56 78-6-23a217 217 0 00-20-43z" fill="#55a" />
       <path d="M3768 713l46-1-28 39-4-12a116 116 0 00-14-26z" fill="#fff" />
       <path d="M3731 688l14 18a232 232 0 0124 47l7 26 5 1-2-11-5-19a194 194 0 00-19-39l-10-14-9-12z" fill="#ff5"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3775 716h32l-20 26-2-8a77 77 0 00-7-14z" fill="#55a" />
       <path d="M3856 687l6 2h8l6-2 4-2 9 6-67 90-33-1z" />
       <path
                 d="M3872 690l-2 2c-1 3 1 8-1 10-5 5-14 1-20 5l-1 2c-3 7 3 18-3 24-4 4-12 0-17 3l-2 2c-3 7 3 17-2 23-4 4-11 2-16 4l-1 1c-2 3-4 6-4 10l1 2c1 1 2 0 3-1 2-2 1-6 3-8 4-4 12-1 16-4l2-2c3-7-3-17 2-23 4-4 12-1 18-3l1-2c4-8-3-18 3-25 4-5 13-1 19-4l2-2c1-3 2-8 1-11z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M3863 697a4 4 0 11-7 0 4 4 0 017 0zm-1 20a4 4 0 11-7 0 4 4 0 017 0zm-21 9a4 4 0 11-7 0 4 4 0 017 0zm-1 21a4 4 0 11-7 0 4 4 0 017 0zm-21 8a4 4 0 11-7 0 4 4 0 017 0zm1 20a4 4 0 11-7 0 4 4 0 017 0z"
         fill="#ff5" />
-      <path d="M3850 684l-69 96h8l67-93z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3845 610l4 22c1 7 1 13 3 19 2 4 3 8 6 11l5 4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3838 609l5 27 4 18c2 6 4 12 9 17 3 3 7 6 11 6 2 0 5-1 5-3l-3-3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3850 684l-69 96h8l67-93z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3845 610l4 22c1 7 1 13 3 19 2 4 3 8 6 11l5 4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3838 609l5 27 4 18c2 6 4 12 9 17 3 3 7 6 11 6 2 0 5-1 5-3l-3-3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3831 607l5 22 3 24c3 7 5 15 10 21 4 4 10 9 16 9 4 0 10-1 12-5 2-3 1-9-2-11-2-1-8-1-7 4" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3825 606l4 18c2 13 3 26 7 38l10 17c4 4 8 8 13 9 7 2 16 1 21-4 4-4 6-12 2-17-3-5-12-7-17-4-3 2-3 8-1 11 0 2 1 2 2 3m-48-72l4 17c2 11 2 22 5 33l8 19m-25-71l5 16 4 28c1 10 5 19 10 27m-27-71c3 4 4 9 6 15 3 11 3 23 5 35l4 14 4 7m-19-51l3 21 5 19 4 11m-14-25l3 16 3 9m-11-14c0 5 2 10 4 14m-9-8c1 3 1 6 3 8m-8-3l1 4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3781 674h60l3 4h-70z" />
       <path
         d="M3911 617l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-20 21l20-13m-14 17l14-9m-8 13l8-5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3725 694l-2 2v9l2 2c5 5 15 4 19 10s-2 15 0 22l1 2c4 4 13 5 15 10 2 6-3 12-3 17v2l4 7c1 1 2 2 3 1v-3c0-2-3-4-3-7-1-6 4-11 3-17l-1-2c-4-5-12-6-15-11-3-7 2-15 0-23l-2-1c-5-5-15-4-19-10v-8z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M3737 700a4 4 0 11-7 0 4 4 0 017 0zm4 21a4 4 0 11-7 0 4 4 0 017 0zm17 12a4 4 0 11-7 0 4 4 0 017 0zm-1 22a4 4 0 11-7 0 4 4 0 017 0zm14 14a4 4 0 11-7 0 4 4 0 017 0z"
         fill="#ff5" />
       <path
                 d="M3714 698l-3 2a527 527 0 0021 31 308 308 0 0117 37l4-1-7-17a310 310 0 00-19-35zm-4 6l-10 7-2 5 1 5a10 10 0 009 7l4-1 10-6-2-3a222 222 0 00-12 7l-3-1-3-4-1-4 1-2 10-7zm14 20c-3 2-7 3-10 6l-2 3v5c0 2 1 5 3 6l4 3 5-1 9-5-1-2-10 5h-2l-3-2-3-5 1-3 1-2 9-5zm11 21l-10 6-2 3v4c0 3 1 6 4 8l4 2 5-1 8-5-1-3-9 5-2 1-3-2c-2-1-3-3-3-5v-3l1-2 10-6z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3750 763l-16 10a87 87 0 00-24 30 68 68 0 00-6 34l3 14 10 20 3-3-9-18-3-14 1-15a64 64 0 0115-32c4-5 8-9 13-12 4-4 15-10 15-10z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3690 714l-3 2a395 395 0 0018 25c5 7 9 15 12 22l4 11-11 13a71 71 0 00-10 65c2 9 12 26 12 26l3-4s-9-15-11-23c-3-8-4-16-4-25a67 67 0 0113-36l12-14v-2l-4-12a224 224 0 00-20-35z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3701 734s-2 18-5 26c-3 10-8 19-14 27-5 8-12 15-19 22l-15 15-17 10v4l19-12 15-15 20-22 14-28c3-9 5-27 5-27zm-33-5s0 14-2 19c-1 7-4 13-7 19-3 7-8 13-13 18l-15 13v5s14-10 18-15l14-19 7-20c2-6 2-23 2-23z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3691 724c-5 2-12 3-15 8v3c2 4 8 4 12 7 2 2 6 6 5 9s-5 3-8 4c-4 1-10-2-13 1l-1 3c1 3 6 4 8 7s5 8 3 11-6 2-10 2c-3 0-7-3-11-2l-1 2c-1 4 4 7 5 11 1 3 3 7 1 10-3 2-7 0-11-1-3 0-6-5-10-4l-2 2c-1 5 4 9 5 14 0 2 0 6-2 7-2 2-5 1-7 0-1 0-2-2-3-1l-1 2c0 2 2 2 4 2h8l1-1 3-9c-1-4-6-9-4-12 2-1 5 3 8 3 4 1 8 2 12 1l2-2c1-4 0-8-1-12-1-3-6-6-4-8 2-3 6 1 8 1 4 0 9 0 12-2l1-2c1-5-1-10-4-14-1-2-6-3-5-5 1-3 6 0 9-1 4-1 8-2 10-5l1-2c0-4-3-8-6-11s-11-2-10-6c0-5 11-3 12-7 1-1 0-3-1-3z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3675 740l-1 2c1 2 4 2 6 3 1 1 3 1 2 3h-9l-1 3c2 2 5 1 7 0l7-1v-3c0-2-3-3-4-4-2-2-4-4-7-3zm20-10l-7 4v2l2 1 3 2 1 2 1 2 3-1-1-2-2-3-3-2c0-2 4-1 4-3zm-4 27l-2 2-3 2h-2l-1 2 2 3 1 5 2-1c1-1 0-3-1-5l-1-2h1l4-2 2-2zm-7-37l-3 2-4 2 1 3c2 0 3-2 5-3l4-2zm-14 43l-2 2 1 1 3 2 1 3 1 1h-4l-3-1-1-1-2 3 2 1 3 1h5l2-1 1-2-1-2-2-3-3-3zm-13 20l-2 2c-1 2 2 3 2 4 1 1 2 3 1 4h-3c-1-1-2-3-4-2-1 0-2 1-1 2 0 2 3 2 4 3 2 0 4 2 6 1l2-2-2-7c-1-2-1-4-3-5zm-17 17c-1-1-2 0-3 1-1 2 2 4 2 6v3c-1 1-2-1-3-1-1 1-2 2-1 3 1 2 4 2 5 2l2-2v-6c0-2 0-5-2-6zm38-17l-3 2h-3l-1 1c0 3 2 6 1 7h3c1-1-3-4-1-6h2l3-1c1-1 0-2-1-3zm-24 22l-1 1v7l3 1c1-1-2-5-1-6 2-2 5 2 7 0l-1-2c-2-2-5-1-7-1zm-19 18c0 1-2 1-1 2l3 1h2v-2h-2zm79-114c-3 2-6 3-8 6-2 1-2 3-1 5l2 1h3l8-5-2-2-7 5h-1l-1-1v-1l8-6zm12 21l-7 3-2 3 1 3 3 2 2-1 7-4-2-2-6 4h-2v-2l1-1 6-3zm12 20s-6 2-9 5l-1 2 1 4h6l7-4-2-2-6 4h-3l-1-1 1-1 8-5z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
-      <path d="M3648 826l4 23a131 131 0 0020 39l17 19" fill="none" stroke="#ff5" stroke-width="4" stroke-linejoin="round" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
+      <path d="M3648 826l4 23a131 131 0 0020 39l17 19" fill="none" stroke="#ff5" strokeWidth="4" strokeLinejoin="round" />
       <path
-                d="M3757 793a63 63 0 00-19 22 45 45 0 00-1 29l3-4-1-12 3-12 6-9c2-3 5-7 9-9z" font-weight="400" color="#000"
-        fill="#ff5" overflow="visible" font-family="Sans" />
+                d="M3757 793a63 63 0 00-19 22 45 45 0 00-1 29l3-4-1-12 3-12 6-9c2-3 5-7 9-9z" fontWeight="400" color="#000"
+        fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M3743 782a4 4 0 11-7 0 4 4 0 017 0zm8 1a4 4 0 11-7 0 4 4 0 017 0zm-8 7a4 4 0 11-7 0 4 4 0 017 0zM3728 797a3 3 0 11-6 2 3 3 0 016-2zm8-1a4 4 0 11-7 2 4 4 0 017-2zm-5 8a4 4 0 11-7 2 4 4 0 017-2zM3721 817a4 4 0 11-6 4 4 4 0 016-4zm7-2a3 3 0 11-6 3 3 3 0 016-3z"
         fill="#ff5" />
@@ -186,30 +186,30 @@ const DeckSvgInline = () => (
         fill="#ff5" />
       <path
         d="M3638 762l13-13 13-10-1 5-2 7-10 6-8 3zm-2 5l10-4 6-2 7-4-1 5-2 3-7 2-7 1zm0 4h12l5-1-2 3-2 2h-5l-5-2zm-1 4l5 3 4 1 4 1-3 2-2 1-3-2-3-3zm-1 6l3 3 2 1 3 1-2 2h-2l-2-2-1-2z"
-        fill="#f55" stroke="#f55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#f55" stroke="#f55" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3705 744l4 8 5 9-9 10a101 101 0 00-18 31 88 88 0 00-2 48 96 96 0 0011 28l7 10-11 15-15-16-12-18a108 108 0 01-11-29l-2-13 12-13 13-13a176 176 0 0023-38c3-6 4-13 5-19z"
         fill="#f55" />
-      <path d="M3748 680l-13 5-22 13-26 16a322 322 0 00-56 49" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3748 680l-13 5-22 13-26 16a322 322 0 00-56 49" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3764 808l1-2 2-1 3 1v4l-2 1-1 1-1 1-1 2-1 2v-2l-2-2-1-1-1-1-1-1-1-2 1-2 2-1 3 1z" fill="#f55" />
       <path
         d="M3673 725c-1-4-1-7-3-10-1-3-3-5-6-7l-5-2-6 2-5 3c-1 1-3 2-3 4v2l3 3h3l3-2 3-3v2l3 2c-1 1-2 1-2 3l-2 3 1 6 3 4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3649 711c1-1 3 1 3 2l-1 4-4 1m8-12l-5-6a6 6 0 00-8 3l-1 3 2 3 4 3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3642 708h-4l-2 3 1 4 6 5 6 3 4 2 2-3v-2l-2-1m-4 1l-2 2m-9-5l-3 3-1 3 2 2 3 3 4 2h5l3-1v-3l-2-2-4-1-2 2v3l1 1m-8-2l-2 1v3l3 3 5 2 4 1 1-2-1-3-2-1h-3l-1 2 1 2m1 5l2 4 4 2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3638 736l-1 5v6h4v-6l1-4zm13-36l4-8 10-5h20l8-3 5-3 1-3-1 8c0 3-2 5-4 7l-7 7-9 2h-19l-5 3z" fill="#ff5"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3690 688l-5 4v-1l-7 2 1-2-10 2 1-1-10 3v-1l-8 8h1l9-4-2-1h9l-1-1h11l-1-1 10-2h-2l5-2c1-1-1-1-1-1l4-3-4 2z"
-        font-weight="400" color="#000" fill="#55a" stroke="#55a" stroke-linecap="round" stroke-linejoin="round"
-        overflow="visible" font-family="Sans" />
-      <path d="M3931 742l-53-36m53 28l-50-32" fill="none" stroke="#55a" stroke-width="2" stroke-linejoin="round" />
+        fontWeight="400" color="#000" fill="#55a" stroke="#55a" strokeLinecap="round" strokeLinejoin="round"
+        overflow="visible" fontFamily="Sans" />
+      <path d="M3931 742l-53-36m53 28l-50-32" fill="none" stroke="#55a" strokeWidth="2" strokeLinejoin="round" />
       <path d="M3931 749l-52-33m52 40l-37-23m37 31l-28-18m28 25l-23-15m23 23l-19-12m16 18l-13-10m8 13l-8-5"
-        stroke-linecap="round" fill="none" stroke="#55a" stroke-width="2" stroke-linejoin="round" />
+        strokeLinecap="round" fill="none" stroke="#55a" strokeWidth="2" strokeLinejoin="round" />
       <path
         d="M3831 933l17-10a665 665 0 0048-32l20-18 15-15v-75l-13 8-5-20a131 131 0 00-18-38l-9-11-11-12-53 70-8 1-10 20h-16v19h17v20l-18 1c2 8 3 17 6 25a159 159 0 0024 49z" />
       <path
@@ -217,100 +217,100 @@ const DeckSvgInline = () => (
         fill="#ff5" />
       <path d="M3821 938l-7 3-99-2-4-3 10-13h97l3 6 5 7z" />
       <path d="M3631 1025l1-122 18 12 1 98z" fill="#f55" />
-      <path d="M3852 1050l-29-36-16 4a140 140 0 01-53 0c-12-1-37-7-37-7l-28 39z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3852 1050l-29-36-16 4a140 140 0 01-53 0c-12-1-37-7-37-7l-28 39z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3835 1049l-17-26c-7 2-12 3-21 3l5 23h6l-6-19 13-2 13 21zm-43 0l-4-22h-30l-6 22h7l4-18 20 1 3 17zm-50 0l7-24c-8 0-18-4-27-6l-16 30h7l12-25 17 5-6 20z"
-        fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3767 1019l-6-18a63 63 0 013-33l7-11 12-11 10-4 9-1c4-1 9-2 12 1l1 3v6l2 3 2 1-1 3h-8l-4-1 2 3 3-1h3l3-1 3 1 1 1v2l-2 2 1 5 3 3 5 1 3 2c1 2 0 4-1 6-1 4-4 7-6 11l-3 8v4l2 6v5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3787 999l13 8c3 2 6 3 10 3l6-2h-8l-8-2c-5-2-10-4-13-7z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3816 1001h-3l-5 1a26 26 0 01-15-4l-4-3m24 3l-4-1-5 1-6-2-8-5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3812 997v-4l-4-3-4-1-5 2-3 1-3 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3804 997l-1-4 1-2 2-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3809 992l-2 2 1 2 2-2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3812 990l-4-3-4-3-3-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3787 999l13 8c3 2 6 3 10 3l6-2h-8l-8-2c-5-2-10-4-13-7z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3816 1001h-3l-5 1a26 26 0 01-15-4l-4-3m24 3l-4-1-5 1-6-2-8-5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3812 997v-4l-4-3-4-1-5 2-3 1-3 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3804 997l-1-4 1-2 2-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3809 992l-2 2 1 2 2-2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3812 990l-4-3-4-3-3-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3810 980l-2-3 1-3 2-2 3 1 3 2 3 1 1-1 2 1 1 1-3 1-3-2-3-2-3-1-3 2v2zm-12-7c-2-1-4-1-5-3-1 0-2-2-1-3l2-4 4-1 5 1 4 1 3 1 4-1 1 1-1 2-5 1-3-2-5-2h-4l-4 1v4l2 2z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3674 929l-43-28v-9l48 31zm3 101c3-6 8-11 10-18 2-5 3-12 2-18 0-6-1-13-4-20-2-5-7-9-10-14l-4 15-9 11-5 4 1 14 9 6 6 8z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3676 1030l5-18-2-10 10-7-10-8 1-11-5-16-4 15-7 9-7 6v16l11 5 5 9c2 3 3 10 3 10zm11-35h-30m22 7h-21m22 8h-15m14 7h-7m7-29h-19m19-8l-11 1m10-7h-6m-41 60l26-17v-99l-6-3v97l-20 13z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3718 943l-3-4h88l-6 1-5 2-4 1zm100-20l-97 1 4-5h89zm-24 14v-11l-13-1v12zm-29 0v-12h-13v12zm-28 0v-11h-12v11zm85 0h-13v-12h10a133 133 0 007 10z"
         fill="#ff5" />
       <path
         d="M3812 931a3 3 0 116 0 3 3 0 01-6 0zm-28 0a3 3 0 116 0 3 3 0 01-6 0zm-28 0a3 3 0 116 0 3 3 0 01-6 0zm-28 1a3 3 0 116 0 3 3 0 01-6 0z"
-        fill="#ff5" stroke="#000" stroke-width="2" />
+        fill="#ff5" stroke="#000" strokeWidth="2" />
       <path
         d="M3797 931a4 4 0 117 0 4 4 0 01-7 0zm-28 0a4 4 0 117 0 4 4 0 01-7 0zm-29 0a4 4 0 117 0 4 4 0 01-7 0zm-26 1l4-4c1-2 3 1 3 3s-2 3-4 3-4-1-3-2z"
         fill="#ff5" />
       <path d="M3814 919h-90l56-79 6 24a217 217 0 0020 43z" fill="#55a" />
       <path d="M3794 908h-46l28-39a224 224 0 009 24 117 117 0 009 15z" fill="#fff" />
       <path d="M3831 933l-14-18a232 232 0 01-24-47l-7-27h-5l2 10 5 19a194 194 0 0019 39l10 15 9 12z" fill="#ff5"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3787 905h-32l20-26a147 147 0 006 15 78 78 0 006 11z" fill="#55a" />
       <path d="M3706 933l-6-1h-8l-6 1-4 3-10-6 68-90h33z" />
       <path
                 d="M3690 930l2-2c1-2-1-7 1-9 5-5 14-2 20-5l1-2c3-7-3-18 3-24 4-5 12-1 17-4l2-1c3-7-3-18 2-23 4-5 11-2 16-5l1-1c2-2 4-6 4-9l-1-3-3 2c-2 2-1 6-3 8-4 3-12 1-16 4l-2 2c-3 7 3 17-2 23-4 4-12 0-18 3l-1 2c-4 7 3 18-3 24-4 5-13 2-19 5l-2 2c-1 3-2 7-1 11z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M3699 924a4 4 0 117 0 4 4 0 01-7 0zm1-20a4 4 0 117 0 4 4 0 01-7 0zm21-9a4 4 0 117 0 4 4 0 01-7 0zm1-21a4 4 0 117 0 4 4 0 01-7 0zm21-9a4 4 0 117 0 4 4 0 01-7 0zm-1-19a4 4 0 117 0 4 4 0 01-7 0z"
         fill="#ff5" />
-      <path d="M3712 937l69-96h-8l-67 93z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3717 1011l-4-23c-1-6-1-13-3-19-2-3-3-7-6-10l-5-4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3712 937l69-96h-8l-67 93z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3717 1011l-4-23c-1-6-1-13-3-19-2-3-3-7-6-10l-5-4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3724 1012l-5-27-4-18c-2-6-4-12-9-17-3-3-7-6-11-6-2 0-5 0-5 2s2 3 3 3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3731 1014l-5-22-3-24c-3-7-5-15-10-21-4-4-10-9-16-9-4-1-10 1-12 5-2 3-1 9 2 11 2 1 8 1 7-4" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3737 1015l-4-19c-2-12-3-25-7-37l-10-17c-4-4-8-8-13-10-7-1-16-1-21 4-4 5-6 13-2 18 3 5 12 7 17 4 3-3 3-8 1-12l-2-2m48 72l-4-17c-2-11-2-23-5-33l-8-19m25 70l-5-16-4-28c-1-9-5-18-10-26m27 71l-6-15c-3-11-3-24-5-36l-4-13-4-8m19 52l-3-21-5-20-4-10m14 25l-3-16-3-9m11 14c0-5-2-10-4-15m9 9c-1-3-1-6-3-8m8 3l-1-4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3781 946l-60 1-3-4h70z" />
       <path
         d="M3651 1004l-20 13m20-21l-20 13m20-21l-20 13m20-21l-20 13m20-21l-20 13m20-21l-20 13m20-21l-20 13m20-21l-20 13m20-21l-20 13m20-21l-20 13m20-22l-20 13m20-21l-20 13m14-17l-14 9m8-13l-8 5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3837 927l2-2v-10l-2-1c-5-5-15-4-19-10s2-15 0-22l-1-2c-4-4-13-5-15-10-2-6 3-12 3-18v-1l-4-8-3-1v3c0 3 3 5 3 7 1 6-4 12-3 18l1 2c4 5 12 5 15 11s-2 15 0 22l2 2c5 5 15 4 19 10v8z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M3825 920a4 4 0 117 0 4 4 0 01-7 0zm-4-20a4 4 0 117 0 4 4 0 01-7 0zm-17-13a4 4 0 117 0 4 4 0 01-7 0zm1-21a4 4 0 117 0 4 4 0 01-7 0zm-14-14a4 4 0 117 0 4 4 0 01-7 0z"
         fill="#ff5" />
       <path
                 d="M3848 923l3-2-13-17-8-14a308 308 0 01-17-37l-4 1a650 650 0 0026 52zm4-7l10-7 2-4-1-5a10 10 0 00-9-7l-4 1-9 6 1 3a222 222 0 0012-7l3 1 3 4 1 4-1 2-10 7zm-14-20l10-5 2-4 1-4-4-7-4-2h-5l-9 5 1 3 10-5h2l3 2 3 5-1 3-1 2-9 5zm-11-20l10-6 2-4v-4c0-2-1-6-4-7l-4-2-5 1-8 5 1 2 9-4 2-1 3 1c2 1 3 4 3 6v3l-1 2-10 5z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3812 857l16-10a87 87 0 0024-29 68 68 0 006-34l-3-14-10-20-3 3 9 18 3 13-1 16a64 64 0 01-15 32l-13 12c-4 4-15 10-15 10z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3872 907l3-2-11-14-7-11c-5-7-9-15-12-23l-4-11 11-13c4-5 7-10 9-17a71 71 0 001-48c-2-8-12-25-12-25l-3 3s9 16 11 24c3 8 4 16 4 24a67 67 0 01-13 37l-12 14v2a228 228 0 0016 35l8 11z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3861 887s2-18 5-27 8-18 14-27c5-8 12-14 19-21l15-15 17-11v-4l-19 13-15 14c-7 7-14 14-19 23-6 8-11 18-15 27-3 9-5 28-5 28zm33 4s0-13 2-18c1-7 4-14 7-19 3-7 8-13 13-18 4-5 15-13 15-13v-5s-14 10-18 15l-14 19-7 20c-2 6-2 22-2 22z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3871 897c5-2 12-4 15-9v-2c-2-4-8-4-11-7s-7-6-6-9 5-4 8-4c4-2 10 1 13-1l1-3c-1-3-6-4-8-7-2-4-5-8-3-11s6-2 10-2c3 0 7 3 11 2l1-2c1-4-4-7-5-11-1-3-3-8-1-10 3-2 7 0 11 0 3 1 6 5 10 5l2-2c1-5-4-9-4-14-1-3-1-6 1-8 2-1 5 0 7 1l3 1c1 0 2-2 1-3l-3-1c-3-1-6-2-9-1l-1 2c-2 2-3 6-2 9 0 4 5 9 3 11s-5-2-8-3h-12l-2 2c-1 3 0 8 1 12 1 3 6 6 4 8s-6-2-8-1c-4 0-9 0-12 2l-1 2c-1 4 1 9 4 13 1 2 6 3 5 6s-6 0-9 1c-4 1-8 2-10 5l-1 2c0 4 3 8 6 11s11 2 10 6c0 5-11 2-12 7-1 1 0 3 1 3z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
                 d="M3887 881l1-3-6-2c-1-1-3-2-2-3l3-1c2 0 5 2 6 1l1-3c-2-2-5-1-7-1s-5 0-7 2v2c0 2 3 4 5 5 1 1 3 4 6 3zm-20 10l7-4v-2l-2-1-3-2-1-2-1-2-2 1v2l2 3 3 2c0 2-4 1-4 2zm4-27l2-2 3-2h2l1-2-2-3-1-5-2 1c-1 1 0 3 1 5l1 2h-1l-4 2-2 2zm7 37l3-3c1 0 3 0 4-2l-1-2-5 2-4 3zm14-43l2-2-1-2-3-2-1-3h-1 4l3 1h2l1-2-2-1-3-1h-7l-1 2 1 3 2 3 3 3zm13-21c1 1 2 0 2-1 1-2-2-3-2-4-1-2-2-4-1-5l3 1 4 2c1 0 2-2 1-3l-4-2c-2-1-4-2-6-1l-2 1 2 8c1 1 1 4 3 4zm17-16c1 1 2 0 3-1 1-2-2-4-2-6v-3c1-1 2 1 3 1 1-1 2-2 1-3-1-2-4-2-5-2l-2 2v6c0 2 0 5 2 6zm-38 16c1 1 2-1 3-1h3c1 0 2-1 1-2 0-2-2-5-1-7h-3c-1 2 3 5 1 6l-2 1-3 1c-1 1 0 2 1 2zm24-21l1-2v-7h-2c-2 1 1 5 0 6-2 1-5-2-7-1l1 3zm19-19s2-1 1-2l-3-1h-2v3zm-79 115l8-6c2-2 2-4 1-5l-2-2-3 1c-4 1-5 3-8 5l2 2 7-5h2v2l-8 6zm-12-21l7-3 2-3-1-4-3-1h-2l-7 4 2 2 6-3 1-1 1 1v1l-1 2-6 3zm-12-20l9-5 1-3-1-3h-6l-7 4 2 2 6-4h3l1 1-1 1-8 5z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
-      <path d="M3914 795l-4-23a131 131 0 00-20-39l-17-19" fill="none" stroke="#ff5" stroke-width="4"
-        stroke-linejoin="round" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
+      <path d="M3914 795l-4-23a131 131 0 00-20-39l-17-19" fill="none" stroke="#ff5" strokeWidth="4"
+        strokeLinejoin="round" />
       <path
-                d="M3805 828a63 63 0 0019-22 45 45 0 001-29l-3 4 1 12-3 12-6 9c-2 3-5 7-9 9z" font-weight="400" color="#000"
-        fill="#ff5" overflow="visible" font-family="Sans" />
+                d="M3805 828a63 63 0 0019-22 45 45 0 001-29l-3 4 1 12-3 12-6 9c-2 3-5 7-9 9z" fontWeight="400" color="#000"
+        fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M3819 839a4 4 0 117 0 4 4 0 01-7 0zm-8-1a4 4 0 117 0 4 4 0 01-7 0zm8-7a4 4 0 117 0 4 4 0 01-7 0zM3834 824a3 3 0 116-2 3 3 0 01-6 2zm-8 1a4 4 0 117-2 4 4 0 01-7 2zm5-9a4 4 0 117-2 4 4 0 01-7 2zM3841 803a3 3 0 116-3 3 3 0 01-6 3zm-7 3a3 3 0 116-3 3 3 0 01-6 3zm4-10a3 3 0 116-3 3 3 0 01-6 3zM3843 778a3 3 0 113-6 3 3 0 01-3 6zm-5 7a4 4 0 114-7 4 4 0 01-4 7zm-2-11a4 4 0 114-6 4 4 0 01-4 6z"
         fill="#ff5" />
@@ -322,26 +322,26 @@ const DeckSvgInline = () => (
         fill="#ff5" />
       <path
         d="M3924 859l-13 13-13 9 1-5 2-6 10-6 8-3zm2-5l-10 3-6 3-7 4 1-5 2-3 7-2 7-1zm0-4h-12l-5 1 2-4 2-2 5 1 5 1zm1-4l-5-3-4-1-4-1 3-2 2-1 3 2 3 3zm1-7l-3-2-2-2h-3l2-2 2-1 2 2 1 3z"
-        fill="#f55" stroke="#f55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#f55" stroke="#f55" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3857 877l-4-8-5-10 9-9a101 101 0 0018-31 88 88 0 002-48 96 96 0 00-11-28l-7-11 11-15 15 17 12 17a108 108 0 0111 29l2 14-12 12-13 14a176 176 0 00-23 38c-3 6-4 12-5 19z"
         fill="#f55" />
-      <path d="M3814 941l13-5 22-14 26-16a322 322 0 0056-48" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3814 941l13-5 22-14 26-16a322 322 0 0056-48" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3798 813l-1 2-2 1-3-1v-4l2-1 1-1 1-1 1-2 1-2v2l2 2 1 1 1 1 1 1 1 2-1 2-2 1-3-1z" fill="#f55" />
       <path d="M3889 896c1 3 1 7 3 10 1 2 3 5 6 6 2 2 3 2 5 2l6-1 5-4 3-3v-3l-3-2h-3l-3 2-3 3v-2l-3-2 2-3 2-4-1-5-3-4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3913 910l-3-2 1-4 4-2m-8 12l5 6a6 6 0 008-2l1-3-2-3-4-3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3913 910l-3-2 1-4 4-2m-8 12l5 6a6 6 0 008-2l1-3-2-3-4-3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3920 913l4-1 2-2-1-4-6-5-6-4-4-1-2 2v2l2 2m4-1l2-2m9 4l3-2 1-3-2-2-3-3-4-2-5-1-3 2v2l2 3h4l2-1v-3l-1-2m8 3l2-1v-3l-3-4-5-1-4-1-1 2 1 3 2 1 3-1 1-2-1-2m-1-5l-2-3-4-2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3924 885l1-6v-6h-4v7l-1 4zm-13 36l-4 7c-3 3-6 5-10 6h-20l-8 3-5 3-1 2 1-7c0-3 2-5 4-8l7-6 9-2 12-1h7l5-2z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3872 933l5-4v1l7-2-1 2 10-3-1 2 10-3v1l8-8-1-1-9 5h2l-9 1 1 1-11-1 1 1-10 2 2 1-5 2h1l-4 3 4-1z"
-        font-weight="400" color="#000" fill="#55a" stroke="#55a" stroke-linecap="round" stroke-linejoin="round"
-        overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#55a" stroke="#55a" strokeLinecap="round" strokeLinejoin="round"
+        overflow="visible" fontFamily="Sans" />
       <path
         d="M3631 639c0-5-3-9-7-9-5 0-8 5-8 10v2c0 3 1 7 3 10l4 10 8 13 8-13 5-10 2-10v-2c0-5-3-10-7-10-5 0-7 4-7 9zm59-36c0-11-6-18-14-18s-15 9-15 20v3c0 7 3 15 5 21 2 7 6 13 9 19l16 27 16-27c3-6 7-12 9-19 2-6 5-14 5-21v-3c0-11-7-20-15-20s-14 7-14 18c0 2-2 2-2 0zm242 378c0 6 2 9 7 9 4 0 7-4 7-10v-1l-2-11-5-9-8-14-8 14-4 9c-2 4-3 7-3 11v1c0 6 3 10 8 10 4 0 7-3 7-9zm-60 36c0 11 6 18 14 18s15-9 15-20v-2c0-8-3-15-5-21-2-7-6-13-9-19l-16-28-16 28c-3 6-7 12-9 19-2 6-5 13-5 21v2c0 11 7 20 15 20s14-7 14-18c0-2 2-2 2 0z"
         fill="#f55" />
@@ -353,7 +353,7 @@ const DeckSvgInline = () => (
         fill="#f55" />
       <path
         d="M4106 789l-1 3v1l-1-1v1l-3-2v4l1 3v1l4 2 1-3 6 6 2 2 1-3v-2l7 6 2 2 1-2 1-2 6 8 2 2 1-2 2-2 5 6 2 3 1-3v-1l7 7 2 3 1-4v-1l1 2v-1l7 6 2 2 1-4v-1l1 2v-1l5 3 2 2 1-3v-1l1 1 3 1v-2h1l-2-3-2-3-2-2-1 3-6-5-2-2-1 3-1 1-6-6-2-2-1 3-1 1-6-7-1-2-2 2-1 1-6-6-2-3-1 4-7-7-2-2-1 3v1l-1-1-7-5-2-2-1 3v1l-1-1-5-3z"
-                font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+                fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M4175 733l-9 73 10 2 21-78zm-90 32l-8 10-4 9-4 12-1 14-2 18-2 13v11l9-5c4-2 8-3 11-6 4-2 8-5 11-9l5-11 2-12-1-13-2-11a54 54 0 00-11-17z"
         fill="#55a" />
@@ -362,91 +362,91 @@ const DeckSvgInline = () => (
         d="M3991 746l22-18 20-16 13-10 15 12 12 9 12 7s-9 4-12 7l-13 13c-5 6-10 12-13 18-4 8-7 17-8 25l-1 14-1 15a228 228 0 01-3 26s-4-7-8-8c-3-2-6-1-9-1-5 0-9 1-12 3l-6 4-5 2-3 2z" />
       <path d="M4120 602l-15 15-14 20c-4 6-6 13-8 20l-4 23 21-10 4-15a78 78 0 0118-27z" fill="#000004" />
       <path d="M4178 570l52 89 8-3-50-86z" fill="#ff5455" />
-      <path d="M4253 570a138 138 0 008 83 45 45 0 00-23 2l-50-85h65" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4253 570a138 138 0 008 83 45 45 0 00-23 2l-50-85h65" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4237 711c-17 9-25 13-38 17-16 4-33 6-49 5a173 173 0 01-94-38l25-16c10-5 16-9 32-12l13 7a77 77 0 0040 4l21-4c6-2 12-4 18-8-1 17 0 22 9 31 3 2 14 9 20 8 5 4 1 5 3 6z"
         fill="#ffff58" />
-      <path d="M4217 594c-2-2-6-2-8 0s-1 7 1 9c2 3 8 5 11 3v-5l-2-2" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4217 594c-2-2-6-2-8 0s-1 7 1 9c2 3 8 5 11 3v-5l-2-2" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4224 611c2-1 1-3 0-5h-4c-3 2-4 7-3 10s6 6 9 5c3 0 5-3 4-6m-7-12l1-4c1-1 4-1 5 1 0 1 0 4-2 5-1 0-3 0-4-2zm-12-18c1 3-1 7-4 7-3 1-6-3-7-6s-2-7 0-10c2-1 5-1 7 1v3"
-        fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4192 570c1 6 4 7 7 6 2 0 4-4 3-6m1 0c-1 2 1 4 2 4s3-2 2-4" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4192 570c1 6 4 7 7 6 2 0 4-4 3-6m1 0c-1 2 1 4 2 4s3-2 2-4" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinejoin="round" />
       <path
         d="M4235 624l-1-1h-6c-3 1-3 6-1 9 1 2 5 5 8 4 2 0 4-3 3-5 0-1-2-3-3-1m5 3l2-4c1-1 3 0 4 2 0 1-1 3-3 3-1 1-2 0-3-1zm1 8v-5c-1-1-4 0-5 1-2 2-2 6-1 9 2 2 5 6 8 5s4-4 3-8"
-        fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4120 570l1 30 1 19 2 23c2 6 3 13 6 18 3 4 6 9 10 11l9 3c4 1 7 0 11-2 5-1 9-4 12-7l11-9 7-7" fill="none"
-        stroke="#55a" stroke-width="2.5" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2.5" strokeLinejoin="round" />
       <path d="M4132 571l-6 6-5 4m17-10l-7 9-10 7m24-16s-7 10-12 14l-12 8m29-22s6 13 12 18c5 4 20 9 20 9" fill="none"
-        stroke="#55a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4155 571l10 13c3 3 12 7 12 7m-16-20l6 9 7 3" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4141 608l1 6-3 11-2 7 2 6 3 2 2 3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4155 571l10 13c3 3 12 7 12 7m-16-20l6 9 7 3" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4141 608l1 6-3 11-2 7 2 6 3 2 2 3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4155 632s3 4 2 6c0 1-1 2-3 2-1 1-3-1-4-1-2-1-3-3-5-2l-1 2h3c3 0 7 3 10 1v-4zm27-25l-14-8h-12l-5 3 6-2 12 1c5 1 13 6 13 6zm-60-6s6-3 9-2c4 0 9 5 9 5s-6-4-9-4l-9 3zm36 49l-6-2-6 1h-6l-3 1h3l6 2 8-2z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4153 655l-5 2-5-1m-3-46s-5-4-9-4c-5 0-8 2-8 2m57 4s-9-8-15-8c-7 1-12 5-12 5" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4179 614l-12-5-14 2m-30 1c5-3 4-3 9-3l9 1m35 5l-12 3c-5 0-10-1-11-6" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4166 611c1 5-2 7-5 6-3 0-5-3-4-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4160 614l2-2 1 2-2 1zm-27-1l-2-2-1 2 2 1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4139 619c-2 2-2 4-6 6m20-13c2 7 8 9 12 12m-42-9l10 2c3 0 7-2 7-5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4128 609c-1 5 1 8 5 8 1 0 5-4 2-8m18 53l-6-1-4 1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4185 610c-1 6-5 11-5 17a32 32 0 0015 25c4 2 9 1 13 2" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4189 616c-1 3-3 7-3 11l4 12c2 3 4 6 7 7 3 2 6 1 8 2" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4192 622l-1 7 4 8c2 2 4 2 7 3m10 23l-2 9a28 28 0 0016 27l6 1" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4166 611c1 5-2 7-5 6-3 0-5-3-4-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4160 614l2-2 1 2-2 1zm-27-1l-2-2-1 2 2 1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4139 619c-2 2-2 4-6 6m20-13c2 7 8 9 12 12m-42-9l10 2c3 0 7-2 7-5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4128 609c-1 5 1 8 5 8 1 0 5-4 2-8m18 53l-6-1-4 1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4185 610c-1 6-5 11-5 17a32 32 0 0015 25c4 2 9 1 13 2" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4189 616c-1 3-3 7-3 11l4 12c2 3 4 6 7 7 3 2 6 1 8 2" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4192 622l-1 7 4 8c2 2 4 2 7 3m10 23l-2 9a28 28 0 0016 27l6 1" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4216 670l-1 7 3 9 5 5 4 2m-105-56c-3 4-7 8-9 13-3 5-4 11-6 17m16-23l-6 9-3 12m11-14l-3 5-2 5m-9 5c6 4 14 8 22 10l20 3a119 119 0 0039-6l13-7"
-        fill="none" stroke="#55a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4100 671l17 10a103 103 0 0076 2l11-4" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4095 674l15 9a106 106 0 0036 11 115 115 0 0039-3l21-6" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4087 677l17 10a135 135 0 0060 13c6 0 13-1 19-3l13-4 11-5" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4061 692l20 14 24 13 24 6a171 171 0 0048 2l24-6 22-8 12-7" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4100 671l17 10a103 103 0 0076 2l11-4" fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4095 674l15 9a106 106 0 0036 11 115 115 0 0039-3l21-6" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4087 677l17 10a135 135 0 0060 13c6 0 13-1 19-3l13-4 11-5" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4061 692l20 14 24 13 24 6a171 171 0 0048 2l24-6 22-8 12-7" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4086 677l-12 6 7 5 7-10zm11 7l-6 12 13 6 6-11zm25 11l-4 12 14 4 3-13zm25 5l-1 13h15l-1-13zm26 0l1 13 14-3-3-13zm24-7l6 13 12-4-3-8-5-6zm-124 6l8-10 10 7-7 12zm25 16l6-13 14 4-4 14zm31 10l3-14 14 2-1 14zm32 2l-1-14h14l2 13-16 2zm30-4l-3-13 15-4 4 12-16 6zm29-10l-5-12 3-1 15 7z" />
       <path
         d="M4068 688l1 5 5-1-1-5zm19-4l4-1 1 5-5 2zm4 20l5-3 1 5-4 2zm20-7l5-2 1 5-5 2zm9 17l2 5 4-3-3-5zm17-9l4-3 3 3-4 4zm12 15l4-4 3 5-4 2zm14-13l3-4 4 4-3 3zm16 11l3-4 4 3-3 5zm11-15l2-5 5 2-2 5zm17 8l3-5 4 3-2 4z"
-        fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4056 695c8 6 14 12 22 16a139 139 0 0038 17 167 167 0 0096-4c9-3 18-8 26-12m-129-42a1 1 0 11-2 0 1 1 0 012 0zm7 4a1 1 0 11-2 0 1 1 0 012 0zm7 3a2 2 0 11-3 0 2 2 0 013 0zm6 2a1 1 0 11-2 0 1 1 0 012 0zm8 2a2 2 0 11-3 0 2 2 0 013 0zm6 2a1 1 0 11-2 0 1 1 0 012 0zm8 0a2 2 0 11-3 0 2 2 0 013 0zm7 1a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7-2a1 1 0 11-2 0 1 1 0 012 0zm8-1a2 2 0 11-3 0 2 2 0 013 0zm6-1a1 1 0 11-2 0 1 1 0 012 0zm7-2a1 1 0 11-2 0 1 1 0 012 0zm5-3a1 1 0 11-2 0 1 1 0 012 0zm6-1a2 2 0 11-3 0 2 2 0 013 0z"
-        fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4274 745l-2 1-2-1-1-2m7 1h5l1 4c-1 3-3 4-5 6l-3 3-4 1-2-3 1-3h4l1 2 1 2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4283 748l2 2 1 3c0 2-1 3-3 5l-4 4-5 1h-3v-3l2-1h3l1 2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4283 748l2 2 1 3c0 2-1 3-3 5l-4 4-5 1h-3v-3l2-1h3l1 2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4285 757l2 4-1 2-7 4-4 2-2-1v-2c1-1 2-3 3-2l2 1v3m9-4l1 3-2 4-5 3h-4v-4l3-2 2 2v3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4279 774l-1 2-2 1-3 1-11 2c-2 0-5 0-8-2l-3-6c-1-4 1-8 2-11a35 35 0 0111-16l5-3 4-1 2 2c0 3-2 4-4 6l-3 2-3 2c-1 2 1 2 1 6s-2 7-3 9"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4209 657c-1 4-4 8-4 13-1 5 0 11 2 17l7 10 9 6 11 3" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4129 659a248 248 0 00-86 44l-52 43" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4209 657c-1 4-4 8-4 13-1 5 0 11 2 17l7 10 9 6 11 3" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4129 659a248 248 0 00-86 44l-52 43" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4167 570l71 142 18-9-76-133z" />
       <path
         d="M4021 885l4-5 6 3-4 5 5 4 10-13-11-7 5-11 6 2-3 5 7 3 4-15-12-4 4-16h6l-2 10 6 1 2-18h-11v-16h6v8h7l1-16-12-2 2-16 7 1-1 8 6 1 4-15-12-6 8-15 6 3-4 7 6 2 7-10-9-9 11-13 6 5-6 4 5 6 11-10-8-12 5-2m7 4l-2 1 4 5 6-3"
-        fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4110 742c-7 4-15 8-21 13l-14 15-7 14-5 21-1 15-2 19-2 14a101 101 0 01-16 39l-6 5" fill="none"
-        stroke="#5456aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#5456aa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4025 741l-1-7 7 1 3-6 5 6h6l-1 6 6 3-6 5v6l-5-1-4 6-5-7-5 2v-6l-6-4z" fill="#ffff57" />
-      <path d="M4029 744l5-5 6 6-6 4z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4029 744l5-5 6 6-6 4z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4116 727l16 4 11 63-11-6z" fill="#55a" />
       <path d="M4121 744l-12 3a74 74 0 00-19 13l-5 5 4 5 5 6 3 5s7-2 10-1l10 2 15 5zm-51 51l4 7v7c0 2-1 3-3 5l-4 3 2-10z"
         fill="#f55" />
@@ -454,49 +454,49 @@ const DeckSvgInline = () => (
       <path d="M4070 795l2-6 4 5 3 8v9l-3 6-4 4-5 3 1-7 5-5 1-7c1-2 0-3-1-5 0-2-3-5-3-5z" fill="#ff5" />
       <path
         d="M4099 785h10l11 4 9 3 12 7 9 5 8 5 7 3 7 1h7v10l-4-5-1 4-8-6-1 3-8-8-3 4-7-10-3 4-7-8-2 3-9-9-1 4-10-7-1 3-9-6 1 3-6-1z"
-        stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4196 735l5 1v-6l-4 1z" fill="#f55" />
       <path d="M4200 777l1-48c6-2 11-3 16-6l15-7 9-4 2 7-7 8a83 83 0 00-16 31l-3 11-6 3z" />
       <path d="M4201 741v38l-7 5-8 9-3 8-2 7h-6l19-67z" fill="#f55" />
       <path
         d="M4053 730c-1-2-4-4-3-6 1-3 7-4 9-2 1 1-2 2-2 4-1 1 1 3 1 3h12l-1 4h-11l-2 2c0 2 3 3 2 4-2 2-6-1-7-3s2-4 2-6zm-53 16s6 0 7 2c2 2 1 7 1 7s3-3 4-2c2 0 3 2 3 4l-3 3h-4s2 6 4 7c3 1 6 0 8-1l5-5 4 1-3 6c-1 2 0 5 1 6l4 1 2-1v-5c1-2 4-2 5-1 2 1 2 4 2 5 0 2-3 3-3 3l1 8-5-4-6-1c-2 0-4-1-5-3-2-1-2-6-2-6s-5 3-7 2c-3 0-6-3-8-5l-2-6v-9c0-3-3-6-3-6zm-3 74s4-1 5 1c2 1 2 6 2 6l3-4c2 0 3 1 4 3 0 2-4 4-4 4s2 3 5-1l2-4v-5h5l-1 5 1 5 4 1v-2c0-2 2-3 3-3l3 2-1 3-1 1 3 3 2 4s-4-3-7-3h-4l-4-2-2-4s-2 4-4 4l-5 1-4-2-1-4-1-2v-3z"
-        stroke="#ff5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#ff5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4046 703l15 12a228 228 0 0049 26l10 3m12-11l15 9m-14-3l13 8m-12 1l12 6m-10 2l11 6m-10 0l10 7m-8 1l9 6m-8 2l8 4m-7 3l7 5m25-52l-12 8m12-1l-11 7m10 1l-10 6m10 1l-11 6m11 1l-11 6m10 1l-11 7m10 0l-10 5m9 2l-9 6m-11 3l-7-5m25 5l-6 3m-1 3l7 2"
-        fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4264 674c-1-2-4-4-3-6 1-3 4-4 7-4s5 2 7 5c1 2 0 4-1 8l6-2c3 2 6 5 6 9-1 3-3 6-6 6-2 1-5-2-7-3 1 3 3 7 2 9-1 3-4 5-6 5-3 0-6-3-7-5-1-3 1-6 2-9-2 1-4 4-6 4-4 0-7-4-7-8-1-3 2-6 5-7 2-2 5-1 8-2z"
-        fill="#ff5" stroke="#5456aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#5456aa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4258 675l-4-8 6 1 3 6zm15-1l3-5 6-1-2 6zm2 15v6l5 1-1-6zm-16 0l-2 7 4-1 3-9z" fill="#55a" stroke="#5456aa"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4266 701l2 40 3-2-1-38zm7 31c0-6 1-11 3-16s6-10 10-14l-1 18-3 10-9 8z" fill="#ff5" stroke="#5456aa"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4282 712l-3 11-5 12v0" fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4249 713c4 4 11 6 14 11s3 11 4 17c-4-4-8-7-11-12-3-2-5-5-6-8z" fill="#ff5" stroke="#5456aa" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4254 722l7 7c3 3 4 7 6 10" fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4258 682l11-11 9 11-9 10z" fill="#f55" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4264 682l5-5 4 5-4 5z" fill="#ff5" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4282 712l-3 11-5 12v0" fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4249 713c4 4 11 6 14 11s3 11 4 17c-4-4-8-7-11-12-3-2-5-5-6-8z" fill="#ff5" stroke="#5456aa" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4254 722l7 7c3 3 4 7 6 10" fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4258 682l11-11 9 11-9 10z" fill="#f55" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4264 682l5-5 4 5-4 5z" fill="#ff5" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4002 794v-6h6l4-6 5 6h6l-1 7 6 3-6 4v6l-5-1-4 7-5-8-5 2v-6l-7-4z" fill="#ffff57" />
-      <path d="M4007 798l5-6 5 6-5 5z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4007 798l5-6 5 6-5 5z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4078 790l4-5 5-2 2 2v3l-3 2-3 1-3 1zm3 5s3-3 5-3c2-1 4-2 5-1l2 3-1 2-3 1h-7zm3 6l6-2 5 2 1 3-2 1-4 1-3-1-3-2zm0 6h6l4 2v3l-2 1h-3l-3-2-3-2zm-17 19v7l3 4 3 1 1-3-1-3-1-3-2-3zm5-2l2 6 4 4 3-1v-3l-1-3-3-2-2-2zm5-4s1 4 3 5c1 2 3 3 5 3l2-1v-3l-2-2-3-2-3-2zm4-5s3 4 5 4c2 1 4 2 5 1l2-2-1-2-3-2h-3l-4-1z"
         fill="#fff" />
-      <path d="M4147 735l2 63 11 5v-67z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4147 735l2 63 11 5v-67z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4152 740h3v3l-3 1zm1 7h2l1 3-3 1zm-1 7h3l1 3-3 1zm0 6h3v4h-3zm0 8h3v3h-3zm0 6h3v3h-3zm1 6h2l1 3-3 1zm0 6h2l1 3-3 1zm0 7h2l1 3h-3z" />
-      <path d="M4170 734l-9 6" fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4170 734l-9 6" fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4080 844v47l-16 6-15 7-9 4-2-7 8-9a76 76 0 0013-22 66 66 0 005-19l8-3z" />
       <path d="M4165 893l-17-4-10-62 11 7z" fill="#55a" />
-      <path d="M4111 886l9-6" fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4111 886l9-6" fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4081 879l-1-35 9-6a45 45 0 0011-18l1-7 5-1-18 67z" fill="#f55" />
       <path
         d="M4106 887l9-73-10-2-21 79zm90-31l8-11 4-9 4-12 2-13 2-17v-14l1-11-9 4-11 6-11 10-5 10-2 12 1 13c0 4 0 8 2 11a54 54 0 0011 18z"
@@ -506,135 +506,135 @@ const DeckSvgInline = () => (
         d="M4290 874l-22 19-20 15-13 10-15-11c-4-3-7-7-12-9-3-3-12-7-12-7s9-4 12-7l13-14c5-6 10-11 13-18 4-8 7-16 8-25l1-13 1-15a228 228 0 013-27s4 7 7 9l10 1 12-3 6-3 5-3 3-2z" />
       <path d="M4161 1019l15-15 14-20c4-7 6-14 8-21l4-22-21 10-4 15a78 78 0 01-18 26z" fill="#000004" />
       <path d="M4103 1050l-52-89-8 4 50 85z" fill="#ff5455" />
-      <path d="M4028 1050a138 138 0 00-8-82 45 45 0 0023-2l50 84h-65" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4028 1050a138 138 0 00-8-82 45 45 0 0023-2l50 84h-65" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4043 909c18-9 26-13 39-16a141 141 0 0192 3c19 7 35 16 51 30-6 4-16 11-25 15-10 5-16 9-32 13l-13-8a77 77 0 00-40-4l-21 4-18 9c1-18 0-23-10-32-2-2-13-9-19-8-5-3-1-5-4-6z"
         fill="#ffff58" />
-      <path d="M4064 1027c2 1 6 2 8 0 2-3 1-7-1-9-2-3-8-5-11-3v5l2 1" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4064 1027c2 1 6 2 8 0 2-3 1-7-1-9-2-3-8-5-11-3v5l2 1" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4057 1009c-2 2-1 4 0 5l4 1c3-2 4-7 3-10-1-4-6-6-9-6-3 1-5 3-4 6m7 12l-1 5-5-1c0-2 0-4 2-5 1-1 3 0 4 1zm11 19c0-3 2-8 5-8 3-1 6 3 7 6s2 8 0 10-5 1-7 0v-4"
-        fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4089 1050c-1-6-4-6-7-6-2 1-4 4-3 6m-1 0c1-2-1-3-2-3s-3 2-2 3" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4089 1050c-1-6-4-6-7-6-2 1-4 4-3 6m-1 0c1-2-1-3-2-3s-3 2-2 3" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinejoin="round" />
       <path
         d="M4046 996l1 2h6c3-2 3-6 1-9-1-3-5-5-8-5-2 1-4 3-3 5 0 1 1 3 3 2m-5-3l-2 3c-1 1-3 0-4-1 0-2 1-4 3-4 1 0 2 0 3 2zm-1-8v4h5c2-3 2-7 1-9-2-3-5-6-8-5s-4 3-3 7"
-        fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4161 1050l-1-30-1-19-2-23c-2-6-3-12-6-17s-6-9-10-12l-9-3-11 2-13 8-10 8-7 8" fill="none" stroke="#55a"
-        stroke-width="2.5" stroke-linejoin="round" />
+        strokeWidth="2.5" strokeLinejoin="round" />
       <path d="M4149 1050l6-7 5-3m-17 10l7-10 10-7m-24 17l12-15 12-8m-29 23s-6-13-12-18c-5-5-20-10-20-10" fill="none"
-        stroke="#55a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4126 1050l-10-14c-3-3-12-6-12-6m16 20s-3-7-6-9c-2-2-7-3-7-3" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4139 1013v-6l3-12 2-7-2-5-3-2-2-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4126 1050l-10-14c-3-3-12-6-12-6m16 20s-3-7-6-9c-2-2-7-3-7-3" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4139 1013v-6l3-12 2-7-2-5-3-2-2-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4126 988s-3-3-2-5c0-2 1-3 3-3l4 2 5 2v-3l-2 1c-3 0-7-3-10-1v3zm-27 26s9 6 14 7h12c2 0 4-3 4-3l-5 2h-12c-5-1-13-6-13-6zm60 6l-9 2c-4-1-9-6-9-6s6 5 9 5l9-3zm-36-50l6 2 6-1 6 1 3-2h-3l-7-1-7 1z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4127 965l6-1 5 1m3 46s5 4 9 4c5 0 8-3 8-3m-57-3s9 7 15 7c7 0 12-4 12-4" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4102 1007c5 0 7 4 12 4l14-1m30-2c-5 3-4 4-10 3l-8-1m-35-4c4-1 7-3 12-3s10 1 11 5" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4115 1010c-1-6 2-7 5-7s5 3 4 6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4121 1006l-2 3-1-2 2-1zm27 2l2 1 1-1-2-1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4115 1010c-1-6 2-7 5-7s5 3 4 6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4121 1006l-2 3-1-2 2-1zm27 2l2 1 1-1-2-1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4142 1002c2-3 2-5 6-7m-20 14c-2-7-8-9-12-13m42 10c-2-2-6-3-10-3-3 0-7 3-7 6" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4153 1011c1-5-1-7-5-7-1 0-5 4-2 8m-18-54l6 2 4-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4096 1010c1-5 5-11 5-16a32 32 0 00-15-26c-4-2-9-1-13-2" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4092 1005c1-3 3-7 2-11 0-4-1-9-3-12l-7-8-8-1" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4153 1011c1-5-1-7-5-7-1 0-5 4-2 8m-18-54l6 2 4-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4096 1010c1-5 5-11 5-16a32 32 0 00-15-26c-4-2-9-1-13-2" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4092 1005c1-3 3-7 2-11 0-4-1-9-3-12l-7-8-8-1" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4089 998l1-6c-1-3-2-7-4-9s-4-2-7-3m-11-23l3-9a28 28 0 00-16-27l-6-1" fill="none" stroke="#55a"
-        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4065 950l1-6c0-4-1-7-3-9-1-3-3-4-5-6l-4-2m105 56c3-4 7-8 9-13 3-5 4-11 6-16m-17 23l7-10 3-11m-11 13l3-5 2-5m9-5c-6-3-14-7-22-9l-21-3a119 119 0 00-38 6l-13 6"
-        fill="none" stroke="#55a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4181 950c-6-4-11-8-18-10a103 103 0 00-75-3l-11 4" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4186 946l-15-9a106 106 0 00-36-10 115 115 0 00-39 2l-21 7" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4194 943l-17-10a135 135 0 00-60-12l-19 2-13 5-11 4" fill="none" stroke="#000" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4181 950c-6-4-11-8-18-10a103 103 0 00-75-3l-11 4" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4186 946l-15-9a106 106 0 00-36-10 115 115 0 00-39 2l-21 7" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4194 943l-17-10a135 135 0 00-60-12l-19 2-13 5-11 4" fill="none" stroke="#000" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4220 929l-20-15-24-12-24-6a171 171 0 00-48-3c-9 1-16 4-24 6-8 3-15 5-22 9l-12 6" fill="none" stroke="#000"
-        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4195 944l12-7-7-5-7 10zm-11-8l6-11-13-7-6 12zm-25-10l4-12-14-4-3 12zm-25-6l1-12-15-1 1 14zm-26 0l-1-12-14 2 3 13zm-24 8l-6-14-12 5 3 7 5 6zm124-7l-8 11-10-7 7-12z" />
       <path
         d="M4183 905l-6 14-14-5 4-14zm-31-9l-3 13-14-2 1-13zm-32-3l1 15h-14l-2-14 16-2zm-30 5l3 13-15 4-4-13 16-5zm-29 9l5 12-3 1-15-7z" />
       <path
         d="M4213 932l-1-4-5 1 1 5zm-19 4l-4 1-1-4 5-2zm-4-19l-5 2-1-4 4-3zm-20 7l-5 1-1-4 5-3zm-9-18l-2-5-4 4 3 4zm-17 9l-4 4-3-3 4-4zm-12-14l-4 4-3-5 4-2zm-14 13l-3 3-4-3 3-3zm-16-11l-3 4-4-3 3-5zm-11 15l-2 4-5-2 2-4zm-17-8l-3 4-4-2 2-4z"
-        fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4225 925l-22-16a139 139 0 00-38-16 167 167 0 00-96 4l-26 11m129 42a1 1 0 112 0 1 1 0 01-2 0zm-7-4a1 1 0 112 0 1 1 0 01-2 0zm-7-3a1 1 0 112 0 1 1 0 01-2 0zm-6-1a1 1 0 112 0 1 1 0 01-2 0zm-8-3a1 1 0 112 0 1 1 0 01-2 0zm-6-1a1 1 0 112 0 1 1 0 01-2 0zm-8-1a1 1 0 112 0 1 1 0 01-2 0zm-7-1a1 1 0 112 0 1 1 0 01-2 0zm-7 1a1 1 0 112 0 1 1 0 01-2 0zm-7 1a1 1 0 112 0 1 1 0 01-2 0zm-8 1a1 1 0 112 0 1 1 0 01-2 0zm-7 2a1 1 0 112 0 1 1 0 01-2 0zm-6 2a1 1 0 112 0 1 1 0 01-2 0zm-5 2a1 1 0 112 0 1 1 0 01-2 0zm-6 2a1 1 0 112 0 1 1 0 01-2 0z"
-        fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4007 875h2l2 1 1 2m-7-1h-5l-1-5 5-6 3-3h4l2 2-1 3h-4l-2-1v-3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3998 873l-2-2-1-4 3-4 4-4 5-2 3 1v3l-2 1h-3l-1-3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4007 875h2l2 1 1 2m-7-1h-5l-1-5 5-6 3-3h4l2 2-1 3h-4l-2-1v-3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3998 873l-2-2-1-4 3-4 4-4 5-2 3 1v3l-2 1h-3l-1-3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3996 863l-2-3c-1-1 0-2 1-3l7-4 4-2 2 2v1l-3 3-2-2v-2m-9 4l-1-3 2-4 5-3h4v4l-3 1-2-2v-2" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4002 846l1-1 2-1 3-1 11-2 7 1c2 2 4 4 4 6 1 4-1 8-2 12a35 35 0 01-11 15c-2 1-3 3-5 3-2 1-3 2-4 1l-2-2c0-2 2-3 4-5l3-2 3-3-1-6c0-4 1-7 3-9"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4071 963c2-4 5-8 5-12 1-6 0-12-2-17l-7-10-9-7-11-3" fill="none" stroke="#55a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4152 961a248 248 0 0086-44c17-14 35-27 52-43" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4071 963c2-4 5-8 5-12 1-6 0-12-2-17l-7-10-9-7-11-3" fill="none" stroke="#55a" strokeWidth="2.5"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4152 961a248 248 0 0086-44c17-14 35-27 52-43" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4113 1050l-70-141-18 8 76 133z" />
       <path
         d="M4259 736l-3 5-6-3 4-6-5-3-10 13 11 6-5 11-6-1 2-6-6-2-4 15 12 4-4 16h-6l2-10-6-1-2 17h11v17h-6v-9l-7 1-1 16 11 1-1 17-7-1 1-8-6-1-4 15 12 5-8 15-6-2 4-8-6-1-7 10 9 9-11 12-6-4 6-5-5-6-11 11 8 11-5 3m-7-5h2l-4-6-6 4"
-        fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4171 879l21-14a58 58 0 0021-28l5-21v-16l3-18 2-14a101 101 0 0116-40l6-5" fill="none" stroke="#5456aa"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4256 880l1 6h-7l-3 6-5-6h-6l1-7-6-3 6-5v-5h5l4-6 5 8 5-2v6l6 4z" fill="#ffff57" />
-      <path d="M4252 876l-6 5-5-5 6-5z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4252 876l-6 5-5-5 6-5z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4160 877l12-3a74 74 0 0019-13l5-6-4-4-5-6-3-6-10 2-10-2-15-6zm51-52l-4-6v-7c0-2 1-4 3-5l4-3-2 10z"
         fill="#f55" />
       <path d="M4206 835l-2 6-4 3-3-1v-2l2-3 3-2 2-2z" fill="#fff" />
       <path d="M4211 825l-2 7-4-6-3-8v-9l3-5 4-5 5-3-1 8-5 5-2 6 2 5c0 2 3 5 3 5z" fill="#ff5" />
       <path
         d="M4182 835h-10c-4 0-8-2-11-3l-9-3-12-7-9-6-8-4-7-4-7-1h-7v-9l4 4 1-3 8 6 1-4 8 9 3-4 7 10 3-4 7 8 2-3 8 8 2-3 10 7 1-3 9 5-1-3 5 2z"
-        stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4085 886l-5-1v6l5-2z" fill="#f55" />
       <path
         d="M4228 890c1 3 4 5 3 7-1 3-7 4-9 1-1-1 2-2 2-3 1-2-1-4-1-4h-12l1-4h11l2-2-2-3c2-2 6 0 7 3 1 2-2 4-2 5zm53-15s-6-1-7-3c-2-1-1-6-1-6l-4 2c-2-1-3-2-3-4s1-3 3-4l4 1s-2-6-4-7c-3-1-6 0-8 1s-3 4-5 4c-1 1-3 0-4-1 0-2 3-3 3-6l-1-6-4-1-2 1v6h-5c-2-1-2-3-2-5l3-3-1-7 5 3 6 1 5 3 2 6 7-2 8 5 2 6c1 2 0 4-1 6l1 4zm3-74l-5-1c-2-2-2-7-2-7l-3 4-4-2c0-2 4-4 4-4s-2-4-5 1l-2 4v5h-5l1-6-1-4-4-1v2l-3 3-3-3 1-3h1l-3-3-2-5 7 4 4-1 4 3 2 3 4-4 5-1 4 3 1 3 1 3v3z"
-        stroke="#ff5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#ff5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4235 917l-15-12a228 228 0 00-49-25c-3-2-7-2-11-3m-12 11l-14-9m14 2l-13-8m12-1l-12-6m10-1l-11-7m10 0l-10-6m8-2l-9-6m8-1l-8-4m7-4l-7-4m-25 52l12-8m-12 1l11-7m-10-2l10-5m-10-2l11-6m-11-1l11-5m-10-2l11-6m-10 0l10-6m-9-2l9-6m11-2l7 4m-25-5l6-3m0-3l-6-2"
-        fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4017 946c1 2 4 4 3 7-1 2-4 4-7 4l-7-5c-1-3 0-5 1-8-3 1-4 2-6 1-3-1-6-5-6-8 1-3 3-6 6-7l7 3c-1-3-3-6-2-9 1-2 4-4 6-4 3 0 6 2 7 5 1 2-1 6-2 9 2-2 4-5 6-4 4 0 7 4 7 8 1 2-2 5-5 7z"
-        fill="#ff5" stroke="#5456aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#5456aa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4023 945l4 9-6-2-3-5zm-15 1l-3 6-6 1 2-7zm-2-15v-6h-5l1 5zm16 0l2-7-4 2-3 8z" fill="#55a" stroke="#5456aa"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4015 920l-2-41-3 2 1 38zm-7-31c0 5-1 11-3 16s-6 9-10 13l1-17 3-10 9-9z" fill="#ff5" stroke="#5456aa"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3999 909l3-12 5-12v0" fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4032 908c-4-4-11-7-14-12s-3-11-4-16l11 11c3 3 5 5 6 9z" fill="#ff5" stroke="#5456aa" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4027 899l-7-7-6-11" fill="none" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4023 939l-11 10-9-11 9-10z" fill="#f55" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4017 939l-5 4-4-4 4-5z" fill="#ff5" stroke="#5456aa" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3999 909l3-12 5-12v0" fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4032 908c-4-4-11-7-14-12s-3-11-4-16l11 11c3 3 5 5 6 9z" fill="#ff5" stroke="#5456aa" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4027 899l-7-7-6-11" fill="none" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4023 939l-11 10-9-11 9-10z" fill="#f55" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4017 939l-5 4-4-4 4-5z" fill="#ff5" stroke="#5456aa" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4278 827l1 6h-7l-3 6-5-7h-6l1-6-6-3 6-5v-6l5 1 4-6 5 7 5-2v6l7 4z" fill="#ffff57" />
-      <path d="M4274 823l-5 5-5-6 5-4z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4274 823l-5 5-5-6 5-4z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4203 830l-4 5-5 2-2-2v-2l3-2 3-2 3-1zm-3-5l-5 4h-5l-2-2 1-2 3-2h7zm-3-5l-6 1-5-1-1-3 2-2h4l3 1 3 1zm0-6h-6l-4-3-1-3 3-1 3 1 3 1 3 2zm17-20v-6c-1-2-1-4-3-5h-3l-1 2 1 3 1 4 2 2zm-5 3l-2-6-4-4-3 1v2l1 3 3 3 2 2zm-5 3l-3-5c-1-1-3-3-5-3l-2 2v2l2 3 3 2 3 1zm-4 5l-5-4-5-1-2 3 1 2 3 1 3 1h4z"
         fill="#fff" />
-      <path d="M4134 886l-2-63-11-5v67z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4134 886l-2-63-11-5v67z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4129 880h-3l-1-3h3zm-1-7h-3v-3h3zm1-7h-3l-1-3h3zm0-6h-3v-3h3zm0-7h-3v-3l3-1zm0-6h-3v-3l3-1zm-1-7h-3v-3h3zm0-6h-3v-3h3zm0-6h-3v-3l3-1z" />
-      <path d="M3991 690v360h270m-240-480h270v360" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M3991 690v360h270m-240-480h270v360" fill="none" stroke="#55a" strokeWidth="2" />
       <path
         d="M3991 639c0-5-3-9-7-9-5 0-8 5-8 10v2c0 3 1 7 3 10l4 10 8 13 8-13 5-10 2-10v-2c0-5-3-10-7-10-5 0-7 4-7 9zm59-36c0-11-6-18-14-18s-15 9-15 20v3c0 7 3 15 5 21 2 7 6 13 9 19l16 27 16-27c3-6 7-12 9-19 2-6 5-14 5-21v-3c0-11-7-20-15-20s-14 7-14 18c0 2-2 2-2 0zm242 378c0 6 2 9 7 9 4 0 7-4 7-10v-1l-2-11-5-9-8-14-8 14-4 9c-2 4-3 7-3 11v1c0 6 3 10 8 10 4 0 7-3 7-9zm-60 36c0 11 6 18 14 18s15-9 15-20v-2c0-8-3-15-5-21-2-7-6-13-9-19l-16-28-16 28c-3 6-7 12-9 19-2 6-5 13-5 21v2c0 11 7 20 15 20s14-7 14-18c0-2 2-2 2 0z"
         fill="#f55" />
@@ -647,7 +647,7 @@ const DeckSvgInline = () => (
       <path d="M4602 871l18-6 13-10 10-9 8-8v-12l-48-1 2 7-1 6-2 7 5 3 5 3v3l-4 4-8 4 2 5z" fill="#ff5" />
       <path
         d="M4611 826l-2 3-4 3m17-6l-9 7-8 5m-2 7l10-5 10-6 8-8m10 0l-9 8-10 8-12 6m40-21l-12 12a92 92 0 01-28 17m-8 9l14-5a99 99 0 0034-24"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4619 866l-17 6-2 9 10-7zm-62 5h10l5-2 5-4 4 1 4-2 5 4 6 5 3 6v2l-12 8-16 7-9-13z" fill="#f55" />
       <path d="M4544 835l1 4h6l7-2h7l7 2 5 4 1-3h4l3 2v-33l-12 11-7 4-10 6z" fill="#55a" />
       <path d="M4597 726l8 3 14 14v82h-17l-4 5-5 6-9 5 1-31 9-13 5-13 4-17v-17l-4-16z" fill="#f55" />
@@ -656,7 +656,7 @@ const DeckSvgInline = () => (
       <path
         d="M4566 723l12-15 10 12 7 17 3 15-1 17-5 19-8 14-11 11-11 8-18 9-2-18 13-7 14-13 7-13 4-14v-11l-3-13-5-10zm18 191l12-6 15-9 10-8 10-7 11-10 9-8v12l-16 14-13 10-11 7-10 6-12 7zm-9-13l16-8 16-10 11-8 11-8 11-11 11-10-1 12-17 16-14 12-12 8-10 6-17 9z" />
       <path d="M4571 896l15-7a159 159 0 0030-20l15-12 20-20v9l-20 18a322 322 0 01-32 24l-12 7-13 6z" fill="#ff5"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4484 793l34-1 1-9 2-15 2-10 4-15-44 42zm-28-98l6 16 7 15 3 11 3 7 45-43h-6l-9-2-5-3-4-6-3-9h-2l-1 6-4 5-6 1-4 3-6-1-3 2h-6l-4-2z"
         fill="#f55" />
@@ -664,58 +664,58 @@ const DeckSvgInline = () => (
       <path d="M4533 868l10 11-1-10-2-3-3-2-1 4zm44 66l-1-7-3 2c-1 1-4-1-4-1l-1 4-3 1 6 4" fill="#55a" />
       <path
         d="M4548 691l-10 20a204 204 0 00-16 50 206 206 0 00-5 49l1 15a335 335 0 0024 91c4 9 15 25 15 25l19-7 17-8-11-14-11-16-8-13-6-12"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4547 715l13-11-2 16-3-2-4 2-1-4zm14-22l8-5h4l-3 10-2-2-4 1v-3zm-24 45l11-12v17l-3-2-4 2-1-4zm-8 25l9-14 3 16s-2-2-3-1l-4 2s0-3-2-4zm-4 25l8-15 4 16-3-1c-2 0-3 3-3 3l-3-4zm0 24l5-14 7 13h-4l-2 3-3-3zm0 11l8 13 4-15-3 1c-2 0-3-3-3-3l-2 4zm17 68l13 10-3-16s-1 2-3 2c-1 1-4-1-4-1v4zm12 22l11 10-2-15-2 2-4-2-1 4zm1-211a3 3 0 11-5 0 3 3 0 015 0z"
         fill="#55a" />
       <path
         d="M4564 700a3 3 0 11-5 0 3 3 0 015 0zm5 8a3 3 0 11-5 0 3 3 0 015 0zm-26 15a3 3 0 11-5 0 3 3 0 015 0zm9-1a3 3 0 11-5 0 3 3 0 015 0zm5 9a3 3 0 11-5 0 3 3 0 015 0zm-15 14a3 3 0 11-5 0 3 3 0 015 0zm-7 3a3 3 0 11-5 0 3 3 0 015 0zm12 5a3 3 0 11-5 0 3 3 0 015 0zm-11 17a3 3 0 11-5 0 3 3 0 015 0zm6 6a3 3 0 11-5 0 3 3 0 015 0zm-13-4a3 3 0 11-5 0 3 3 0 015 0zm-4 28a3 3 0 11-5 0 3 3 0 015 0zm8-6a3 3 0 11-5 0 3 3 0 015 0zm6 6a3 3 0 11-5 0 3 3 0 015 0zm-6 17a3 3 0 11-5 0 3 3 0 015 0zm3 22a3 3 0 11-5 0 3 3 0 015 0zm6-7a3 3 0 11-5 0 3 3 0 015 0zm-14 2a3 3 0 11-5 0 3 3 0 015 0zm3 26a3 3 0 11-5 0 3 3 0 015 0zm8 21a3 3 0 11-5 0 3 3 0 015 0zm8 2a3 3 0 11-5 0 3 3 0 015 0zm6-6a3 3 0 11-5 0 3 3 0 015 0zm9 19a3 3 0 11-5 0 3 3 0 015 0zm-4 9a3 3 0 11-5 0 3 3 0 015 0zm-10-2a3 3 0 11-5 0 3 3 0 015 0zm14 24a3 3 0 11-5 0 3 3 0 015 0zm7-2a3 3 0 11-5 0 3 3 0 015 0zm6-7a3 3 0 11-5 0 3 3 0 015 0z"
         fill="#55a" />
-      <path d="M4475 743l57-53" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4588 708l4 7c3 3 6 5 10 6l9 1 8-2 7-4 7 5a39 39 0 0016 4v-16z" fill="#55a" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4595 689l-13 14 5 6h62v-20z" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4475 743l57-53" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4588 708l4 7c3 3 6 5 10 6l9 1 8-2 7-4 7 5a39 39 0 0016 4v-16z" fill="#55a" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4595 689l-13 14 5 6h62v-20z" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4622 675l-10 13h27zm-20-1l10 14h-29z" fill="#f55" />
-      <path d="M4574 688l76 1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4574 688l76 1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4645 616c0 5-3 8-7 8-5 0-8-3-8-8s3-9 8-9c4 0 7 4 7 9zm-48-14l4-1c2-1 2-3 2-4l-2-4-4-1-6 3-2 6v33h-3l-3 4c0 2 1 3 3 4l4 2c2 0 3-2 4-3l3-4v-4z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4638 612s2 1 2 3c1 1-1 4-2 4-4 0-4-3-4-3" fill="#ff5" fill-opacity=".3" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4562 607h27m0 21h-28m12-21l-1 20" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <rect ry="0" rx="0" y="612" x="4577.6" height="9.5" width="6.5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4571 617h-14m3-5h12m-13 11h13" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4638 612s2 1 2 3c1 1-1 4-2 4-4 0-4-3-4-3" fill="#ff5" fillOpacity=".3" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4562 607h27m0 21h-28m12-21l-1 20" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <rect ry="0" rx="0" y="612" x="4577.6" height="9.5" width="6.5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4571 617h-14m3-5h12m-13 11h13" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4583 914l18-9a225 225 0 0032-23l18-16v-9l-17 16-18 15-15 11-21 10zm10 12l9-5a253 253 0 0032-20l17-15v-8l-17 15a249 249 0 01-44 29z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4498 620l7-1h8l9 2 2 3-8-3-7-1-8 1-6 2zm-3 11l3-3c1-1 3-3 5-3h9l7 3 5 3v2l-4-1-9-2-5-1-4 1h-2z" fill="none"
-        stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4521 634l-8 3-4 1-6-1-4-2-4-3 6-1 5-1 6 1 11 3z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4503 634c0 3 2 4 4 4 3 0 5-1 5-4 0-1-2-2-5-2l-4 2z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4506 634l1 1 2-1-2-1zM4463 625l1-1 4-3 5-1 6 2 4 4-4-2-5-2h-7z" fill="#55a" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4484 628v7l-2 6-1 6-1 6 1 2 4 3 3 1" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4495 650l3 2v2l-2 3h-5l-2-2-3-1" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4501 667l-4-1-4-1-4 1-2 1-3-2-3 1-2 2 3-1 4 1 4-1h3l3-1 4 1z" fill="#55a" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4521 634l-8 3-4 1-6-1-4-2-4-3 6-1 5-1 6 1 11 3z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4503 634c0 3 2 4 4 4 3 0 5-1 5-4 0-1-2-2-5-2l-4 2z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4506 634l1 1 2-1-2-1zM4463 625l1-1 4-3 5-1 6 2 4 4-4-2-5-2h-7z" fill="#55a" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4484 628v7l-2 6-1 6-1 6 1 2 4 3 3 1" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4495 650l3 2v2l-2 3h-5l-2-2-3-1" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4501 667l-4-1-4-1-4 1-2 1-3-2-3 1-2 2 3-1 4 1 4-1h3l3-1 4 1z" fill="#55a" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4494 673l-4 2h-2l-4-2m-1-42l-5-4-5-1-3 1-4 1-3 3M4464 634l4 3 4 2 6-1 3-2 2-2-3-2-5-1h-5z" fill="none"
-        stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4478 633c0 3-2 4-4 4-3 0-5-1-5-4 0-2 2-3 5-3l4 3z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4475 633l-2 2-1-2 1-1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4500 638l7 7m-26-5l-6 7" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4478 633c0 3-2 4-4 4-3 0-5-1-5-4 0-2 2-3 5-3l4 3z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4475 633l-2 2-1-2 1-1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4500 638l7 7m-26-5l-6 7" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4432 570l31 40c10-3 20-3 30-3a234 234 0 0164 7c11-16 24-27 35-44z" fill="#ff5" stroke="#55a"
-        stroke-width="2" />
+        strokeWidth="2" />
       <path
         d="M4477 589l-1-3h1l2 1v4l3 2c2 0 5-1 6-3s0-4-1-5l-3-2-4 1c1-2 2-3 1-5l-4-3h-2l-4 3 1 4 2 3h-3c-2 1-4 2-4 4s2 4 3 4h5c2 0 2-2 2-3zm-25 3v-1l-2-1-1 1-6-8 1-1 2-1 5 1 1 6 3-3 3 1c2 1 3 3 3 5s-2 3-4 4l-4-1m66 2l-6-3-2-3-1-1 1 5 5 5 7 2c3 1 6 0 8-1l5-3 2-3-5 3h-6l-4-3z" />
       <path
@@ -723,76 +723,76 @@ const DeckSvgInline = () => (
       <path
         d="M4561 607l-7 1-9-1-4-4-3-3s-5 3-8 3h-9l-8-2-4-5s-4 5-7 6h-8l-7-1-7-4-4 5-5 2-6 1c-3 0-8-3-8-3l6 7s11-3 20-3a478 478 0 0163 5l10 2zm6-8v-2l2-1h1l6-7-1-2-1-1-5 2c-2 1-2 3-2 5l-2-3-4 1-3 4c0 2 2 4 4 5l4-1m-26-5l1-3-1-1-2 2v3l-3 2c-2 1-5 0-6-2s0-4 1-5l3-2 4 1c-1-2-2-4-1-5l4-3h3l3 3-1 4-2 3h3c2 1 4 2 4 4s-1 3-3 4h-5c-2 0-2-2-2-3zm-32-4v-3h1l2 2-1 1v2l2 3c2 0 5 0 6-2l1-5-3-2h-3c1-1 2-3 1-5 0-2-1-3-3-4h-2c-1 0-3 0-4 2l-1 4 2 3-3-1-5 3c-1 2 1 4 2 5l5 2 3-3z" />
       <path d="M4529 610l19 49c3 9 3 21-4 28-2 3-8 5-11 3-4-2-7-9-5-12 1-4 8-5 11-3 2 1 2 5 2 7" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4524 610l14 37c3 9 8 18 6 28-1 3-3 8-7 9-2 1-3-1-4-3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4524 610l14 37c3 9 8 18 6 28-1 3-3 8-7 9-2 1-3-1-4-3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4534 610c3 11 8 20 12 31 3 10 9 20 10 30 0 5 0 11-3 15-2 2-5 4-8 2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4539 611l12 33c4 9 10 18 11 28 0 5 1 10-2 13-2 2-5 4-8 2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4544 612l13 32c3 10 10 18 10 29 1 4 1 9-2 12-2 2-5 4-8 2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4539 611l12 33c4 9 10 18 11 28 0 5 1 10-2 13-2 2-5 4-8 2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4544 612l13 32c3 10 10 18 10 29 1 4 1 9-2 12-2 2-5 4-8 2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4550 613c3 11 8 21 12 32 4 9 10 18 11 28 0 4 0 9-3 12-1 2-5 3-7 2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4555 614l13 32c3 9 10 17 11 27 0 4 0 9-3 12-2 2-5 4-8 2M4518 689c3-1 4 4 3 6-1 1-5 0-7-1-1-3-1-7 1-9s5-1 7 0 4 3 4 5c0 3-1 7-3 9-5 3-13 3-18 0s-7-6-9-9l-3-9h-3c0 6-1 7-3 9s-4 3-8 3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4498 682l4 7c2 3 5 6 9 7 3 1 6 1 9-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4498 682l4 7c2 3 5 6 9 7 3 1 6 1 9-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4503 680l4 8c2 2 4 4 6 3m-7-13a14 14 0 008 8m-3-10l3 5 3 2m-2-10c2 4 4 8 7 10l5 3m-8-15l3 5 5 3m-5-12l4 6 3 2m11 0c0-7-1-10-3-14l-5-10m4 22l-3-9-4-8m3 18l-3-9-3-4m-78 6c1 2 5 0 5-1 1-2 0-5-2-6h-4l-4 4c0 2 0 6 2 8 3 2 9 2 12-1s5-7 6-10l1-7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4463 641l-4 16c-1 4-4 9-6 9m-9 5c1 3 2 5 5 6 2 2 6 2 9 0 4-2 6-8 7-13" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4446 675c0 3 1 6 4 8h9c4-2 7-7 8-12" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4449 683c1 3 2 4 4 5h9c5-3 7-8 8-13" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4452 687c2 5 3 5 5 6 4 1 8 0 10-2 4-2 7-7 7-13" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4446 675c0 3 1 6 4 8h9c4-2 7-7 8-12" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4449 683c1 3 2 4 4 5h9c5-3 7-8 8-13" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4452 687c2 5 3 5 5 6 4 1 8 0 10-2 4-2 7-7 7-13" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4455 692c2 3 3 5 6 5 3 1 7 0 10-2 4-3 7-8 7-14m-7 15c3 0 6 0 8-2 3-3 5-6 5-12m-21-42l-1 3-3 4-4 1-4-2-1-4 2-4h3l2 2v2l2-3 1-5 1-4v-3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4462 610v27l3 21c0 4 0 9 2 12" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4462 610v27l3 21c0 4 0 9 2 12" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4606 637l-5-4-3-3v-5c-1-3-2-6-1-8l1-2v-6l1-2h2v-4l3-1h4l1 2 1 2-1-4 2-2 3 1 4 3 1 3-1-3 2-2a5 5 83 016 3v2l2-3 2 3 1 8 2 4v8c0 2-1 3-3 5l-5 3-5 1-8 1h-3z"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4601 607c2 2 4 4 4 7v6l1 5 1 3m3-22l4 12c0 2 0 4-2 5-1 1-3 0-4-1l-3-11" fill="#fff" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4607 620c0-3 2-6 4-5h2m5-8c1 4 2 9 1 13 0 2 0 4-2 5-2 0-2-2-3-3v-4" fill="#fff" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4614 618l3-3 2 1m-21 0c1 0 3-1 3-3l-1-5m19 9c0 3 1 6 4 7 3-1 2-5 3-8v-10m0 10c0 3 1 4 2 3 2 0 2-2 2-3"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4620 616l3-1 2 1m1-3l2-1 2 1" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4620 616l3-1 2 1m1-3l2-1 2 1" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4615 637h-8c-2-1-4-2-6-1l-2 5c0 2 3 4 5 5h19c2-1 5-2 6-5l-1-6c-2-1-4 1-5 1z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4613 646h-9c-2 0-5-2-7-1-1 1-3 4-2 6 0 2 3 4 5 5l11 1 12-1c3-1 6-2 7-5 1-2 1-5-1-7-2-1-4 1-6 1z"
-        stroke-width="2" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4615 652c0 3-1 4-2 4s-3-1-3-4l3-6zM4608 652l-3 3c-2 0-2-2-2-5l4-4zM4617 653l3 3c2 0 2-2 2-5l-4-4zM4600 650c-1 2-2 2-3 2v-5l4-2zM4625 650c1 2 2 2 3 2v-5l-4-2z"
-        fill="#fff555" stroke-width="2" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff555" strokeWidth="2" stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4597 655l-6 16-11 17 3-1c7-3 19-13 19-13l10 13 10-12s11 10 18 12l4 1-11-18-5-15-8 1-14 1z" fill="#fff555"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4581 688s10-10 13-16c4-4 9-15 9-15s1 8 3 11l6 9 7-10 2-10s5 11 9 16c4 6 14 15 14 15" fill="none"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4608 657l4 11c2-3 4-7 4-11z" fill="#000001" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4608 657l4 11c2-3 4-7 4-11z" fill="#000001" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4582 703l-4 4c7 7 12 15 15 24 4 12 6 26 4 38-1 12-6 24-13 33-7 10-18 16-28 22l-12 6 1 5c8-4 18-8 26-14 9-7 18-15 23-25 6-11 9-24 9-36 0-10-2-20-5-29-4-10-7-18-16-28zm15 23c3 2 6 2 8 2l46 47v-7l-40-40c6 0 11-2 15-4a53 53 0 0025 7v-6s-11-1-17-4l-9-5-11 5c-4 1-8 2-12 1s-10-7-10-7z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4578 708l-13 16-10 19a142 142 0 00-13 65v11l1 11" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4578 708l-13 16-10 19a142 142 0 00-13 65v11l1 11" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4566 723l-3 4c4 5 8 10 10 16 2 7 3 16 2 23-1 8-3 15-7 21-5 6-11 10-17 14l-9 6v5c5-3 13-7 18-12 6-5 11-10 14-16 4-8 6-16 6-24 1-6-1-12-3-18-3-7-5-12-11-19z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4554 745l4 9v12a27 27 0 01-12 18l-3 2-1 5c3-1 7-3 10-6a34 34 0 0010-32c-1-5-3-8-6-12z" fill="#ff5"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4477 750l59-59" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4483 774l48-48-4 16-43 43z" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4619 743v82m6-75l1 74" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4477 750l59-59" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4483 774l48-48-4 16-43 43z" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4619 743v82m6-75l1 74" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <rect width="11" height="3.7" x="4630.4" y="815.5" rx="0" ry="3.7" fill="#55a" />
       <rect width="11" height="3.7" x="4630.4" y="807.6" rx="0" ry="3.7" fill="#55a" />
       <rect width="11" height="3.7" x="4630.4" y="799.6" rx="0" ry="3.7" fill="#55a" />
@@ -802,30 +802,30 @@ const DeckSvgInline = () => (
       <rect width="11" height="3.7" x="4630.4" y="767.6" rx="0" ry="3.7" fill="#55a" />
       <path
         d="M4577 864c-2 3-4 5-7 6l-13 1h-11l-4-2-1-2 2-3h15l-18-1-5-1c-1 0-2-1-1-2l1-2 4-1h-2l-4-1-2-2 1-2 4-2 19 1-18-1-2-2-1-2 3-2h20l-15-1-2-2 3-2h5l12-2 9 1 6 4 3 3v13zm-29-24v4m-6 1v4"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4538 851l1 2-1 3m2 1l1 3-1 3m8 2a5 5 0 000 5M4603 825h47m-169-57l4-3-8-9 8-7 4 4-4 3 4 4 8-7-8-8 9-8 4 4-3 4 3 3 8-8-8-8 9-8 4 4-4 4 4 4 8-8-8-8 8-8 4 4-4 3 4 5 9-10-8-7 8-8 3 4-3 3 2 3"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4585 841l6-5 6-5 5-6 2 6v8l-3 6 5 2c2 1 5 2 6 4v3l-4 3-4 3-4 1 2 7-1 8-2 5-2-7c-1-2-3-4-6-5l-6-5v-15z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4586 845l8 1 9 6-8 7-10 1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4586 850l9 3c-3 2-6 3-10 3m17-31l-2 9-3 7-3 5m-2 14l4 5 3 7 1 9" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4577 843l1-2 3-1 4 3v16l-1 5-2 2-5-2c1-6 2-13 0-21z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4586 845l8 1 9 6-8 7-10 1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4586 850l9 3c-3 2-6 3-10 3m17-31l-2 9-3 7-3 5m-2 14l4 5 3 7 1 9" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4577 843l1-2 3-1 4 3v16l-1 5-2 2-5-2c1-6 2-13 0-21z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4585 903a3 3 0 11-5 0 3 3 0 015 0zm8-5a3 3 0 11-5 0 3 3 0 015 0zm8-5a3 3 0 11-5 0 3 3 0 015 0zm8-4a3 3 0 11-5 0 3 3 0 015 0zm7-6a3 3 0 11-5 0 3 3 0 015 0zm8-5a3 3 0 11-5 0 3 3 0 015 0zm8-7a3 3 0 11-5 0 3 3 0 015 0zm7-6a3 3 0 11-5 0 3 3 0 015 0zm7-7a3 3 0 11-5 0 3 3 0 015 0zm2 19a3 3 0 11-5 0 3 3 0 015 0zm-7 6a3 3 0 11-5 0 3 3 0 015 0zm-7 6a3 3 0 11-5 0 3 3 0 015 0zm-8 6a3 3 0 11-5 0 3 3 0 015 0zm-8 6a3 3 0 11-5 0 3 3 0 015 0zm-8 5a3 3 0 11-5 0 3 3 0 015 0zm-8 4a3 3 0 11-5 0 3 3 0 015 0zm-8 6a3 3 0 11-5 0 3 3 0 015 0zm-23-199l3 2c3 2 8 0 10 3 3 4-4 10-2 15 2 4 9 4 10 8 1 5-6 9-6 14s7 8 6 13c-1 4-8 4-10 8-3 5 2 13-1 18-3 3-9 0-11 3-4 3-1 11-5 13-4 3-10-2-14 0s-7 10-7 10l-1-4s3-8 7-10c4-1 9 4 12 2 5-3 2-11 5-14s9-1 11-4c3-4-2-10 0-14s9-5 10-9c1-5-6-8-6-13 0-4 7-7 6-11s-8-4-9-8c-2-4 4-10 1-15-2-2-6 0-9-2l-2-2z"
         fill="#ff5" />
       <path d="M4556 741l7-13 7 9 3 10 2 10v10l-3 13-6 8-7 7-8 6-9 6v-16l7-3 7-6 5-8 2-9v-7l-2-8-3-7z" />
       <path d="M4561 744l1-7 7 4-1 7zm4 16l5-5 4 6-5 6zm-4 16l7-2-1 8-7 1zm-8 21h-7l3-7h7z" fill="#ff5" />
       <path d="M4543 786l2-15 4-13 5-12 4 9v10l-3 10-5 5z" />
-      <path d="M4603 871l9-3 11-4" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4603 871l9-3 11-4" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4400 749l-18 6-13 10-10 9-8 8v12l48 1-2-7 1-6 2-7-5-3-5-3v-3l4-4 8-4-2-5z" fill="#ff5" />
       <path
         d="M4391 794l2-3 4-3m-17 6l9-7 8-5m2-7l-10 5-10 6-8 8m-10 0l9-8 10-8 12-6m-40 21l12-12a-92-92 0 0128-17m8-9l-14 5a-99-99 0 00-34 24"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4383 754l17-6 2-9-10 7zm62-5h-10l-5 2-5 4-4-1-4 2-5-4-6-5-3-6v-2l12-8 16-7 9 13z" fill="#f55" />
       <path d="M4458 785l-1-4h-6l-7 2h-7l-7-2-5-4-1 3h-4l-3-2v33l12-11 7-4 10-6z" fill="#55a" />
       <path d="M4405 894l-8-3-14-14v-82h17l4-5 5-6 9-5-1 31-9 13-5 13-4 17v17l4 16z" fill="#f55" />
@@ -834,7 +834,7 @@ const DeckSvgInline = () => (
       <path
         d="M4436 897l-12 15-10-12-7-17-3-15 1-17 5-19 8-14 11-11 11-8 18-9 2 18-13 7-14 13-7 13-4 14v11l3 13 5 10zm-18-191l-12 6-15 9-10 8-10 7-11 10-9 8v-12l16-14 13-10 11-7 10-6 12-7zm9 13l-16 8-16 10-11 8-11 8-11 11-11 10 1-12 17-16 14-12 12-8 10-6 17-9z" />
       <path d="M4431 724l-15 7a-159-159 0 00-30 20l-15 12-20 20v-9l20-18a-322-322 0 0132-24l12-7 13-6z" fill="#ff5"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4518 827l-34 1-1 9-2 15-2 10-4 15 44-42zm28 98l-6-16-7-15-3-11-3-7-45 43h6l9 2 5 3 4 6 3 9h2l1-6 4-5 6-1 4-3 6 1 3-2h6l4 2z"
         fill="#f55" />
@@ -842,58 +842,58 @@ const DeckSvgInline = () => (
       <path d="M4469 752l-10-11 1 10 2 3 3 2 1-4zm-44-66l1 7 3-2c1-1 4 1 4 1l1-4 3-1-6-4" fill="#55a" />
       <path
         d="M4454 929l10-20a-204-204 0 0016-50-206-206 0 005-49l-1-15a-335-335 0 00-24-91c-4-9-15-25-15-25l-19 7-17 8 11 14 11 16 8 13 6 12"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4455 905l-13 11 2-16 3 2 4-2 1 4zm-14 22l-8 5h-4l3-10 2 2 4-1v3zm24-45l-11 12v-17l3 2 4-2 1 4zm8-25l-9 14-3-16s2 2 3 1l4-2s0 3 2 4zm4-25l-8 15-4-16 3 1c2 0 3-3 3-3l3 4zm0-24l-5 14-7-13h4l2-3 3 3zm0-11l-8-13-4 15 3-1c2 0 3 3 3 3l2-4zm-17-68l-13-10 3 16s1-2 3-2c1-1 4 1 4 1v-4zm-12-22l-11-10 2 15 2-2 4 2 1-4zm-1 211a-3-3 0 115 0-3-3 0 01-5 0z"
         fill="#55a" />
       <path
         d="M4438 920a-3-3 0 115 0-3-3 0 01-5 0zm-5-8a-3-3 0 115 0-3-3 0 01-5 0zm26-15a-3-3 0 115 0-3-3 0 01-5 0zm-9 1a-3-3 0 115 0-3-3 0 01-5 0zm-5-9a-3-3 0 115 0-3-3 0 01-5 0zm15-14a-3-3 0 115 0-3-3 0 01-5 0zm7-3a-3-3 0 115 0-3-3 0 01-5 0zm-12-5a-3-3 0 115 0-3-3 0 01-5 0zm11-17a-3-3 0 115 0-3-3 0 01-5 0zm-6-6a-3-3 0 115 0-3-3 0 01-5 0zm13 4a-3-3 0 115 0-3-3 0 01-5 0zm4-28a-3-3 0 115 0-3-3 0 01-5 0zm-8 6a-3-3 0 115 0-3-3 0 01-5 0zm-6-6a-3-3 0 115 0-3-3 0 01-5 0zm6-17a-3-3 0 115 0-3-3 0 01-5 0zm-3-22a-3-3 0 115 0-3-3 0 01-5 0zm-6 7a-3-3 0 115 0-3-3 0 01-5 0zm14-2a-3-3 0 115 0-3-3 0 01-5 0zm-3-26a-3-3 0 115 0-3-3 0 01-5 0zm-8-21a-3-3 0 115 0-3-3 0 01-5 0zm-8-2a-3-3 0 115 0-3-3 0 01-5 0zm-6 6a-3-3 0 115 0-3-3 0 01-5 0zm-9-19a-3-3 0 115 0-3-3 0 01-5 0zm4-9a-3-3 0 115 0-3-3 0 01-5 0zm10 2a-3-3 0 115 0-3-3 0 01-5 0zm-14-24a-3-3 0 115 0-3-3 0 01-5 0zm-7 2a-3-3 0 115 0-3-3 0 01-5 0zm-6 7a-3-3 0 115 0-3-3 0 01-5 0z"
         fill="#55a" />
-      <path d="M4527 877l-57 53" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4527 877l-57 53" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4414 912l-4-7c-3-3-6-5-10-6l-9-1-8 2-7 4-7-5a-39-39 0 00-16-4v16z" fill="#55a" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4407 931l13-14-5-6h-62v20z" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4407 931l13-14-5-6h-62v20z" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4380 945l10-13h-27zm20 1l-10-14h29z" fill="#f55" />
-      <path d="M4428 932l-76-1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4428 932l-76-1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4357 1004c0-5 3-8 7-8 5 0 8 3 8 8s-3 9-8 9c-4 0-7-4-7-9zm48 14l-4 1c-2 1-2 3-2 4l2 4 4 1 6-3 2-6v-33h3l3-4c0-2-1-3-3-4l-4-2c-2 0-3 2-4 3l-3 4v4z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4364 1008s-2-1-2-3c-1-1 1-4 2-4 4 0 4 3 4 3" fill="#ff5" fill-opacity=".3" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4440 1013h-27m0-21h28m-12 21l1-20" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4364 1008s-2-1-2-3c-1-1 1-4 2-4 4 0 4 3 4 3" fill="#ff5" fillOpacity=".3" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4440 1013h-27m0-21h28m-12 21l1-20" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <rect ry="0" rx="0" y="-1007" x="-4423.4" height="9.5" width="6.5" fill="none" transform="scale(-1)" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4431 1003h14m-3 5h-12m13-11h-13" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4431 1003h14m-3 5h-12m13-11h-13" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4419 706l-18 9a-225-225 0 00-32 23l-18 16v9l17-16 18-15 15-11 21-10zm-10-12l-9 5a-253-253 0 00-32 20l-17 15v8l17-15a-249-249 0 0144-29z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4503 999l-7 1h-8l-9-2-2-3 8 3 7 1 8-1 6-2zm3-11l-3 3c-1 1-3 3-5 3h-9l-7-3-5-3v-2l4 1 9 2 5 1 4-1h2z"
-        fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4480 985l8-3 4-1 6 1 4 2 4 3-6 1-5 1-6-1-11-3z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4498 985c0-3-2-4-4-4-3 0-5 1-5 4 0 1 2 2 5 2l4-2z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4495 985l-1-1-2 1 2 1zM4538 994l-1 1-4 3-5 1-6-2-4-4 4 2 5 2h7z" fill="#55a" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4517 991v-7l2-6 1-6 1-6-1-2-4-3-3-1" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4506 969l-3-2v-2l2-3h5l2 2 3 1" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4500 952l4 1 4 1 4-1 2-1 3 2 3-1 2-2-3 1-4-1-4 1h-3l-3 1-4-1z" fill="#55a" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4480 985l8-3 4-1 6 1 4 2 4 3-6 1-5 1-6-1-11-3z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4498 985c0-3-2-4-4-4-3 0-5 1-5 4 0 1 2 2 5 2l4-2z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4495 985l-1-1-2 1 2 1zM4538 994l-1 1-4 3-5 1-6-2-4-4 4 2 5 2h7z" fill="#55a" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4517 991v-7l2-6 1-6 1-6-1-2-4-3-3-1" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4506 969l-3-2v-2l2-3h5l2 2 3 1" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4500 952l4 1 4 1 4-1 2-1 3 2 3-1 2-2-3 1-4-1-4 1h-3l-3 1-4-1z" fill="#55a" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4507 946l4-2h2l4 2m1 42l5 4 5 1 3-1 4-1 3-3M4537 985l-4-3-4-2-6 1-3 2-2 2 3 2 5 1h5z" fill="none"
-        stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4523 986c0-3 2-4 4-4 3 0 5 1 5 4 0 2-2 3-5 3l-4-3z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4526 986l2-2 1 2-1 1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4501 981l-7-7m26 5l6-7" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4523 986c0-3 2-4 4-4 3 0 5 1 5 4 0 2-2 3-5 3l-4-3z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4526 986l2-2 1 2-1 1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4501 981l-7-7m26 5l6-7" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4570 1050l-31-40c-10 3-20 3-30 3a-234-234 0 01-64-7c-11 16-24 27-35 44z" fill="#ff5" stroke="#55a"
-        stroke-width="2" />
+        strokeWidth="2" />
       <path
         d="M4525 1031l1 3h-1l-2-1v-4l-3-2c-2 0-5 1-6 3s0 4 1 5l3 2 4-1c-1 2-2 3-1 5l4 3h2l4-3-1-4-2-3h3c2-1 4-2 4-4s-2-4-3-4h-5c-2 0-2 2-2 3zm25-3v1l2 1 1-1 6 8-1 1-2 1-5-1-1-6-3 3-3-1c-2-1-3-3-3-5s2-3 4-4l4 1m-66-2l6 3 2 3 1 1-1-5-5-5-7-2c-3-1-6 0-8 1l-5 3-2 3 5-3h6l4 3z" />
       <path
@@ -901,78 +901,78 @@ const DeckSvgInline = () => (
       <path
         d="M4441 1013l7-1 9 1 4 4 3 3s5-3 8-3h9l8 2 4 5s4-5 7-6h8l7 1 7 4 4-5 5-2 6-1c3 0 8 3 8 3l-6-7s-11 3-20 3a-478-478 0 01-63-5l-10-2zm-6 8v2l-2 1h-1l-6 7 1 2 1 1 5-2c2-1 2-3 2-5l2 3 4-1 3-4c0-2-2-4-4-5l-4 1m26 5l-1 3 1 1 2-2v-3l3-2c2-1 5 0 6 2s0 4-1 5l-3 2-4-1c1 2 2 4 1 5l-4 3h-3l-3-3 1-4 2-3h-3c-2-1-4-2-4-4s1-3 3-4h5c2 0 2 2 2 3zm32 4v3h-1l-2-2 1-1v-2l-2-3c-2 0-5 0-6 2l-1 5 3 2h3c-1 1-2 3-1 5 0 2 1 3 3 4h2c1 0 3 0 4-2l1-4-2-3 3 1 5-3c1-2-1-4-2-5l-5-2-3 3z" />
       <path d="M4473 1010l-19-49c-3-9-3-21 4-28 2-3 8-5 11-3 4 2 7 9 5 12-1 4-8 5-11 3-2-1-2-5-2-7" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4478 1010l-14-37c-3-9-8-18-6-28 1-3 3-8 7-9 2-1 3 1 4 3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4478 1010l-14-37c-3-9-8-18-6-28 1-3 3-8 7-9 2-1 3 1 4 3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4468 1010c-3-11-8-20-12-31-3-10-9-20-10-30 0-5 0-11 3-15 2-2 5-4 8-2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4463 1009l-12-33c-4-9-10-18-11-28 0-5-1-10 2-13 2-2 5-4 8-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4458 1008l-13-32c-3-10-10-18-10-29-1-4-1-9 2-12 2-2 5-4 8-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4463 1009l-12-33c-4-9-10-18-11-28 0-5-1-10 2-13 2-2 5-4 8-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4458 1008l-13-32c-3-10-10-18-10-29-1-4-1-9 2-12 2-2 5-4 8-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4452 1007c-3-11-8-21-12-32-4-9-10-18-11-28 0-4 0-9 3-12 1-2 5-3 7-2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4447 1006l-13-32c-3-9-10-17-11-27 0-4 0-9 3-12 2-2 5-4 8-2M4484 931c-3 1-4-4-3-6 1-1 5 0 7 1 1 3 1 7-1 9s-5 1-7 0-4-3-4-5c0-3 1-7 3-9 5-3 13-3 18 0s7 6 9 9l3 9h3c0-6 1-7 3-9s4-3 8-3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4504 938l-4-7c-2-3-5-6-9-7-3-1-6-1-9 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4504 938l-4-7c-2-3-5-6-9-7-3-1-6-1-9 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4499 940l-4-8c-2-2-4-4-6-3m7 13a-14-14 0 00-8-8m3 10l-3-5-3-2m2 10c-2-4-4-8-7-10l-5-3m8 15l-3-5-5-3m5 12l-4-6-3-2m-11 0c0 7 1 10 3 14l5 10m-4-22l3 9 4 8m-3-18l3 9 3 4m78-6c-1-2-5 0-5 1-1 2 0 5 2 6h4l4-4c0-2 0-6-2-8-3-2-9-2-12 1s-5 7-6 10l-1 7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4539 979l4-16c1-4 4-9 6-9m9-5c-1-3-2-5-5-6-2-2-6-2-9 0-4 2-6 8-7 13" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4556 945c0-3-1-6-4-8h-9c-4 2-7 7-8 12" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4553 937c-1-3-2-4-4-5h-9c-5 3-7 8-8 13" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4550 933c-2-5-3-5-5-6-4-1-8 0-10 2-4 2-7 7-7 13" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4556 945c0-3-1-6-4-8h-9c-4 2-7 7-8 12" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4553 937c-1-3-2-4-4-5h-9c-5 3-7 8-8 13" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4550 933c-2-5-3-5-5-6-4-1-8 0-10 2-4 2-7 7-7 13" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4547 928c-2-3-3-5-6-5-3-1-7 0-10 2-4 3-7 8-7 14m7-15c-3 0-6 0-8 2-3 3-5 6-5 12m21 42l1-3 3-4 4-1 4 2 1 4-2 4h-3l-2-2v-2l-2 3-1 5-1 4v3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4540 1010v-27l-3-21c0-4 0-9-2-12" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4540 1010v-27l-3-21c0-4 0-9-2-12" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4395 982l5 4 3 3v5c1 3 2 6 1 8l-1 2v6l-1 2h-2v4l-3 1h-4l-1-2-1-2 1 4-2 2-3-1-4-3-1-3 1 3-2 2a5 5 83 01-6-3v-2l-2 3-2-3-1-8-2-4v-8c0-2 1-3 3-5l5-3 5-1 8-1h3z"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4400 1012c-2-2-4-4-4-7v-6l-1-5-1-3m-3 22l-4-12c0-2 0-4 2-5 1-1 3 0 4 1l3 11" fill="#fff" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4394 999c0 3-2 6-4 5h-2m-5 8c-1-4-2-9-1-13 0-2 0-4 2-5 2 0 2 2 3 3v4" fill="#fff" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4387 1001l-3 3-2-1m21 0c-1 0-3 1-3 3l1 5m-19-9c0-3-1-6-4-7-3 1-2 5-3 8v10m0-10c0-3-1-4-2-3-2 0-2 2-2 3"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4381 1003l-3 1-2-1m-1 3l-2 1-2-1" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4381 1003l-3 1-2-1m-1 3l-2 1-2-1" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4387 983h8c2 1 4 2 6 1l2-5c0-2-3-4-5-5h-19c-2 1-5 2-6 5l1 6c2 1 4-1 5-1z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4389 974h9c2 0 5 2 7 1 1-1 3-4 2-6 0-2-3-4-5-5l-11-1-12 1c-3 1-6 2-7 5-1 2-1 5 1 7 2 1 4-1 6-1z"
-        stroke-width="2" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4386 967c0-3 1-4 2-4s3 1 3 4l-3 6zM4393 967l3-3c2 0 2 2 2 5l-4 4zM4384 966l-3-3c-2 0-2 2-2 5l4 4zM4401 969c1-2 2-2 3-2v5l-4 2zM4376 969c-1-2-2-2-3-2v5l4 2z"
-        fill="#fff555" stroke-width="2" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff555" strokeWidth="2" stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4405 965l6-16 11-17-3 1c-7 3-19 13-19 13l-10-13-10 12s-11-10-18-12l-4-1 11 18 5 15 8-1 14-1z" fill="#fff555"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4421 932s-10 10-13 16c-4 4-9 15-9 15s-1-8-3-11l-6-9-7 10-2 10s-5-11-9-16c-4-6-14-15-14-15" fill="none"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4394 963l-4-11c-2 3-4 7-4 11z" fill="#000001" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4394 963l-4-11c-2 3-4 7-4 11z" fill="#000001" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4420 917l4-4c-7-7-12-15-15-24-4-12-6-26-4-38 1-12 6-24 13-33 7-10 18-16 28-22l12-6-1-5c-8 4-18 8-26 14-9 7-18 15-23 25-6 11-9 24-9 36 0 10 2 20 5 29 4 10 7 18 16 28zm-15-23c-3-2-6-2-8-2l-46-47v7l40 40c-6 0-11 2-15 4a-53-53 0 00-25-7v6s11 1 17 4l9 5 11-5c4-1 8-2 12-1s10 7 10 7z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4424 912l13-16 10-19a-142-142 0 0013-65v-11l-1-11" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4424 912l13-16 10-19a-142-142 0 0013-65v-11l-1-11" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4436 897l3-4c-4-5-8-10-10-16-2-7-3-16-2-23 1-8 3-15 7-21 5-6 11-10 17-14l9-6v-5c-5 3-13 7-18 12-6 5-11 10-14 16-4 8-6 16-6 24-1 6 1 12 3 18 3 7 5 12 11 19z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4448 875l-4-9v-12a-27-27 0 0112-18l3-2 1-5c-3 1-7 3-10 6a-34-34 0 00-10 32c1 5 3 8 6 12z" fill="#ff5"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4525 870l-59 59" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4519 846l-48 48 4-16 43-43z" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4383 877v-82m-6 75l-1-74" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4525 870l-59 59" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4519 846l-48 48 4-16 43-43z" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4383 877v-82m-6 75l-1-74" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <rect width="11" height="3.7" x="-4370.6" y="-803.5" rx="0" ry="3.7" fill="#55a" transform="scale(-1)" />
       <rect width="11" height="3.7" x="-4370.6" y="-811.4" rx="0" ry="3.7" fill="#55a" transform="scale(-1)" />
       <rect width="11" height="3.7" x="-4370.6" y="-819.4" rx="0" ry="3.7" fill="#55a" transform="scale(-1)" />
@@ -982,36 +982,36 @@ const DeckSvgInline = () => (
       <rect width="11" height="3.7" x="-4370.6" y="-851.4" rx="0" ry="3.7" fill="#55a" transform="scale(-1)" />
       <path
         d="M4425 756c2-3 4-5 7-6l13-1h11l4 2 1 2-2 3h-15l18 1 5 1c1 0 2 1 1 2l-1 2-4 1h2l4 1 2 2-1 2-4 2-19-1 18 1 2 2 1 2-3 2h-20l15 1 2 2-3 2h-5l-12 2-9-1-6-4-3-3v-13zm29 24v-4m6-1v-4"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4464 769l-1-2 1-3m-2-1l-1-3 1-3m-8-2a-5-5 0 000-5M4399 795h-47m169 57l-4 3 8 9-8 7-4-4 4-3-4-4-8 7 8 8-9 8-4-4 3-4-3-3-8 8 8 8-9 8-4-4 4-4-4-4-8 8 8 8-8 8-4-4 4-3-4-5-9 10 8 7-8 8-3-4 3-3-2-3"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4417 779l-6 5-6 5-5 6-2-6v-8l3-6-5-2c-2-1-5-2-6-4v-3l4-3 4-3 4-1-2-7 1-8 2-5 2 7c1 2 3 4 6 5l6 5v15z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4416 775l-8-1-9-6 8-7 10-1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4416 770l-9-3c3-2 6-3 10-3m-17 31l2-9 3-7 3-5m2-14l-4-5-3-7-1-9" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4425 777l-1 2-3 1-4-3v-16l1-5 2-2 5 2c-1 6-2 13 0 21z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4416 775l-8-1-9-6 8-7 10-1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4416 770l-9-3c3-2 6-3 10-3m-17 31l2-9 3-7 3-5m2-14l-4-5-3-7-1-9" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4425 777l-1 2-3 1-4-3v-16l1-5 2-2 5 2c-1 6-2 13 0 21z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4417 717a-3-3 0 115 0-3-3 0 01-5 0zm-8 5a-3-3 0 115 0-3-3 0 01-5 0zm-8 5a-3-3 0 115 0-3-3 0 01-5 0zm-8 4a-3-3 0 115 0-3-3 0 01-5 0zm-7 6a-3-3 0 115 0-3-3 0 01-5 0zm-8 5a-3-3 0 115 0-3-3 0 01-5 0zm-8 7a-3-3 0 115 0-3-3 0 01-5 0zm-7 6a-3-3 0 115 0-3-3 0 01-5 0zm-7 7a-3-3 0 115 0-3-3 0 01-5 0zm-2-19a-3-3 0 115 0-3-3 0 01-5 0zm7-6a-3-3 0 115 0-3-3 0 01-5 0zm7-6a-3-3 0 115 0-3-3 0 01-5 0zm8-6a-3-3 0 115 0-3-3 0 01-5 0zm8-6a-3-3 0 115 0-3-3 0 01-5 0zm8-5a-3-3 0 115 0-3-3 0 01-5 0zm8-4a-3-3 0 115 0-3-3 0 01-5 0zm8-6a-3-3 0 115 0-3-3 0 01-5 0zm23 199l-3-2c-3-2-8 0-10-3-3-4 4-10 2-15-2-4-9-4-10-8-1-5 6-9 6-14s-7-8-6-13c1-4 8-4 10-8 3-5-2-13 1-18 3-3 9 0 11-3 4-3 1-11 5-13 4-3 10 2 14 0s7-10 7-10l1 4s-3 8-7 10c-4 1-9-4-12-2-5 3-2 11-5 14s-9 1-11 4c-3 4 2 10 0 14s-9 5-10 9c-1 5 6 8 6 13 0 4-7 7-6 11s8 4 9 8c2 4-4 10-1 15 2 2 6 0 9 2l2 2z"
         fill="#ff5" />
       <path d="M4446 879l-7 13-7-9-3-10-2-10v-10l3-13 6-8 7-7 8-6 9-6v16l-7 3-7 6-5 8-2 9v7l2 8 3 7z" />
       <path d="M4441 876l-1 7-7-4 1-7zm-4-16l-5 5-4-6 5-6zm4-16l-7 2 1-8 7-1zm8-21h7l-3 7h-7z" fill="#ff5" />
       <path d="M4459 834l-2 15-4 13-5 12-4-9v-10l3-10 5-5z" />
-      <path d="M4399 749l-9 3-11 4" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4351 690v360h270m-240-480h270v360" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M4399 749l-9 3-11 4" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4351 690v360h270m-240-480h270v360" fill="none" stroke="#55a" strokeWidth="2" />
       <path d="M4484 792h34l-1 18 1 18-34 1 1-19z" />
-      <rect ry="8.5" rx="0" y="794.9" x="4495.5" height="10" width="10" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <rect ry="8.5" rx="0" y="804.9" x="4485.5" height="10" width="10" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <rect ry="8.5" rx="0" y="804.9" x="4505.5" height="10" width="10" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <rect ry="8.5" rx="0" y="814.9" x="4495.5" height="10" width="10" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <rect ry="8.5" rx="0" y="794.9" x="4495.5" height="10" width="10" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <rect ry="8.5" rx="0" y="804.9" x="4485.5" height="10" width="10" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <rect ry="8.5" rx="0" y="804.9" x="4505.5" height="10" width="10" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <rect ry="8.5" rx="0" y="814.9" x="4495.5" height="10" width="10" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4351 639c0-5-3-9-7-9-5 0-8 5-8 10v2c0 3 1 7 3 10l4 10 8 13 8-13 5-10 2-10v-2c0-5-3-10-7-10-5 0-7 4-7 9zm59-36c0-11-6-18-14-18s-15 9-15 20v3c0 7 3 15 5 21 2 7 6 13 9 19l16 27 16-27c3-6 7-12 9-19 2-6 5-14 5-21v-3c0-11-7-20-15-20s-14 7-14 18c0 2-2 2-2 0zm242 378c0 6 2 9 7 9 4 0 7-4 7-10v-1l-2-11-5-9-8-14-8 14-4 9c-2 4-3 7-3 11v1c0 6 3 10 8 10 4 0 7-3 7-9zm-60 36c0 11 6 18 14 18s15-9 15-20v-2c0-8-3-15-5-21-2-7-6-13-9-19l-16-28-16 28c-3 6-7 12-9 19-2 6-5 13-5 21v2c0 11 7 20 15 20s14-7 14-18c0-2 2-2 2 0z"
         fill="#f55" />
@@ -1081,7 +1081,7 @@ const DeckSvgInline = () => (
       <path
         d="M3631 1110v5h5v35a5 5 0 01-10 0v-5h-5v5a10 10 0 1020 0v-40zm300 480v-5h-5v-35a5 5 0 0110 0v5h5v-5a10 10 0 00-20 0v40z"
         fill="#f55" />
-      <path d="M3631 1230v360h270" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M3631 1230v360h270" fill="none" stroke="#55a" strokeWidth="2" />
       <path d="M3893 1245l-13 15-14 21a122 122 0 00-14 62l2 16 2 18 8 20 9 14 6-6-10-18a123 123 0 0112-115c4-6 8-11 13-15z"
         fill="#f55" />
       <path d="M3898 1275l-12 18a106 106 0 00-9 66l7 20 7 15 16-12 1-105-5-1z" fill="#f55" />
@@ -1093,128 +1093,128 @@ const DeckSvgInline = () => (
       <path d="M3720 1248v75l7 4v-81l-4-4z" />
       <path
         d="M3711 1229l16-10 10 11a74 74 0 0036 16 77 77 0 0048-8l6-4 5 4c2 1 4 0 6-1l4-3h3l3-3h2c2 0 2-2 3-2h2l3-3 2 1-7 10c-3 4-8 7-12 10a105 105 0 01-32 15 86 86 0 01-51-1l-19-7-13-10a88 88 0 01-15-15z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3717 1226l5-4 5 6a64 64 0 0015 13l14 7a75 75 0 0031 5 76 76 0 0030-7l14-8 6-1 5-3h3l3-3 2 1 2-2-4 4-11 8-11 7a98 98 0 01-37 10 88 88 0 01-36-5 87 87 0 01-26-17l-7-7z" />
       <path
         d="M3747 1195l-2 8-2 6-2 4-1-4-2-5c-1-1-4-2-6-1l-5 1-2 5v5c0 2 1 3 3 4l2 2 1 3 2 2 3 1v3l2 1h2l1 3 2 1 4-1 1 3h3l2-1 2 2h2l2-1 2 2h2l2-1 2-2-4-3-3-3-3-4-3-5-2-5-2-7-2-7z"
         fill="#ff5" />
-      <path d="M3734 1209l-4 2c0 2 2 4 3 4h6c3-2 4-6 5-8l3-12" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3734 1209l-4 2c0 2 2 4 3 4h6c3-2 4-6 5-8l3-12" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3739 1215l2-6c-1-2-1-4-3-5l-6-1-5 2c-2 1-2 3-2 5v6l4 4 4 1 6-1 4-2 3-4 3-6" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3731 1221v3l4 2 5-1 4-2 4-2 4-5m-16 11v2l2 1h4l4-2 4-3 4-4m-14 10l1 2 3 1 3-1 4-3 3-2 3-2m-10 7c0 2 1 3 2 3l3-1 3-2 5-3m-7 5l2 2h3l2-2 3-2m-4 4l2 1h2l2-1 1-2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3809 1146l18 3 15 4 9 4 2 12 1 15 2 11 1 6 3 1 2-3 4 2c2 1 3 4 4 6l2 7v4l-2 3-3-1-1 3-4 1-2 3-3-1-2 2h-2l-3 3h-3l-2 3-3-1-3 3a11 11 0 01-8 1c-2 0-3-2-4-3l-4-5-3-8-2-16-3-21-3-21z"
         fill="#ff5" />
       <path
         d="M3808 1146l5 27 4 31 4 21c2 4 4 10 9 11 3 2 8 1 11-2 2-2 2-7 1-11 0-5-4-9-7-10-4 0-9 4-9 8 0 5 4 9 7 11 3 0 5-3 5-5 0-3-2-7-4-8-2 0-3 2-3 4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3814 1146l4 28 3 29 6 22M3820 1147l3 25 2 24 4 18m-5-66l3 24 3 24 3 17m-4-63l3 22 2 22 3 16m-3-60l2 22 3 21 3 16m-3-57l3 20 2 20c1 4 1 9 3 13m-2-51l3 19 1 17 3 13m-2-48l3 17 1 17 3 12m-23 12c2-1 2-3 4-3 3 1 5 3 7 6s3 7 3 11c0 2-1 5-3 6h-3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3839 1210l3-1c3-1 6 3 8 5 2 3 3 6 3 11 0 2-1 5-3 5h-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3843 1208c2-1 3-3 5-3 2 1 5 3 6 6 3 3 4 7 4 10s-1 6-3 7h-3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3849 1206c1-2 2-3 4-3s5 3 6 6c3 3 4 7 4 10l-4 6h-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3853 1203l4-2c2 0 6 2 8 5l2 10-2 7h-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3859 1201c0-2 1-2 2-2 4 0 6 3 8 5l2 11-1 5h-4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3713 1110l33 40s9-3 14-3l21-3 33 2c13 2 37 9 37 9l29-45z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3839 1210l3-1c3-1 6 3 8 5 2 3 3 6 3 11 0 2-1 5-3 5h-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3843 1208c2-1 3-3 5-3 2 1 5 3 6 6 3 3 4 7 4 10s-1 6-3 7h-3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3849 1206c1-2 2-3 4-3s5 3 6 6c3 3 4 7 4 10l-4 6h-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3853 1203l4-2c2 0 6 2 8 5l2 10-2 7h-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3859 1201c0-2 1-2 2-2 4 0 6 3 8 5l2 11-1 5h-4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3713 1110l33 40s9-3 14-3l21-3 33 2c13 2 37 9 37 9l29-45z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3730 1112l19 27 21-3-5-24h-6l5 21-13 1-13-22zm45 0l4 24h32l5-24h-7l-3 19h-21l-3-19zm52 0l-8 25 29 7 16-32h-7l-12 24-18-3 7-21z"
-        fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3661 1110h270v360" fill="none" stroke="#55a" stroke-width="2" />
-      <path d="M3758 1174v1l-1 1-1-1v-2zm51-12l-15-3h-9l-5 3h1l6-2h8z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3661 1110h270v360" fill="none" stroke="#55a" strokeWidth="2" />
+      <path d="M3758 1174v1l-1 1-1-1v-2zm51-12l-15-3h-9l-5 3h1l6-2h8z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3783 1171c-1 0-3 0-2-1l6-4 7-1 7 1c3 0 7 3 8 4m2 6c-3 0-7-4-12-5h-8l-5 1-4 2c3 1 3 4 5 4 2 2 6 1 10 1l8-1c1-1 4 0 6-2z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3801 1172v4l-4 2h-4l-4-2v-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3797 1172v2l-2 1-2-1v-2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3801 1172v4l-4 2h-4l-4-2v-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3797 1172v2l-2 1-2-1v-2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3798 1187l-9-4-6-7m-17-12l3 5v9l-4 12c-1 3-3 6-1 8l4 1 4 3m11-12l6 5v3l-3 3-4-1-3-3h-5l3 1 5 2" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3791 1211l-8-1-7 1-7-2-6 1v2l7-1 6 2 7-2 8 2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3785 1217l-6 2h-5l-3-1-3-1m3 7l4-1 4 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3766 1162c-2-2-6-2-9-3l-7 1-4 2 7-1 7 1 4 1z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3791 1211l-8-1-7 1-7-2-6 1v2l7-1 6 2 7-2 8 2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3785 1217l-6 2h-5l-3-1-3-1m3 7l4-1 4 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3766 1162c-2-2-6-2-9-3l-7 1-4 2 7-1 7 1 4 1z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3766 1170l-4-4h-10l-5 2m19 5l-4-1h-9l-5 1-2 2 1 3 4 1 6 1 7-1 2-2 3-2z" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3763 1173v4l-5 2h-4l-2-2-1-4m15 6l-3 5-5 2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3763 1173v4l-5 2h-4l-2-2-1-4m15 6l-3 5-5 2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3745 1151l1 20 1 20 3 20c2 5 4 11 8 15 2 4 6 7 9 9s7 3 11 3l12-2 13-5 10-6 7-4" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3712 1228l-56 25v47l19-18 15-18 10-15z" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3712 1228l-56 25v47l19-18 15-18 10-15z" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3656 1299v20l15-13c6-5 12-9 17-15l13-16 12-19 9-14-11-13-9 16-11 17a213 213 0 01-23 27z" fill="#55a"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3709 1237l-2 3c0 3 5 6 3 9-1 2-5-2-7-1l-2 2c-1 4 5 7 3 10-2 2-6-2-8-1l-3 2c-1 4 5 8 3 11-2 2-6-3-9-2-1 0-2 1-2 3-1 3 5 7 2 10-2 2-6-3-9-2l-3 2c-1 3 4 8 2 10-3 2-5-3-8-3l-3 2c-2 3 3 10-1 11-2 1-3-3-5-3h-3l1 3c2 3 5 5 8 6l3-2c2-3-3-10 1-12 2-2 5 4 8 3l3-2c1-3-4-8-1-11 2-2 6 3 9 2l3-2c1-3-5-8-2-10 2-2 5 2 8 1l2-2c1-4-5-8-2-11 2-2 6 3 8 2l3-3c0-3-6-7-4-10 2-2 6 2 8 1 1 0 2-1 2-3 1-3-5-6-3-8 1-2 4 1 6 1l2-2-1-2c-3-2-7-1-10-2z"
-        font-weight="400" color="#000" fill="#fff" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#fff" overflow="visible" fontFamily="Sans" />
       <path d="M3734 1327v-10l18-27c1-6 11-18 14-20 1 1 3 2 3 4-1 2-3 6-8 11l-8 15-10 14z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3766 1273l-1-10 5-3 3 6z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3766 1273l-1-10 5-3 3 6z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3766 1290l-5 15-11 11-6 7-1 9c0 3-3 7-3 7l-6-6 1-6 9-12 6-9 4-7 13-21 4-3zm-32-39v81m83-72l-73 72m-9-73l4-4m-5 11l11-8m-11 15l18-13m-17 20l23-18m-23 25l25-20m-25 27l24-21m-24 27l20-17m-20 23l12-10m1 24l1 7m3-13l1 8m4-13l1 8m5-14l1 8m2-19l2 15m1-24l5 20m-1-30l5 24m-1-31l5 27m2-27l3 21m2-21l3 16m2-16l3 12m3-14l2 10m2-10l2 6m4-8v4"
-        fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3905 1264c-1-2 2-6 2-9 0-4-3-7-3-11l3-6c1-2 2-4 1-6 0-2-1-4-3-4s-3 2-4 3c-3 4-5 7-6 11l-2 9c0 4 0 6 3 11v7l1 5 5 2h10"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3898 1236l3 2c1 1 2 0 3-1l2-3 1-3m9 20v-4l-1-2-3-1-3 2-1 2v2l3 1h5l6-1c2 0 4-1 5-3 1-1 2-1 2-3l-1-4h-3l-8 2-6 1-6 2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3927 1247l3 3v3l-3 4-5 2-5 1h-8l-1-2 1-3 2-2 3 1 3 1v2l-1 3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3927 1257l2 3v5l-4 3-6 1h-5l-3-2-2-2 1-3 3-1h3l2 2v3l-1 2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3927 1247l3 3v3l-3 4-5 2-5 1h-8l-1-2 1-3 2-2 3 1 3 1v2l-1 3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3927 1257l2 3v5l-4 3-6 1h-5l-3-2-2-2 1-3 3-1h3l2 2v3l-1 2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3926 1268l3 1c1 2 0 3-1 4l-3 3-5 1-5-1-4-2v-2l2-2c1-1 3-2 4-1l2 3v3l-2 1" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3713 1257l1 63-8-20-11-18 9-12z" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3713 1257l1 63-8-20-11-18 9-12z" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3930 1132l-16 15v23l8 2 8-1z" />
-      <path d="M3931 1124l-23 20v26l6 1v-24l17-14z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M3931 1124l-23 20v26l6 1v-24l17-14z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3931 1172a137 137 0 01-34-6l-17-8-11-7 7 16a54 54 0 0034 27c5 2 10 2 16 3h5v-5a72 72 0 01-39-14l-7-7-4-6 9 4a101 101 0 0031 8l10 1z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3896 1175a2 2 0 11-3 0 2 2 0 013 0zm8 3a3 3 0 11-5 0 3 3 0 015 0zm12 4a4 4 0 11-7 0 4 4 0 017 0zm12 2a5 5 0 11-9 0 5 5 0 019 0z"
         fill="#ff5" />
-      <path d="M3908 1194v50l5-2v-46zm0 84l4-2 3 1-1 174 17 10v9l-24-15z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3908 1194v50l5-2v-46zm0 84l4-2 3 1-1 174 17 10v9l-24-15z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3895 1267l-12 15a107 107 0 00-16 57l2 18a136 136 0 009 30l7 13 7-7-10-19-5-19-1-21c0-6 2-12 3-17a98 98 0 0114-33l6-9-3-3z"
         fill="#55a" />
       <path
         d="M3898 1237l-7-4-10 12-7 9a201 201 0 00-19 29 158 158 0 00-9 22l-2 14a142 142 0 000 33c1 6 1 13 3 19a150 150 0 0014 37l5 10 7-7c-3-7-8-13-10-19l-7-21a144 144 0 01-3-44c0-6 1-13 3-19a119 119 0 0116-36l9-13 12-13z"
         fill="#55a" />
-      <path d="M3872 1220l26 17" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3828 1279l54-52 9 7-15 17c-5 7-11 15-15 23-3 3-4 8-6 12l-6 14z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3872 1220l26 17" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3828 1279l54-52 9 7-15 17c-5 7-11 15-15 23-3 3-4 8-6 12l-6 14z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3877 1232l-1 2c-1 3 4 7 1 9-2 2-4-3-7-2l-2 2c-2 3 3 7 1 9s-4-3-7-3h-2l-1 2c0 3 6 8 3 10s-5-3-8-4l-2 1-1 2c0 3 6 9 3 11s-7-4-10-5h-2l-1 2c0 6 7 14 2 17-4 2-4-9-9-10l-3 1 1 3c4 5 9 10 16 12h2l1-3c0-5-9-13-5-16 3-3 6 4 10 5l2-1v-2c1-4-5-9-2-11 2-2 5 3 8 4l2-1 1-2c0-3-5-8-3-10 2-1 4 3 7 4l2-1v-2c1-3-4-7-1-9 2-2 5 3 7 2 2 0 3-1 3-2 1-3-4-7-2-9s6 3 9 3l3-1-2-3-12-4z"
-        font-weight="400" color="#000" fill="#fff" overflow="visible" font-family="Sans" />
-      <path d="M3768 1272l5-5 2 8-6 6zm-11-4l7-4 1 7-6 6z" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3752 1353l62-5 4 8 8 8 8 7 8 5 6 3-4-16a154 154 0 011-50l3-13-20-21z" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fontWeight="400" color="#000" fill="#fff" overflow="visible" fontFamily="Sans" />
+      <path d="M3768 1272l5-5 2 8-6 6zm-11-4l7-4 1 7-6 6z" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3752 1353l62-5 4 8 8 8 8 7 8 5 6 3-4-16a154 154 0 011-50l3-13-20-21z" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3822 1286l-4 4h8l-1 2h-8l-4 4h8l-3 2-6-1-5 4 7 1-1 1h-7l-4 4h7l-2 1h-6l-4 4h6l-2 2h-6l-4 4h9l1 14 4-4-1-11 2-2 1 11 4-4-1-11 2-2 1 12 4-5-1-10 2-2v11l4-4-1-10 2-2v10l4-4-1-9 3-3v11l4-4v-14h-2zm14 16l-4 4h8l-1 1h-9l-4 4h8l-2 3-7-1-4 4h7l-1 1-7 1-4 4h7l-2 1h-6l-5 4h7l-2 2-6-1-4 4 9 1 1 13 4-4-1-11 2-2 1 12 4-5-1-11 2-1 1 11 4-4-1-11 2-1v10l4-4-1-10 2-1v10l4-4-1-10 3-2v11l2-8 2-8v-2h-2zm4 25l-5 4h6v2h-7l-4 4h7l-1 1h-7l-4 4h6l-2 2-5-1-5 4 9 1 1 13 4-4-1-11 3-2v12l4-5-1-11 2-1 1 11 1-2v-21zm86-184l-2 1c-3 3-6 6-7 9v2c1 4 3 8 6 10h3v-3c0-3-5-4-5-8 0-3 5-4 6-7l1-2zm-7 56l-2 3c1 5 8 8 7 12 0 4-5 5-7 9v2c1 4 4 7 7 9l3 1v-3c-1-3-6-5-6-8 0-4 6-5 7-8l1-3-8-13zm4 79l-2 1v2c1 3 4 4 4 6 0 5-5 8-7 13v2c1 4 6 8 6 12 0 5-6 7-7 11v2c1 6 8 10 8 15 0 6-6 9-7 14v2c1 5 7 9 7 15-1 4-6 7-7 12v2c1 5 7 8 7 13-1 5-6 8-7 13v2c1 5 7 8 7 13-1 4-6 6-7 10v2c0 4 1 7 3 10l3 1 1-3c0-3-4-5-3-8 0-5 5-7 7-11v-2c-1-5-7-8-7-13s5-8 7-13v-2c-2-5-7-8-7-13s5-8 7-12v-2c-1-6-7-10-7-15s5-9 7-14v-1c-2-6-8-10-8-15s6-7 7-12v-1c-1-5-6-8-6-13s6-8 7-13v-2l-4-7z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
-      <path d="M3714 1321l9 3 11 9 8 9 8 11" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
+      <path d="M3714 1321l9 3 11 9 8 9 8 11" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3669 1455l13-14 14-21a122 122 0 0014-62l-2-16-2-19-8-19-9-14-6 5 10 19a123 123 0 01-12 115c-4 6-8 11-13 15z"
         fill="#f55" />
       <path d="M3664 1426l12-18a106 106 0 009-66l-7-20-7-15-16 11-1 106h5z" fill="#f55" />
@@ -1226,127 +1226,127 @@ const DeckSvgInline = () => (
       <path d="M3842 1453v-75l-7-4v81l4 4z" />
       <path
         d="M3851 1472l-16 10-10-12a74 74 0 00-36-16 77 77 0 00-48 9l-6 4c-2-1-3-4-5-4-2-1-4 0-6 1l-4 3h-3l-3 3h-2c-2 0-2 1-3 2h-2l-3 3-2-1 7-10c3-4 8-7 12-10a105 105 0 0132-15 86 86 0 0151 0l19 7 13 10a88 88 0 0115 16z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3845 1475l-5 3-5-5a64 64 0 00-15-13l-14-7a75 75 0 00-31-5 76 76 0 00-30 7l-14 8-6 1-5 3h-3c-2 0-3 3-3 3l-2-1-2 2 4-4 11-8 11-7a98 98 0 0137-11 88 88 0 0136 6 87 87 0 0126 17l7 7z" />
       <path
         d="M3815 1506l2-8 2-6 2-4 1 4 2 5 6 1 5-1 2-5v-6l-3-3-2-2-1-4-2-2h-3v-3l-2-2h-2l-1-2-2-1h-4l-1-2h-3l-2 1-2-3-2 1-2 1-2-2h-2l-2 1-2 2 4 2 3 4 3 3 3 5 2 5 2 8 2 7z"
         fill="#ff5" />
-      <path d="M3828 1492c2 0 3-1 4-3l-3-4c-2-1-4 0-6 1-3 2-4 5-5 8l-3 12" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3828 1492c2 0 3-1 4-3l-3-4c-2-1-4 0-6 1-3 2-4 5-5 8l-3 12" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3823 1486l-2 6c1 2 1 4 3 5l6 1 5-2c2-2 2-4 2-5v-6l-4-4-4-1h-6l-4 3-3 4-3 6" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3831 1480v-3l-4-2-5 1-4 1-4 3-4 5m16-11v-2l-2-2-4 1-4 2-4 3-4 3m14-9l-1-2-3-1-3 1-4 2-3 3-3 2m10-8l-2-2h-3l-3 2-5 4m7-6l-2-1h-3l-2 2-3 2m4-4l-2-1-2-1-2 2-1 2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3753 1555l-18-3-15-4-9-4-2-13-1-14-2-11-1-6-3-1-2 2c-1 1-3 0-4-1l-4-6-2-7v-5l2-2h3l1-2 4-1 2-3h3l2-2 2 1 3-4 3 1 2-3h3l3-2a11 11 0 018-1c2 0 3 1 4 3l4 5 3 8 2 16 3 21 3 20z"
         fill="#ff5" />
       <path
         d="M3753 1554l-5-27-4-31-4-21c-2-4-4-10-9-11-3-2-8-1-11 2-2 2-2 7-1 11 0 5 4 9 7 10 4 0 9-4 9-8 0-5-4-9-7-11-3 0-5 3-5 5 0 3 2 7 4 8 2 0 3-2 3-4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3747 1554l-4-28-3-29-6-22M3741 1553l-3-25-2-24-4-18m5 66l-3-24-3-24-3-17m4 63l-3-22-2-22-3-16m3 60l-2-22-3-21-3-16m3 57l-3-20-2-20c-1-4-1-9-3-13m2 51l-3-19-1-17-3-13m2 48l-3-17-1-17-3-12m23-12c-2 1-2 3-4 3-3-1-5-3-7-6s-3-7-3-11c0-2 1-5 3-6h3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3722 1490l-3 1c-3 1-6-3-8-5-2-3-3-6-3-11 0-2 1-5 3-5h2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3718 1492c-2 1-3 3-5 3-2-1-5-3-6-6-3-3-4-7-4-10s1-6 3-7h3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3712 1494c-1 2-2 3-4 3s-5-3-6-6c-3-3-4-7-4-10l4-6h2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3708 1497l-4 2c-2 0-6-2-8-5l-2-10 2-7h3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3702 1499c0 2-1 2-2 2-4 0-6-3-8-5l-2-11 1-5h4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3722 1490l-3 1c-3 1-6-3-8-5-2-3-3-6-3-11 0-2 1-5 3-5h2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3718 1492c-2 1-3 3-5 3-2-1-5-3-6-6-3-3-4-7-4-10s1-6 3-7h3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3712 1494c-1 2-2 3-4 3s-5-3-6-6c-3-3-4-7-4-10l4-6h2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3708 1497l-4 2c-2 0-6-2-8-5l-2-10 2-7h3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3702 1499c0 2-1 2-2 2-4 0-6-3-8-5l-2-11 1-5h4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3849 1590l-33-40-14 4-21 2c-11 1-22 0-33-2-13-2-37-9-37-9l-29 45z" fill="#f55" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3832 1589l-19-27c-7 2-11 2-21 2l5 25h6l-5-21 13-1 13 22zm-45 0l-4-24h-32l-5 24h7l3-19h21l3 19zm-52 0l8-25-29-7-16 32h7l12-25 18 4-7 21z"
-        fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3901 1590h-270v-360 0" fill="none" stroke="#55a" stroke-width="2" />
-      <path d="M3803 1525v-1l1-1 1 1v2zm-51 12l15 3h9l5-3h-1l-6 2h-8z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3901 1590h-270v-360 0" fill="none" stroke="#55a" strokeWidth="2" />
+      <path d="M3803 1525v-1l1-1 1 1v2zm-51 12l15 3h9l5-3h-1l-6 2h-8z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3778 1528c1 0 3 0 2 1l-6 4-7 1-7-1c-3 0-7-3-8-4m-2-6c3 0 7 4 12 5h8l5-1 4-2c-3-1-3-4-5-4-2-2-6-1-10-1l-8 1c-1 1-4 0-6 2z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3760 1527v-4l4-2h4l4 2v4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3764 1527v-2l2-1 2 1v2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3760 1527v-4l4-2h4l4 2v4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3764 1527v-2l2-1 2 1v2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3763 1512l9 4 6 7m17 12l-3-5v-9l4-12c1-3 3-6 1-8l-4-1-4-3m-11 12l-6-5v-3l3-3 4 1 3 3h5l-3-1-5-2" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3770 1488l8 1 7-1 7 2 6-1v-2l-7 1-6-2-7 2-8-2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3776 1482l6-2h5l3 1 3 1m-3-7l-4 1-4-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3795 1537c2 2 6 2 9 3l7-1 4-2-7 1-7-1-4-1z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3770 1488l8 1 7-1 7 2 6-1v-2l-7 1-6-2-7 2-8-2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3776 1482l6-2h5l3 1 3 1m-3-7l-4 1-4-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3795 1537c2 2 6 2 9 3l7-1 4-2-7 1-7-1-4-1z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3795 1529l4 4h10l5-2m-19-5l4 1h9l5-1 2-2-1-3-4-1-6-1-7 1-2 2-3 2z" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3798 1526v-4l5-2h4l2 2 1 4m-15-6l3-5 5-2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3798 1526v-4l5-2h4l2 2 1 4m-15-6l3-5 5-2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3817 1550l-1-21-1-19c-1-7-1-14-3-20-2-5-4-11-8-16l-9-8c-3-2-7-3-11-3-4-1-8 0-12 1l-13 6-10 5-7 5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3850 1472c19-9 38-18 56-24v-47l-19 18-15 18-10 15z" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3850 1472c19-9 38-18 56-24v-47l-19 18-15 18-10 15z" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3907 1402l-1-20-15 13-17 14-12 17-13 18-9 15 11 13 9-16 11-17a213 213 0 0123-27z" fill="#55a" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3853 1464l2-3c0-3-5-7-3-9 1-2 5 2 7 1 1 0 2-1 2-3 1-3-5-7-3-9s6 2 8 1l3-2c1-4-5-8-3-11 2-2 6 2 9 2l2-3c1-3-5-8-2-10 2-2 6 3 9 2l3-2c1-4-4-9-2-11 3-1 5 4 8 3l3-1c2-4-3-10 1-12 2-1 3 4 5 4l3-1-1-2c-2-3-5-6-8-6l-3 2c-2 3 3 10-1 12-2 1-5-4-8-4l-3 2c-1 4 4 9 1 11-2 3-6-3-9-2l-3 3c-1 3 5 8 2 10-2 2-5-2-8-1l-2 2c-1 4 5 8 2 11-2 2-6-3-8-2l-3 3c0 3 6 7 4 10-2 2-6-2-8-1l-2 2c-1 3 5 7 3 9-1 1-4-2-6-1l-2 1 1 3c3 2 7 1 10 2 0 0 0-1 0 0z"
-        font-weight="400" color="#000" fill="#fff" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#fff" overflow="visible" fontFamily="Sans" />
       <path d="M3828 1374v10l-18 27c-1 6-11 17-14 19-1 0-3-1-3-3l8-12 8-15 10-14z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3796 1428l1 10-5 3-3-6z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3796 1428l1 10-5 3-3-6z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3796 1411l5-15 11-11 6-8 1-8c0-3 3-7 3-7l6 5-1 7-9 11-6 10-4 7-13 21-4 3zm32 38v-80m-83 72l73-72m9 73l-4 3m5-11l-11 9m11-15l-18 12m17-19l-23 18m23-25l-25 19m25-27l-24 21m24-27l-20 17m20-23l-12 10m-1-23l-1-7m-3 13l-1-9m-4 14l-1-9m-5 15l-1-8m-2 18l-2-14m-1 24l-5-20m1 30l-5-25m1 31l-5-26m-2 26l-3-21m-2 22l-3-17m-2 17l-3-13m-3 14l-2-9m-2 10l-2-6m-4 7v-4"
-        fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3657 1437c1 2-2 6-2 9 0 4 3 7 3 11l-3 6c-1 2-2 4-1 5 0 2 1 5 3 5s3-2 4-4c3-3 5-6 6-10l2-9c0-4 0-6-3-11v-7l-1-5-5-3c-3 0-7-1-10 1"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3664 1465l-3-3-3 1-2 3-1 4m-9-20v3l1 3h3l3-1 1-2v-2l-3-1h-11l-5 3-2 3 1 5h3l8-2 6-1 6-3" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3635 1453l-3-2v-4l3-3 5-3h5l5-1 3 1 1 2-1 2-2 3-3-1-3-1v-3l1-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3635 1453l-3-2v-4l3-3 5-3h5l5-1 3 1 1 2-1 2-2 3-3-1-3-1v-3l1-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3635 1444l-2-4v-4l4-3 6-1h5c2 0 3 1 3 2l2 2-1 2-3 2-3-1-2-2v-2l1-3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3636 1433l-3-2c-1-1 0-2 1-3l3-4h5l5 1 4 1v2c0 2-1 3-2 3l-4 1-2-3v-3l2-2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3849 1444l-1-64 8 21 11 17-9 13z" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3849 1444l-1-64 8 21 11 17-9 13z" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3632 1569l16-15v-23l-8-2h-8z" />
-      <path d="M3631 1577l23-20v-26l-6-1v24l-17 14z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M3631 1577l23-20v-26l-6-1v24l-17 14z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3631 1529a137 137 0 0134 6l17 8 11 6-7-16c-4-6-8-12-14-16-6-5-13-8-20-10-5-2-10-2-16-3l-5-1v6a72 72 0 0139 14l7 7 4 6-9-5a101 101 0 00-31-7l-10-1z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3666 1526a2 2 0 113 0 2 2 0 01-3 0zm-8-4a3 3 0 115 0 3 3 0 01-5 0zm-12-3a4 4 0 117 0 4 4 0 01-7 0zm-12-2a5 5 0 119 0 5 5 0 01-9 0z"
         fill="#ff5" />
-      <path d="M3654 1507v-50l-5 2v46zm0-84l-4 2-3-1 1-174-17-11v-9l24 15z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3654 1507v-50l-5 2v46zm0-84l-4 2-3-1 1-174-17-11v-9l24 15z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3667 1434l12-15a107 107 0 0016-57l-2-18a136 136 0 00-9-31l-7-12-7 7 10 19 5 19 1 21c0 6-2 11-3 17l-6 18-8 15-6 9 3 3z"
         fill="#55a" />
       <path
         d="M3664 1464l7 4 10-13 7-8a201 201 0 0019-29 158 158 0 009-23l2-14a142 142 0 000-32c-1-6-1-13-3-19a150 150 0 00-14-37l-5-10-7 7c3 6 8 12 10 19l7 21a144 144 0 013 43c0 7-1 13-3 20a119 119 0 01-16 36l-9 13-12 12z"
         fill="#55a" />
-      <path d="M3690 1480l-26-16" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3734 1422l-54 52-9-8 15-16c5-7 11-15 15-23l6-12 6-14z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3690 1480l-26-16" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3734 1422l-54 52-9-8 15-16c5-7 11-15 15-23l6-12 6-14z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3685 1469l2-3c0-3-5-7-2-9 2-1 4 3 7 3l2-2c2-3-3-8-1-9 2-2 4 3 7 3h2l1-2c0-4-6-8-3-11 3-1 5 4 8 4h2l1-2c0-4-6-9-3-11s7 4 10 5l2-1 1-2c0-5-7-14-2-16 4-2 4 8 9 10l3-1-1-3c-4-5-9-10-16-12h-2l-1 2c0 6 9 13 5 17-3 2-6-4-10-5h-2v2c-1 4 5 9 2 12-2 2-5-3-8-4h-2l-1 2c0 4 5 8 3 10s-4-2-7-3h-2v2c-1 4 4 8 1 10-2 2-5-3-7-3s-3 1-3 3c-1 3 4 7 2 9s-6-3-9-3l-3 1 2 2c3 3 8 4 12 5z"
-        font-weight="400" color="#000" fill="#fff" overflow="visible" font-family="Sans" />
-      <path d="M3794 1428l-5 6-2-8 6-6zm11 4l-7 5-1-7 6-6z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fontWeight="400" color="#000" fill="#fff" overflow="visible" fontFamily="Sans" />
+      <path d="M3794 1428l-5 6-2-8 6-6zm11 4l-7 5-1-7 6-6z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3811 1347l-62 6-5-8-8-9-8-6-8-5-6-3a242 242 0 005 31 142 142 0 01-2 34c0 5-3 13-3 13l20 22z" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3740 1414l4-4h-8l1-1h8l4-4h-8l3-2h6l5-3-7-1 1-1h7l4-4h-7l2-1h6l4-4h-6l2-2h6l4-4h-9l-1-14-4 4 1 11-2 2-1-11-4 4 1 11-2 2-1-12-4 4 1 11-2 2v-11l-4 4 1 10-2 1v-10l-4 5 1 9-3 2v-10l-4 4v13h2zm-14-15l4-4h-8l1-2h9l4-4h-8l2-2 7 1 4-4h-7l1-2h7l4-4h-7l2-1h6l5-4h-7l2-2 6 1 4-4-9-1-1-13-4 4 1 11-2 2-1-12-4 4 1 11-2 2-1-11-4 4 1 11-2 1v-11l-4 4 1 11-2 1v-10l-4 4 1 9-3 3v-11l-2 8-2 8v2h2zm-4-25l5-4h-6v-2h7l4-4h-7l1-1h7l4-4h-6l2-2 5 1 5-4-9-1-1-13-4 4 1 11-3 2v-12l-4 4 1 11-2 2-1-11-1 2v21zm-86 183h2c3-3 6-6 7-9v-3c-1-3-3-7-6-9l-3-1v3c0 3 5 5 5 8 0 4-5 5-6 8l-1 2zm7-55l2-3c-1-5-8-8-7-12 0-4 5-5 7-9v-2c-1-4-4-8-7-10h-3v3c1 3 6 4 6 8 0 3-6 5-7 8l-1 2 8 14zm-4-80l2-1v-2c-1-2-4-3-4-6 0-5 5-8 7-12v-2c-1-5-6-8-6-13 0-4 6-6 7-11v-2c-1-5-8-9-8-15 0-5 6-8 7-13v-2c-1-5-7-9-7-15 1-5 6-8 7-12v-2c-1-5-7-8-7-14 1-4 6-7 7-12v-2c-1-5-7-8-7-13 1-4 6-7 7-11v-1c0-4-1-7-3-10-1-1-2-2-3-1l-1 3c0 3 4 5 3 8 0 4-5 7-7 11v2c1 5 7 8 7 13s-5 8-7 12v2c2 5 7 9 7 14s-5 8-7 12v2c1 5 7 9 7 15 0 5-5 8-7 13v2c2 6 8 10 8 15s-6 7-7 11v2c1 5 6 8 6 13s-6 8-7 12v2c1 3 2 6 4 7z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
-      <path d="M3849 1380l-10-4-11-8-8-9-8-11" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
+      <path d="M3849 1380l-10-4-11-8-8-9-8-11" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3781 1335l6 9 9 6-9 7-6 8-6-8-9-6 9-7 6-9" fill="#ff5" />
       <path
         d="M3781 1340l4 6 6 4-6 5-4 5-4-5-6-5 6-4 4-6m-90-215s6 15 13 25 17 20 17 20-10 10-17 20-13 25-13 25-6-15-13-25-17-20-17-20 10-10 17-20 13-25 13-25m-60 45s3 8 7 13l8 10-8 10-7 12-6-12-9-10 9-10 6-13m240 405s-6-15-13-25-17-20-17-20 10-10 17-20 13-25 13-25 6 15 13 25 17 20 17 20-10 10-17 20-13 25-13 25m60-45l-6-12-9-10 9-10 6-13s3 8 7 13l8 10-8 10-7 12"
@@ -1357,17 +1357,17 @@ const DeckSvgInline = () => (
       <path
         d="M3991 1110c-6 0-10 5-10 10v30a10 10 0 0011 10c2 3 5 5 9 5v-5c-2 0-3 0-4-2 2-1 4-4 4-8v-30c0-5-4-10-10-10zm0 5c3 0 5 3 5 5v32c-2-4-6-7-10-7v-25c0-2 2-5 5-5zm-5 35c3 0 5 3 5 5-3 0-5-2-5-5zm305 440c6 0 10-4 10-10v-30a10 10 0 00-11-10c-2-3-5-5-9-5v5l4 2c-2 2-4 5-4 8v30c0 6 4 10 10 10zm0-5c-3 0-5-2-5-5v-32c2 4 6 7 10 7v25c0 3-2 5-5 5zm5-35c-3 0-5-2-5-5 3 0 5 3 5 5z"
         fill="#f55" />
-      <path d="M4021 1110h270v360m-300-240v360h270" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M4021 1110h270v360m-300-240v360h270" fill="none" stroke="#55a" strokeWidth="2" />
       <path
         d="M4106 1278l2-8 13 5 16 3a105 105 0 0029 2 288 288 0 0041-4l-13 12h-24l-12 32 19 1-4 21-22-1-20-3-13-2-10-2-4-10-9-16 18 5 10-29z" />
       <path
         d="M4082 1258l13 8 13 5-12 38-10-14-11-11-11-8zm2 67s5 13 6 20a76 76 0 01-7 41c-3 6-5 11-9 16l-12 9-17 10-3-3 3-21a145 145 0 0115-41l11-18z"
         fill="#55a" />
       <path d="M4078 1332l5 19c0 7-1 15-3 22s-5 14-9 20l-11 12-16 10s1-15 3-22l3-16 9-19 9-15z" fill="#f55" />
-      <path d="M4009 1306l-6 13 3 5 3-1 2-4 5-11" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4004 1319l4-1h3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4009 1306l-6 13 3 5 3-1 2-4 5-11" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4004 1319l4-1h3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4127 1146s-14 14-19 22a126 126 0 00-19 54l-1 16-1 15 45-42s-3-9-3-14l-1-14v-19z" />
       <path
         d="M4261 1255a369 369 0 01-36 16l-16 4-14 3-16 1-12 1h-15l-14-1a154 154 0 01-28-8l-14-5-15-8 45-42 5 1 7 2 7 5 10 2c6 0 13-2 18-4l7-1 9-1 10-2c3 0 5-2 8-3l9-4c4 7 9 16 17 24 4 4 9 10 14 13z"
@@ -1375,70 +1375,70 @@ const DeckSvgInline = () => (
       <path d="M4128 1184l-8 15-5 11a52 52 0 00-2 18l19-17-3-13z" fill="#f55" />
       <path d="M4185 1110l66 85 7-2-59-83z" />
       <path d="M4268 1110c-2 10-2 20-2 30a94 94 0 0015 50 76 76 0 00-23 2l-59-82h69" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4235 1136l1 3 3 2h6l1-5c0-2-4-4-4-4s5-2 5-4c1-2 0-4-1-6-1-1-4-2-6-1s-3 6-3 6l-2-5c-1-2-3-3-5-3l-3 2v7c1 2 6 4 6 4s-1-3 1-5c2-1 5 1 6 2 1 2 1 5-1 6-3 1-5-2-5-2zm19 27l2 3 2 2h5c1-1 2-3 1-5 0-2-3-4-3-4l4-3-1-6-5-1c-2 1-3 6-3 6l-2-5-3-2-4 2c-1 2 0 5 1 6 1 2 5 3 5 3s-1-2 1-4c1-1 4 1 5 2 1 2 1 5-1 5-3 1-4-1-4-1z"
-        stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4208 1112s1 11 6 17c5 5 10 5 15 5 0 0-2 13 2 19 5 5 20 10 20 10s-4 10 1 17c3 4 12 9 12 9" fill="none"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M4213 1111l-1 1s-2 9 4 14l4 3 5 3 6 2v5c0 3 1 8 3 11a30 30 0 0017 12l1 5 3 10 8 8 6 4h2l-4-4-3-7c-3-2-5-2-6-4-2-2-2-4-3-7l-1-6-1-2s-6-1-8-3c-3-2-6-3-5-8-2-3-6-6-6-9l-1-6-1-1-6-3c-2-1-4-1-5-3-2-1-2-6-2-6-5-5-4-7-4-7z"
-        font-weight="400" color="#000" overflow="visible" font-family="Sans" />
-      <path d="M4172 1110h13l106 139v32z" fill="#f55" stroke="#55a" stroke-width="2" />
-      <path d="M4148 1110s2 12 15 23c13 10 34 15 34 15" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4153 1110s5 12 13 18c7 6 27 13 27 13" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4159 1110s5 10 10 15 20 11 20 11" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fontWeight="400" color="#000" overflow="visible" fontFamily="Sans" />
+      <path d="M4172 1110h13l106 139v32z" fill="#f55" stroke="#55a" strokeWidth="2" />
+      <path d="M4148 1110s2 12 15 23c13 10 34 15 34 15" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4153 1110s5 12 13 18c7 6 27 13 27 13" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4159 1110s5 10 10 15 20 11 20 11" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4164 1110s3 7 7 11l13 7m-34-10l-6 13c-6 9-16 12-16 12m18-33s0 7-5 15c-5 7-13 11-13 11m13-26s-2 8-5 12c-2 5-8 8-8 8m7-20s0 5-2 8l-4 4m18 42l1 4-2 10-4 6 2 6 4 2 2 3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4160 1183l3 6-4 2c-1 1-3-1-5-2-1 0-3-2-4-1l-2 1h4c3 1 7 3 10 1v-3zm33-23l-14-8h-13l-5 3 7-2 12 1c5 1 13 6 13 6zm-64-5l9-3c4 0 9 5 9 5s-6-4-9-4l-9 3zm36 48l-7-2-6 1h-6l-3 2 3-1 6 2 7-2z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4159 1208l-6 2-6-1m0-46s-5-4-10-4-8 3-8 3m61 3s-10-7-16-7c-7 0-13 6-13 6" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4191 1167l-16-4-14 1m-33 3l10-4 10 2m39 2c-5 2-10 6-16 6-5 0-9-3-10-7" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4176 1165c1 5-4 6-7 6s-5-3-4-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4168 1168l2-3 2 2-2 2zm-28 0l-2-2-2 2 2 1z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4176 1165c1 5-4 6-7 6s-5-3-4-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4168 1168l2-3 2 2-2 2zm-28 0l-2-2-2 2 2 1z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4146 1172c-2 2-2 4-7 7m22-15c2 7 3 12 9 14m-41-8c2 2 6 3 11 3 3-1 7-3 7-6" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4134 1164c-1 5 1 8 5 8 2 0 5-4 3-8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4134 1164c-1 5 1 8 5 8 2 0 5-4 3-8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4130 1110l-2 33c-1 9 0 18 1 26v25c1 6 1 12 4 17 2 4 5 9 10 11 3 3 8 4 12 4l13-2c6-2 11-5 16-9l14-11 8-11m-79 24l12 3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4172 1222l24-4 20-7m-12-14l6 16m-10-12l5 13m-8-8l3 10m-7-6l3 7m-7-4l3 6m-7-3l2 3m19-59l-3 6-2 8m9-8l-4 8-2 11m10-13l-4 8-2 13m10-16c-2 3-4 7-4 10-2 6-1 12-1 18m9-23l-4 8c-2 7 0 15 0 23m8-25l-4 11c-1 8 1 15 2 23m6-27l-2 13c-1 8 1 14 2 23m5-30l-1 14 4 25m2-30v14c1 8 4 15 7 23m0-28v12c2 7 4 14 8 21m-2-24l2 11c1 6 5 11 7 16M4051 1288l-7-7-8-7-8-5-5 1-3 2 3 7 6 4 4 1c1 2-1 2-1 7v3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4024 1274l2 2 2 1 2-1m-10-5s-4-2-6-1-3 3-3 5c0 3 3 5 5 8l3 4 4 2c2 0 3-2 3-3v-3c-1-2-3-2-5-1l-2 1-1 3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4010 1277l-3 1-2 4 3 6 6 5 5 2h4v-4l-2-1h-4l-1 3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4010 1277l-3 1-2 4 3 6 6 5 5 2h4v-4l-2-1h-4l-1 3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4006 1286l-4 4 2 4 8 5 5 2 3-1-1-2-3-3-2 2v3m-10-4l-1 3c0 2 1 3 3 5l6 3h4c2-1 2-3 1-4l-4-2-2 2-1 3m6 3l1 2 2 1 4 1"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4025 1271l-9 1-6-1-5-4-4-7 7 1h7a23 23 0 019 3l3 3 1 3z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4010 1265l4 2 8 1 5 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4025 1271l-9 1-6-1-5-4-4-7 7 1h7a23 23 0 019 3l3 3 1 3z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4010 1265l4 2 8 1 5 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4028 1269v-11l3-3 3 3v14zM4034 1271l4-6 6-4 7-1 7-3-2 7-5 5-9 3h-5z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4035 1271l6-3 7-2 3-2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4041 1240l6-4 6 3-6 5zm-13-8l-5-6 4-6 5 6zm-16 9l-6 4 7 3 4-4z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4035 1271l6-3 7-2 3-2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4041 1240l6-4 6 3-6 5zm-13-8l-5-6 4-6 5 6zm-16 9l-6 4 7 3 4-4z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4015 1246l-3 7c0 2 2 4 3 5 2 2 4 3 7 3h4l5-5 5 3c3 1 6 1 8-1l4-4v-7l-2-4-6-3 6-5 1-5-2-4c-1-2-3-3-5-3-3-1-5 0-7 2-2 0-2 2-3 3l-2 5-5-5c-2-1-5-3-8-2l-4 2-1 7 2 5c1 2 5 3 5 3z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4027 1237c-3 0-6 4-5 7 0 3 4 6 7 5 3 0 6-4 6-7-1-3-5-6-8-5z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4019 1235l4 3m14-5l-4 5m1 8l5 4m-14-2l-4 6" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4027 1237c-3 0-6 4-5 7 0 3 4 6 7 5 3 0 6-4 6-7-1-3-5-6-8-5z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4019 1235l4 3m14-5l-4 5m1 8l5 4m-14-2l-4 6" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4144 1247l-3 13 13 2 1-13zm5 4l3 3-3 3-3-3z" />
       <path d="M4135 1233l-4 13 13 2 2-13zm4 4l3 3-3 3-4-3z" />
       <path d="M4120 1241l-5 12 13 5 4-13zm5 5l2 4-4 2-2-4z" />
@@ -1450,46 +1450,46 @@ const DeckSvgInline = () => (
         d="M4216 1241l3 11 13-4-5-12zm6 0l4 1-2 4-4-1zm-21-8l3 11 12-4-4-11zm7 1l4 1-3 4-4-2zm-16 13l1 12 15-3-4-12zm6 2l4 2-2 3-4-1zm-94-1l5-12h-2l-11 9zm118-23l5 11 5-2-8-10z" />
       <path
         d="M4117 1227a110 110 0 0061 10 141 141 0 0045-13m28 28l-15 7a132 132 0 01-26 9 148 148 0 01-29 4l-14 1a148 148 0 01-68-14l-11-5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
-                d="M4219 1216l-20 8a124 124 0 01-64 1l-12-5-2 3 14 5 22 4 21-1 22-4c7-2 20-9 20-9z" font-weight="400" color="#000"
-        overflow="visible" font-family="Sans" />
-      <path d="M4200 1150v22a162 162 0 0030 59c5 6 11 13 18 17l14 7 14 5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+                d="M4219 1216l-20 8a124 124 0 01-64 1l-12-5-2 3 14 5 22 4 21-1 22-4c7-2 20-9 20-9z" fontWeight="400" color="#000"
+        overflow="visible" fontFamily="Sans" />
+      <path d="M4200 1150v22a162 162 0 0030 59c5 6 11 13 18 17l14 7 14 5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4064 1276l20 16 14 20s-15 12-21 19a152 152 0 00-29 54c-2 6-3 13-3 19l-2 14-52-50v-25" fill="#ffff58"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3998 1346l68-62 13 12 9 13-17 18a186 186 0 00-26 46l-5 17-1 16-40-41z" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3998 1346l68-62 13 12 9 13-17 18a186 186 0 00-26 46l-5 17-1 16-40-41z" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4052 1302l1-4 5 2 3 4 2-4 4-4 1 5v6l5-2h5l-3 5-4 4 3 2 2 3-4 2h-4l1 4-1 5-3-2-3-4-2 6-5 5v-13l-4 2-6 1 2-6 5-5-4-1-5-3s3-3 5-3l6 1z"
         fill="#ffff58" />
       <path
-                d="M4060 1307l-4 2-2 5c0 2 1 3 3 5l4 2 5-2 2-5c0-2-1-4-3-5zm0 2l4 2 2 3-1 3-4 2-3-2-2-3 1-3z" font-weight="400"
-        color="#000" overflow="visible" font-family="Sans" />
+                d="M4060 1307l-4 2-2 5c0 2 1 3 3 5l4 2 5-2 2-5c0-2-1-4-3-5zm0 2l4 2 2 3-1 3-4 2-3-2-2-3 1-3z" fontWeight="400"
+        color="#000" overflow="visible" fontFamily="Sans" />
       <path
         d="M4018 1349v-9s6-1 8-3 2-8 2-8h12zm15-6c-1 1-1 4 1 5h5v-5c-1-1-5-2-6 0zm19-3l-17 21 9-2s0-5 2-7c1-2 6-3 6-3zm-49 26c3 1 6 1 9 5 1-7 4-11 8-15 2 6 3 11 0 16 6-5 11-3 16-2-3 5-6 9-11 11 3 3 5 8 6 13l-6-3-20-20z"
         fill="#ffff58" />
       <path
-                d="M4016 1373c-1-1-2 0-4 1l-3 2 2 2 2-3h3c2 0 3 2 3 3v8l2 1v-9c-1-2-2-4-5-5z" font-weight="400" color="#000"
-        overflow="visible" font-family="Sans" />
-      <path d="M4098 1313s8 15 10 23a98 98 0 01-2 46 92 92 0 01-29 43" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4095 1316s6 12 7 19a91 91 0 01-26 85l-10 7" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+                d="M4016 1373c-1-1-2 0-4 1l-3 2 2 2 2-3h3c2 0 3 2 3 3v8l2 1v-9c-1-2-2-4-5-5z" fontWeight="400" color="#000"
+        overflow="visible" fontFamily="Sans" />
+      <path d="M4098 1313s8 15 10 23a98 98 0 01-2 46 92 92 0 01-29 43" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4095 1316s6 12 7 19a91 91 0 01-26 85l-10 7" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4091 1319l6 18a81 81 0 01-2 43c-2 7-5 14-9 20-4 7-10 12-16 18l-16 11" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4087 1322l5 13a82 82 0 01-8 58c-4 7-9 12-14 17-6 6-21 15-21 15" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4132 1211l-15 15-30 27-35 33-30 29-31 29" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4087 1322l5 13a82 82 0 01-8 58c-4 7-9 12-14 17-6 6-21 15-21 15" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4132 1211l-15 15-30 27-35 33-30 29-31 29" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4103 1287l17 4-7 22-17-5z" fill="#f55" />
       <path d="M4142 1280l-7 2 4 4-5 2 3 4-6 3 3 4-6 2 4 4-6 2 2 5-4 3 21 4-2-5 4-2-2-6 6-2-3-6 6-1-4-5 6-2-3-4 6-2-5-3z"
         fill="#ff5" />
-      <path d="M4143 1280l-7 18-7 19m24-36a257 257 0 00-14 37" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4143 1280l-7 18-7 19m24-36a257 257 0 00-14 37" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M4147 1281l-1 2 2 1 1-2zm-3 7l-1 1c0 1 1 2 2 1l1-1zm-3 6l-1 2 2 1 1-2zm-2 7l-1 2 2 1 1-2zm-2 6c-1 0-2 1-1 2l2 1v-2zm-3 7l-1 1 2 1 1-1c0-1-1-2-2-1z"
-        font-weight="400" color="#000" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" overflow="visible" fontFamily="Sans" />
       <path d="M4166 1297h20l-9 24-20-1z" fill="#f55" />
       <path
         d="M4176 1423l-2 7-13-4c-5-2-11-3-16-3a105 105 0 00-29-2 288 288 0 00-41 4l13-12 24-1 12-31-19-1 4-21a663 663 0 0042 4l13 2 10 2a200 200 0 0013 25l-18-4-10 29z" />
@@ -1497,10 +1497,10 @@ const DeckSvgInline = () => (
         d="M4200 1443l-13-8-13-5 12-38 10 14 11 11 11 8zm-2-67l-6-21a76 76 0 017-41l9-15 12-10 17-10 3 4-3 21a145 145 0 01-15 41l-11 18z"
         fill="#55a" />
       <path d="M4204 1369l-5-19a78 78 0 0112-42c3-5 7-8 11-12l16-10-3 22-3 16-9 19-9 15z" fill="#f55" />
-      <path d="M4273 1394l6-13-3-5-3 1-2 4-5 11" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4278 1381l-4 1h-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4273 1394l6-13-3-5-3 1-2 4-5 11" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4278 1381l-4 1h-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4155 1555s14-14 19-23a126 126 0 0019-53l1-16 1-15-45 41 3 14 1 15v19z" />
       <path
         d="M4021 1446a369 369 0 0136-16l16-4c5-1 9-3 14-3l16-2h27l14 1a154 154 0 0128 7l14 5 15 8-45 42h-5l-7-2-7-5-10-2c-6 0-13 2-18 4l-7 1-9 1-10 1-8 3-9 4c-4-6-9-15-17-23-4-4-9-10-14-13z"
@@ -1508,65 +1508,65 @@ const DeckSvgInline = () => (
       <path d="M4154 1517l8-15 5-12 2-9v-8l-19 16 3 13z" fill="#f55" />
       <path d="M4097 1590l-65-84-8 2 59 82z" />
       <path d="M4014 1590c2-10 2-20 2-30s-2-20-5-30c-2-7-6-13-10-20a76 76 0 0023-2l59 82h-69" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4047 1565l-1-3-3-3-6 1-1 5c0 2 4 4 4 4s-5 2-5 4c-1 2 0 4 1 6 1 1 4 2 6 1s3-6 3-6l2 5c1 1 3 3 5 3 1 0 3-1 3-3v-7l-6-3s1 3-1 4c-2 2-5 0-6-2-1-1-1-4 1-5 3-2 5 2 5 2zm-19-27l-2-3-2-2h-5c-1 1-2 3-1 5l3 3-4 4 1 5c1 1 3 2 5 1 2 0 3-5 3-5l2 5 3 2 4-2c1-2 0-5-1-7l-5-3s1 3-1 4c-1 1-4 0-5-2-1-1-1-4 1-4 3-2 4 1 4 1z"
-        stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4074 1589s-1-12-6-17c-5-6-10-6-15-5 0 0 2-13-2-19-5-6-20-10-20-10s4-10-1-17c-3-4-12-10-12-10" fill="none"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M4069 1590l1-1s2-9-4-15l-3-2-6-3-5-2-1-5-3-12a30 30 0 00-17-11l-1-6-3-10-8-7-6-5-2 1 4 3 3 7 6 5c2 2 2 4 3 7l1 6 1 1 8 4c3 2 6 3 5 8 2 3 6 6 6 9l1 6 1 1 6 3 5 2c2 2 2 7 2 7 5 5 4 7 4 7z"
-        font-weight="400" color="#000" overflow="visible" font-family="Sans" />
-      <path d="M4110 1590h-13l-106-138v-33z" fill="#f55" stroke="#55a" stroke-width="2" />
-      <path d="M4134 1590s-2-11-15-22-34-15-34-15" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4129 1590s-5-11-13-17c-7-6-27-14-27-14" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4123 1590s-5-10-10-14c-5-5-20-11-20-11" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fontWeight="400" color="#000" overflow="visible" fontFamily="Sans" />
+      <path d="M4110 1590h-13l-106-138v-33z" fill="#f55" stroke="#55a" strokeWidth="2" />
+      <path d="M4134 1590s-2-11-15-22-34-15-34-15" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4129 1590s-5-11-13-17c-7-6-27-14-27-14" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4123 1590s-5-10-10-14c-5-5-20-11-20-11" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4118 1590l-7-10c-5-4-13-7-13-7m34 10l6-13c6-9 16-13 16-13m-18 33s0-7 5-14c5-8 13-12 13-12m-13 26l5-12c2-4 8-8 8-8m-7 20l2-8 4-4m-18-41l-1-4 2-10 4-7-2-5-4-2-2-3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4122 1518l-3-6 4-3 5 2c1 1 3 3 4 2l2-2h-4c-3 0-7-3-10-1v4zm-33 23s9 6 14 7c4 1 9 2 13 1l5-3-7 1h-12c-5-1-13-6-13-6zm64 5l-9 3c-4-1-9-6-9-6l9 5c3 0 9-4 9-4zm-36-49l7 2h12l3-2h-3l-6-1-7 2z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4123 1493l6-2 6 1m0 45s5 5 10 5 8-3 8-3m-61-4s10 8 16 7c7 0 13-5 13-5" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4091 1534c6 0 10 3 16 4l14-2m33-2c-6 2-5 3-10 3-5 1-10-2-10-2m-39-2c5-1 10-5 16-5 5 0 9 3 10 7" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4106 1536c-1-5 4-7 7-6 3 0 5 3 4 6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4114 1533l-2 2-2-1 2-2zm28 0l2 1 2-1-2-1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4106 1536c-1-5 4-7 7-6 3 0 5 3 4 6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4114 1533l-2 2-2-1 2-2zm28 0l2 1 2-1-2-1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4136 1529c2-3 2-5 7-7m-22 14c-1-7-3-11-9-13m41 8c-2-2-6-3-11-3-3 0-7 3-7 6" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4148 1536c1-5-1-7-5-7-2 0-5 4-3 8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4148 1536c1-5-1-7-5-7-2 0-5 4-3 8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4152 1590l3-33-1-26-1-24c-1-6-1-12-3-17-3-5-6-9-10-12-4-2-9-3-13-3l-13 2-16 8c-5 4-10 7-14 12l-8 11m79-24l-12-3m-33-3l-24 5c-7 1-13 4-20 6m12 15l-6-16m10 11l-5-13m8 9l-3-10m7 6l-3-7m7 4l-3-6m7 3l-2-4m-19 59l3-5 2-9m-9 8l4-7 2-11m-10 13l4-8 2-14m-10 17c2-4 4-7 4-11 2-5 1-11 1-17m-9 22l4-7c2-8 0-15 0-23m-8 25l4-11c1-8-1-16-2-23m-6 27l2-14c1-7-1-13-2-22m-5 29l1-13-4-25m-2 30v-14c-1-8-4-16-7-24m0 28v-11c-2-8-4-14-8-21m2 23l-2-11c-1-5-5-10-7-15M4231 1412a146 146 0 0015 15c3 2 5 4 8 4h5l3-2c0-3-2-5-3-7l-6-4-4-1c-1-2 1-2 1-7v-4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4258 1427l-2-3h-4m10 5s4 2 6 1c2 0 3-3 3-4 0-3-3-6-5-8l-3-5c-1-1-3-2-4-1-2 0-3 1-3 3v3l5 1 2-2 1-2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4272 1424l3-2 2-3-3-6-6-5-5-3-4 1v3l2 2h4l1-3m10 6s4-2 4-4l-2-3-8-5c-1-1-3-3-5-3l-3 1 1 3 3 3 2-2v-3m10 4l1-3c0-2-1-4-3-5l-6-3h-4c-2 0-2 3-1 4l4 2 2-2 1-3m-6-3l-1-2-2-1-4-1"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4257 1430s6-2 9-1l6 1 5 4 4 7-7-1h-7a23 23 0 01-9-3l-3-3-1-3z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4272 1435l-4-2-8-1-5-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4257 1430s6-2 9-1l6 1 5 4 4 7-7-1h-7a23 23 0 01-9-3l-3-3-1-3z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4272 1435l-4-2-8-1-5-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4254 1432v11l-3 2-3-2v-14zM4247 1428l-4 6-6 4-7 1-7 3 2-7 5-5 9-3h5z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4246 1428l-6 3-7 2-3 2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4241 1461l-6 4-6-3 6-5zm13 8l5 6-4 5-5-5zm16-9l6-4-7-4-4 5z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4246 1428l-6 3-7 2-3 2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4241 1461l-6 4-6-3 6-5zm13 8l5 6-4 5-5-5zm16-9l6-4-7-4-4 5z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4267 1455l3-7c0-2-2-4-3-5-2-2-4-3-7-3h-4l-5 5s-3-3-5-3h-8l-4 5v7l2 3 6 4s-5 2-6 5l-1 5 2 4c1 1 3 3 5 3l7-2 3-3 2-5 5 5 8 2c2 0 3-1 4-3l1-6-2-5-5-4z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4255 1464c3 0 6-4 5-7 0-3-4-6-7-6-3 1-6 5-6 8 1 3 5 6 8 5z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4263 1466l-4-4m-14 6l4-5m-1-8l-5-4m14 1l4-5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4255 1464c3 0 6-4 5-7 0-3-4-6-7-6-3 1-6 5-6 8 1 3 5 6 8 5z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4263 1466l-4-4m-14 6l4-5m-1-8l-5-4m14 1l4-5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4138 1454l3-14-13-1-1 13zm-5-5l-3-3 3-3 3 4z" />
       <path d="M4147 1467l4-12-13-3-2 13zm-4-3l-3-3 3-3 4 3z" />
       <path d="M4162 1460l5-12-13-5-4 13zm-5-6l-2-3 4-2 2 4z" />
@@ -1578,46 +1578,46 @@ const DeckSvgInline = () => (
       <path d="M4090 1454l-1-12-15 3 4 12zm-6-3l-4-1 2-4 4 2zm94 2l-5 11 2 1 11-9zm-118 23l-5-11-5 2 8 10z" />
       <path
         d="M4165 1474c-11-6-23-8-35-10h-26a141 141 0 00-45 13m-28-28l15-8a132 132 0 0126-8 148 148 0 0129-5h14a148 148 0 0168 13l11 6"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
-                d="M4063 1485l20-8a124 124 0 0164-1l12 4 2-2-14-5c-7-2-14-4-22-4-7-1-14 0-21 1l-22 4-20 8z" font-weight="400"
-        color="#000" overflow="visible" font-family="Sans" />
-      <path d="M4082 1550v-22c-1-7-4-13-6-20a162 162 0 00-24-38l-17-18-15-6-14-5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+                d="M4063 1485l20-8a124 124 0 0164-1l12 4 2-2-14-5c-7-2-14-4-22-4-7-1-14 0-21 1l-22 4-20 8z" fontWeight="400"
+        color="#000" overflow="visible" fontFamily="Sans" />
+      <path d="M4082 1550v-22c-1-7-4-13-6-20a162 162 0 00-24-38l-17-18-15-6-14-5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4218 1425s-14-10-20-17c-5-5-14-19-14-19s15-12 21-20a152 152 0 0030-53l3-19 1-15 52 50v26" fill="#ffff58"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4284 1354l-68 63-13-12-9-14s12-11 17-18a186 186 0 0027-45l4-18 1-15 41 40z" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4284 1354l-68 63-13-12-9-14s12-11 17-18a186 186 0 0027-45l4-18 1-15 41 40z" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4230 1398l-1 5-5-2-3-4-2 4-4 4-1-5v-6l-5 2h-5l3-5 4-4-3-2-2-3 4-2h4l-1-5 1-4 3 2 3 3 2-5 5-5v13l4-2 6-1-2 6-5 4 4 2c2 0 5 3 5 3l-5 3-6-1z"
         fill="#ffff58" />
       <path
                 d="M4222 1394c2 0 3-2 4-3l2-4c0-2-1-4-3-5l-4-2-5 2-2 5c0 2 1 3 3 5zm0-2l-4-2-2-3 1-4 4-1 3 1 2 4-1 3z"
-        font-weight="400" color="#000" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" overflow="visible" fontFamily="Sans" />
       <path
         d="M4264 1352v9s-6 0-8 2-2 8-2 8h-12zm-15 6c1-1 1-4-1-5-1-2-4-2-5 0v4c1 2 5 3 6 1zm-19 3l17-21-9 1s0 6-2 8c-1 2-6 3-6 3zm49-26c-3-1-6-1-9-6-1 8-4 11-8 15-2-5-3-10 0-15-6 5-11 2-16 2 3-5 6-9 11-11-3-4-5-8-6-13l6 2 20 20z"
         fill="#ffff58" />
       <path
-                d="M4266 1328l4-1 3-3-2-1-2 2-3 1c-2-1-3-2-3-4v-7l-2-2v10c1 2 2 4 5 5z" font-weight="400" color="#000"
-        overflow="visible" font-family="Sans" />
-      <path d="M4184 1388s-8-15-10-23c-2-7-2-13-2-20a92 92 0 0133-70" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4187 1385s-6-12-7-19a91 91 0 0126-85l10-7" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+                d="M4266 1328l4-1 3-3-2-1-2 2-3 1c-2-1-3-2-3-4v-7l-2-2v10c1 2 2 4 5 5z" fontWeight="400" color="#000"
+        overflow="visible" fontFamily="Sans" />
+      <path d="M4184 1388s-8-15-10-23c-2-7-2-13-2-20a92 92 0 0133-70" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4187 1385s-6-12-7-19a91 91 0 0126-85l10-7" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4191 1382l-6-18a81 81 0 012-43c2-7 5-14 9-20 4-7 10-13 16-18l16-11" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4195 1379l-5-14a82 82 0 018-57c4-7 9-13 14-18l21-14" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4150 1489l15-14 30-28 35-33 30-29 31-28" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4195 1379l-5-14a82 82 0 018-57c4-7 9-13 14-18l21-14" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4150 1489l15-14 30-28 35-33 30-29 31-28" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4179 1414l-17-4 7-22 17 4z" fill="#f55" />
       <path d="M4140 1421l7-3-4-3 5-2-3-4 6-3-3-4 6-2-4-5 6-2-2-4 4-4-21-3 2 5-4 2 2 6-6 2 3 6-6 1 4 5-6 1 3 5-6 2 5 2z"
         fill="#ff5" />
-      <path d="M4139 1420l7-17 7-19m-24 35a257 257 0 0014-36" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4139 1420l7-17 7-19m-24 35a257 257 0 0014-36" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M4135 1419l1-1c0-1-1-2-2-1l-1 1c1 1 1 2 2 1zm3-6l1-2-2-1-1 2zm3-6l1-2-2-1-1 1zm2-7l1-2-2-1-1 2zm2-6l1-2-2-1v2zm3-7l1-2-2-1-1 2z"
-        font-weight="400" color="#000" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" overflow="visible" fontFamily="Sans" />
       <path d="M4116 1404h-19c4-8 8-15 10-24l18 1zM4109 1334l2 14v11a825 825 0 0063 8l-3-13v-13h-16l-15-2-16-2z"
         fill="#f55" />
       <path d="M4227 1271l14-6 50 49v17z" />
@@ -1637,7 +1637,7 @@ const DeckSvgInline = () => (
         d="M4661 1590v-50h-5v15l-3 7-7-22h-5l9 28-9 22h5l10-24v24zm-320-480v50h5v-15l3-7 7 22h5l-9-28 9-22h-5l-10 24v-24z"
         fill="#f55" />
       <path d="M4462 1257a407 407 0 0011 38l2 20v18a571 571 0 01-1 34m66 77l-6-18a200 200 0 01-7-40v-18a571 571 0 011-34"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4541 1334h-18l-1 10h-13v-11h-14l-1 11-13-1 1-18v-13l47 2z" />
       <path d="M4480 1298l14-6 12-6 8-8 7-7 4-6 25 1-6 11-6 12-5 13-4 13-47-2-1-7z" fill="#f55" />
       <path d="M4592 1256l16-15 16 15 6 7 20 20v29l-11 8z" />
@@ -1649,16 +1649,16 @@ const DeckSvgInline = () => (
         fill="#f55" />
       <path d="M4573 1423l28-12 4-8 5-9 6-10 10-14 10-8 8-5 6-4 1-25-4 2-11 8-15 11-13 11-11 15-9 13-9 17-7 16z"
         fill="#ff5" />
-      <path d="M4573 1424l77-34" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4573 1424l77-34" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4454 1143v9l3 3 1 5h8l17-1 12 1 16 5 15 7 12 3a84 84 0 0021 2l9-1s3-1 3-3c1-1-2-3-2-4l2-4-3-2-21-2-18-4-15-6-14-5-16-1h-15l-12 2z"
-        fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4460 1151l23-2 23 3c8 2 15 7 23 10l17 5 18 1" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4462 1156l20-1 22 2 23 10 17 5a71 71 0 0020 1" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4460 1151l23-2 23 3c8 2 15 7 23 10l17 5 18 1" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4462 1156l20-1 22 2 23 10 17 5a71 71 0 0020 1" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4438 1110c10 18 9 20 19 37 10-4 29-3 44 0 12 1 23 8 35 11 10 2 22 4 32 4l28-52z" fill="#ff5" stroke="#55a"
-        stroke-width="2" />
+        strokeWidth="2" />
       <path d="M4493 1139h5l2-1 3-2c0 2-2 3-4 4l-5 2a15 15 0 01-12-3c-1-1-3-2-3-4l-1-2 3 3 5 2z" />
       <path
         d="M4475 1130l1-3h1l1 2-1 1v2l3 3c2 1 5 0 7-1v-6c0-1-1-2-3-2h-3l2-5-4-4-3-1-4 2-1 5 1 3-3-1c-2 1-5 2-5 4-1 1 0 3 2 5l6 1 3-3z" />
@@ -1676,90 +1676,90 @@ const DeckSvgInline = () => (
         d="M4575 1146v-1l1-1v1l5-8v-2l-1-1-2 2-2 5-2-1-2 2c-2 1-2 3-2 5l2 1h2m-119-7s6 3 10 2c4 0 12-4 12-4l13 5 13-3s6 7 11 8h13s5 7 9 8c6 1 16-3 16-3s7 5 11 5c3 0 7-3 7-3l-3 5-16-1-17-3-16-6-13-5-10-1a127 127 0 00-38 1z" />
       <path d="M4485 1253l8-3 6-9 5-4 3 3 6 2-4 10-9 8-8 6-4 3-2-5-2-5-2-4z" fill="#f55" />
       <path d="M4505 1164c0 9 3 17 5 25 2 12 8 23 9 35 0 4 1 10-3 12-2 1-8 0-8-4s5-6 7-2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4510 1166c2 13 7 25 10 37 2 9 5 19 4 28 0 5-4 11-9 11-5 1-13-3-13-10 0-5 6-10 11-10 3 0 4 3 6 6" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4515 1168l9 33c2 9 7 19 6 29l-5 11" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4522 1171c1 10 5 20 8 31 2 9 7 19 6 28l-5 10" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4527 1173l8 30c3 9 7 18 6 28 0 3-2 7-5 9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4533 1175l8 30c3 9 7 17 6 26 0 4-2 7-5 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4539 1175l8 30c2 9 7 17 6 26l-5 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4545 1177c1 10 5 19 8 28 2 9 7 18 5 27 0 3-2 6-4 9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4550 1178c2 10 6 19 9 28 2 8 6 17 5 25 0 4-2 7-5 10" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4555 1178l9 28c2 8 7 17 5 25 0 4-2 7-5 9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4561 1178c1 10 5 19 8 28 2 9 7 17 6 26l-5 9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4515 1168l9 33c2 9 7 19 6 29l-5 11" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4522 1171c1 10 5 20 8 31 2 9 7 19 6 28l-5 10" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4527 1173l8 30c3 9 7 18 6 28 0 3-2 7-5 9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4533 1175l8 30c3 9 7 17 6 26 0 4-2 7-5 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4539 1175l8 30c2 9 7 17 6 26l-5 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4545 1177c1 10 5 19 8 28 2 9 7 18 5 27 0 3-2 6-4 9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4550 1178c2 10 6 19 9 28 2 8 6 17 5 25 0 4-2 7-5 10" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4555 1178l9 28c2 8 7 17 5 25 0 4-2 7-5 9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4561 1178c1 10 5 19 8 28 2 9 7 17 6 26l-5 9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4566 1178l8 28c2 8 7 17 6 25 0 4-2 7-5 10M4514 1243l-5 8a76 76 0 01-18 16l-8 4-8 3m44-33h88m-131 15l5 14m-12-13l5 17 3 7c1 6 3 11 3 17l1 15v30"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4477 1282s9-3 13-6a73 73 0 0020-16l5-6 3-5h43l20-1-14 16a114 114 0 00-20 38l-3 12-2 19-13-18 4-14 5-12 6-13 7-11h-26l-7 8-8 9-11 7-10 5-9 4z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4562 1249l-11 16m14 1l-14-1m-7 11l14 1m-19 12h12m-17 13h13m-17 13h13" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4580 1446l-8-12-7-10a155 155 0 01-17-51l-2-14a165 165 0 014-45l5-13 5-12 7-11 7-11a237 237 0 0121-26h12l-16 14-6 7a217 217 0 00-23 37 102 102 0 00-7 20 107 107 0 00-3 41 125 125 0 007 33 188 188 0 0013 29 153 153 0 0015 20z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4608 1241l16 15 8 8 18 20" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4651 1120l-28 28 1 108 27 28z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4631 1263v-113l20-18v153z" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4608 1241l16 15 8 8 18 20" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4651 1120l-28 28 1 108 27 28z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4631 1263v-113l20-18v153z" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4623 1165l-6-2-6-6c-2-3-6-7-7-12v-8l-9 10a50 50 0 00-8 19 51 51 0 000 23c0 3 2 5 3 8l4 8 7 8 3-8 8-11c2-2 4-5 7-6h4z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4617 1188l-2-5a22 22 0 010-14l2-6-7-7-6-10-6 7a43 43 0 00-4 36l3 6 3 6 4 5 6-11z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4611 1159l-3 5-2 7v10l2 8 3 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4611 1159l-3 5-2 7v10l2 8 3 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4609 1154h-5l3 9c-3 0-6 0-8 2 1 3 4 5 7 6l-8 5 8 5c-3 1-6 3-7 5 2 2 6 3 8 3l-4 8h5" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4483 1209h4l1 1 1 3-1 4-6 1-5-3-4-2-4-1-2 1 1 1h5l6 3 5 1 4-2 1-3v-3l-4-2zm-13-9c2 0 3 1 3 2 1 2 0 4-1 5h-5l-4-3h-3l-1 1 3 1h3l3 2 4-1c1-1 2-3 1-5z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4460 1160v8l2 8v6c-1 7-7 13-9 20v4c1 3 5 2 7 4l1 7v2h7c3 1 6 0 8 2v2l-4-2-11-1v3l1 7-1 3m7-64h8l9 1 9 5 3 3s-5-5-9-6l-7-2h-8c-2-1-6 0-5-1zm5 7l10 1 12 6m-24-2l9-1c5 1 13 6 13 6m-23 4c3 0 5 4 8 6"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4490 1188l-5-5-4-1h-6l-3 1h-2l2 4 4 2c1 1 3 2 5 1z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4473 1185c1-3 3-3 5-3 3 0 4 2 4 4s-2 3-5 2c-2 0-4-1-4-3z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4476 1185l2-1 1 2-1 1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4468 1178c2 1 2 3 2 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4490 1188l-5-5-4-1h-6l-3 1h-2l2 4 4 2c1 1 3 2 5 1z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4473 1185c1-3 3-3 5-3 3 0 4 2 4 4s-2 3-5 2c-2 0-4-1-4-3z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4476 1185l2-1 1 2-1 1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4468 1178c2 1 2 3 2 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4559 1260l4-6 8-1-4 6zm-10 11l6-4 5 4-6 4zm-6 12l6-4 5 4-7 4zm-6 12l7-4 5 4-7 5zm-4 14l5-5 6 3-6 5zm10-53l5-5 5 5-5 6zm-12 0l5-6 5 5-4 7zm-13 3l3-7 7 3-3 8zm-7 11l-1-7h7l1 8zm-9 8v-7h7l1 8zm-10 6l2-7 6 2-1 8zm-11 5l3-7 6 3-2 8z" />
-      <path d="M4560 1307l38 49" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4617 1337l-44-59c-5 7-8 14-11 21l41 52z" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4577 1274l44 60m-34-73l48 63m-43-68l47 64m-4 4l15-11" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4621 1334l-4 3-14 14-6 6a180 180 0 00-31 53" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4563 1324l26 33-13 17-9 18-6-14a98 98 0 01-2-38c0-5 4-16 4-16z" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4560 1307l38 49" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4617 1337l-44-59c-5 7-8 14-11 21l41 52z" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4577 1274l44 60m-34-73l48 63m-43-68l47 64m-4 4l15-11" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4621 1334l-4 3-14 14-6 6a180 180 0 00-31 53" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4563 1324l26 33-13 17-9 18-6-14a98 98 0 01-2-38c0-5 4-16 4-16z" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4567 1340l-1 15 3 18 10-16z" fill="#55a" />
       <path
         d="M4569 1290h4c3 0 6 2 8 5l2 7v12l1 3 2-5 3-2 4 1 3 2v3l-2 2h-1v-2l-2-3-3 1-1 4 1 4 2 2c2 2 5 2 7 2l5 2 3 2 3 3 2 3v3l-2 4-1 1v-3l-1-3-2-2h-2l-2 1-1 2 1 2 1 1-3-1-1-2v-3l1-3 3-1 2 1-4-2-4-1-4-1-3-2-3-2-3-4-2-5v-4l-1-4-1-4v-3l-2-2-2-1-3 1-1 2 1 2-3-2v-2a4 4 0 013-3l4-1-3-2-3-1h-3z"
         fill="#ff5" />
       <path d="M4650 1366l-8 5a98 98 0 00-18 20l-7 13m-16 7l6-12 5-10a101 101 0 0118-21l10-9 7-4 4-2" fill="none"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4650 1345l-15 10c-5 3-9 6-12 10a105 105 0 00-20 25 221 221 0 00-14 27" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4573 1422l7-15 8-16a149 149 0 0134-41 221 221 0 0125-18l3-2v-6l-17 11a188 188 0 00-50 54l-7 15-6 13z" />
       <path d="M4587 1417l-6-11 14-2-8-15 16 1-7-15 16 2-3-17 14 4-2-15 13 6 2-17 11 7 3-16" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4646 1338a2 2 0 11-4 0 2 2 0 014 0zm-14 9a2 2 0 11-4 0 2 2 0 014 0zm-12 10a2 2 0 11-4 0 2 2 0 014 0zm-13 14a2 2 0 11-4 0 2 2 0 014 0zm-9 14a2 2 0 11-4 0 2 2 0 014 0zm-9 15a2 2 0 11-4 0 2 2 0 014 0zm-6 15a2 2 0 11-4 0 2 2 0 014 0z" />
       <path
@@ -1767,19 +1767,19 @@ const DeckSvgInline = () => (
         fill="#55a" />
       <path
         d="M4598 1437a128 128 0 003 13c0 3-2 6-1 8l2 1c2 1 4-1 5-3 2-2 3-8 3-8s1 7 4 9h1v2c1 3 3 7 6 8l3-1 1-4c0-3-3-5-5-7l-1-1 1-2-2-4h1l2 6 5 8 2 4h5c2-1 2-3 2-5l-4-4-1-4-2-2-2-5-2-2 1-1 2 5 2 2 2 5 3 5h3c2-2 1-5 0-8 0-2-2-4-4-6h-1v-3l-2-4h-1l1-2v2l3 5 1 1v1l3 4 2 1 1-5c0-3-2-6-3-8l-3-5-3-7-4-6"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4601 1448s3 2 3 4v7m12-29l-2 9-4 5m12-12l-6 7m9-4l-8 9M4503 1236l-5 8-6 7c-2 1-4 3-6 2v-1m-25-20c-3 6-7 9-12 11-2 3-5 5-7 3-2-1-2-7 1-7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4466 1233c-4 8-11 18-21 19-4 0-9-2-10-5-2-5 1-12 5-14 3-1 7 0 9 2s1 6 0 8" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4472 1235c-3 6-9 17-17 19-3 1-7 1-8-2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4478 1234c-2 7-7 17-15 21-3 1-7 2-9 0" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4472 1235c-3 6-9 17-17 19-3 1-7 1-8-2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4478 1234c-2 7-7 17-15 21-3 1-7 2-9 0" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4485 1234c-2 7-8 16-15 21-2 2-6 3-9 2m30-25c0 4-6 15-12 21-2 1-4 4-6 2m25-23c-1 4-5 11-9 16-2 2-5 7-8 5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4482 1254l6 15" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4482 1254l6 15" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4533 1333l14 1-1 14v15l3 12 2 11a169 169 0 008 25 155 155 0 0015 27l6 8-14 9s0-4-2-5c-2-2-5-1-7-1l-4-2-6-2-6-18a235 235 0 01-9-34l-1-23a398 398 0 011-31z"
         fill="#55a" />
@@ -1797,16 +1797,16 @@ const DeckSvgInline = () => (
         fill="#f55" />
       <path d="M4429 1278l-28 12-4 7-5 10-6 10-10 14-10 8-8 5-6 4-1 24 4-1 11-8 15-11 13-11 11-15 9-14 9-16 7-17z"
         fill="#ff5" />
-      <path d="M4429 1277l-77 34" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4429 1277l-77 34" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4548 1557v-8l-3-3-1-5h-8l-17 1-12-2-16-4-15-7-12-4a84 84 0 00-21-1h-9l-3 3c-1 2 2 3 2 5l-2 4 3 2 21 2 18 4 15 6 14 5 16 1h15l12-2z"
-        fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4542 1550s-15 2-23 1l-23-3c-8-2-15-6-23-9l-17-5-18-1" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4542 1550s-15 2-23 1l-23-3c-8-2-15-6-23-9l-17-5-18-1" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4540 1545l-20 1c-7-1-15-1-22-3-8-2-15-7-23-9l-17-6a71 71 0 00-20 0" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4564 1590l-19-36c-10 3-29 2-44 0-12-2-23-9-35-11-10-3-22-5-32-5l-28 52z" fill="#ff5" stroke="#55a"
-        stroke-width="2" />
+        strokeWidth="2" />
       <path d="M4509 1562h-5l-2 1-3 2c0-2 2-3 4-4l5-2a15 15 0 0112 3l3 3 1 3-3-4-5-2z" />
       <path
         d="M4527 1571l-1 3h-1l-1-2 1-2v-1l-3-3c-2-1-5-1-7 1v5c0 2 1 3 3 3h3l-2 5 4 4 3 1 4-3 1-4-1-3h3c2 0 5-1 5-3 1-2 0-4-2-5-1-1-4-2-6-1l-3 3z" />
@@ -1824,90 +1824,90 @@ const DeckSvgInline = () => (
         d="M4427 1554v2l-1 1v-2l-5 9v1l1 1c1 1 2 0 2-1l2-5h2l2-1c2-1 2-3 2-5l-2-2h-2m119 7l-10-2-12 4s-8-4-13-4l-13 2s-6-6-11-7h-13s-5-7-9-8c-6-1-16 2-16 2s-7-5-11-5c-3 0-7 3-7 3l3-5 16 2 17 3 16 6 13 4 10 2a127 127 0 0038-1z" />
       <path d="M4517 1448l-8 3-6 8-5 5-3-3-6-3 4-9 9-8 8-7 4-3 2 6 2 5 2 4z" fill="#f55" />
       <path d="M4497 1537c0-9-3-17-5-26-2-11-8-22-9-34 0-4-1-10 3-12 2-2 8-1 8 4 0 4-5 6-7 2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4492 1535c-2-13-7-25-10-37-2-10-5-20-4-28 0-5 4-11 9-12 5 0 13 4 13 11 0 5-6 10-11 10-3 0-4-4-6-6"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4487 1533l-9-33c-2-10-7-20-6-30l5-10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4480 1530c-1-11-5-21-8-31-2-9-7-19-6-29l5-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4475 1528l-8-30c-3-10-7-19-6-28 0-4 2-7 5-10" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4469 1525l-8-29c-3-9-7-18-6-27 0-3 2-7 5-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4463 1525l-8-29c-2-9-7-18-6-27l5-9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4457 1524c-1-10-5-19-8-29-2-8-7-17-5-26 0-3 2-7 4-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4452 1523c-2-10-6-19-9-28-2-9-6-17-5-26 0-3 2-6 5-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4447 1523c-2-10-6-19-9-28-2-8-7-17-5-25 0-4 2-7 5-10" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4441 1523c-1-10-5-19-8-28-2-9-7-17-6-26l5-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4487 1533l-9-33c-2-10-7-20-6-30l5-10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4480 1530c-1-11-5-21-8-31-2-9-7-19-6-29l5-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4475 1528l-8-30c-3-10-7-19-6-28 0-4 2-7 5-10" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4469 1525l-8-29c-3-9-7-18-6-27 0-3 2-7 5-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4463 1525l-8-29c-2-9-7-18-6-27l5-9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4457 1524c-1-10-5-19-8-29-2-8-7-17-5-26 0-3 2-7 4-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4452 1523c-2-10-6-19-9-28-2-9-6-17-5-26 0-3 2-6 5-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4447 1523c-2-10-6-19-9-28-2-8-7-17-5-25 0-4 2-7 5-10" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4441 1523c-1-10-5-19-8-28-2-9-7-17-6-26l5-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4436 1523l-8-28c-2-9-7-17-6-26 0-3 2-6 5-9M4488 1457l5-7a76 76 0 0118-17l8-4 8-2m-44 32h-88m131-14l-5-15m12 14l-5-17-3-7-3-18-1-14v-30 0"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4525 1419l-13 5a73 73 0 00-20 16l-5 7-3 5h-43l-20 1 14-17a114 114 0 0020-37l3-13 2-19 13 19-4 14-5 12-6 13-7 11h26l7-9 8-8 11-7 10-5 9-4z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4440 1452l11-16m-14-1h14m7-11h-14m19-12h-12m17-13h-13m17-13h-13" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4440 1452l11-16m-14-1h14m7-11h-14m19-12h-12m17-13h-13m17-13h-13" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4422 1255l8 12 7 10a155 155 0 0117 51l2 14a165 165 0 01-4 44l-5 13-5 12-7 12-7 11a237 237 0 01-21 25h-12l16-13 6-7a217 217 0 0023-37 102 102 0 007-20 107 107 0 003-41 125 125 0 00-7-34 188 188 0 00-13-28 153 153 0 00-15-20z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4394 1460l-16-15-8-8-18-20" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4351 1581l28-28-1-108-27-29z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4371 1437v114l-20 17v-152z" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4394 1460l-16-15-8-8-18-20" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4351 1581l28-28-1-108-27-29z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4371 1437v114l-20 17v-152z" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4379 1536l6 1 6 7c2 3 6 7 7 11v8s7-6 9-10a51 51 0 008-41c0-3-2-5-3-8l-4-8-7-8s-1 5-3 7c-2 5-5 9-8 12-2 2-4 5-7 6h-4z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4385 1513l2 5a22 22 0 010 13l-2 6 7 8 6 10 6-8a43 43 0 004-35l-3-6-3-6-4-5s-3 7-6 10z" fill="#ff5"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4391 1542l3-5 2-7v-10l-2-8-3-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4391 1542l3-5 2-7v-10l-2-8-3-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4393 1547h5l-3-9 8-2c-1-4-4-5-7-6l8-5-8-5c3-1 6-3 7-5-2-2-6-3-8-3l4-8-5-1" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4519 1492h-4l-1-1-1-3 1-4 6-1c2 0 4 2 5 3l4 1 4 2 2-1-1-1-5-1-6-2-5-1-4 2-1 3v3l4 2zm13 9c-2 0-3-2-3-3-1-1 0-3 1-4h5c2 0 3 2 4 3h3l1-1-3-1-3-1-3-1c-2-1-3 0-4 1s-2 3-1 4c0 2 3 3 3 3z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4542 1541v-9l-2-7v-6c1-7 7-13 9-20v-4c-1-3-5-2-7-5l-1-6v-2l-7-1c-3 0-6 0-8-2v-2l4 2 11 2v-3l-1-7 1-3m-7 64h-8l-9-1-9-5-3-3 9 6 7 2h8c2 0 6-1 5 1zm-5-7l-10-1-12-6m24 2h-9c-5-1-13-6-13-6m23-3l-8-6"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4512 1513l5 4 4 2h6l3-1 2-1-2-3-4-2-5-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4528 1515c-1 3-3 3-5 3-3 0-4-2-4-4s2-3 5-2c2 0 4 1 4 3z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4525 1515l-2 1-1-2 1-1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4534 1523c-2-1-2-3-2-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4512 1513l5 4 4 2h6l3-1 2-1-2-3-4-2-5-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4528 1515c-1 3-3 3-5 3-3 0-4-2-4-4s2-3 5-2c2 0 4 1 4 3z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4525 1515l-2 1-1-2 1-1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4534 1523c-2-1-2-3-2-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4443 1440l-4 7-8 1 4-7zm10-10l-6 4-5-4 6-4zm6-12l-6 4-5-4 7-4zm6-13l-7 5-5-5 7-4zm4-13l-5 5-6-4 6-5zm-10 53l-5 5-5-5 5-7zm12-1l-5 6-5-5 4-6zm13-2l-3 7-7-4 3-7zm7-11l1 7h-7l-1-8zm9-9v8l-7-1-1-8zm10-5l-2 7-6-3 1-8zm11-5l-3 7-6-3 2-8z" />
-      <path d="M4442 1394l-38-49" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4385 1364l44 58c5-6 8-13 11-20l-41-53z" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4425 1427l-44-60m34 73l-48-63m43 67l-47-64m4-4l-15 12" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4381 1367l4-4 14-13 6-6a180 180 0 0031-53" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4439 1377l-26-34 13-16 9-18 6 14a98 98 0 012 37c0 6-4 17-4 17z" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4442 1394l-38-49" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4385 1364l44 58c5-6 8-13 11-20l-41-53z" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4425 1427l-44-60m34 73l-48-63m43 67l-47-64m4-4l-15 12" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4381 1367l4-4 14-13 6-6a180 180 0 0031-53" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4439 1377l-26-34 13-16 9-18 6 14a98 98 0 012 37c0 6-4 17-4 17z" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4435 1360l1-14-3-18-10 16z" fill="#55a" />
       <path
         d="M4433 1410l-4 1c-3 0-6-2-8-5l-2-8v-11l-1-3-2 4-3 3-4-1-3-3v-2l2-2h1v2l2 2h3l1-4-1-4-2-3-7-2-5-1-3-2-3-3-2-4v-2l2-5 1-1v4l1 3 2 2h2l2-1 1-3-1-1-1-1 3 1 1 2v3l-1 2-3 1h-2l4 2 4 1 4 1 3 1 3 3 3 4 2 4v5l1 4 1 4v3l2 2 2 1 3-1 1-2-1-3 3 3v2a4 4 0 01-3 3l-4 1 3 2 3 1h3z"
         fill="#ff5" />
       <path d="M4352 1335l8-5a98 98 0 0018-20l7-13m16-7l-6 12-5 10a101 101 0 01-18 21l-10 9-7 4-4 2" fill="none"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4352 1356l15-11 12-9a105 105 0 0020-25 221 221 0 0014-27" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4352 1356l15-11 12-9a105 105 0 0020-25 221 221 0 0014-27" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4429 1278l-7 16-8 16a149 149 0 01-34 41 221 221 0 01-28 20v6l17-11a188 188 0 0050-54l7-15 6-14z" />
       <path d="M4415 1284l6 11-14 2 8 15-16-1 7 15-16-2 3 17-14-4 2 15-13-6-2 17-11-7-3 15" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4356 1363a2 2 0 114 0 2 2 0 01-4 0zm14-10a2 2 0 114 0 2 2 0 01-4 0zm12-10a2 2 0 114 0 2 2 0 01-4 0zm13-13a2 2 0 114 0 2 2 0 01-4 0zm9-15a2 2 0 114 0 2 2 0 01-4 0zm9-14a2 2 0 114 0 2 2 0 01-4 0zm6-15a2 2 0 114 0 2 2 0 01-4 0z" />
       <path
@@ -1915,26 +1915,26 @@ const DeckSvgInline = () => (
         fill="#55a" />
       <path
         d="M4404 1264l-2-9-1-4c0-3 2-6 1-8l-2-2c-2 0-4 2-5 4-2 2-3 8-3 8s-1-8-4-10h-1v-1c-1-3-3-7-6-8h-3l-1 5c0 3 3 5 5 7h1l-1 2 2 5h-1l-2-7-5-7-2-4c-2-1-4-2-5-1-2 1-2 4-2 6l4 3 1 4 2 3 2 4 2 3-1 1-2-5-2-2-2-6-3-4h-3c-2 2-1 5 0 7 0 3 2 5 4 6l1 1v3l2 3 1 1-1 1v-1l-3-5-1-1v-1l-3-5h-2l-1 5c0 3 2 5 3 8l3 5 3 6 4 7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4401 1252l-3-3v-7m-12 29l2-9 4-5m-12 11l6-6m-9 3l8-8M4499 1465l5-8 6-8c2-1 4-2 6-1v1m25 20c3-6 7-9 12-12 2-2 5-4 7-3 2 2 2 7-1 7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4536 1467c4-8 11-17 21-18 4-1 9 1 10 5 2 5-1 11-5 13-3 2-7 1-9-2-2-2-1-6 0-7" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4530 1466c3-7 9-17 17-19 3-1 7-1 8 2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4524 1466c2-6 7-17 15-20 3-2 7-2 9 0" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4530 1466c3-7 9-17 17-19 3-1 7-1 8 2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4524 1466c2-6 7-17 15-20 3-2 7-2 9 0" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4517 1466c2-6 8-16 15-20 2-2 6-4 9-2m-30 25c0-5 6-16 12-21 2-1 4-4 6-2m-25 23c1-4 5-11 9-16 2-3 5-8 8-5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4520 1447l-6-15" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4520 1447l-6-15" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4469 1367h-14l1-15v-14l-2-12-2-11a169 169 0 00-8-25 155 155 0 00-16-28l-6-8 12-7 4 4 7 1 6 3 4 1 6 18 6 19 3 15 1 22a398 398 0 01-1 31z"
         fill="#55a" />
       <path
         d="M4468 1354l-5 6-3-6 4-5zm0-14l-4 6-4-5 3-6zm-1-14l-4 6-4-5 3-6zm-2-16l-4 7-6-5 4-7zm-3-17l-4 8-6-5 3-8zm-5-16l-3 9-8-4 2-9zm-9-18l-1 11-9-3v-11z"
         fill="#fff" />
-      <path d="M4351 1230v360h270m-240-480h270v360" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M4351 1230v360h270m-240-480h270v360" fill="none" stroke="#55a" strokeWidth="2" />
       <path d="M4479 1343l14 1 1-11h15v11h14v14l-14-1v11h-16v-11h-13z" fill="#ff5" />
       <path fill="#010000" d="M4496 1346h11v9h-11z" />
       <path
@@ -1996,7 +1996,7 @@ const DeckSvgInline = () => (
       <path
         d="M3861 1922l-9 1-13-2-13-6-12-6-9-8-16-21-9-12-9-7-16-12-14-8-17-5-13-1h-10l-11 3 11 20 10-1 12 2 13 6 12 6 9 8 17 20 9 13 8 7 16 12 14 8 17 5 14 1h9l11-3z"
         fill="#ff5" />
-      <path d="M3661 1650h270v360" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M3661 1650h270v360" fill="none" stroke="#55a" strokeWidth="2" />
       <path
         d="M3631 1650v5h5v35c0 3-2 5-5 5s-5-2-5-5v-5h-5v5a10 10 0 0020 0v-40zm300 480v-5h-5v-35c0-3 2-5 5-5s5 2 5 5v5h5v-5a10 10 0 00-20 0v40z" />
       <path d="M3771 1804l38 31v63l-4 3-7-7-10-14-9-12-4-4-4-4zm52 109l25-18 2 5-21 17z" fill="#ff5" />
@@ -2006,7 +2006,7 @@ const DeckSvgInline = () => (
         d="M3809 1903l34-23a575 575 0 006 15l-26 19-9-5zm-60-115l59 47 27-17v-27l1-11-27 19-35-29-5-2-2-3h-4l-3-3-2 1-4-4h-3l-2-3z" />
       <path d="M3739 1751v90l6 2 5 2-1-89h-3l-3-4-2 1z" />
       <path d="M3861 1828l20-10 6 17 7 16 6 10 8 8v79l-14-19c-4-5-6-12-9-18l-11-24-5-17-4-18-2-13z" fill="#f55"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3865 1769l27 15-3 11 1 10 3 6-8 6-14 6-10 4-1-9v-13l1-14 2-15z" fill="#ff5" />
       <path d="M3827 1917l23-17a1341 1341 0 0011 23h-16z" fill="#55a" />
       <path d="M3931 2003l-17-15v-280h17z" />
@@ -2015,171 +2015,171 @@ const DeckSvgInline = () => (
       <path
         d="M3806 1684h-21l-17 2-12 3-2 12-1 14-2 10-2 7h-3l-2-3-5 1-5 5-3 7 1 4 2 3h4l1 2 5 2 2 3h3l3 3h3l3 3h3l3 3h3l3 3 5 2h5l5-2 4-5 4-7c2-5 2-11 3-16l3-20 4-19z"
         fill="#ff5" />
-      <path d="M3733 1650l20 40 15-4a198 198 0 0155-1l35 5 23-40z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3733 1650l20 40 15-4a198 198 0 0155-1l35 5 23-40z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3748 1651l15 30c6-2 11-2 20-3l-4-27h-6l5 23c-5 1-8 0-12 2l-12-25zm40 0l3 26c10-1 18-2 28-1l5-25h-6l-3 20-19 1-2-21zm46 0l-7 26c7 0 18 1 26 3l14-29h-7l-10 24-16-2 6-22z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3806 1685l-5 25-5 30c-1 7-2 14-5 20-2 4-5 9-10 10-4 1-10 0-13-4-3-2-3-7-2-11s5-8 9-8c5 0 10 5 10 9s-4 8-8 9c-3 0-6-3-6-5 0-3 2-7 5-7 2 0 4 2 3 4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3800 1684c-3 9-4 18-5 27l-4 28-7 20m9-75l-4 24-3 24-4 17m6-64l-4 23-3 22-4 16m5-61l-4 22-2 22-4 15m4-58c-2 6-2 14-3 21l-3 20c-1 5-1 10-3 14m3-54l-3 18-3 19c-1 5-1 10-3 14m2-50l-3 17-2 18-3 12m1-46l-2 16-2 15c-1 4-1 8-3 11m27 16c-1-1-3-3-5-3-3 0-6 2-8 5-2 2-4 6-3 9 0 3 1 5 3 7h3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3770 1744c-1-2-2-3-4-3-3 0-6 2-9 5-2 2-3 6-3 9s1 6 3 7h4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3765 1741c-2-1-3-3-5-3-3 0-6 2-8 4-3 3-4 7-4 10 0 2 1 5 3 7h4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3758 1738c-1-2-2-3-4-3-3 0-6 2-8 4-3 3-4 7-4 10l4 7h3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3753 1734l-4-2c-3-1-7 2-9 4-2 3-3 6-3 10 0 2 1 5 3 6l3 1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3770 1744c-1-2-2-3-4-3-3 0-6 2-9 5-2 2-3 6-3 9s1 6 3 7h4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3765 1741c-2-1-3-3-5-3-3 0-6 2-8 4-3 3-4 7-4 10 0 2 1 5 3 7h4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3758 1738c-1-2-2-3-4-3-3 0-6 2-8 4-3 3-4 7-4 10l4 7h3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3753 1734l-4-2c-3-1-7 2-9 4-2 3-3 6-3 10 0 2 1 5 3 6l3 1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3747 1732l-3-3c-4 0-7 2-9 5-2 2-3 6-3 9 0 2 0 4 2 5l4 1m120-59l-3 31-2 16c-1 8-1 15-5 22-2 4-5 7-9 10-3 3-7 5-11 5-4 2-8 2-12 1l-12-6-13-8m13-57l12-4h8l3 2-1 1-4-1h-7zm22 8l1-1a16 16 0 00-11-5l-6 1-4 2m-4 4l10-2h7l6 2 2 3-5 2-8 1-7-2z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3810 1712v3a6 6 0 007 3l3-2v-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3814 1713v1l1 1 2-1v-1zm-4 11l8-2 7-4" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3810 1712v3a6 6 0 007 3l3-2v-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3814 1713v1l1 1 2-1v-1zm-4 11l8-2 7-4" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3838 1706l-2 5 1 10 2 12c1 2 2 4 1 6 0 2-1 2-2 3l-3 2m-10-13l-5 5v4l3 2 3-1 3-2 3-1 1 1-3 1-4 1" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3817 1752h6l6 1 6-2 5 1v2c-1-1-4-2-6-1l-5 2-6-2-6 2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3821 1759l5 2h4l2-1 3-1m-2 5l-4-1-3 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3839 1704c2-2 5-3 8-3l6 1 4 2-7-2-6 1-3 2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3817 1752h6l6 1 6-2 5 1v2c-1-1-4-2-6-1l-5 2-6-2-6 2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3821 1759l5 2h4l2-1 3-1m-2 5l-4-1-3 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3839 1704c2-2 5-3 8-3l6 1 4 2-7-2-6 1-3 2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3839 1710l4-2h8l4 2m-17 4a25 25 0 0116-1l2 2-1 3-3 1h-5l-6-1-3-2-1-1z" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3842 1713v3c1 2 2 3 4 3h3l2-2 1-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3846 1714v1l1 1 1-1v-1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3839 1719l3 4 4 2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3842 1713v3c1 2 2 3 4 3h3l2-2 1-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3846 1714v1l1 1 1-1v-1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3839 1719l3 4 4 2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3855 1729l2 7 5 5 6 2 4-2c1-2 2-4 1-6l-1-4-4-2h-3l-1 3 1 2-2-2-2-4-1-4-1-6-2-10zm-3 20c0 2 2 8 5 12l4 6 6 2c2 0 4-2 5-3l1-5-2-5-4-2-3 1v2l1 2-2-2-2-3-2-5-1-5-4-12z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3850 1756l1 5 3 4a98 98 0 009 3l-5-4-3-5-2-6-1-5-1 5z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3850 1756l1 5 3 4a98 98 0 009 3l-5-4-3-5-2-6-1-5-1 5z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3854 1765l-7-4 3-5zm-71 4l25 21 28-19v9l-27 19-35-29c2 1 6 1 9-1z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3713 1779l10 10-10 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3714 1785l3 4-3 3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3727 1767l-10 9 9 10 9-10zm-1 4l6 5-6 6-5-6z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3931 1672l-38 36h38z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3931 1680l-23 22h23z" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3713 1804l9 11-9 9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3713 1811l3 3-3 4m25-38l-9 9 9 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3738 1785l-3 4 3 4m-1 31l-8-10 9-9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3738 1819l-3-4 3-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3713 1779l10 10-10 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3714 1785l3 4-3 3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3727 1767l-10 9 9 10 9-10zm-1 4l6 5-6 6-5-6z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3931 1672l-38 36h38z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3931 1680l-23 22h23z" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3713 1804l9 11-9 9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3713 1811l3 3-3 4m25-38l-9 9 9 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3738 1785l-3 4 3 4m-1 31l-8-10 9-9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3738 1819l-3-4 3-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3726 1792l-10 10 9 10 10-10zm-1 4l6 5-6 6-5-5zm1 22l-9 9 9 10 9-9zm0 4l5 5-5 6-5-5z" fill="#55a"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3738 1772l-8-9 8-8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3738 1767l-3-3 3-4m-24 14l10-10-6-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3714 1768l3-4-3-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3713 1830l4 5m21-5l-7 7m-18-76v74m26-83l-1 88" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3722 1756l5 5 8-9-1-2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3908 1708v71l6 2v-73zm6 280v-202h-6v204l23 20v-7z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3738 1772l-8-9 8-8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3738 1767l-3-3 3-4m-24 14l10-10-6-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3714 1768l3-4-3-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3713 1830l4 5m21-5l-7 7m-18-76v74m26-83l-1 88" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3722 1756l5 5 8-9-1-2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3908 1708v71l6 2v-73zm6 280v-202h-6v204l23 20v-7z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3922 1710c-1 0-2 1-2 3l2 2c2 0 3-1 3-2 0-2-1-3-3-3zm0 14c-1 0-2 1-2 3l2 2c2 0 3-1 3-2 0-2-1-3-3-3zm3-7l-2 2c0 2 1 3 2 3 2 0 3-1 3-3 0-1-1-2-3-2zm-5 0c-2 0-3 1-3 2 0 2 1 3 3 3 1 0 2-1 2-3zm3 42c-2 0-3 1-3 2s1 3 3 3l2-3zm0 14c-2 0-3 1-3 2s1 3 3 3l2-3zm3-7c-2 0-3 1-3 2s1 3 3 3l2-3zm-6 0c-2 0-3 1-3 2s1 3 3 3l2-3zm2 42l-2 2 2 3c2 0 3-2 3-3s-1-2-3-2zm0 14l-2 2 2 3c2 0 3-2 3-3s-1-2-3-2zm3-7l-2 2 2 3c2 0 3-2 3-3s-1-2-3-2zm-6 0l-2 2 2 3c2 0 3-2 3-3s-1-2-3-2zm3 42c-1 0-2 1-2 3l2 2 3-2c0-2-2-3-3-3zm0 14c-1 0-2 1-2 3l2 2 3-2c0-2-2-3-3-3zm3-7c-1 0-2 1-2 3l2 2 3-2c0-2-2-3-3-3zm-6 0c-1 0-2 1-2 3l2 2 3-2c0-2-2-3-3-3zm3 41l-2 3 2 2 3-2zm0 14l-2 3 2 2 3-2zm3-7l-2 3 2 2 3-2zm-6 0l-2 3 2 2 3-2zm3 42c-2 0-3 1-3 3 0 1 1 2 3 2l2-2c0-2-1-3-2-3zm0 14c-2 0-3 1-3 3 0 1 1 2 3 2l2-2c0-2-1-3-2-3zm3-7c-1 0-3 1-3 3l3 2 2-2c0-2-1-3-2-3zm-6 0c-1 0-3 1-3 3l3 2 2-2c0-2-1-3-2-3zm-3-214v-5l13-12v5zm0 8v-5l13-12v5zm0 42v-5l13-12v5zm0 8v-5l13-12v5zm0 42v-5l13-12v5zm0 8v-5l13-12v5zm0 40v-5l13-12v5zm0 8v-5l13-12v5zm0 39v-5l13-12v5zm0 8v-5l13-12v5zm0 38v-1l13-12v5l-10 10zm7 6l-3-2 9-9v5z"
         fill="#ff5" />
       <path
         d="M3849 1791l-10 10 9 10 10-10zm-1 4l6 5-6 6-5-5zm4-32l-10 9 7 11 11-9zm0 5l4 5-6 5-4-5zm-4 49l-8 10 10 8 8-10zm0 4l6 4-4 6-6-4zm3 19l-8 11 10 9 8-11zm0 4l6 5-4 6-6-4zm4 22l-6 12 11 7 7-12zm1 4l6 3-3 7-6-3zm6 21l-5 13 12 6 5-13zm2 4l6 3-2 7-7-2zm9 22l-3 13 13 4 3-14zm2 4l7 1-1 8-7-2zm11 20l-1 13 13 2 2-13zm3 3l7 1-1 8-7-1z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3862 1779l-10 8 8 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3862 1779l-10 8 8 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3861 1784l-3 3 3 4m2-22l-1 19-2 26 2 22a244 244 0 0021 72 242 242 0 0024 39m-71-151l11-11-10-12" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3836 1790l5-5-4-5m23 25l-9 8 8 8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3859 1809l-3 4 3 3m-24 10l10-12-10-11" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3835 1820l5-5-5-5m3 41l9-12-11-10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3837 1845l4-5-5-5m7 42l7-14-12-9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3841 1870l4-5-6-4m14 42l5-15-13-7" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3851 1897l2-7-6-3m19 42l3-15-14-5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3863 1923l1-6-6-2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3880 1953l2-15-13-4" fill="none" stroke="#55a" stroke-width="2.1" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3877 1948l1-7-6-2m26 38l-1-16-13-2" fill="none" stroke="#55a" stroke-width="2.1" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3894 1971v-6l-6-1" fill="none" stroke="#55a" stroke-width="2.1" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3862 1924l12 20 17 24 16 20m-5-8l5 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3907 1977l-5-1v-15l5 1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3903 1943l-1 13 5 1m-46-129l-8 9 9 8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3861 1833l-3 3 4 3m1 13l-6 11 10 6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3864 1857l-2 4 4 2m4 14l-5 11 10 5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3871 1881l-2 5 4 1m5 14l-3 12 11 3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3880 1906l-1 4 4 1m7 13l-2 12 12 2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3892 1928v5h4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3836 1790l5-5-4-5m23 25l-9 8 8 8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3859 1809l-3 4 3 3m-24 10l10-12-10-11" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3835 1820l5-5-5-5m3 41l9-12-11-10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3837 1845l4-5-5-5m7 42l7-14-12-9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3841 1870l4-5-6-4m14 42l5-15-13-7" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3851 1897l2-7-6-3m19 42l3-15-14-5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3863 1923l1-6-6-2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3880 1953l2-15-13-4" fill="none" stroke="#55a" strokeWidth="2.1" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3877 1948l1-7-6-2m26 38l-1-16-13-2" fill="none" stroke="#55a" strokeWidth="2.1" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3894 1971v-6l-6-1" fill="none" stroke="#55a" strokeWidth="2.1" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3862 1924l12 20 17 24 16 20m-5-8l5 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3907 1977l-5-1v-15l5 1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3903 1943l-1 13 5 1m-46-129l-8 9 9 8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3861 1833l-3 3 4 3m1 13l-6 11 10 6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3864 1857l-2 4 4 2m4 14l-5 11 10 5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3871 1881l-2 5 4 1m5 14l-3 12 11 3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3880 1906l-1 4 4 1m7 13l-2 12 12 2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3892 1928v5h4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3882 1818l10 27c2 5 4 11 7 15l8 9v-14l-4 1 2-6h-6l4-5h-5l3-5h-6l4-5h-6l4-5-6-1 3-5-5-1 4-5h-8z" fill="#55a"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3893 1784c2-2 6-3 9-4l6-1 6 2c1 0 2 1 2 3l-1 2-3 1h-3l-3 3v4l2 4v15h-9l-5-1c-2-2-3-6-4-9v-9c0-4 1-7 3-10zm-31 43a221 221 0 0022-10l9-5m-30-43l17 8 12 7"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3888 1782l-3 10v12l3 10-13 7 6-9-6-6 6-7-6-8 5-5-3-10z" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3865 1771l7 12-6 7 6 8-6 8 5 6-6 14" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3863 1778l3 4-4 3m0 10l3 4-4 4m0 6l3 5-3 5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3888 1782l-3 10v12l3 10-13 7 6-9-6-6 6-7-6-8 5-5-3-10z" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3865 1771l7 12-6 7 6 8-6 8 5 6-6 14" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3863 1778l3 4-4 3m0 10l3 4-4 4m0 6l3 5-3 5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3868 1834l11-6s3 12 6 17l5 14 11 14v53l-14-24a201 201 0 01-17-50zm-2-157s0 7 2 10a23 23 0 0015 11h8l5-1-4-2c-3-3-3-6-4-9l-2-10c-1-3-2-7-5-10l-4-3h-3z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3871 1669l4 12 6 8 5 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3871 1669l4 12 6 8 5 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3879 1673c-2 1-6 0-8-1l-2 8m12-3h-7l-3 8m12-2h-6c-2 3-1 5-1 8m10-3c-2 1-3 0-5-1-2 3-1 4-1 7m-9-26h5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3751 1762l-2 1 1 3h2l2 1v2c0 1 0 3 2 4l3 1h4l3-1 1 1v1l1 3v3l2 3 4 2 3-1 3-1 1 1v6l1 3 4 2 3-1 5 1v3l1 3 2 3h5l2-1v1l1 1 1 3 3 2 3-2 1-3v-1l1-1 2 1 2 1 4-1 1-3v-6h4l3 2 3-1-1-3-4-1-3-1-4 1-2 3v6l-2-1-2-1-3 1-2 2-1 2-1-2-2-2h-7l-1-3c0-2 0-4-2-6l-7-1-3 1-1-1v-6l-1-3-4-2-4 1-3 1-1-1v-3l-1-4-1-3-4-2-4 1h-4v-2l-1-4-4-2z"
         fill="#ff5" />
       <path d="M3751 1773l-2 2 1 2 58 46h2l23-16 1-3-3-1-22 16-57-45z" fill="#ff5" />
       <path d="M3808 1834v64l10-7v-64z" />
       <path d="M3750 1788l21 17v54l-21-14z" fill="#f55" />
-      <path d="M3771 1804v56m6-52v57m27-34v68" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3841 1875l-36 25" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3804 1890l-27-27 27-26-27-27" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3793 1821l-16 17 27 28-16 14" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3790 1831l-5 6 5 6 5-6zm0 28l-4 5 4 5 5-5z" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3778 1818l5 5-5 5zm25 28l-5 5 5 5zm-25 0l4 5-5 4zm25 27l-4 5 4 5z" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3771 1804v56m6-52v57m27-34v68" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3841 1875l-36 25" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3804 1890l-27-27 27-26-27-27" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3793 1821l-16 17 27 28-16 14" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3790 1831l-5 6 5 6 5-6zm0 28l-4 5 4 5 5-5z" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3778 1818l5 5-5 5zm25 28l-5 5 5 5zm-25 0l4 5-5 4zm25 27l-4 5 4 5z" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3734 1750l-21 10-15 8-22 12-18 14 12 16 11 14 9 14 8-3a73 73 0 0127 2l12 3 13 6a125 125 0 0126 19l10 13 11 14a95 95 0 0021 20l14 7 15 4h15l-9-17a239 239 0 01-14-42 228 228 0 01-4-39v-36l1-18"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3791 1976l-38-31v-63l4-3 7 7 10 14 9 12 4 4 4 4zm-52-109l-25 18-2-5 21-17z" fill="#ff5" />
       <path d="M3757 1880l-36 24-2-5 34-22z" fill="#ff5" />
       <path d="M3744 1952v-63l-24 15 4 18 3 17v25z" fill="#f55" />
@@ -2187,7 +2187,7 @@ const DeckSvgInline = () => (
         d="M3753 1877l-34 23-4-10-2-5 26-19 9 5zm60 115l-59-47-27 17v27l-1 11 27-19 35 29 5 2 2 3h4l3 3 2-1 4 4h3l2 3z" />
       <path d="M3823 2029v-90l-6-2-5-2v89h4l3 4 2-1z" />
       <path d="M3701 1952l-20 10-6-17-7-16a63 63 0 00-14-18v-79l14 19c4 5 6 12 9 18l11 24 5 17 4 18 2 13z" fill="#f55"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3697 2011l-27-15 3-11-1-10-3-6 8-6 14-6 10-4 1 9v13l-1 14-2 15z" fill="#ff5" />
       <path d="M3735 1863l-23 17-6-13-5-10h16z" fill="#55a" />
       <path d="M3631 1777l17 15v280h-17z" />
@@ -2196,173 +2196,173 @@ const DeckSvgInline = () => (
       <path
         d="M3756 2096h21l17-2 12-3 2-12 1-14 2-10 2-7h3l2 3 5-1 5-5 3-7-1-4-2-3h-4l-1-2-5-2-2-3h-3l-3-3h-3l-3-3h-3l-3-3h-3l-3-3-5-2h-5l-5 2-4 5-4 7c-2 5-2 11-3 16l-3 20-4 19z"
         fill="#ff5" />
-      <path d="M3829 2130l-20-40-15 4a198 198 0 01-55 1l-35-5-23 40z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3829 2130l-20-40-15 4a198 198 0 01-55 1l-35-5-23 40z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3814 2129l-15-30c-6 2-11 2-20 3l4 27h6l-5-23c5-1 8 0 12-2l12 25zm-40 0l-3-26c-10 1-18 2-28 1l-5 25h6l3-20 19-1 2 21zm-46 0l7-26c-7 0-18-1-26-3l-14 29h7l10-24 16 2-6 22z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3756 2095l5-25 5-30c1-7 2-14 5-20 2-4 5-9 10-10 4-1 10 0 13 4 3 2 3 7 2 11s-5 8-9 8c-5 0-10-5-10-9s4-8 8-9c3 0 6 3 6 5 0 3-2 7-5 7-2 0-4-2-3-4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3762 2096c3-9 4-18 5-27l4-28 7-20m-9 75l4-24 3-24 4-17m-6 64l4-23 3-22 4-16m-5 61l4-22 2-22 4-15m-4 58c2-6 2-14 3-21l3-20c1-5 1-10 3-14m-3 54l3-18 3-19c1-5 1-10 3-14m-2 50l3-17 2-18 3-12m-1 46l2-16 2-15c1-4 1-8 3-11m-27-16c1 1 3 3 5 3 3 0 6-2 8-5 2-2 4-6 3-9 0-3-1-5-3-7h-3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3792 2036c1 2 2 3 4 3 3 0 6-2 9-5 2-2 3-6 3-9s-1-6-3-7h-4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3797 2039c2 1 3 3 5 3 3 0 6-2 8-4 3-3 4-7 4-10 0-2-1-5-3-7h-4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3804 2042c1 2 2 3 4 3 3 0 6-2 8-4 3-3 4-7 4-10l-4-7h-3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3809 2046l4 2c3 1 7-2 9-4 2-3 3-6 3-10 0-2-1-5-3-6l-3-1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3792 2036c1 2 2 3 4 3 3 0 6-2 9-5 2-2 3-6 3-9s-1-6-3-7h-4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3797 2039c2 1 3 3 5 3 3 0 6-2 8-4 3-3 4-7 4-10 0-2-1-5-3-7h-4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3804 2042c1 2 2 3 4 3 3 0 6-2 8-4 3-3 4-7 4-10l-4-7h-3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3809 2046l4 2c3 1 7-2 9-4 2-3 3-6 3-10 0-2-1-5-3-6l-3-1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3815 2048l3 3c4 0 7-2 9-5 2-2 3-6 3-9 0-2 0-4-2-5l-4-1m-120 59l3-31 2-16c1-8 1-15 5-22 2-4 5-7 9-10 3-3 7-5 11-5 4-2 8-2 12-1l12 6 13 8m-13 57l-12 4h-8l-3-2 1-1 4 1h7zm-22-8l-1 1a16 16 0 0011 5l6-1 4-2m4-4l-10 2h-7l-6-2-2-3 5-2 8-1 7 2z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3752 2068v-3a6 6 0 00-7-3l-3 2v4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3748 2067v-1l-1-1-2 1v1zm4-11l-8 2-7 4" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3752 2068v-3a6 6 0 00-7-3l-3 2v4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3748 2067v-1l-1-1-2 1v1zm4-11l-8 2-7 4" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3724 2074l2-5-1-10-2-11c-1-3-2-5-1-7 0-2 1-2 2-3l3-2m10 13l5-5v-4l-3-2-3 1-3 2-3 1-1-1 3-1 4-1" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3745 2028h-6l-6-1-6 2-5-1v-2c1 1 4 2 6 1l5-2 6 2 6-2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3741 2021l-5-2h-4l-2 1-3 1m2-5l4 1 3-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3723 2076c-2 2-5 3-8 3l-6-1-4-2 7 2 6-1 3-2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3745 2028h-6l-6-1-6 2-5-1v-2c1 1 4 2 6 1l5-2 6 2 6-2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3741 2021l-5-2h-4l-2 1-3 1m2-5l4 1 3-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3723 2076c-2 2-5 3-8 3l-6-1-4-2 7 2 6-1 3-2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3723 2070l-4 2h-8l-4-2m17-4a25 25 0 01-16 1l-2-2 1-3 3-1h5l6 1 3 2 1 1z" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3720 2067v-3c-1-2-2-3-4-3h-3l-2 2-1 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3716 2066v-1l-1-1-1 1v1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3723 2061l-3-4-4-2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3720 2067v-3c-1-2-2-3-4-3h-3l-2 2-1 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3716 2066v-1l-1-1-1 1v1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3723 2061l-3-4-4-2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3707 2051l-2-7-5-5-6-2-4 2c-1 2-2 4-1 6l1 4 4 2h3l1-3-1-2 2 2 2 4 1 4 1 6 2 10zm3-20c0-2-2-8-5-12l-4-6-6-2c-2 0-4 2-5 3l-1 5 2 5 4 2 3-1v-2l-1-2 2 2 2 3 2 5 1 5 4 12z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3712 2024l-1-5-3-4-5-2-4-1 5 4 3 5 2 6 1 5 1-5z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3712 2024l-1-5-3-4-5-2-4-1 5 4 3 5 2 6 1 5 1-5z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3708 2015l7 4-3 5zm71-4l-25-21-28 19v-9l27-19 35 29c-2-1-6-1-9 1z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3849 2001l-10-10 10-10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3848 1995l-3-4 3-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3835 2013l10-9-9-10-9 10zm1-4l-6-5 6-6 5 6z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3631 2108l38-36h-38z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3631 2100l23-22h-23z" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3849 1976l-9-11 9-9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3849 1969l-3-3 3-4m-25 38l9-9-9-10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3824 1995l3-4-3-4m1-31l8 10-9 9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3824 1961l3 4-3 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3849 2001l-10-10 10-10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3848 1995l-3-4 3-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3835 2013l10-9-9-10-9 10zm1-4l-6-5 6-6 5 6z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3631 2108l38-36h-38z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3631 2100l23-22h-23z" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3849 1976l-9-11 9-9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3849 1969l-3-3 3-4m-25 38l9-9-9-10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3824 1995l3-4-3-4m1-31l8 10-9 9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3824 1961l3 4-3 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3836 1988l10-10-9-10-10 10zm1-4l-6-5 6-6 5 5zm-1-22l9-9-9-10-9 9zm0-4l-5-5 5-6 5 5z" fill="#55a"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3824 2008l8 9-8 8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3824 2013l3 3-3 4m24-14l-10 10 6 6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3848 2012l-3 4 3 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3849 1950l-4-5m-21 5l7-7m18 76l1-74m-27 83l1-89" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3840 2024l-5-5-8 9 1 2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3654 2072v-71l-6-2v73zm-6-280v202h6v-204l-23-20v7z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3824 2008l8 9-8 8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3824 2013l3 3-3 4m24-14l-10 10 6 6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3848 2012l-3 4 3 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3849 1950l-4-5m-21 5l7-7m18 76l1-74m-27 83l1-89" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3840 2024l-5-5-8 9 1 2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3654 2072v-71l-6-2v73zm-6-280v202h6v-204l-23-20v7z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3640 2070c1 0 2-1 2-3l-2-2c-2 0-3 1-3 2 0 2 1 3 3 3zm0-14c1 0 2-1 2-3l-2-2c-2 0-3 1-3 2 0 2 1 3 3 3zm-3 7l2-2c0-2-1-3-2-3-2 0-3 1-3 3 0 1 1 2 3 2zm5 0c2 0 3-1 3-2 0-2-1-3-3-3-1 0-2 1-2 3zm-3-42c2 0 3-1 3-2s-1-3-3-3l-2 3zm0-14c2 0 3-1 3-2s-1-3-3-3l-2 3zm-3 7c2 0 3-1 3-2s-1-3-3-3l-2 3zm6 0c2 0 3-1 3-2s-1-3-3-3l-2 3zm-2-42l2-2-2-3c-2 0-3 2-3 3s1 2 3 2zm0-14l2-2-2-3c-2 0-3 2-3 3s1 2 3 2zm-3 7l2-2-2-3c-2 0-3 2-3 3s1 2 3 2zm6 0l2-2-2-3c-2 0-3 2-3 3s1 2 3 2zm-3-42c1 0 2-1 2-3l-2-2-3 2c0 2 2 3 3 3zm0-14c1 0 2-1 2-3l-2-2-3 2c0 2 2 3 3 3zm-3 7c1 0 2-1 2-3l-2-2-3 2c0 2 2 3 3 3zm6 0c1 0 2-1 2-3l-2-2-3 2c0 2 2 3 3 3zm-3-41l2-3-2-2-3 2zm0-14l2-3-2-2-3 2zm-3 7l2-3-2-2-3 2zm6 0l2-3-2-2-3 2zm-3-42c1 0 3-1 3-3l-3-2-2 2c0 2 1 3 2 3zm0-14c1 0 3-1 3-3l-3-2-2 2c0 2 1 3 2 3zm-3 7c1 0 3-1 3-3l-3-2-2 2c0 2 1 3 2 3zm6 0c1 0 3-1 3-3l-3-2-2 2c0 2 1 3 2 3zm3 214v5l-13 12v-5zm0-8v5l-13 12v-5zm0-42v5l-13 12v-5zm0-8v5l-13 12v-5zm0-42v5l-13 12v-5zm0-8v5l-13 12v-5zm0-40v5l-13 12v-5zm0-8v5l-13 12v-5zm0-39v5l-13 12v-5zm0-8v5l-13 12v-5zm0-38v1l-13 12v-5l10-10zm-7-5l3 1-9 9v-5z"
         fill="#ff5" />
       <path
         d="M3714 1989l9-10-9-10-10 10zm0-4l-6-5 6-6 5 5zm-4 32l10-9-7-11-11 9zm0-5l-4-5 6-5 4 5zm4-49l8-10-10-8-8 10zm0-4l-6-4 4-6 6 4zm-3-19l8-11-10-9-8 11zm0-4l-6-5 4-6 6 4zm-4-22l6-12-11-7-7 12zm-1-4l-6-3 3-7 6 3zm-6-21l5-13-12-6-5 13zm-2-4l-6-3 2-7 7 2zm-9-22l3-13-13-4-3 14zm-2-4l-7-1 1-8 7 2zm-11-20l1-13-13-2-2 13zm-3-3l-7-1 1-8 7 1z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3700 2001l10-8-8-10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3700 2001l10-8-8-10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3701 1996l3-3-3-4m-2 22l1-19 2-26-2-22a244 244 0 00-21-72 242 242 0 00-24-39m71 151l-11 11 10 12"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3726 1990l-5 5 4 5m-23-25l9-8-8-8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3703 1971l3-4-3-3m24-10l-10 12 10 11" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3727 1960l-5 5 5 5m-3-41l-9 12 11 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3725 1935l-4 5 5 5m-7-42l-7 14 12 9" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3721 1910l-4 5 6 4m-14-42l-5 15 13 7" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3711 1883l-2 7 6 3m-19-42l-3 15 14 5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3699 1857l-1 6 6 2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3682 1827l-2 15 13 4" fill="none" stroke="#55a" stroke-width="2.1" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3685 1832l-1 7 6 2m-26-38l1 16 13 2" fill="none" stroke="#55a" stroke-width="2.1" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3668 1809v6l6 1" fill="none" stroke="#55a" stroke-width="2.1" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3700 1856l-12-20-17-24-16-20m5 8l-5-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3655 1803l5 1v15l-5-1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3659 1837l1-13-5-2m46 130l8-9-9-8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3701 1947l3-3-4-3m-1-13l6-11-10-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3698 1923l2-4-4-2m-4-14l5-11-10-5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3691 1899l2-5-4-1m-5-14l3-12-11-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3682 1874l1-4-4-1m-7-13l2-12-12-2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3670 1852v-5h-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3726 1990l-5 5 4 5m-23-25l9-8-8-8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3703 1971l3-4-3-3m24-10l-10 12 10 11" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3727 1960l-5 5 5 5m-3-41l-9 12 11 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3725 1935l-4 5 5 5m-7-42l-7 14 12 9" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3721 1910l-4 5 6 4m-14-42l-5 15 13 7" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3711 1883l-2 7 6 3m-19-42l-3 15 14 5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3699 1857l-1 6 6 2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3682 1827l-2 15 13 4" fill="none" stroke="#55a" strokeWidth="2.1" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3685 1832l-1 7 6 2m-26-38l1 16 13 2" fill="none" stroke="#55a" strokeWidth="2.1" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3668 1809v6l6 1" fill="none" stroke="#55a" strokeWidth="2.1" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3700 1856l-12-20-17-24-16-20m5 8l-5-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3655 1803l5 1v15l-5-1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3659 1837l1-13-5-2m46 130l8-9-9-8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3701 1947l3-3-4-3m-1-13l6-11-10-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3698 1923l2-4-4-2m-4-14l5-11-10-5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3691 1899l2-5-4-1m-5-14l3-12-11-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3682 1874l1-4-4-1m-7-13l2-12-12-2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3670 1852v-5h-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3680 1962l-10-27c-2-5-4-11-7-15l-8-9v14l4-1-2 6h6l-4 5h5l-3 5h6l-4 5h6l-4 5 6 1-3 5 5 1-4 5h8z" fill="#55a"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3669 1996c-2 2-6 3-9 4l-6 1-6-2c-1 0-2-1-2-3l1-2 3-1h3l3-3v-4l-2-4v-15l9-1 5 2c2 2 3 6 4 9v9c0 4-1 7-3 10zm31-43a221 221 0 00-22 10l-9 5m30 43l-17-8-12-7"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3674 1998l3-10v-12l-3-10 13-7-6 9 6 6-6 7 6 8-5 5 3 10z" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3697 2009l-7-12 6-7-6-8 6-8-5-6 6-14" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3699 2002l-3-4 4-3m0-10l-3-4 4-4m0-6l-3-5 3-5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3674 1998l3-10v-12l-3-10 13-7-6 9 6 6-6 7 6 8-5 5 3 10z" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3697 2009l-7-12 6-7-6-8 6-8-5-6 6-14" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3699 2002l-3-4 4-3m0-10l-3-4 4-4m0-6l-3-5 3-5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3694 1946l-11 6s-3-12-6-17l-5-14-11-14v-53a384 384 0 0025 51 186 186 0 018 41zm2 157s0-7-2-10a23 23 0 00-15-11h-8l-5 1 4 2c3 3 3 6 4 9l2 10c1 3 2 7 5 10l4 3h3z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3691 2111l-4-12-6-8-5-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3691 2111l-4-12-6-8-5-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3683 2107c2-1 6 0 8 1l2-8m-12 3h7l3-8m-12 2h6c2-3 1-5 1-8m-10 3h5c2-2 1-3 1-6m9 26h-5" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3811 2018l2-1-1-3h-2l-2-1v-2c0-1 0-3-2-4l-3-1h-4l-3 1-1-1v-1l-1-3v-3l-2-3-4-2-3 1-3 1-1-1v-6l-1-3-4-2-3 1-5-1v-3l-1-3-2-3h-5l-2 1v-1l-1-1-1-3-3-2-3 2-1 3v1l-1 1-2-1-2-1-4 1-1 3v6h-4l-3-2-3 1 1 3 4 1 3 1 4-1 2-3v-6l2 1 2 1 3-1 2-2 1-2 1 2 2 2h7l1 3c0 2 0 4 2 6l7 1 3-1 1 1v6l1 3 4 2 4-1 3-1 1 1v3l1 4 1 3 4 2 4-1h4v2l1 4 4 2z"
         fill="#ff5" />
       <path d="M3811 2007l2-2-1-2-58-46h-2l-23 16-1 3 3 1 22-16 57 45z" fill="#ff5" />
       <path d="M3754 1946v-64l-10 7v64z" />
       <path d="M3813 1992l-22-17v-54l21 14z" fill="#f55" />
-      <path d="M3791 1976v-56m-6 52v-57m-27 34v-68" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3721 1905l36-25" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3758 1890l27 27-27 26 27 27" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3769 1959l16-17-27-28 16-14" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3772 1949l5-6-5-6-5 6zm0-28l4-5-4-5-5 5z" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3784 1962l-5-5 5-5zm-25-28l5-5-5-5zm25 0l-4-5 5-4zm-25-27l4-5-4-5z" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3791 1976v-56m-6 52v-57m-27 34v-68" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3721 1905l36-25" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3758 1890l27 27-27 26 27 27" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3769 1959l16-17-27-28 16-14" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3772 1949l5-6-5-6-5 6zm0-28l4-5-4-5-5 5z" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3784 1962l-5-5 5-5zm-25-28l5-5-5-5zm25 0l-4-5 5-4zm-25-27l4-5-4-5z" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3828 2030l21-10 15-8 22-12 18-14-12-16-11-14-9-14-8 3a73 73 0 01-27-2l-12-3-13-6a125 125 0 01-26-19l-10-13-11-14a95 95 0 00-21-20l-14-7-15-4h-15l9 17a239 239 0 0114 42 228 228 0 014 39v36l-1 18"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3631 1770v360h270" fill="none" stroke="#55a" stroke-width="2" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3631 1770v360h270" fill="none" stroke="#55a" strokeWidth="2" />
       <path
         d="M3789 1889l-3 2-3 2-3 3c-4 2-3 2 0 5l3 4 3 3c2 4 2 4 5 1l3-2 3-3c3-2 3-3 0-6l-3-3-2-3zm-1 6l2 1 1 1v1h2v4h-2v1l-1 1-2 1-2-1v-2h-2l-1-2 1-2h2v-2zm14 10l-2 2-3 3-2 3c-4 3-3 3 0 5l4 3 3 3c4 4 3 4 6 0l2-3 3-3c3-3 2-3-1-5l-3-3-3-3zm1 6h2l1 1v1h2l1 2-1 2-1 1h-1 1l-1 2-2 1-2-1v-2l-1 1-1-1-1-1v-3h2v-2zm15 7l-1 2-2 4-2 3c-2 4-1 4 3 5l4 2 4 2c4 2 4 2 6-2l1-4 1-3c2-4 1-4-2-5l-4-2-4-1c-2-2-3-2-4-1zm2 5l2-1 2 1v1l2-1 1 2v2l-1 1v2l-1 2h-2l-1-1v-1l-1 1h-1l-2-2v-2l1-1v-2zm17 2l-1 4v3l-1 4c-1 4 0 4 4 4l4 1h5c4 1 5 1 5-3v-8c1-4 0-4-4-4h-4l-4-1zm4 5l1-1 2 1 2-1 2 1v3h-1l1 1v3l-2 1-2-1v-1 1l-2 1-1-1-1-2v-1l1-1h-1v-1zm-66-37l3-2 3-2 3-2c4-3 2-3 0-6l-3-4-3-3c-3-4-2-4-6-1l-2 2-3 3c-4 3-3 3 0 6l2 3 3 3zm0-6l-2-1v-2l-1 1-1-1-1-2 1-2h2v-2l2-1 2 1 1 1-1 1h2l1 2-1 2-1 1-1-1 1 1-1 1zm-14-10l3-2 3-3 2-3c4-3 3-3 0-6l-4-3-3-3c-4-3-3-3-6 0l-2 3-3 3c-3 4-2 4 1 6l3 3 3 3zm0-6h-2l-1-2s1 0 0 0h-2l-1-2 1-2 1-1 1-2 1-1 2 1 1 1v1l1-1 1 1 1 1v2l-1 1h-1v2zm-17-8l2-3 2-3 1-4c3-3 2-3-2-5l-4-2-5-1c-4-2-4-2-5 2l-1 3-2 4c-1 4-1 3 3 5l4 2 4 1zm-2-5h-2l-1-1h-2l-2-1v-2l1-1h1l-1-1v-1l2-2h2l1 1h2l1 1 1 2-1 1h-1v1l1 1zm-16-3l1-3v-4l1-4c1-4 0-3-4-4h-5l-4-1c-5 0-5-1-5 4v7c-1 5 0 4 4 5zm-4-4l-2 1-1-1v-1l-1 1-1 1-2-1-1-2 1-1v-1l-1-1 1-2 2-1 1 1h1l1-1 2 1 1 2-1 1v1l1 1zm140 75h-1l-4 2v3l1 4v4c0 4 1 3 5 3l4-1 3-1-1-3h-2l-1-1v1l-1 1h-2l-1-2v-1l1-1h-1l-1-1v-2l2-1h2zm-162-72h2l3-1v-7l-1-4c0-5 0-4-4-3l-4 1h-4l2 4 1-1 1 1h1v-1l1-1 2 1 1 1-1 2h1v4l-1 1h-1l-1-1zm-4-133c2 4 7 10 12 10 9 0 13-8 13-18s-4-19-13-19c-5 0-8 5-11 8-1 1-2 0-1-1 3-3 8-11 8-18 0-8-5-18-13-18s-13 10-13 18c0 7 5 15 8 18 1 1 0 2-1 1-3-3-6-8-11-8-9 0-13 9-13 19s4 18 13 18c5 0 10-6 12-10 1-1 1 0 1 1l-2 16-4 17c5-2 15-2 20 0l-4-17-2-16c0-1 0-2 1-1zm-63 17c1 2 4 5 7 5 4 0 6-4 6-9s-2-10-6-10c-3 0-4 3-6 4h-1c2-1 4-5 4-9s-2-9-6-9-7 5-7 9 3 8 4 9c1 0 0 1 0 0-1-1-3-4-5-4-5 0-7 5-7 10s2 9 7 9c2 0 5-3 5-5h1l-1 8-2 9h10l-2-9-1-8s0-1 0 0zm233 321c-2-4-7-10-12-10-9 0-13 8-13 18s4 19 13 19c5 0 8-5 11-8 1-1 2 0 1 1-3 3-8 11-8 18 0 8 5 18 13 18s13-10 13-18c0-7-5-15-8-18-1-1 0-2 1-1 3 3 6 8 11 8 9 0 13-9 13-19s-4-18-13-18c-5 0-10 6-12 10-1 1-1 0-1-1l2-16 4-17c-5 2-15 2-20 0l4 17 2 16c0 1 0 2-1 1zm63-17c-1-2-4-5-7-5-4 0-6 4-6 9s2 10 6 10c3 0 4-3 6-4h1c-2 1-4 5-4 9s2 9 6 9 7-5 7-9-3-8-4-9c-1 0 0-1 0 0 1 1 3 4 5 4 5 0 7-5 7-10s-2-9-7-9c-2 0-5 3-5 5h-1l1-8 2-9h-10l2 9 1 8s0 1 0 0z" />
     </symbol>
@@ -2371,390 +2371,390 @@ const DeckSvgInline = () => (
       <rect rx="15" ry="15" y="1620.5" x="3960.5" height="539" width="359" fill="#fff" stroke="#000" />
       <path
         d="M4114 1878h56l-2 12v14l-56-1 2-13zm-123-228c-6 0-10 5-10 10v30a10 10 0 0011 10c2 3 5 5 9 5v-5c-2 0-3 0-4-2 2-1 4-4 4-8v-30c0-5-4-10-10-10zm0 5c3 0 5 3 5 5v32c-2-4-6-7-10-7v-25c0-2 2-5 5-5zm-5 35c3 0 5 3 5 5-3 0-5-2-5-5zm305 440c6 0 10-4 10-10v-30a10 10 0 00-11-10c-2-3-5-5-9-5v5l4 2c-2 2-4 5-4 8v30c0 6 4 10 10 10zm0-5c-3 0-5-2-5-5v-32c2 4 6 7 10 7v25c0 3-2 5-5 5zm5-35c-3 0-5-2-5-5 3 0 5 3 5 5z" />
-      <path d="M3991 1770v360h270m-240-480h270v360" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M3991 1770v360h270m-240-480h270v360" fill="none" stroke="#55a" strokeWidth="2" />
       <path d="M4156 1795l18 1-16 24a127 127 0 00-12 38l-1 10-1 10h-9l3-16 2-15 3-15 6-16z" fill="#ff5" />
       <path
         d="M4155 1878h9l2-9a81 81 0 0117-27l9-8 9-7 12-3a126 126 0 0125-3l12 1 9-11-11-6c-2-1-5-2-6-4-3-1-6-5-6-5h-38l-8 8-12 14-9 15a158 158 0 00-12 33z"
         fill="#ff5655" />
       <path d="M4104 1795l33 1-6 21-4 20-2 24v17h-11l-2-11-7-15-2-3 5-9 3-10v-11l-1-11-3-6z" fill="#f55" />
       <path d="M4084 1795l5-7 7-10 7-11 3-5 3-6 37-1 5 4 6 1 7-1 4-1h44l3 5 3 6 4 5 2 5 4 6 3 5 5 6z" fill="#ff5" />
-      <path d="M4106 1763h109m-113 5l117 1m-130 20h142m-147 6l152 1" fill="#55a" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4106 1763h109m-113 5l117 1m-130 20h142m-147 6l152 1" fill="#55a" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4102 1768l-6 10h12l6-9zm7 11l-5 8h14l4-8zm20-10l-5 9h12l5-9zm8 10l-5 9 12-1 6-8zm18-9l-4 8h12l4-9zm8 9l-5 9h13l6-9zm20-10l-6 9 13 1 5-9zm8 10l-5 9h12l5-9zm18-9l-5 8 12 1 4-6-2-2zm7 10l-6 8h14l2-4-2-4z"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4181 1751l28 1 4 6h-47z" fill="#55a" />
       <path d="M4109 1756h38l-9-10-4-14-2-14a236 236 0 01-3-23l-3 16-5 16-6 14z" />
       <path d="M4268 1650a110 110 0 008 60c4 11 9 21 15 30a57 57 0 00-30 0l-50-90h57" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4222 1650s-3 6-1 10c2 3 9 3 9 3s-3 8-1 12c2 3 10 5 10 5s-3 7-1 11c3 6 10 4 10 4s-4 7 0 12c3 3 9 3 9 3-3 3-3 8-1 12 1 2 7 3 7 3s-2 7 0 9l6 4"
-        fill="none" stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4248 1697l2 3 2 4h6l2-5c0-2-4-5-4-5s5-1 6-3 1-4-1-6c-1-1-3-3-5-2s-4 6-4 6l-2-6-4-3-4 2v7c1 2 6 4 6 4s-1-3 1-4 5 1 6 3 0 4-2 5c-4 1-5-2-5-2zm-16-30l2 3 3 3h6l2-5c0-2-4-4-4-4s5-1 6-3c2-2 1-5 0-6l-6-3c-3 1-5 6-5 6l-1-6h-9c-1 2-2 5-1 7s6 4 6 4-1-3 2-5c2-1 6 1 6 3 1 2 0 5-2 5-4 2-5-2-5-2zm33 61l1 2 2 3h5c1 0 2-3 1-4 0-2-3-4-3-4s5-1 5-3v-5c-1-2-3-3-5-3-2 1-3 6-3 6l-2-5c0-2-1-3-3-3l-3 2c-2 1-1 4-1 6l5 4s-1-3 1-4 5 1 5 3c1 1 0 4-1 4-3 1-5-2-5-2z"
-        stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4152 1651s4 14 13 21 19 10 19 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4158 1651s3 11 10 17 15 8 15 8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4152 1651s4 14 13 21 19 10 19 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4158 1651s3 11 10 17 15 8 15 8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4164 1651s2 9 7 13l11 7m-13-20s0 6 5 9l7 5m-7-14s0 4 3 6l3 2m-28-8s-1 9-6 18c-6 9-16 14-16 14m16-32s1 5-4 13c-4 7-12 12-12 12"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4142 1651l-3 11-8 8m6-19l-2 7-4 4m18 30v7l-3 10c-1 2-3 4-3 7l1 4 4 2 2 3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4161 1714l3 6-3 3-5-2c-1 0-2-3-4-2l-1 2 5 1h7l1-4zm23-26s-7-4-11-4h-8l-4 2 6-1h8zm-53-2s5-3 8-2c4 0 9 5 9 5s-6-4-9-4-8 3-8 3zm34 47l-8-1h-12l-3 2 4-1 6 2 7-2z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4161 1743l-6-1-7 1m11-5l-6 1-5-1m-1-42s-4-4-9-4c-4 0-7 2-7 2m54 4s-8-8-13-7c-6 0-11 5-11 5" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4189 1700c-5-1-9-4-14-4-5-1-14 1-14 1m-31 3c5-3 4-4 9-4 5-1 9 2 9 2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4186 1699c-5 1-10 5-16 5-4 1-8-2-9-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4176 1697c1 5-4 6-8 6-2 0-4-3-3-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4168 1699l1-2 2 2-2 2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4131 1701c2 2 6 3 10 3 3 0 6-2 7-5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4136 1697c-1 4 2 7 6 7 1 0 4-5 3-7" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4143 1699l-2-1c-1 0-2 0-1 1l1 1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4186 1699c-5 1-10 5-16 5-4 1-8-2-9-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4176 1697c1 5-4 6-8 6-2 0-4-3-3-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4168 1699l1-2 2 2-2 2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4131 1701c2 2 6 3 10 3 3 0 6-2 7-5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4136 1697c-1 4 2 7 6 7 1 0 4-5 3-7" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4143 1699l-2-1c-1 0-2 0-1 1l1 1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4130 1651v50l2 22 6 21c2 4 4 8 8 11l8 5h7c5-1 9-4 14-6l12-7 15-10m-55-34c-2 3-2 5-6 7m20-8c1 4 4 8 9 10"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4187 1651s42 87 66 129l7 11 9 8 9 4 7 1 5-1-94-152z" />
       <path
         d="M4179 1651a612 612 0 0010 49 377 377 0 0024 59c6 10 11 21 18 30l10 11c4 4 10 7 16 10l15 3 11-2 8-3h-15c-5-2-10-6-14-9s-6-7-9-11c-5-7-8-15-12-23l-13-26-17-32-13-28-15-28zm2 8l14 16m-13-6c6 6 12 13 20 19m-17-10c11 13 16 17 23 23m-21-13c11 12 21 22 29 28m-28-19c12 12 23 24 34 32m-30-20c12 11 25 25 36 31m-32-19c14 12 28 25 38 31m-35-22c13 12 27 24 40 32m-32-17c11 9 23 19 36 26m-31-14c11 10 23 17 36 23m-28-10c11 7 22 15 33 19m-26-8c10 7 21 13 34 17m-27-5c13 6 28 15 41 14"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4261 1740l-8 3-57-93h15l50 90m-136-89v24a94 94 0 01-15 41l-16 20a154 154 0 00-17 37l-2 15 3 15 12-18c6-10 13-18 18-28 5-9 9-19 12-29 3-9 7-19 8-28l1-20 1-29zm-133 229l70-56 4 6-74 60z"
-        fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4062 1823l28 37 5-3-29-39z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4066 1818l15-18 7 8 4 11v11l-4 8-4 4z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4062 1823l28 37 5-3-29-39z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4066 1818l15-18 7 8 4 11v11l-4 8-4 4z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4087 1796l8 10a34 34 0 014 22c0 4-2 7-3 10l-9 9-4-5c4-3 6-4 7-7l4-10-2-10a39 39 0 00-11-15l2-4z"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4092 1851l5-5 5-7 3-10v-10l-3-13-6-10h8l6 12 1 13v9l-3 9-3 6-3 4a144 144 0 009 18c1 4 3 9 3 14l-2 19-5 18c-2 5-5 9-9 13a65 65 0 01-25 18l-21 6a61 61 0 01-29-4l-10-4-9-7-5-6-8 7v-9l94-76 4 5 6-5z"
-        fill="#fff954" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff954" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3992 1926l90-75-12-17-78 63zm31-11l12-10 31-25 13-11 4 10v15l-4 13c-3 5-8 10-12 13a36 36 0 01-29 4l-8-4z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4036 1906l30-25 2 8-2 9-7 7a22 22 0 01-17 3z" fill="#ff5554" />
       <path
         d="M4004 1931l14-12 13 8a40 40 0 0031 1c5-2 10-5 14-9a38 38 0 0013-24v-11l-1-12-3-8 14-10 6 10 3 13v12a81 81 0 01-9 32l-11 13-13 9-13 5a78 78 0 01-29 0c-4-1-8-1-11-3a43 43 0 01-18-14z"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4012 1924l8-1c3 1 5 1 7 3l3 4-7 2c-2 0-5 0-7-2l-3-3z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4013 1925l4 2 5 1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4047 1834l-6-7-8-7-6-4h-5c-1 0-2 1-2 3l2 6 5 5 4 3v6l-1 4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4012 1924l8-1c3 1 5 1 7 3l3 4-7 2c-2 0-5 0-7-2l-3-3z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4013 1925l4 2 5 1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4047 1834l-6-7-8-7-6-4h-5c-1 0-2 1-2 3l2 6 5 5 4 3v6l-1 4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4024 1820l1 3h2l2-1m-9-4s-4-2-5-1c-2 1-3 3-3 5l4 7 4 5 4 2 3-3-2-3c-1-1-2-3-3-2l-2 2-2 3" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4011 1823l-3 2-1 3 2 6 5 5c2 1 3 3 5 3h3v-4l-1-3c-2-1-3 0-4 1l-2 3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4007 1832s-3 2-3 4l2 3 6 5c2 1 3 3 5 3l2-1v-3l-3-3-2 2v3m-8-4l-1 3 2 5 6 3h3c2-1 2-3 1-4l-3-2-2 2-1 3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4009 1850l-5 10s0 3 2 4l3-1 2-4 2-6" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4004 1860l4-2 4 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4021 1815l-8-2-5-4-3-6-1-8 6 4 6 3a23 23 0 017 6l2 4v4z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4010 1804l3 4 6 4 5 3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4009 1850l-5 10s0 3 2 4l3-1 2-4 2-6" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4004 1860l4-2 4 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4021 1815l-8-2-5-4-3-6-1-8 6 4 6 3a23 23 0 017 6l2 4v4z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4010 1804l3 4 6 4 5 3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4025 1816l8-14 4 3-8 13zm7 2l6-5 8-2h8l8-1s-2 6-4 7l-8 4-10 1-5-1z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4033 1818l7-2h8l3-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4033 1818l7-2h8l3-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4043 1793l1 8 6 1v-7zm0-9l1-7 6-1-1 7zm-11 0l-7-1-1-7 7 1zm-6 11l-1 7 7-2v-6z" fill="#55a" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4034 1792l-2 5 1 5 4 2 5-1 2-6-2-4 5 2 6-2v-6l-3-3h-6l-2 2 2-5-1-5-3-2h-4c-2 1-3 2-3 4v4l2 4-6-2-5 1-2 4c0 1 0 3 2 4l4 2z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4031 1789c3-1 6-3 8-7 1 3 1 4 6 8-4 1-6 3-7 7-2-3-3-7-7-8z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4031 1789c3-1 6-3 8-7 1 3 1 4 6 8-4 1-6 3-7 7-2-3-3-7-7-8z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4137 1795l-7 24a250 250 0 00-6 39v20h12l3-20 5-27 6-17 4-10 4-9zm36 0s-12 18-16 27a127 127 0 00-12 38l-1 12v6h11l7-27a127 127 0 0125-43l9-9 4-3z"
         fill="#000003" />
-      <path d="M4164 1877l7-17a81 81 0 0128-30 69 69 0 0135-9l15 1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4164 1877l7-17a81 81 0 0128-30 69 69 0 0135-9l15 1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4124 1811l2 1c3 0 4-2 4-3 0-2-1-3-4-3h-2l2-3-3-3c-2 0-4 2-4 3l2 3h-2c-2 0-4 1-4 3 0 1 2 3 4 3l2-1v2l-1 2h5l-1-2zm-8 37l3 1c2 0 4-2 4-3 0-2-2-4-4-4l-2 1h-1l3-3c0-1-2-3-4-3s-4 2-4 3l3 3-3-1c-2 0-3 2-3 4 0 1 1 3 3 3l3-1-1 1-1 3h6l-2-3zm69-16l3 1c2 0 3-1 3-3s-1-3-3-3l-3 1c1-1 3-2 3-4 0-1-2-3-4-3s-4 2-4 3c0 2 2 3 3 4h-1l-2-1c-2 0-4 1-4 3s2 3 4 3l3-1-1 2-1 2h5l-1-2zm21-18l3 1c2 0 4-2 4-3 0-2-2-3-4-3h-3l3-3c0-1-2-3-4-3s-3 2-3 3l2 3h-2c-3 0-4 1-4 3 0 1 1 3 4 3l2-1v2l-1 2h5l-1-2zm29-2l3 1c2 0 4-2 4-3 0-2-2-4-4-4l-2 1h-1l3-3c0-1-2-3-4-3s-3 2-3 3l2 3-2-1c-3 0-4 2-4 4 0 1 1 3 4 3l2-1v1l-1 3h5l-1-3z"
         fill="#fff" />
       <path d="M4258 1811l-12 16 13 3 12 7c4 2 12 10 12 10l8-7v-32l-9 4-11 1h-7z" fill="#55a" />
       <path
                 d="M4178 1796c-3 1-1 3 0 4l3 3-11 6c-2 1 0 3 0 4 1 1 2 2 0 3l-7 4c-1 2 0 3 1 4l1 3-8 5 3 5c1 1 0 2-1 2l-5 3c-1 2 0 4 1 5 0 1 2 2 0 2l-4 3c-1 1 0 3 1 4l1 3-5 1c-2 2 0 3 1 4s3 2 1 3c-1 1-3 1-3 3l2 4-3 4 4-1c1-1 3-2 3-4l-3-3 4-3c0-2-2-3-3-5l4-1c3 0 2-3 1-4l-2-4 5-2c1-2 0-3-1-5 0-1-2-2 0-3l5-3c1-2 0-4-1-5s-1-2 1-2l5-5c1-1-1-3-1-4s-2-2-1-3l8-4c1-2 0-3-1-5 0-1-1-2 1-2l11-6c1-1-1-3-2-4l-5-4-1 1zm-30 1l-7 4c-2 1-2 3-1 4l3 4-7 4c-1 2 1 3 2 4l2 4-6 4c-1 2 1 3 2 5l1 2-6 5 2 4c0 1 2 2 1 3l-5 4c-1 1 1 2 2 4v2c-1 1-4 2-2 4l2 3c-1 1-3 2-3 4l2 4c-1 1-3 2-2 4l2 4c3 2 4-2 2-3v-2c2-1 2-3 1-4l-2-3c1-1 4-2 3-3l-2-5 3-3c1-1-1-3-2-4v-2l4-3c1-2-1-3-1-4s-2-2-1-3l6-5-2-4-2-3 6-4c1-2-1-3-2-4l-2-3 7-5c1-1-1-3-1-4l-2-3 7-4v-2z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M4050 1855l14-4-7 14-1-4h-4s3-3 2-5zm-25 21l14-3-8 14v-5h-4l2-4c-1-2-4-2-4-2zm-27 20l15-3-8 14s1-3-1-4h-3s2-3 1-5zm67-51v2h-2v-2zm7-1v2h-2l1-1zm-2 8v2h-2l1-2zm-31 13v3l-2-1 1-1zm8 0v2h-2v-2zm-2 7v3l-2-1v-1zm-31 13v3l-2-1 1-1zm8 0l-1 2h-1v-2zm-2 7l-1 3-1-1v-1zm-23 14v3l-2-1v-1z"
-        fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4009 1927l7 5 5 6 1 6s-5-1-7-3c-3-1-5-4-6-6l-1-5z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4009 1928s1 4 3 5c0 2 3 4 3 4" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4023 1935l8 2 7 5 2 5h-8l-8-5-2-4z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4023 1936l4 4 4 3" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4040 1942l8-2 9 1 5 2-7 4-9 1-4-3z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4041 1943l6 1h5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4061 1942l7-5 8-2 5 1-5 6c-2 2-5 3-8 3l-5-1z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4062 1942h6l4-2" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4078 1932l5-6 8-4h5l-3 7-8 5h-4z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4079 1933l5-2 4-3" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4091 1920l3-8 5-6 5-2-1 8c-1 3-2 5-5 7l-4 2z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4091 1920l5-4 3-4" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4096 1903l1-10 4-8 5-3v9c0 3-1 6-3 8l-4 3z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4097 1902l3-5 2-5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4100 1886l-2-10c0-3-1-6 1-9l3-4 4 8c0 3 1 6-1 8 1 3-1 4-2 5z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4101 1884l1-5v-6" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4098 1887v-10c-2-2-2-6-4-7l-4-4-1 9c1 3 1 6 3 8l4 4z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4097 1886l-2-5-2-5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4097 1905l1-9c-1-4-1-7-3-9l-3-4-2 9c0 3 0 6 2 8l2 4z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4096 1904l-2-5v-5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4088 1921l4-9v-9l-2-5-5 8v9c-1 2 0 3 1 4z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4088 1920l-1-6 1-5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4099 1875l1-9-1-7-3-4-2 7v8l2 4z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4098 1874l-1-5v-5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4075 1934l6-7c2-3 4-6 3-9v-5l-6 6-4 7c-2 2-1 4-1 5z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4075 1932l1-5 3-5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4059 1940l8-6c2-2 5-4 5-7l1-5-8 4c-2 2-5 4-5 7-2 1-2 3-2 4z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4059 1938l3-4 4-4" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4040 1940l9-2 8-5 2-4h-8c-3 1-6 2-8 5-2 0-2 2-3 3z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4041 1939l4-3 5-3" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4024 1933l8-3h8l5 2-7 4c-2 1-5 2-8 1l-4-2z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4025 1934h5l5-1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#fff" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4009 1927l7 5 5 6 1 6s-5-1-7-3c-3-1-5-4-6-6l-1-5z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4009 1928s1 4 3 5c0 2 3 4 3 4" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4023 1935l8 2 7 5 2 5h-8l-8-5-2-4z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4023 1936l4 4 4 3" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4040 1942l8-2 9 1 5 2-7 4-9 1-4-3z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4041 1943l6 1h5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4061 1942l7-5 8-2 5 1-5 6c-2 2-5 3-8 3l-5-1z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4062 1942h6l4-2" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4078 1932l5-6 8-4h5l-3 7-8 5h-4z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4079 1933l5-2 4-3" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4091 1920l3-8 5-6 5-2-1 8c-1 3-2 5-5 7l-4 2z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4091 1920l5-4 3-4" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4096 1903l1-10 4-8 5-3v9c0 3-1 6-3 8l-4 3z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4097 1902l3-5 2-5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4100 1886l-2-10c0-3-1-6 1-9l3-4 4 8c0 3 1 6-1 8 1 3-1 4-2 5z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4101 1884l1-5v-6" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4098 1887v-10c-2-2-2-6-4-7l-4-4-1 9c1 3 1 6 3 8l4 4z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4097 1886l-2-5-2-5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4097 1905l1-9c-1-4-1-7-3-9l-3-4-2 9c0 3 0 6 2 8l2 4z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4096 1904l-2-5v-5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4088 1921l4-9v-9l-2-5-5 8v9c-1 2 0 3 1 4z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4088 1920l-1-6 1-5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4099 1875l1-9-1-7-3-4-2 7v8l2 4z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4098 1874l-1-5v-5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4075 1934l6-7c2-3 4-6 3-9v-5l-6 6-4 7c-2 2-1 4-1 5z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4075 1932l1-5 3-5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4059 1940l8-6c2-2 5-4 5-7l1-5-8 4c-2 2-5 4-5 7-2 1-2 3-2 4z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4059 1938l3-4 4-4" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4040 1940l9-2 8-5 2-4h-8c-3 1-6 2-8 5-2 0-2 2-3 3z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4041 1939l4-3 5-3" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4024 1933l8-3h8l5 2-7 4c-2 1-5 2-8 1l-4-2z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4025 1934h5l5-1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4126 1985h-18l16-25a127 127 0 0012-37l1-10 1-10h9l-3 16-2 15-3 14-6 17z" fill="#ff5" />
       <path
         d="M4127 1903h-9l-2 9a81 81 0 01-17 26l-9 9-9 6-12 4a126 126 0 01-25 3l-12-1-9 11a217 217 0 0017 9l6 6h38l8-8 12-14a158 158 0 0021-48z"
         fill="#ff5655" />
       <path d="M4178 1985h-33l6-21 4-20 2-24v-17h11l2 11 7 15 2 3-5 8-3 11v11l1 11 3 6z" fill="#f55" />
       <path d="M4198 1986l-5 7-6 10-8 11-3 5-3 6-37 1-5-5-6-1-7 2-3 1h-45l-3-5-3-6-3-6-3-4-3-6-4-5-5-6z" fill="#ff5" />
-      <path d="M4177 2018l-110-1m113-4l-116-1m130-20l-143-1m147-5l-152-1" fill="#55a" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4177 2018l-110-1m113-4l-116-1m130-20l-143-1m147-5l-152-1" fill="#55a" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4180 2012l6-9h-12l-6 9zm-7-11l5-8-14 1-4 8zm-20 10l5-9h-12l-5 10zm-8-10l5-8h-12l-6 9zm-18 10l4-9h-12l-4 9zm-8-9l5-10-13 1-6 9zm-20 10l6-10h-13l-5 9zm-8-11l5-8h-12l-5 8zm-18 10l5-9-12-1-4 6 2 3zm-7-10l6-9h-14l-2 4 2 5z"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4101 2029h-28l-4-7 47 1z" fill="#55a" />
       <path d="M4173 2024h-38l9 11 4 14 2 13a236 236 0 013 24l3-16 5-16 6-15z" />
-      <path d="M4014 2130a110 110 0 00-8-60l-15-30a57 57 0 0030 0l50 90h-57" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4014 2130a110 110 0 00-8-60l-15-30a57 57 0 0030 0l50 90h-57" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4060 2130s3-5 1-10c-2-2-9-3-9-3s3-8 1-11-10-5-10-5 3-7 1-11c-3-6-10-4-10-4s4-7 0-13c-3-3-9-3-9-3 3-2 3-8 1-11-1-2-7-4-7-4s2-6 0-9l-6-3"
-        fill="none" stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4034 2083l-2-3-2-3h-6l-2 5c0 2 4 5 4 5l-6 2c-1 2-1 5 1 6 1 2 3 3 5 3 2-1 4-6 4-6l2 5c1 2 2 3 4 3 1 1 3 0 4-1v-7c-1-2-6-4-6-4s1 2-1 4c-2 1-5-1-6-3s0-5 2-5c4-1 5 2 5 2zm16 31l-2-3c0-1-1-3-3-3-2-1-4-2-6-1l-2 5c0 2 4 5 4 5s-5 1-6 3c-2 2-1 4 0 6 2 2 4 3 6 2 3 0 5-5 5-5l1 5h9c1-2 2-4 1-6s-6-4-6-4 1 3-2 4c-2 1-6-1-6-3-1-1 0-4 2-5 4-1 5 3 5 3zm-33-61l-1-3-2-2c-2-1-4-2-5-1s-2 3-1 5c0 2 3 4 3 4s-5 1-5 3v5c1 2 3 3 5 2 2 0 3-5 3-5l2 5c0 1 1 3 3 3l3-2c2-2 1-4 1-6l-5-4s1 3-1 4-5-1-5-3c-1-1 0-4 1-4 3-1 5 2 5 2z"
-        stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4130 2129s-4-13-13-20-19-10-19-10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4124 2130s-3-11-10-17-15-8-15-8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4130 2129s-4-13-13-20-19-10-19-10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4124 2130s-3-11-10-17-15-8-15-8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4118 2130s-2-9-7-14l-11-6m13 20s0-6-5-9l-7-5m7 13s0-3-3-5l-3-3m28 8s1-8 6-17c6-9 16-14 16-14m-16 31s-1-5 4-12c4-8 12-12 12-12m-12 24l3-10c3-5 8-8 8-8m-6 18l2-6c2-4 4-4 4-4m-18-30v-8l3-9 3-7-1-5-4-1-2-3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4121 2066s-3-3-3-5l3-3 5 1c1 1 2 3 4 3l1-2c-1-2-3-1-5-1h-7l-1 3zm-23 26l11 5h8l4-3-6 2h-8zm53 2s-5 3-8 3c-4 0-9-5-9-5s6 4 9 4 8-3 8-3zm-34-47l8 2 5-1 7 1 3-2h-4l-6-1-7 1z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4121 2037l6 2 7-2m-11 6l6-1 5 1m1 42s4 4 9 4c4 0 7-2 7-2m-54-4s8 7 13 7c6 0 11-5 11-5" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4093 2081l14 4 14-1m31-3c-5 3-4 3-9 4-5 0-9-2-9-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4096 2082c5-1 10-5 16-6 4 0 8 3 9 7" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4106 2084c-1-5 4-7 8-6 2 0 4 3 3 6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4114 2082l-1 2-2-2 2-2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4151 2079l-10-2c-3 0-6 2-7 5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4146 2084c1-5-2-7-6-7-1 0-4 4-3 6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4139 2081l2 2 1-1-1-2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4093 2081l14 4 14-1m31-3c-5 3-4 3-9 4-5 0-9-2-9-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4096 2082c5-1 10-5 16-6 4 0 8 3 9 7" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4106 2084c-1-5 4-7 8-6 2 0 4 3 3 6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4114 2082l-1 2-2-2 2-2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4151 2079l-10-2c-3 0-6 2-7 5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4146 2084c1-5-2-7-6-7-1 0-4 4-3 6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4139 2081l2 2 1-1-1-2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4152 2129v-50l-2-22-6-20c-2-4-4-9-8-12l-8-4h-7c-5 1-9 4-14 6l-12 7-15 10m55 33c2-2 2-4 6-6m-20 8c-1-5-4-8-9-11"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4095 2129s-42-86-66-128l-7-12-9-8-9-4-7-1-5 2 94 151z" />
       <path
         d="M4103 2130l-5-31-5-18a377 377 0 00-24-59c-6-10-11-21-18-31l-10-10c-4-4-10-8-16-10l-15-3-11 2-8 3h15a52 52 0 0123 19l12 23 13 27 17 32 13 28 15 28zm-2-8l-14-16m13 6c-6-7-12-13-20-19m17 9c-11-12-16-16-23-22m21 13l-29-29m28 20c-12-12-23-25-34-32m30 20c-12-12-25-25-36-31m32 19c-14-12-28-25-38-31m35 22c-13-12-27-24-40-32m32 17c-11-10-23-19-36-26m31 13c-11-9-23-16-36-22m28 10c-11-8-22-15-33-20m26 9c-10-7-21-13-34-17m27 5c-13-6-28-15-41-15"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4021 2040l8-3 57 93h-15l-50-90m136 89v-23l6-24c2-6 6-11 9-17l16-20a154 154 0 0017-37l2-15-3-16-12 19c-6 9-13 18-18 28-5 9-9 19-12 29-3 9-7 18-8 28l-1 20-1 28zm133-228l-69 56-5-6 75-60z"
-        fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4220 1958l-28-38-5 3 29 40z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4216 1963l-15 18-6-8-5-11v-11l4-8 4-5z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4220 1958l-28-38-5 3 29 40z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4216 1963l-15 18-6-8-5-11v-11l4-8 4-5z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4195 1985l-8-10a34 34 0 01-4-23c0-3 2-6 4-9l8-10 4 5c-4 3-6 5-7 8l-4 10 2 10a39 39 0 0012 15l-3 4z"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4190 1930l-5 5-5 7-3 10v9c0 5 2 9 3 14l6 10-8-1s-5-7-6-12l-1-12v-10l3-8 3-6 3-4-5-9a66 66 0 01-7-23l2-19 5-18c2-5 5-9 9-13a65 65 0 0125-19l21-5a61 61 0 0129 3l10 5 9 7 5 6 8-7v9l-94 75-4-4-6 5z"
-        fill="#fff954" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff954" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4291 1855l-91 75 12 16 79-62zm-31 11l-13 10-30 25-14 11s-3-7-3-11v-14c0-5 1-10 3-14 3-5 8-9 13-12a36 36 0 0128-4 129 129 0 0116 9z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4246 1875l-30 25-1-8c-1-3 0-7 1-9l7-8a22 22 0 0117-3z" fill="#ff5554" />
       <path
         d="M4279 1849l-15 13s-8-7-13-9a40 40 0 00-31 0l-14 8a38 38 0 00-13 25v11l1 12 3 7-13 11s-5-6-6-10c-2-4-4-9-4-14v-11a81 81 0 019-32c3-5 7-9 12-13 3-4 8-7 13-9l13-5a78 78 0 0128 0l12 3a43 43 0 0118 13z"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4269 1856l-8 1c-3-1-5-1-7-3l-3-4 7-2c2 0 5 0 7 2l3 3z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4268 1855l-4-2-5-1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4269 1856l-8 1c-3-1-5-1-7-3l-3-4 7-2c2 0 5 0 7 2l3 3z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4268 1855l-4-2-5-1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4236 1947a136 136 0 0013 14l6 4h5l2-3-2-6-5-5-4-3c-1-2 0-4 1-6v-4" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4259 1960l-1-2-2-1c-2 0-3 2-3 2m10 4s3 2 5 1l2-5c0-3-2-5-4-7l-4-6c-1-1-3-2-4-1l-2 2c-1 2 0 3 1 4l3 2 2-2 2-3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4271 1958l3-2 1-3-2-6-5-5-4-3h-4v3l1 4 5-1 1-3m8 6l3-3-1-3-7-6-5-2-2 1v2l3 3 2-2v-2" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4276 1940l1-3-2-5-6-3h-3c-2 1-2 3-1 4l3 2 2-2 1-3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4273 1931l5-10-1-4-4 1-2 3-2 7" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4278 1920l-4 2c-1 1-4-1-4-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4276 1940l1-3-2-5-6-3h-3c-2 1-2 3-1 4l3 2 2-2 1-3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4273 1931l5-10-1-4-4 1-2 3-2 7" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4278 1920l-4 2c-1 1-4-1-4-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4261 1965l8 3 5 4c2 1 3 4 3 6l1 8-6-4-6-3a23 23 0 01-7-7l-1-4v-3z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4273 1977l-4-4-6-4-4-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4273 1977l-4-4-6-4-4-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4257 1965l-8 13-4-2 8-13zm-7-2l-6 5-8 2-8-1-8 2 4-8c2-2 5-2 8-3 4-1 7-2 11-1l4 1z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4249 1962l-7 2-7 1-4 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4249 1962l-7 2-7 1-4 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4240 1987l-2-7-6-1 1 7zm0 9l-2 7-6 2 1-7zm10 0l7 2 1 7-7-2zm6-10l1-7-7 2v6z" fill="#55a" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4248 1988l2-4-1-5-4-2-5 1-2 6 2 4-5-2-6 2v6l3 3 6-1 2-1-1 5c-1 1-1 4 1 5 0 1 1 2 3 2h4l3-4-1-4-1-4 5 2c2 0 4 0 6-2l1-3-1-4c-2-2-3-2-5-2z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4251 1992c-3 0-6 3-8 6-1-2-1-4-5-7 3-1 5-4 6-7 2 3 3 6 7 8z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4251 1992c-3 0-6 3-8 6-1-2-1-4-5-7 3-1 5-4 6-7 2 3 3 6 7 8z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4146 1985l6-24a250 250 0 006-39v-20h-12l-3 21-5 27-6 16-4 10-3 10zm-37 0s12-17 16-26a127 127 0 0012-38l1-12 1-6-12-1-7 28a127 127 0 01-25 42l-9 10-3 3z"
         fill="#000003" />
-      <path d="M4118 1903l-6 18a81 81 0 01-29 30 69 69 0 01-35 9l-15-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4118 1903l-6 18a81 81 0 01-29 30 69 69 0 01-35 9l-15-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4158 1970l-2-1c-2 0-4 1-4 3s2 3 4 3l2-1-2 4c0 1 2 3 4 3l3-3-2-4 2 1c3 0 4-1 4-3s-1-3-4-3l-2 1v-2l1-2h-5l1 2zm8-37l-3-1c-2 0-3 2-3 3 0 2 1 3 3 3h3l-3 3c0 1 2 3 4 3s4-2 4-3l-3-3h3c2 0 4-1 4-3 0-1-2-3-4-3l-3 1 1-2 1-2h-6l2 2zm-69 16l-3-1c-2 0-3 1-3 3 0 1 1 3 4 3l2-1-3 3c1 2 2 3 4 3s4-1 4-3l-3-3h1l2 1c2 0 4-2 4-3 0-2-2-3-4-3l-3 1 1-2 1-3h-5l1 3zm-21 18l-3-1c-2 0-4 1-4 3s2 3 4 3l2-1h1c-1 1-3 2-3 4 0 1 2 3 4 3s3-2 3-3l-2-4 2 1c3 0 4-1 4-3s-1-3-4-3l-2 1v-2l1-2h-5l1 2zm-29 2l-3-1c-2 0-4 2-4 3 0 2 2 3 4 3h3l-3 3c0 1 2 3 4 3s4-2 4-3l-3-3h3c2 0 3-1 3-3 0-1-1-3-3-3l-3 1v-2l1-2h-5l1 2z"
         fill="#fff" />
       <path d="M4024 1970l13-17s-10-1-14-3l-12-6-11-10-9 6v32l9-3 11-2 7 1z" fill="#55a" />
       <path
                 d="M4104 1985c3-1 1-3 0-4l-3-3 11-6c2-1 0-3 0-4-1-1-2-3 0-3l7-4c1-2 0-3-1-5 0-1-2-2-1-3l8-4c0-2-2-4-3-5s0-2 1-2l5-4c1-1 0-3-1-4 0-1-2-2 0-3l4-2c1-2 0-3-1-5l-1-2 5-2c2-1 0-3-1-4s-3-2-1-2c1-1 3-2 3-4l-2-3 3-4c-2-1-3-1-4 1l-3 3 3 4-4 2c0 2 2 4 3 5l-4 2c-3 0-2 2-1 4l2 3-5 3c-1 2 0 3 1 5 0 1 2 2 0 2l-5 4c-1 2 0 3 1 5 1 1 1 2-1 2l-5 4c-1 2 1 3 1 5 0 1 2 2 1 3l-8 4c-1 1 0 3 1 4 0 2 1 3-1 3l-11 5c-1 2 1 3 2 4l5 5 1-1zm30-1l7-4c2-1 2-3 1-4l-3-4 7-5c1-1-1-2-2-4l-2-3 6-5c1-1-1-2-2-4l-1-2 6-5-2-5-1-2 5-4c1-2-1-3-2-4v-2c1-1 4-2 2-4l-2-4c1-1 3-1 3-3l-2-5c1-1 3-1 2-3l-2-4c-3-3-4 1-2 3v2c-2 1-2 2-1 4l2 3c-1 1-4 1-3 3l2 5-3 2c-1 2 1 3 2 5v2l-4 3c-1 1 1 3 1 4s2 2 1 3l-6 5 2 4 2 2-6 5c-1 1 1 3 2 4l2 3-7 4c-1 2 1 3 1 5l2 3-7 4v2z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M4232 1926l-14 3 7-14 1 5h4s-3 3-2 4c1 2 4 2 4 2zm25-21l-14 3 8-14v4l4 1-2 4zm27-21l-15 4 8-14s-1 3 1 4h3s-2 3-1 5zm-67 52v-2h2v1zm-7 1v-3l2 1-1 1zm2-8v-2h2l-1 2zm31-14v-2h2l-1 2zm-8 1v-2h2v2zm2-8v-2h2v2zm31-13v-2h2l-1 2zm-8 1l1-2h1v2zm2-8l1-2h1v2zm23-14v-2h2v2z"
-        fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4273 1854l-7-5-5-7-1-5 7 2c3 2 5 4 6 7l1 5z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4273 1853s-1-4-3-5c0-2-3-4-3-4" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4259 1846l-8-2-7-6-2-4h8c3 1 6 2 8 5l2 4z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4259 1845l-4-4-4-3" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4242 1838l-8 3-9-1c-2 0-5-3-5-3l7-4h9l4 2z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4241 1838l-6-2h-5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4221 1839l-7 5-8 2-5-2 5-6 8-3 5 1z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4220 1839h-6l-4 1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4204 1848l-5 7-8 4h-5l3-7 8-5h4z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4203 1848l-5 2-4 3" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4191 1861l-3 8-5 6-5 2 1-8c1-3 2-5 5-7l4-2z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4191 1861l-5 3-3 4" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4185 1876l-1 10-4 8-5 3v-9c0-3 1-6 3-8l4-3z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4184 1877l-3 5-2 5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4181 1894l2 10c0 3 1 6-1 9l-3 4-4-8c0-3-1-6 1-8-1-3 1-4 2-5z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4180 1896l-1 5v6" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4183 1893v10c2 2 2 6 4 7l4 4 1-9c-1-3-1-6-3-8l-4-4z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4184 1894l2 5 2 5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4184 1875l-1 9c1 4 1 7 3 9l3 4 2-9c0-3 0-6-2-8l-2-4z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4185 1876l2 5v5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4193 1859l-4 9v9l2 5 5-8v-9c1-2 0-3-1-4z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4193 1860l1 6-1 5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4182 1905l-1 9 1 7 3 4 2-7v-8l-2-4z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4183 1906l1 5v5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4206 1846l-6 7c-2 3-4 6-3 9v5l6-6 4-7c2-2 1-4 1-5z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4206 1848l-1 5-3 5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4222 1840l-8 6c-2 2-5 4-5 7l-1 5 8-4c2-2 5-4 5-7 2-1 2-3 2-4z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4222 1842l-3 4-4 4" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4241 1839l-9 2-8 5-2 4h8c3-1 6-2 8-5 2 0 2-2 3-3z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4240 1840l-4 3-5 3" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4257 1847l-8 3h-8l-5-2 7-4c2-1 5-2 8-1l4 2z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4256 1846h-5l-5 1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#fff" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4273 1854l-7-5-5-7-1-5 7 2c3 2 5 4 6 7l1 5z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4273 1853s-1-4-3-5c0-2-3-4-3-4" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4259 1846l-8-2-7-6-2-4h8c3 1 6 2 8 5l2 4z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4259 1845l-4-4-4-3" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4242 1838l-8 3-9-1c-2 0-5-3-5-3l7-4h9l4 2z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4241 1838l-6-2h-5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4221 1839l-7 5-8 2-5-2 5-6 8-3 5 1z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4220 1839h-6l-4 1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4204 1848l-5 7-8 4h-5l3-7 8-5h4z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4203 1848l-5 2-4 3" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4191 1861l-3 8-5 6-5 2 1-8c1-3 2-5 5-7l4-2z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4191 1861l-5 3-3 4" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4185 1876l-1 10-4 8-5 3v-9c0-3 1-6 3-8l4-3z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4184 1877l-3 5-2 5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4181 1894l2 10c0 3 1 6-1 9l-3 4-4-8c0-3-1-6 1-8-1-3 1-4 2-5z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4180 1896l-1 5v6" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4183 1893v10c2 2 2 6 4 7l4 4 1-9c-1-3-1-6-3-8l-4-4z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4184 1894l2 5 2 5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4184 1875l-1 9c1 4 1 7 3 9l3 4 2-9c0-3 0-6-2-8l-2-4z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4185 1876l2 5v5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4193 1859l-4 9v9l2 5 5-8v-9c1-2 0-3-1-4z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4193 1860l1 6-1 5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4182 1905l-1 9 1 7 3 4 2-7v-8l-2-4z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4183 1906l1 5v5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4206 1846l-6 7c-2 3-4 6-3 9v5l6-6 4-7c2-2 1-4 1-5z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4206 1848l-1 5-3 5" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4222 1840l-8 6c-2 2-5 4-5 7l-1 5 8-4c2-2 5-4 5-7 2-1 2-3 2-4z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4222 1842l-3 4-4 4" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4241 1839l-9 2-8 5-2 4h8c3-1 6-2 8-5 2 0 2-2 3-3z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4240 1840l-4 3-5 3" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4257 1847l-8 3h-8l-5-2 7-4c2-1 5-2 8-1l4 2z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4256 1846h-5l-5 1" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4141 1900l-3-4-6-1 3-5-3-5h6l3-5 3 5h6l-3 5 3 5-6 1z" fill="#ff5" />
       <path
         d="M4056 1721c2 4 7 10 12 10 9 0 13-8 13-18s-4-19-13-19c-5 0-8 5-11 8-1 1-2 0-1-1 3-3 8-11 8-18 0-8-5-18-13-18s-13 10-13 18c0 7 5 15 8 18 1 1 0 2-1 1-3-3-6-8-11-8-9 0-13 9-13 19s4 18 13 18c5 0 10-6 12-10 1-1 1 0 1 1l-2 16-4 17c5-2 15-2 20 0l-4-17-2-16c0-1 0-2 1-1zm-62 17c0 2 3 5 5 5 5 0 7-4 7-9s-2-9-7-9c-2 0-4 2-5 4v-1c1-1 4-5 4-9s-3-9-7-9-6 5-6 9 2 8 4 9l-1 1c-2-2-3-4-6-4-4 0-6 4-6 9s2 9 6 9c3 0 6-3 7-5v1l-1 8-2 8h10l-2-8-1-8zM4226 2059c-2-4-7-10-12-10-9 0-13 8-13 18s4 19 13 19c5 0 8-5 11-8 1-1 2 0 1 1-3 3-8 11-8 18 0 8 5 18 13 18s13-10 13-18c0-7-5-15-8-18-1-1 0-2 1-1 3 3 6 8 11 8 9 0 13-9 13-19s-4-18-13-18c-5 0-10 6-12 10-1 1-1 0-1-1l2-16 4-17c-5 2-15 2-20 0l4 17 2 16c0 1 0 2-1 1zm62-17c-1-2-3-5-6-5-4 0-6 4-6 9s2 10 6 10c3 0 5-3 6-4 0-1 1 0 0 0-1 2-4 6-4 9 0 4 3 9 7 9s6-5 6-9c0-3-2-7-4-9h1c2 1 3 4 6 4 4 0 6-5 6-10s-2-9-6-9c-3 0-6 3-7 5 0 1 0 0 0 0l1-8 2-9h-10l2 9 1 8z" />
     </symbol>
     <symbol id="c13" viewBox="4320 1620 360 540">
       <rect rx="15" ry="15" y="1620.5" x="4320.5" height="539" width="359" fill="#fff" stroke="#000" />
-      <path d="M4385 1806l8-6v89l-6-1-5-1 3-6v-4z" stroke="#030000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4385 1806l8-6v89l-6-1-5-1 3-6v-4z" stroke="#030000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4547 1897v-17l3-23 5-21 5-19 5-13 7-13 5-10 3-7 3-2h2l3-3h3l20 11v4l-6 9-7 12-7 15-6 17-4 19-2 14-1 13h-9l-8 3-8 6z"
         fill="#ff5655" />
       <path
         d="M4474 1828l-1 50 4 3 1 3v4l4-2 4 2 2 2 2-16a86 86 0 00-9-32zm-115 104l-8-1v-98l14-13 15-11v66l-6 1-4 5v4l4 4-4 4-5 1-3 4 1 6-2 4v5l3 1-1 5v3l2 1v4l-5 1zm284-83h8v99l-14 12-15 12v-66l6-1 4-5-5-8 4-2 1-2 5-2 2-2 1-5-2-3 3-7-3-2 1-4v-5l-2-1v-4l5-1z"
         fill="#f55" />
-      <path d="M4617 1975l-8 5v-88l10 2-1 4-1 4v4z" stroke="#030000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4617 1975l-8 5v-88l10 2-1 4-1 4v4z" stroke="#030000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4501 2007l-28-21-24 15-6-3-4 1-3 2-1-1h-4l41-26 39 27-3 2-1 2-2-2-2 2z" />
       <path d="M4501 2006l-29-20-24 15 4 2 4 6 1-7 2-4 4-3 5-2h9l9 5 7 7 4 6 3 5 1-6z" fill="#f55" />
       <path
@@ -2763,122 +2763,122 @@ const DeckSvgInline = () => (
         d="M4454 1884l1 17-3 23-5 21-5 19-5 12-7 14-5 9-3 7-3 3-2-1-3 3h-3l-20-11v-3l6-9 7-12 7-15 6-17 4-19 2-15 1-13h9l8-2 8-7z"
         fill="#ff5655" />
       <path d="M4424 1898a167 167 0 01-25 85l-8 11v-11c8-13 14-27 19-41 5-15 6-31 8-46z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4514 2001h-2l-39-28-43 27v2l-3-1-4 4 8-16 9-20 6-19 4-16 3-16 2-12v-10l3 3 7-1-1 7 3 5h6l5-3 1-4-1-5 6 1 4-3-1 17 1 13 1 11 4 15 3 11 6 16 7 10 7 11z"
-        fill="#ff5" stroke="#ff5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4422 2005a241 241 0 0033-106v-17" fill="none" stroke="#020000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4411 2011l-10-5-10-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4391 1936v143l-15 12-12-12v-146" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4376 2091l3-24-2-25 3-27-3-20c-1-7 1-14 1-20l-2-15 1-13 3-12" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4370 1881c0-4 3-7 7-7s7 3 7 7-3 6-7 6-7-2-7-6z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#ff5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4422 2005a241 241 0 0033-106v-17" fill="none" stroke="#020000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4411 2011l-10-5-10-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4391 1936v143l-15 12-12-12v-146" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4376 2091l3-24-2-25 3-27-3-20c-1-7 1-14 1-20l-2-15 1-13 3-12" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4370 1881c0-4 3-7 7-7s7 3 7 7-3 6-7 6-7-2-7-6z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4379 1887c2-1 2-3 2-5l-3-4-2-1h-3M4405 1935c-1 2-4 5-6 5l-7-3-12 1h-15c-3-1-7-2-9-5-2-2-2-7 0-9 3-2 7-2 10 0 2 1 0 5 2 6 4 3 10 1 15 1l11-2 8 1c2 1 3 3 3 5z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4551 2011a396 396 0 00100-63" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4551 2011a396 396 0 00100-63" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4599 1949l6-18-3 1-1-2-2-4-1 4-2 1h-2z" fill="#55a" />
       <path d="M4528 1952l1-49-4-3-1-4v-4l-4 2-4-1-2-3-2 17a86 86 0 009 32z" fill="#f55" />
       <path
         d="M4376 2084l-12-12m13 4l-12-12m14 4l-15-14m14 5l-14-14m13 4l-13-12m12 4l-12-13m13 4l-13-13m14 6l-13-14m14 6l-15-15m14 6l-14-14m12 4l-12-12m12 4l-12-12m13 4l-12-12m13 5l-13-13m11 3l-11-11m11 1l-11-10m12 2l-10-9M4493 2076l-7 1-8 1-9-3-3-3 8 4 8 1 7-1c1 0 4-2 4 0zm0-11l-3 2c-1 1-2 3-4 3a14 14 0 01-9 1l-7-3-4-3-1-2h5l8 4h5l5-1h1z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4470 2063l5-4 5-1 5 1 5 2 2 2-4 2-4 1h-7z" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4487 2063c0-3-2-4-5-4s-5 1-5 4c0 1 2 2 5 2s5-1 5-2z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4484 2063l-2-1-2 1 2 2zm46 10l-4 3-5 3h-5l-5-3-3-2-2-3 5 5 5 1h6c3 0 8-4 8-4z" fill="#55a" stroke-width="2"
-        stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4506 2070v-8l2-7 1-7 1-3v-3l-6-3-2-2" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4470 2063l5-4 5-1 5 1 5 2 2 2-4 2-4 1h-7z" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4487 2063c0-3-2-4-5-4s-5 1-5 4c0 1 2 2 5 2s5-1 5-2z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4484 2063l-2-1-2 1 2 2zm46 10l-4 3-5 3h-5l-5-3-3-2-2-3 5 5 5 1h6c3 0 8-4 8-4z" fill="#55a" strokeWidth="2"
+        stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4506 2070v-8l2-7 1-7 1-3v-3l-6-3-2-2" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4492 2049l-3-2v-5h6l5 2h3v-1l-2-1h-4l-3-1-5 1v5zm-11-9l-4 1-2-1-1-4 1-3c2-2 4-2 6-2l5 2 3 2h4l3-1-2-1h-5l-5-1-5-1-4 2-1 3 1 3 4 2zm36 0l3-2 1-3-1-4-2-1-4 1-4 1-3 1h-3v1l2 1 3-1 4-2 4-2 3 1 1 4-1 4zm-28-14l4-1 3-1 4 1 1 1c2-1 3-2 4-1l3 1 2 1-3-1-3 1h-5l-3-1h-6z"
-        fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4507 2066l5 3 5 2h5l3-1 3-3" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4527 2063l-4-4-5-1-6 1-3 2-2 2 3 2 4 2h6c3 0 7-4 7-4z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4511 2062c1-3 3-3 5-3 3 0 4 2 4 4s-2 3-5 2c-2 0-4-1-4-3z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4514 2063l2-1 1 2-1 1z" fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4489 2059l-5-5m25 3l6-4M4530 2082v-6l-1-10-1-7v-18l-2-10-2-8v-5" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4507 2066l5 3 5 2h5l3-1 3-3" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4527 2063l-4-4-5-1-6 1-3 2-2 2 3 2 4 2h6c3 0 7-4 7-4z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4511 2062c1-3 3-3 5-3 3 0 4 2 4 4s-2 3-5 2c-2 0-4-1-4-3z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4514 2063l2-1 1 2-1 1z" fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4489 2059l-5-5m25 3l6-4M4530 2082v-6l-1-10-1-7v-18l-2-10-2-8v-5" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4529 2065l1-3c0-2 1-3 3-4l4-2 4 3v4c0 1 0 3-2 3l-3 1-1-2v-2l-2 3-1 5-1 3-1 4m-2-21l2-6 2-6 3-3 4-2-2 3c-1 1 0 2 1 3h3l4-2 1-4-1-4-5-2-6 1-3 3-3 6M4465 2010c-4 1-4-4-3-6 2-2 6-1 8 1 2 3 1 8-1 10-3 2-7 1-9 0l-4-7c0-5 2-10 6-12 6-4 16-4 22 0l11 12 4 8"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4494 2016l-6-9c-3-3-7-6-12-7h-10c-2 0-3 2-4 3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4494 2016l-6-9c-3-3-7-6-12-7h-10c-2 0-3 2-4 3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4489 2017c-2-4-5-8-8-10-4-2-8-3-11-2m15 13l-7-7-7-2m9 12l-6-6-4-2m7 11l-6-6-4-2m6 11l-6-6-7-4m9 14l-5-7-2-2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4396 1917l-3 5c-1 1-1 3-3 3l-4 1-8 1-2-2h-6l-2-1v-2h-4l-1-2 1-4 1-3 2-1s-3 2-4 1l-2-2 1-3 2-3 4-2h-4l-2-2a5 5 0 013-5l2-1-3-2 2-3h8l4-2 7-1 5 3 3 5 2 6 1 9z"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4368 1922c2-3 4-4 7-4h6l3-3 5-2m-22-1c3-2 6-4 9-4 2 0 4 0 5 2 1 1 0 3-1 3l-8 5" fill="#fff" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4378 1915c-2-1-5-2-5-4v-2m-6-6c4-1 8-2 12-1 1 0 3 0 4 2 0 2-2 3-3 4h-3" fill="#fff" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4376 1908c-1-1-3-3-2-5v-1m3 23c0-1-1-3-3-3l-5 1m8-22c2 0 4-2 3-3 0-3-2-3-6-3h-7m9 0c2-1 4-3 2-4l-3-1"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4374 1901l-1-3 1-2m-1-1c-1-1-2-2-1-4v-1" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4374 1901l-1-3 1-2m-1-1c-1-1-2-2-1-4v-1" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4382 1887s4 9 4 14v12l-6 5-5-1s5-2 6-5v-2l-2-2 3-1v-3c0-2-4-3-4-3s3-1 2-4c0-2-5-2-5-2s4 0 3-3c0-2-3-2-3-2l4-1z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4512 2001l-39-28-51 32" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4504 1982l-31-22-40 25" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4498 1966l-25-18-33 22" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4493 1952l-21-15-27 18" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4490 1937l-19-12-22 16" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4512 2001l-39-28-51 32" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4504 1982l-31-22-40 25" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4498 1966l-25-18-33 22" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4493 1952l-21-15-27 18" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4490 1937l-19-12-22 16" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4488 1924l-16-10-21 15m37-16l-9-7m-14 0l-12 10m3-13l6-4m44 97v-11m-11 3v-12m-11 5v-12m-11 4v-13m-12 20v-12m-12 20v-12m-11 19v-13"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4461 2086c-2-11-4-40-4-50-1-10-2-18-6-25-1-3-4-5-8-5-3-1-5 8 2 8" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4461 2086c-2-11-4-40-4-50-1-10-2-18-6-25-1-3-4-5-8-5-3-1-5 8 2 8" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4468 2087c-4-17-4-46-7-63-1-9-5-19-13-24-4-1-10-2-12 2-4 3-3 10 0 14 3 3 9 5 12 3 3-1 3-5 3-7" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4456 2086c-4-15-3-19-4-34 0-5 0-15-2-22l-3-9m3 63c-3-14-3-18-3-34-1-5 0-12-2-19 0-3-2-8-4-10m4 62c-3-14-3-17-3-32l-1-18-4-10m3 59c-3-13-3-16-4-30 0-5 1-12-1-17 0-4-2-8-3-10m3 57c-4-13-3-16-4-29l-1-16c-1-3-2-8-4-9m10-6l-3 2c-2 1-5-1-6-3-3-4-4-8-3-12 0-3 1-5 3-7h2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4430 2024l-2 3c-2 0-4-1-5-3-3-3-4-7-4-11l2-6 2-1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4426 2027l-2 2c-2 1-5-1-6-3-2-3-4-7-4-11l2-6 2-1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4430 2024l-2 3c-2 0-4-1-5-3-3-3-4-7-4-11l2-6 2-1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4426 2027l-2 2c-2 1-5-1-6-3-2-3-4-7-4-11l2-6 2-1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4420 2028l-2 3c-2 0-4-1-5-3-3-3-4-7-4-11 0-2 0-4 2-6h3m27 9c0 1-1 2-3 2-2 1-5-2-6-4-3-3-4-7-3-12 0-2 1-5 3-6l4 1M4525 2025c3-6 6-9 11-12 1-2 5-5 7-3 2 1 2 6-1 7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4524 2019c3-9 9-14 16-15 4-1 9 2 10 5 2 5 0 11-5 13-3 2-6 0-8-2s-2-6-2-8" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4519 2018c2-7 8-18 17-19 3-1 6 2 8 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4514 2017c3-7 4-13 9-17 3-2 8-3 11-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4519 2018c2-7 8-18 17-19 3-1 6 2 8 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4514 2017c3-7 4-13 9-17 3-2 8-3 11-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4510 2016c1-6 2-11 6-15 2-2 6-4 9-2m-20 18c1-5 1-11 4-14 1-1 3-3 5-1m-14 15l2-10c0-2 3-4 5-3m34 20l-3 1-5-2c-2-2-2-4-2-5m4 7l-2 1-4-1-1-4m3 6l-2 1-3-1"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4516 1999l-11-16a159 159 0 01-17-61v-30m26-5l-1 15a89 89 0 0017 52l9 12 12 12 10 7 9 8 7 4" fill="none"
-        stroke="#030000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4529 1953v-50" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4609 1980v-89m8 84v-72m5 68v-65" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#030000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4529 1953v-50" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4609 1980v-89m8 84v-72m5 68v-65" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4542 1920l6-18-3 1-1-2-2-4-1 4-2 1h-2z" fill="#55a" />
-      <path d="M4473 1828v50" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4473 1828v50" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4415 1982c0-1 0-2-2-3s-5 0-6 2c-2 3-1 6 1 7h4v1c-1 0-5 1-6 3s0 5 2 7c3 1 6 0 7-2v-7l2 3c3 1 6 0 7-2 1-3 1-6-2-7h-4v-1l2-2 3-3-6-3v4l-1 3zm20-68c0-1-1-2-3-2-3-1-5 1-6 4 0 3 2 5 5 6l3-1-4 5c0 2 2 5 5 5 2 1 5-2 5-4 1-2-2-5-2-6 1 1 1 2 3 2 3 0 5-2 5-5 1-3-1-5-4-5-2-1-3 0-4 1l1-3 2-4-7-1 1 5v2zm201 23l-2-1c-3 0-4 1-4 4 0 2 1 4 4 4l2-1-2 4c0 2 1 4 3 4s4-2 4-4l-2-4 2 1c2 0 4-2 4-4 0-3-2-4-4-4l-2 1h-1l1-2 1-4h-5l1 4zm0-30l-2-1c-3 0-4 1-4 4 0 2 1 4 4 4l2-1-2 4c0 2 1 4 3 4s4-2 4-4l-2-4 2 1c2 0 4-2 4-4 0-3-2-4-4-4l-2 1h-1l1-2 1-4h-5l1 4z"
         fill="#fff" />
-      <path d="M4419 1953a10 10 0 1120 0 10 10 0 01-20 0z" stroke="#fffdff" fill="none" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4424 1953a5 5 0 1110 0 5 5 0 01-10 0z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4419 1953a10 10 0 1120 0 10 10 0 01-20 0z" stroke="#fffdff" fill="none" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4424 1953a5 5 0 1110 0 5 5 0 01-10 0z" fill="#fff" stroke="#fff" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4542 1994l-3-2-2-3-3-2-6-2c3-2 7-3 10-2s5 3 5 5v4zm-19-19s-3 0-4-2l-1-5 4-4h5c2 0 4 1 5 3l2 5v5l-4 6-6 1-6 1-7-4c-3-2-5-5-6-8l-2-9v-8l1-10v-5l-1-3-2-1-2 1v2l-2-2v-4l3-2 3 1 3 3 1-10-1-7-2-5-2-2h-3l3 2v3l-2 3h-3l-3-3-1-5 2-2c1-2 3-2 5-3l6 2 3 5 2 8-1 10-1 7-1 4v5l5-2c2-1 4 0 5 1 2 1 3 4 3 6l-1 4-3 2h-3l-1-1 2-2v-2l-1-3h-3l-4 3-1 5 1 7 1 6 4 5c2 2 3 3 5 3l6 1 4-2 2-2 1-5-3-3h-4l-1 3z"
         fill="#ff5" />
@@ -2887,26 +2887,26 @@ const DeckSvgInline = () => (
         d="M4542 1959l5-18-2 1-2-1-1-5-1 4-2 2-2-1zm19 23l6-19-3 2-1-2-2-5-1 4-2 2-2-1zm19 13l5-19s-1 2-2 1l-2-1-1-5-1 4-2 2-2-1zm19-16l5-18-2 1-2-2-1-4-1 4-2 1-2-1z"
         fill="#55a" />
       <path d="M4584 1942l3 6 6 6-6 3-6 1-3 5-4 5-6-6-2-4h-6l-6-3s5-4 6-7c2-2 3-7 3-7l7 2h8z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4579 1944l2 5 3 4h-3l-4-1-2 5-1 2-3-3-1-4-3 1h-4l3-4 2-6 6 1z" stroke="#000200" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4579 1944l2 5 3 4h-3l-4-1-2 5-1 2-3-3-1-4-3 1h-4l3-4 2-6 6 1z" stroke="#000200" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4544 1913c0-17 13-31 30-31 16 0 30 14 30 31 0 16-14 30-30 30-17 0-30-14-30-30z" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4550 1912a3 3 0 115 0 3 3 0 01-5 0zm22 2a3 3 0 115 0 3 3 0 01-5 0zm-11-1a3 3 0 115 0 3 3 0 01-5 0zm11 12a3 3 0 115 0 3 3 0 01-5 0zm-1 9a3 3 0 115 0 3 3 0 01-5 0zm12-21a3 3 0 115 0 3 3 0 01-5 0zm10-1a3 3 0 115 0 3 3 0 01-5 0z"
         fill="#ff5" />
-      <path d="M4568 1941v-21l-14-1-8-2" fill="none" stroke="#ff5" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4563 1940v-16l-9-1-7-2m33 19l1-20 11-1 10-3" fill="none" stroke="#ff5" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4584 1939l1-16 9-1 7-2m0-18l-21 5-18-1-14-4" fill="none" stroke="#ff5" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4594 1896c-1 1-3 0-4-1-2-1-2-4-3-5l-4-5 8 5c1 1 3 2 3 4z" fill="#ff5" stroke="#ff5" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4568 1941v-21l-14-1-8-2" fill="none" stroke="#ff5" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4563 1940v-16l-9-1-7-2m33 19l1-20 11-1 10-3" fill="none" stroke="#ff5" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4584 1939l1-16 9-1 7-2m0-18l-21 5-18-1-14-4" fill="none" stroke="#ff5" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4594 1896c-1 1-3 0-4-1-2-1-2-4-3-5l-4-5 8 5c1 1 3 2 3 4z" fill="#ff5" stroke="#ff5" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4579 1886l4 4 2 3v4l-1 2h-2l-1-4-1-3-1-4zm-4-1l1 7 1 5-2 3h-2l-2-2 1-3 1-6zm-4 1l-3 6-1 4-1 2-3 1-1-2 1-3 3-4 2-2zm-6-1l-3 4-3 4-1 3-2 1-2-2 1-3 4-3 3-2z"
-        fill="#ff5" stroke="#ff5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4557 2130l-27-48c-10 3-21 4-32 5a194 194 0 01-63-5l-31 48z" fill="#ff5" stroke="#55a" stroke-width="2" />
+        fill="#ff5" stroke="#ff5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4557 2130l-27-48c-10 3-21 4-32 5a194 194 0 01-63-5l-31 48z" fill="#ff5" stroke="#55a" strokeWidth="2" />
       <path
         d="M4516 2112v3h-1l-1-1v-4l-3-2c-2 0-5 1-6 3l1 5 3 2 3-1v5c1 1 2 3 4 3h2l3-3v-4l-2-3h3c2-1 3-2 3-4s-1-4-3-4h-5l-2 3zm26-3v1c0 1 1 2 2 1v-1l6 9-1 1-2 1-5-2-1-5-2 2-3-2-3-4c1-2 3-4 5-4l4 1m-72 0l6 2 3 2 1 1c0-3-1-3-2-5l-6-4-8-1c-3 0-6 2-8 3l-5 4-1 3 5-4 5-1c2 0 3 1 5 3 2-1 3-3 5-3z" />
       <path
@@ -2916,131 +2916,131 @@ const DeckSvgInline = () => (
       <path d="M4534 2090l-30 6h-40c-11 0-33-5-33-5l5-8 27 5h41l25-5z" fill="#f55" />
       <path
         d="M4421 2108v2l-2 1v-2l-6 9 1 1 2 1c1 0 3 0 4-2l2-5 2 2c1 1 2 0 3-1 2-1 3-2 3-4l-4-4h-4m26 6l-1 3 1 1 2-2-1-2v-1l4-2 5 2c1 2 0 4-1 5l-3 2c-1 1-2 0-3-1v5c0 2-2 3-4 4l-2-1-3-3 1-4 2-3h-3c-2 0-4-2-4-4s2-3 3-4h5l2 4zm34 2v3h-1l-2-2 1-2v-1l-2-3c-2-1-5 0-6 1v5l2 3h4l-2 4c0 2 1 4 3 5h2l4-2v-4l-1-3h3c2 0 4-1 5-3l-2-5-5-1c-2 0-2 2-3 3zm179 16v-50h-5v15l-3 7-7-22h-5l9 28-9 22h5l10-24v24zm-320-480v50h5v-15l3-7 7 22h5l-9-28 9-22h-5l-10 24v-24z" />
-      <path d="M4351 1770v360h270m-240-480h270v360" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M4351 1770v360h270m-240-480h270v360" fill="none" stroke="#55a" strokeWidth="2" />
       <path d="M4500 1774l29 20 24-14 6 2 4-1 3-1 1 1h4l-41 26-39-28 3-2 1-1 2 1 2-1z" />
       <path d="M4501 1774l29 20 24-14-4-3-4-5-1 6-3 5-3 3-6 1-8 1-9-5-7-7-4-6-3-5-1 5z" fill="#f55" />
       <path
         d="M4610 1801l1 41-3 1-5-2-5 2-1 5 4 3h14l9-2h7l4 3v3h-9l-5-1-7 1-4 1-3 6-1 8v8l2 6 2 4 3 4-19-1-6-3-4-3 1-12 4-22 5-18 5-11 5-11zm-121 93l24-6 1-21-1-19-3-12-3-14-5-13-6-11-5-10-5-8-6 2h-3l-5 1-4-2-5 1-3-3-1-2-4-2-3-3-1-3-14 7-14 7 11 7 16 12 12 11 9 12 7 10 6 13 4 16 2 14z" />
       <path d="M4578 1883a167 167 0 0125-85l8-12v12c-8 13-15 26-19 40-5 15-6 31-8 47z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4487 1779l3 1 39 28 43-27v-3l3 1 4-3-8 15-9 21-6 18-4 17-3 15-2 13v9l-4-2-6 1 1-7-3-5h-6l-5 2-1 4 1 5-6-1-4 3 1-16-1-14-2-11-3-14-4-11-5-16-7-10-7-12z"
-        fill="#ff5" stroke="#ff5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4580 1775a241 241 0 00-33 107v17" fill="none" stroke="#020000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4591 1770l10 5 10 5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#ff5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4580 1775a241 241 0 00-33 107v17" fill="none" stroke="#020000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4591 1770l10 5 10 5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4606 1864l3-6 2-3h5c3-1 6-2 8-1l2 1h6l2 1v2h4l1 3-1 4-2 2-1 1 4-1 2 3-1 2-2 4-4 2 4-1 2 3a5 5 0 01-3 5h-2l3 2c0 2-1 3-2 3-3 2-6 0-8 1l-4 2h-7l-5-2-3-6-2-6-1-8v-4z"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4634 1859c-2 2-4 4-7 4h-6l-3 3-5 2" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4635 1869l-9 4c-2 0-4 0-5-2-1-1 0-3 1-4l8-5" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4624 1866c2 0 5 1 5 3v2m6 7c-4 0-8 2-12 1l-4-2c0-2 2-3 3-4h3" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4634 1859c-2 2-4 4-7 4h-6l-3 3-5 2" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4635 1869l-9 4c-2 0-4 0-5-2-1-1 0-3 1-4l8-5" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4624 1866c2 0 5 1 5 3v2m6 7c-4 0-8 2-12 1l-4-2c0-2 2-3 3-4h3" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4626 1873c1 1 3 3 2 5 0 0 0 0 0 0m-3-22c0 1 1 3 3 3l5-2m-8 22c-2 1-4 2-4 4 1 2 3 3 7 2h7" fill="#fff"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4626 1885c-2 1-4 3-2 4l3 2m1-11l1 3-1 2m0 1c2 1 3 2 2 3v2M4611 1844v-143l15-12 12 12v146" fill="#fff"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4626 1689l-3 24 2 25-3 27 3 20c1 7-1 14-1 20l2 15-1 13-3 12" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4632 1899c0 4-3 7-7 7s-7-3-7-7 3-6 7-6 7 2 7 6z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4626 1689l-3 24 2 25-3 27 3 20c1 7-1 14-1 20l2 15-1 13-3 12" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4632 1899c0 4-3 7-7 7s-7-3-7-7 3-6 7-6 7 2 7 6z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4623 1893c-2 1-2 3-2 5l3 4 2 1h3M4597 1846c1-2 4-5 6-5s5 3 7 2l11-1 16 1c3 1 7 1 9 4s2 7 0 10c-3 2-7 2-10 0-2-1 0-5-2-6-4-3-10-1-15-1l-11 1h-8c-2-1-3-3-3-5z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4451 1769a396 396 0 00-100 64" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4451 1769a396 396 0 00-100 64" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4403 1832l-6 18 3-1 1 1 2 5 1-4 2-2 2 1z" fill="#55a" />
       <path
         d="M4626 1697l12 11m-13-3l12 12m-14-4l15 14m-14-5l14 13m-13-4l13 13m-13-4l13 12m-13-3l13 12m-14-5l13 13m-15-5l16 14m-14-5l14 13m-12-3l12 12m-12-4l12 12m-13-4l12 11m-13-4l13 13m-11-3l11 11m-11-2l11 11m-12-3l10 9M4509 1705l7-2h8l9 3 3 3-9-5h-7l-7 1zm0 10l2-2 5-3a14 14 0 019 0c3 0 5 1 7 3a27 27 0 015 4h-5c-3 0-5-2-8-3l-5-1-5 2z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4532 1718l-5 4h-11l-4-3-3-2 5-1 4-2 7 1z" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4515 1717c0 3 2 4 5 4s5-1 5-4c0-1-2-2-5-2s-5 1-5 2z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4518 1717l2 2 2-2-2-1zm-46-9l3-3 6-3h5l5 2 3 2 2 4c-1-3-3-4-5-5l-5-1-6-1z" fill="#55a" stroke-width="2"
-        stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4496 1711v7l-2 8-2 7v6l6 3 2 2" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4532 1718l-5 4h-11l-4-3-3-2 5-1 4-2 7 1z" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4515 1717c0 3 2 4 5 4s5-1 5-4c0-1-2-2-5-2s-5 1-5 2z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4518 1717l2 2 2-2-2-1zm-46-9l3-3 6-3h5l5 2 3 2 2 4c-1-3-3-4-5-5l-5-1-6-1z" fill="#55a" strokeWidth="2"
+        stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4496 1711v7l-2 8-2 7v6l6 3 2 2" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4510 1732l3 2c1 1 1 3-1 4-1 2-4 1-5 1-2 0-3-2-5-3h-3v2h2l4 1 3 1 4-1c2-2 2-4 1-5zm11 9l4-1 2 1 1 3-2 4-5 2-5-2-3-2-4-1-3 1 2 2 5-1 5 2 5 1 4-3 1-3-1-3-4-1zm-36 0l-3 2-1 3 1 4 2 1 4-1 4-2 3-1 3 1v-1l-2-1c-1-1-2 0-3 1l-4 1-4 2-3-1-1-4 1-3zm28 13l-4 1-3 1-4-1h-1l-4 1-3-1-2-1 3 1 3-1h5l3 1h3l3-1z"
-        fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4495 1715l-5-4-5-1h-5l-3 1-3 3" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4474 1717l5 4 5 1 6-1 3-1 2-2-3-2-4-2-6-1z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4490 1717c-1 3-3 3-5 3-3 0-4-2-4-4s2-3 5-2c2 0 4 1 4 3z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4487 1716l-2 1-1-2 1-1z" fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4513 1722l5 4m-25-2l-6 3M4472 1699v5l1 10 1 8-1 10 1 7 2 11 2 8v4" fill="none" stroke-width="2"
-        stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4495 1715l-5-4-5-1h-5l-3 1-3 3" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4474 1717l5 4 5 1 6-1 3-1 2-2-3-2-4-2-6-1z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4490 1717c-1 3-3 3-5 3-3 0-4-2-4-4s2-3 5-2c2 0 4 1 4 3z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4487 1716l-2 1-1-2 1-1z" fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4513 1722l5 4m-25-2l-6 3M4472 1699v5l1 10 1 8-1 10 1 7 2 11 2 8v4" fill="none" strokeWidth="2"
+        stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4473 1716l-1 3-3 4-4 1-4-2v-4c0-2 0-3 2-4h3l1 2v2l2-3 1-5 1-4 1-3m2 20l-2 7-2 6-3 3-4 2 2-3-1-3-3-1-4 2-1 4 1 4c1 2 3 2 5 3l6-1 3-4c2-1 3-5 3-5M4537 1771c3-1 4 4 3 5-2 2-6 1-8-1s-1-7 1-9c3-2 7-2 9 0 2 1 3 4 4 7 0 4-2 9-6 12-6 4-16 3-22-1-5-3-8-7-11-12l-4-8"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4508 1764c1 4 3 7 6 9 3 4 7 7 12 8h10l4-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4508 1764c1 4 3 7 6 9 3 4 7 7 12 8h10l4-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4513 1764l8 10c4 1 8 3 11 2m-15-14l7 8 7 2m-9-12l5 5 5 2m-7-11l6 7 4 1m-6-11l6 7 7 4m-9-14l5 6 2 2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4620 1894s-4-10-4-14v-13l6-4 5 1s-5 2-6 4v3l2 2-3 1v3l4 3s-3 1-2 4c0 2 5 1 5 1s-4 1-4 4c1 2 4 2 4 2l-4 1z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4490 1780l39 27 50-31" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4498 1799l31 22 40-26" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4504 1815l25 17 33-21" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4509 1829l21 15 27-18" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4512 1843l19 12 22-15" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4490 1780l39 27 50-31" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4498 1799l31 22 40-26" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4504 1815l25 17 33-21" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4509 1829l21 15 27-18" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4512 1843l19 12 22-15" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4514 1857l16 9 21-14m-37 15l9 8m14 0l12-11m-3 13l-6 5m-44-97v10m11-3v13m11-5v12m11-4v13m12-21v13m12-20v12m11-20v13"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4540 1694c3 12 5 40 5 51 1 9 2 18 6 25 1 3 4 5 8 5 3 0 5-9-2-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4540 1694c3 12 5 40 5 51 1 9 2 18 6 25 1 3 4 5 8 5 3 0 5-9-2-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4534 1694c4 17 4 46 7 62 1 9 5 20 13 24 4 2 10 2 12-1 4-4 3-11 0-14-3-4-9-5-12-3-3 1-3 4-3 7" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4546 1695c4 14 3 18 4 34 0 5 0 15 2 22 0 3 1 7 3 9m-3-64c3 15 3 19 3 34 1 5 0 13 2 19 0 4 2 9 4 11m-4-63c3 14 3 18 3 33l1 18 4 10m-3-60c3 13 3 17 3 31 1 5 0 11 2 17l3 9m-3-56c3 12 3 16 4 29l1 16 3 9m-9 6l3-3c2 0 5 2 6 4 3 3 4 8 3 12 0 2-1 5-3 6l-3 1"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4572 1757l1-3c2-1 5 1 6 3 2 3 4 7 4 11l-2 6-2 1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4576 1754l2-3 6 3c2 3 4 7 4 11l-2 7h-2" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4572 1757l1-3c2-1 5 1 6 3 2 3 4 7 4 11l-2 6-2 1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4576 1754l2-3 6 3c2 3 4 7 4 11l-2 7h-2" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4582 1752l2-2c2-1 4 1 5 3 3 3 4 7 4 10s0 5-2 6l-3 1m-27-9c0-1 1-3 3-3s4 2 6 4c2 3 3 8 3 12 0 2-1 5-3 6h-4M4476 1756c-2 6-5 8-10 11-1 3-5 6-7 4-2-1-2-7 1-7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4477 1762c-2 8-8 14-15 15-4 0-9-2-10-6-2-4 0-11 5-13 3-1 6 0 8 2s2 7 2 8" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4483 1762c-2 7-8 18-17 20-3 0-6-2-8-5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4488 1764c-3 6-4 13-9 17-3 2-8 2-11 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4483 1762c-2 7-8 18-17 20-3 0-6-2-8-5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4488 1764c-3 6-4 13-9 17-3 2-8 2-11 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4492 1764c-1 6-2 12-6 16-3 2-6 3-9 2m20-18c-1 5-1 10-4 14-2 1-3 3-5 1m14-15l-2 10c-1 2-3 4-5 2m-34-19l3-2c2 0 4 1 5 3 2 1 2 3 2 5m-4-8l2-1 4 2 1 3m-3-5l2-1h3"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4486 1782l11 16a159 159 0 0117 61v30m-26 4l1-14a89 89 0 00-17-53l-9-11-12-12-10-8-9-7-7-4" fill="none"
-        stroke="#030000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4393 1800v93m-8-87v71m-5-67v65" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#030000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4393 1800v93m-8-87v71m-5-67v65" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4460 1861l-6 18 3-1 1 1 2 5 1-4 2-2 2 1z" fill="#55a" />
       <path
         d="M4524 1882s-2-7 0-9c3-3 9-3 12-1 2 2 1 10 1 10s6-1 8 1 2 8 0 10-8 1-8 1 0 7-2 8c-2 2-7 2-9 0s-2-9-2-9-7 2-9 0c-3-3-2-8 1-11 2-2 8 0 8 0z"
-        fill="#fff" stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4530 1879l-9 9 9 8 10-9z" fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4536 1886a5 6 0 11-11 0 5 6 0 0111 0z" fill="#ff5" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#fff" strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4530 1879l-9 9 9 8 10-9z" fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4536 1886a5 6 0 11-11 0 5 6 0 0111 0z" fill="#ff5" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4586 1798c1 1 1 3 3 3 2 2 5 1 6-2 2-2 1-5-1-7h-4l6-3c1-2 0-6-2-7-3-1-6 0-7 2v6l-2-2c-3-2-6-1-7 2-2 2-1 5 2 7h4l-2 2-3 3 5 3 1-4zm-19 69c0 1 1 2 3 2 3 0 5-2 5-4 1-3-1-6-4-6l-3 1 4-5c0-3-2-6-5-6s-5 2-5 5c-1 2 1 4 2 5l-3-1c-3-1-5 2-5 4-1 3 1 6 4 6l4-1-1 3-2 4h7l-1-4-1-3zm-201-23l2 1c3 0 4-2 4-4s-1-4-4-4l-2 1 2-5c0-1-1-4-3-4-3 0-4 3-4 4l2 5-2-1c-2 0-4 2-4 4s2 4 4 4l2-1h1l-1 2-1 3h5l-1-3-1-2zm0 30l2 1c3 0 4-2 4-4s-1-4-4-4l-2 1 2-5c0-1-1-4-3-4-3 0-4 3-4 4l2 5-2-1c-2 0-4 2-4 4s2 4 4 4l2-1h1l-1 2-1 3h5l-1-3-1-2z"
         fill="#fff" />
-      <path d="M4583 1827a10 10 0 11-20 0 10 10 0 0120 0z" stroke="#fffdff" fill="none" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4578 1827a5 5 0 11-10 0 5 5 0 0110 0z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4583 1827a10 10 0 11-20 0 10 10 0 0120 0z" stroke="#fffdff" fill="none" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4578 1827a5 5 0 11-10 0 5 5 0 0110 0z" fill="#fff" stroke="#fff" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4460 1787l3 1 2 4 3 2 6 2c-3 1-7 2-10 1s-5-2-5-5v-4zm19 19l4 1 1 5-4 5h-5l-5-4-2-5v-5l4-5 5-2h7c3 0 5 2 7 3l6 9 2 8v9l-1 10v5l1 3 2 1 2-2-1-2 3 3v4l-3 2-3-1-3-3-1 9 1 7 2 5 2 3h3l-3-3v-3l2-2h3l3 3 1 5-2 2-5 2c-2 0-4 0-6-2l-3-4-2-8 1-10 1-8v-3l1-6s-3 3-5 3l-5-1-3-6 1-4 3-2h3l1 1-2 1v3l1 2h3c2 0 3-1 4-3l1-4-1-7-1-7-4-5-5-3h-7l-3 1-2 3-1 5 3 3h4l1-3z"
         fill="#ff5" />
@@ -3048,27 +3048,27 @@ const DeckSvgInline = () => (
       <path
         d="M4460 1821l-5 19 2-2 2 2 1 4 1-4 2-1 2 1zm-19-22l-6 18 3-1 1 2 2 4 1-4 2-1 2 1zm-19-13l-6 18 3-1 2 2 1 4 1-4 2-1 2 1zm-19 16l-6 18 3-1 2 1 1 5 1-4 2-2 2 1z"
         fill="#55a" />
-      <path d="M4458 1868c0 17-14 30-30 30-17 0-30-13-30-30s13-30 30-30c16 0 30 13 30 30z" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4417 1839l-2-7-6-6 6-3h6l3-5 4-5 6 5 2 5h6l6 3-6 6-3 8-7-2-8-1z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4423 1837l-2-5-3-4h7l1-4 2-3 2 3 2 4h7l-3 4-2 6-6-2z" stroke="#000200" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4458 1868c0 17-14 30-30 30-17 0-30-13-30-30s13-30 30-30c16 0 30 13 30 30z" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4417 1839l-2-7-6-6 6-3h6l3-5 4-5 6 5 2 5h6l6 3-6 6-3 8-7-2-8-1z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4423 1837l-2-5-3-4h7l1-4 2-3 2 3 2 4h7l-3 4-2 6-6-2z" stroke="#000200" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4451 1869a3 3 0 11-5 0 3 3 0 015 0zm-21-3a3 3 0 11-5 0 3 3 0 015 0zm11 1a3 3 0 11-5 0 3 3 0 015 0zm-11-11a3 3 0 11-5 0 3 3 0 015 0zm1-10a3 3 0 11-5 0 3 3 0 015 0zm-12 21a3 3 0 11-5 0 3 3 0 015 0zm-10 2a3 3 0 11-5 0 3 3 0 015 0z"
         fill="#ff5" />
-      <path d="M4434 1840v21a164 164 0 0022 3" fill="none" stroke="#ff5" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4438 1841l1 16 9 1 7 2m-33-20l-1 21-11 1-10 2" fill="none" stroke="#ff5" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4418 1841l-1 16-9 2-7 1m0 19c6-3 14-5 20-5 6-1 13 0 19 1l14 3" fill="none" stroke="#ff5" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4408 1884c1-1 3 1 4 2 2 1 2 3 3 5l4 4-8-4c-1-1-3-2-3-4z" fill="#ff5" stroke="#ff5" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4434 1840v21a164 164 0 0022 3" fill="none" stroke="#ff5" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4438 1841l1 16 9 1 7 2m-33-20l-1 21-11 1-10 2" fill="none" stroke="#ff5" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4418 1841l-1 16-9 2-7 1m0 19c6-3 14-5 20-5 6-1 13 0 19 1l14 3" fill="none" stroke="#ff5" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4408 1884c1-1 3 1 4 2 2 1 2 3 3 5l4 4-8-4c-1-1-3-2-3-4z" fill="#ff5" stroke="#ff5" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4423 1895l-4-4-2-3-1-4 2-2h2l1 3v4l1 4zm4 0l-2-6v-5l2-3 2-1 1 2v4l-1 5zm4 0l3-6 1-4 1-3 3-1 1 2-1 4-3 3-2 3zm6 0l3-3 3-4 1-4h2l2 2-1 3-4 3-3 1z"
-        fill="#ff5" stroke="#ff5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4445 1650l27 49c10-4 21-5 32-6a194 194 0 0163 6l31-49z" fill="#ff5" stroke="#55a" stroke-width="2" />
+        fill="#ff5" stroke="#ff5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4445 1650l27 49c10-4 21-5 32-6a194 194 0 0163 6l31-49z" fill="#ff5" stroke="#55a" strokeWidth="2" />
       <path
         d="M4486 1669v-4l2 2v3l3 2 6-2-1-5-3-2-3 1v-5c-1-2-2-3-4-3h-2c-1 0-3 1-3 3v4l2 3h-3c-2 0-3 2-3 4s1 3 3 4h5l2-3zm-26 3v-2l-2-1v2l-6-9 1-1 2-1 5 2 1 5 2-2 3 1c2 1 3 3 3 5l-5 4-4-1m72 0l-6-2-3-3h-1c0 3 1 3 2 4l6 4c2 1 5 2 8 1l8-2 5-4 1-4c-1 2-3 4-5 4l-5 2c-2 0-4-1-5-3-2 1-3 3-5 3z" />
       <path
@@ -3080,11 +3080,11 @@ const DeckSvgInline = () => (
         d="M4581 1672l-1-1c1-1 2-2 3-1v1l6-9-1-1-2-1-4 2c-2 2-2 4-2 5l-2-2-3 1c-2 1-3 3-3 5l4 4 4-1m-26-6l1-3h-1l-2 2 1 1v2l-4 2c-2 0-4-1-5-3-1-1 0-3 1-5l3-2 3 1-1-5 4-3h3l3 3-1 4-2 3h3l4 4c0 2-2 4-3 5h-5l-2-4zm-34-1v-3h1l1 2v3l2 3 6-1v-6l-2-2h-4l2-5-3-4h-2l-4 2v4l1 3-3-1-5 4 2 4c2 2 4 2 5 2l3-3z" />
       <path
         d="M4477 1899s3 6 1 9c-3 3-9 3-12 0-2-2-1-10-1-10s-6 2-8 0c-2-3-3-8 0-11 2-2 8-1 8-1s-1-6 2-8c2-2 7-1 9 1s2 8 2 8 7-2 9 1c3 2 2 8-1 11z"
-        fill="#fff" stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4472 1902l9-9-9-9-11 10z" fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4465 1893a5 6 0 1111 0 5 6 0 01-11 0z" fill="#ff5" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#fff" strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4472 1902l9-9-9-9-11 10z" fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4465 1893a5 6 0 1111 0 5 6 0 01-11 0z" fill="#ff5" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4416 1721c2 4 7 10 12 10 9 0 13-8 13-18s-4-19-13-19c-5 0-8 5-11 8-1 1-2 0-1-1 3-3 8-11 8-18 0-8-5-18-13-18s-13 10-13 18c0 7 5 15 8 18 1 1 0 2-1 1-3-3-6-8-11-8-9 0-13 9-13 19s4 18 13 18c5 0 10-6 12-10 1-1 1 0 1 1l-2 16-4 17c5-2 15-2 20 0l-4-17-2-16c0-1 0-2 1-1zm-62 17c0 2 3 5 5 5 5 0 7-4 7-9s-2-9-7-9c-2 0-4 2-5 4v-1c1-1 4-5 4-9s-3-9-7-9-6 5-6 9 2 8 4 9l-1 1c-2-2-3-4-6-4-4 0-6 4-6 9s2 9 6 9c3 0 6-3 7-5v1l-1 8-2 8h10l-2-8-1-8zM4586 2059c-2-4-7-10-12-10-9 0-13 8-13 18s4 19 13 19c5 0 8-5 11-8 1-1 2 0 1 1-3 3-8 11-8 18 0 8 5 18 13 18s13-10 13-18c0-7-5-15-8-18-1-1 0-2 1-1 3 3 6 8 11 8 9 0 13-9 13-19s-4-18-13-18c-5 0-10 6-12 10-1 1-1 0-1-1l2-16 4-17c-5 2-15 2-20 0l4 17 2 16c0 1 0 2-1 1zm62-17c-1-2-3-5-6-5-4 0-6 4-6 9s2 10 6 10c3 0 5-3 6-4 0-1 1 0 0 0-1 2-4 6-4 9 0 4 3 9 7 9s6-5 6-9c0-3-2-7-4-9h1c2 1 3 4 6 4 4 0 6-5 6-10s-2-9-6-9c-3 0-6 3-7 5 0 1 0 0 0 0l1-8 2-9h-10l2 9 1 8z" />
     </symbol>
@@ -3148,59 +3148,59 @@ const DeckSvgInline = () => (
       <path d="M3726 147l5-3 5-4v61l-6-3h-4z" />
       <path d="M3735 171h78l-25 40s-9-9-15-11c-4-1-14 2-14 2s-8-6-13-6c-4 0-11 6-11 6" fill="#f55" />
       <path d="M3828 150l-39 60h6l3 2 42-65-3-2-4 3z" />
-      <path d="M3736 170h78l13-19-91-1z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M3736 170h78l13-19-91-1z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3819 290l11 6 8 7 6 8 5 9 3 9 1 6v7l-9-11-6-6-5-8-4-7-5-8-4-8z" fill="#55a" />
       <path
         d="M3815 232l17 4c9 4 18 8 26 14a125 125 0 0137 40c4 7 7 14 9 22a122 122 0 013 45l-2 12-3 12 14 5 15 4V232l-83-52z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3898 369c1-6 3-12 3-19 0-9 0-19-2-28l-6-21a116 116 0 00-27-37 136 136 0 00-32-20 114 114 0 00-23-7l2 19 11 4 18 7 19 17 12 17 7 18 3 21-1 13-3 14c7 6 11 8 17 11z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3721 30l25 40 10-5 25-5h30l30 5 25-35z" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3721 30l25 40 10-5 25-5h30l30 5 25-35z" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3840 65s4 10 3 14l-4 7v4c2 6 8 11 10 17l1 3c-2 4-8 4-9 8v7l-2 3c-1 2 1 3 1 5l-3 5v6l-7 4c-4 2-7 2-11 2l-15-2c-5-2-9-5-12-8l-7-5-8-11"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3836 76l-7-4c-4-1-8 0-12 1l-9 5-4 2 8-4 8-3h8zm-8 4l-5-1-6 2-6 4-5 5" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3831 82l-3 1-6 1-5 1-4 3-4 2-2 1m23 1l-4 4-3 3-3 2m9 5l-1 5 3 3h4l3-1c1-1 1-2 3-2h2l-3 1-3 2h-4l-4-1-1-3zm-14 12l-3-2-3 2-1 4 2 3 6 2c2 0 3-2 5-3l5-3 4-2h5l1 2c-1 1-3-1-4-1l-5 1-6 4-7 2-4-2-2-4 2-4 3-1zm23 7l-5 1-7 1-2 1 4-1h11l2-2z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3825 84l3 2c1 1 2 3 1 4l-3 2c-2 1-4 0-5-2v-4z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3809 90h6l4 2h6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3825 84l3 2c1 1 2 3 1 4l-3 2c-2 1-4 0-5-2v-4z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3809 90h6l4 2h6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3826 86l-2 2 2 3 1-3zm-91-56l15 29 20-4-4-25h-5l5 21c-5 0-9 1-13 3l-11-24zm40 0l3 24c10-1 19-2 29-1l5-23h-6l-3 18-20 1-2-19zm47 0l-7 23 22 3 15-26h-6l-12 22c-5-2-8-2-13-2l6-20z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3746 71l-7 15-11 16c-1 4-2 7-1 11 0 3 2 6 4 7 2 2 4 3 7 3 2 0 5-1 7-3s3-5 2-8c0-3-1-6-3-7l-4-2-5 2c-2 2-2 4-2 6l2 5c2 1 4 2 5 1l3-3-2-4-2-1m26-46l-7 21-8 15c-2 4-3 9-2 14l4 7 7 2 7-2c2-3 4-6 3-9 0-3-1-6-4-8l-4-2-5 2c-2 2-2 5-2 7l2 5c2 2 4 2 5 2l4-4-2-5c-3-2-4 1-4 1m26-49s-2 12-7 23l-7 16c-1 5-2 10-1 15 0 3 2 6 4 8s4 2 7 3l8-2c2-3 3-6 3-10 0-3-2-6-5-8l-4-1c-2 0-4 0-5 2-2 2-2 4-2 6l2 6c2 1 4 2 5 1 2 0 3-2 4-3l-2-5c-3-2-4 1-4 1"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3752 68l-3 11-7 12-6 8-3 9m26-42l-3 10-6 11-5 9c-2 2-2 5-3 7m29-41l-3 11-6 14-5 9-3 9m24-44l-2 11-6 12-4 9-3 8m28-41l-2 13-6 14-4 12-3 10m22-49l-2 12-5 13-5 9-2 9m-39 17l-7 16c-3 3-6 7-10 9-2 2-6 3-9 3l-6-5a13 13 0 010-15c1-2 4-3 6-3h5c3 1 4 3 5 5s2 4 1 6l-5 5h-5c-2-1-3-2-3-4v-4l3-2 3 1v3m47-18l-5 15c-3 5-5 10-9 13-3 2-6 3-9 2l-6-3-2-7 2-6c1-2 3-3 5-3h5c2 0 3 2 4 4 1 1 2 3 1 5l-4 5h-5l-2-4v-3l2-2 4 1v3m-23-19l-5 7m9-3l-4 6m10-5c-2 4-5 8-8 10m21-13l-2 7m8-5l-3 8m8-8c0 4-3 11-5 14m17-14l-4 11-5 10m13-16l-2 9-4 7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3912 83l7-10c1-4 3-8 2-12-1-3-3-6-5-7-3-3-7-4-11-3-3 0-5 2-7 5-2 1-3 4-3 6l2 9 3 6 5 6-10 14 10 14-7 8-3 9 1 8c1 3 3 4 6 6l6 2c3 0 6 0 8-2l4-6 1-9-3-8-6-9 9-13z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3908 78l-6-9-1-5 2-5 5-2 5 2c2 1 2 3 2 5 1 2 0 4-1 6-1 3-3 6-6 8zm0 37l-6 10-1 6 2 4c2 2 3 3 5 3s4-1 5-3l2-5-1-6z"
-        fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3908 105l-6-8 6-9 6 9z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3876 170l7-14c4-4 8-7 13-8 4-2 8-2 12-2l5 1v6l-8 4-8 1v12l-3 6" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3908 105l-6-8 6-9 6 9z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3876 170l7-14c4-4 8-7 13-8 4-2 8-2 12-2l5 1v6l-8 4-8 1v12l-3 6" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3903 147v4l3 1 4 1 3-1m1 1l3 1 2 4-2 2-4 3-6 2h-5l-2-2-1-1 1-2 3-2 3 1 1 2v3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3917 160l3 3v2c0 2-1 2-3 3l-4 2-5 1h-7l-1-2 1-2 2-2 3 1 2 1v4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3918 168l1 3v4l-4 2-5 1h-5l-3-1-1-2 1-2 3-1h2l2 2v2l-1 2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3916 177l2 2-1 3-3 3h-3l-5-1-4-1v-2l2-2 4-1 1 3v2l-1 2m1 1l-5 3" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3917 160l3 3v2c0 2-1 2-3 3l-4 2-5 1h-7l-1-2 1-2 2-2 3 1 2 1v4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3918 168l1 3v4l-4 2-5 1h-5l-3-1-1-2 1-2 3-1h2l2 2v2l-1 2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3916 177l2 2-1 3-3 3h-3l-5-1-4-1v-2l2-2 4-1 1 3v2l-1 2m1 1l-5 3" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3736 150h81s-10 0-14-2l-6-4-39-1-6 4h-6a10 10 0 01-6-5l-1-3v-4l-3 5z" fill="#55a" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3736 155h87" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3736 155h87" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3768 181c2-1-1-4 0-6h6c2 2-1 5 0 6 2 2 5-1 6 0 2 2 2 5 0 6-1 2-4-1-6 0-1 2 2 5 0 6-1 2-4 2-6 0-1-1 2-4 0-6-1-1-4 2-6 0v-6c2-1 5 2 6 0z"
         fill="#fff" />
@@ -3211,94 +3211,94 @@ const DeckSvgInline = () => (
       <path d="M3852 163l-6 9 84 54v-12z" />
       <path d="M3847 172l-3 4 86 56v-6z" fill="#f55" />
       <path d="M3931 272s-16-12-23-20c-5-7-10-14-13-22-4-8-6-24-6-24l-8-5s4 22 8 32c4 9 10 18 16 26l26 22z" fill="#ff5"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3864 191s2 26 5 38c3 9 6 17 11 25 7 11 15 21 25 30l26 17v6s-21-12-30-20a109 109 0 01-37-56c-3-8-4-25-4-25l-21 33-6-3 30-46z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3931 390c-10-2-20-5-29-9-2 0-4-2-5-3l-17-10-5-4-13-13a195 195 0 01-18-19l-13-17c-4-8-9-15-12-23l-2-13a538 538 0 01-4-23l-2-19-1-10-3-6c0-2-1-3-3-4l-6-5-5-2h-4s-9-9-15-10c-5-1-15 3-15 3s-9-7-14-7c-4 0-9 7-9 7s-7-6-11-5c-5 1-10 9-10 9"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3789 210l28-45h-81" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3789 210l28-45h-81" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3880 368l3-21c0-8 0-16-2-24-2-9-5-17-10-24a69 69 0 00-36-35c-7-4-15-6-22-8l6 33 17 12 8 10 7 14 2 9v8l13 14z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3875 362l2-16a86 86 0 00-25-64c-6-5-12-10-19-13l-18-7 3 16 8 4a71 71 0 0135 47l1 12-1 10z" fill="#55a"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3818 285c4 1 9 3 12 6a68 68 0 0125 32l2 11v12" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3818 285c4 1 9 3 12 6a68 68 0 0125 32l2 11v12" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3824 258s-6-3-8-6l-1-8 6 5zm0 0l8-6 7 2s-3 4-6 5zm2-6c-1 0-3-2-3-4s3-4 5-4c2 1 4 3 3 5 0 2-3 4-5 3z"
         fill="#f55" />
       <path
         d="M3898 212s-4 4-4 6l1 5 5 1 10-5-4-2s-3 3-5 3l-2-3c-1-1 1-3 1-3zm13 9s-6 2-8 5c-2 1-3 3-3 5l2 5 6 2 6-2 7-5 3-3-4-2-8 6h-4l-3-2c0-2 3-2 4-3l6-5zm14 8l-10 9c-2 2-5 4-5 6s1 5 3 6h4l6-5 8-7v-4l-6 6c-3 1-4 4-7 4h-3c-1-2 3-3 4-5l5-4 5-3zm6 13s-9 5-12 10l-1 6 5 4 5-3c2-1 3-6 3-6s-4 5-6 4c-2 0-2-2-2-4l3-3 5-4z"
         fill="#ff5" />
       <path d="M3880 206s-7-3-9-2l-3 4 4 1c3 0 8-3 8-3z" fill="#fff" />
-      <path d="M3831 269h-6l-3 4v5l4 4 5-1c2 0 3-2 4-3l-1-6z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3829 273c-1-1-3 0-3 2-1 1 0 2 1 3l4-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M3831 269h-6l-3 4v5l4 4 5-1c2 0 3-2 4-3l-1-6z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3829 273c-1-1-3 0-3 2-1 1 0 2 1 3l4-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3829 297c-1-1-4 1-4 2l2 4c2 0 4-1 4-3 1-1-1-3-2-3zm5 6c-2 0-4 1-5 4l3 4c2 1 4-1 5-3 0-2-1-5-3-5zm6 7c-2 0-6 2-6 4s1 4 3 5c2 0 5-1 6-4 0-2-1-4-3-5zm4 8c-1 0-4 1-5 3 0 2 2 4 3 5 2 0 5-1 5-3 1-2-1-4-3-5zm4 8l-4 3c0 1 1 3 3 3l4-2z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3741 159v2h10v-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3843 276l-5 1c-2 0-3 2-4 4l1 5c0 1 2 3 4 3h4l4-4v-5z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3841 280l-3 2c0 1 0 3 2 3 1 1 3-1 3-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3853 285l-5 1c-2 0-3 2-4 4l1 5c0 1 2 3 4 3h4l4-4v-5z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3851 289l-3 2c0 1 0 3 2 3 1 1 3-1 3-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3861 296l-6 1c-1 0-3 2-3 4v5l4 3h5l4-4-1-5c0-2-2-3-3-4z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3859 300l-3 2c-1 1 0 3 1 3 2 1 3-1 4-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3867 309h-6l-3 4v5l4 4 5-1c2 0 3-2 4-3l-1-6z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3865 313c-1-1-3 0-3 2-1 1 0 3 1 3l4-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3871 322h-5l-4 4 1 6 4 3 5-1 3-3v-6z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3869 326c-1-1-3 0-3 2l2 3 3-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3872 349h-5l-4-5 1-5 4-3h4l4 4v5z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3870 345l-3-2c0-1 0-3 2-3l3 2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3873 361c2-2 2-5 1-7 0-2-2-3-4-4-2 0-6 0-6 2" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3870 359v-4h-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3816 276c3 0 4-2 5-4s0-4-1-6c-1-1-5-3-6-2" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3815 273l3-3c0-1-2-3-3-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3741 159v2h10v-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3843 276l-5 1c-2 0-3 2-4 4l1 5c0 1 2 3 4 3h4l4-4v-5z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3841 280l-3 2c0 1 0 3 2 3 1 1 3-1 3-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3853 285l-5 1c-2 0-3 2-4 4l1 5c0 1 2 3 4 3h4l4-4v-5z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3851 289l-3 2c0 1 0 3 2 3 1 1 3-1 3-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3861 296l-6 1c-1 0-3 2-3 4v5l4 3h5l4-4-1-5c0-2-2-3-3-4z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3859 300l-3 2c-1 1 0 3 1 3 2 1 3-1 4-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3867 309h-6l-3 4v5l4 4 5-1c2 0 3-2 4-3l-1-6z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3865 313c-1-1-3 0-3 2-1 1 0 3 1 3l4-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3871 322h-5l-4 4 1 6 4 3 5-1 3-3v-6z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3869 326c-1-1-3 0-3 2l2 3 3-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3872 349h-5l-4-5 1-5 4-3h4l4 4v5z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3870 345l-3-2c0-1 0-3 2-3l3 2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3873 361c2-2 2-5 1-7 0-2-2-3-4-4-2 0-6 0-6 2" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3870 359v-4h-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3816 276c3 0 4-2 5-4s0-4-1-6c-1-1-5-3-6-2" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3815 273l3-3c0-1-2-3-3-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3847 269s-5-4-6-7c-1-2 1-8 1-8s4 4 4 7zm0 0s5-3 8-3 6 3 6 3l-6 3c-3 0-8-3-8-3zm3-5l-2-4c1-2 4-4 6-3 1 1 2 4 1 6 0 1-3 2-5 1zM3865 287s-4-5-4-9l3-7s3 5 3 8zm0 0s7-2 10-1l5 5-8 1zm5-4c-2-1-2-3-1-5 1-1 5-2 6 0 2 1 2 4 0 5zM3878 309l-2-9 5-6s2 5 1 8c0 3-4 7-4 7zm0 0s7 0 10 2l4 5h-8zm6-2v-5c2-1 5-1 7 1 1 1 0 4-2 5-1 1-4 0-5-1zM3884 333s0-7 2-9c1-2 7-4 7-4l-2 7zm0 0s7 2 9 5l1 7-7-4c-2-2-3-8-3-8zm6 0c0-2 1-4 3-5s5 1 5 3c1 2-1 4-3 5-2 0-4-1-5-3zM3883 358l4-8c2-2 8-2 8-2l-4 7c-2 2-8 3-8 3zm0 1s6 3 7 6-1 7-1 7l-5-5c-2-2-1-8-1-8zm6 1c0-2 2-4 4-4s4 2 4 4-2 4-4 4-4-2-4-4z"
         fill="#f55" />
       <path
         d="M3882 218s-7-2-10 0c-1 1-2 3-1 4h3c3 0 8-4 8-4zm3 11s-8-1-10 2c-1 1-2 3-1 4h3zm4 10s-8 1-9 4c-1 1-2 4 0 5l3-2zm6 12s-7 1-9 3v5l3-1zm7 9s-7 2-8 5c-1 1-1 4 1 4 1 1 2 0 3-1zm10 10s-8 1-9 4c-1 2 0 4 1 5l3-2zm9 8s-7 2-8 5c-1 2 0 4 1 5l3-2zm9 6s-7 3-7 7c-1 1 0 3 2 4l2-2zM3825 223s3 5 6 6c2 0 4 0 5-2l-2-2c-3-2-9-2-9-2zm-2 0c-1 4-1 6 1 8 1 1 3 2 4 1v-3c-1-3-5-6-5-6zm1-3s7 3 9 1l2-3-3-1c-3 0-8 3-8 3zM3837 207s2 6 5 6c1 1 4 0 4-1l-2-3zm-3 0s-1 6 1 9c1 1 3 2 4 1v-4zm2-3s5 3 8 2l2-4-4-1zM3846 190s3 6 6 7c1 0 3 0 4-2l-2-2c-2-2-8-3-8-3zm-2 0s-2 7 0 9c1 1 4 2 5 1v-3zm1-3s6 4 9 2l2-4h-4z"
         fill="#fff" />
-      <path d="M3930 233l-86-56m-8-32l95 61m-76-48l-45 70" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M3930 233l-86-56m-8-32l95 61m-76-48l-45 70" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3756 159v2h10v-2zm15 0v2h10v-2zm15 0v2h10v-2zm15 0v2h10v-2zm15 0v2h3l2-2z" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3687 155v23l-17-12z" fill="#f55" />
       <path d="M3696 151v35l-10-8 1-23z" />
-      <path d="M3700 150v40l14 14 1 2 2-3 4-4v-50l-4-2-4-2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3700 150v40l14 14 1 2 2-3 4-4v-50l-4-2-4-2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3713 146l-1 9-2 6-6 7c-1 3-3 6-3 10-1 3 0 4 2 7 1 4 4 5 6 7l4 4 2 8 5-4-2-7-4-4-5-6-2-6 3-7 5-7c2-2 3-4 3-7l1-8z"
-        font-weight="400" color="#000" fill="#ff5" stroke="#55a" stroke-width="2" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" stroke="#55a" strokeWidth="2" overflow="visible" fontFamily="Sans" />
       <path
-                d="M3709 147l-6 2 1 11 5 8 4 7v7l-2 6-3 4-2 3 4 5 4-6 3-5 2-7v-8l-5-8-4-7z" font-weight="400" color="#000"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" overflow="visible"
-        font-family="Sans" />
-      <path d="M3713 144a219 219 0 00-28 12l-17 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3736 171v31" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3714 207l-7-10-6-7a119 119 0 00-15-13l-17-11" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+                d="M3709 147l-6 2 1 11 5 8 4 7v7l-2 6-3 4-2 3 4 5 4-6 3-5 2-7v-8l-5-8-4-7z" fontWeight="400" color="#000"
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" overflow="visible"
+        fontFamily="Sans" />
+      <path d="M3713 144a219 219 0 00-28 12l-17 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3736 171v31" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3714 207l-7-10-6-7a119 119 0 00-15-13l-17-11" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3766 263v4c-4 1-6-1-9-3l-1 11c3-2 5-3 9-3v5h31v-4c4 0 6 1 9 3l1-11c-3 3-5 3-9 3v-5z" fill="#ff5" />
       <path d="M3779 255v-23c0-2 1-5 3-6l6-2c3 0 5 1 7 3l2 5v23z" fill="#f55" />
       <path d="M3787 239s-5-1-5-5c0-2 3-5 5-5 3 0 5 3 6 5v6l-4 5-1 4-1 4-1-6a18 18 0 011-8z" />
@@ -3315,57 +3315,57 @@ const DeckSvgInline = () => (
       <path d="M3836 394s-4 1-5 3l-5 4v-62l6 3 4 1z" />
       <path d="M3827 369l-78 1 25-40s9 9 15 10c4 1 14-2 14-2s8 6 13 6c4 0 11-5 11-5" fill="#f55" />
       <path d="M3734 391l39-60-6-1-3-1-42 64 4 2 3-2z" />
-      <path d="M3826 370h-78l-13 20h91z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M3826 370h-78l-13 20h91z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3743 251l-11-7-7-6-7-9-5-8-3-9-1-7 1-6 8 10 6 7 5 8 4 7 5 8 4 7z" fill="#55a" />
       <path
         d="M3747 309c-7-1-11-3-17-5a109 109 0 01-45-29l-18-24c-4-7-7-15-9-22a122 122 0 01-3-45l2-12 3-12-14-6-15-3v158l83 52z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3664 171c-1 7-3 13-3 20a123 123 0 008 48 116 116 0 0027 38 136 136 0 0032 20 114 114 0 0023 6l-2-18-11-4-18-7-19-18-12-17-7-17-3-21 1-14 3-14-17-11z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3841 510l-25-40-10 5a166 166 0 01-55 5c-10 0-30-5-30-5l-25 35z" fill="#f55" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3841 510l-25-40-10 5a166 166 0 01-55 5c-10 0-30-5-30-5l-25 35z" fill="#f55" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3722 475s-4-9-3-14l4-7v-3c-2-6-8-11-10-18l-1-2c2-4 8-4 9-8v-7l2-3c1-2-1-4-1-5l3-6v-5l7-5 11-1c5 0 10 0 15 2l12 7 7 6 8 11"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3726 465l7 4c4 1 8 0 12-2l9-4 4-2-8 4-8 2h-8zm8-4l5 1 6-3 6-4 5-5m-25 9l3-1 6-1 5-2 4-2 4-2 2-1m-23-1l4-4 3-3 3-2m-9-5l1-5c0-1-1-3-3-3h-4l-3 1c-1 1-1 2-3 2h-2l3-2 3-1 4-1 4 1 1 3zm14-13l3 3 3-2 1-4-2-3c-1-2-4-2-6-2s-3 2-5 3l-5 3-4 2-5-1-1-1c1-1 3 1 4 1l5-2 6-3c2-1 4-3 7-2l4 2 2 4-2 4h-3zm-23-7h5l7-1 2-2-4 2-6-1-5 1-2 2z"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3737 457l-3-2c-1-1-2-3-1-4l3-3c2 0 4 1 5 3v4z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3753 451h-6l-4-2-6-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3737 457l-3-2c-1-1-2-3-1-4l3-3c2 0 4 1 5 3v4z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3753 451h-6l-4-2-6-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3736 455l2-3-2-2-1 2zm91 55l-15-28-20 4 4 24h5l-5-20 13-3 11 23zm-40 0l-3-23c-10 1-19 2-29 1l-5 22h6l3-17 20-1 2 18zm-47 0l7-23-22-3-15 26h6l12-21 13 2-6 19z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3816 470l7-16 11-16c1-3 2-7 1-10 0-3-2-6-4-8l-7-2-7 2c-2 2-3 6-2 8 0 3 1 6 3 8l4 1c2 0 4 0 5-2 2-1 2-4 2-6l-2-5h-5c-2 0-3 2-3 3l2 4 2 1m-26 45l7-21 8-14c2-5 3-9 2-14 0-3-2-5-4-7s-4-2-7-2c-2 0-5 0-7 2s-4 6-3 9c0 3 1 6 4 8l4 1c2 0 4 0 5-2 2-1 2-4 2-6l-2-6c-2-1-4-2-5-1-2 0-3 2-4 3l2 5c3 2 4 0 4 0m-26 48s2-12 7-23l7-15c1-5 2-10 1-15 0-3-2-6-4-8s-4-3-7-3c-2 0-6 0-8 2s-3 6-3 9 2 7 5 9l4 1 5-2c2-2 2-4 2-7l-2-5-5-2-4 4 2 5c3 2 4-1 4-1"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3810 473l3-11 7-12 6-8 3-9m-26 42l3-10 6-12 5-8c2-2 2-5 3-8m-29 42l3-12 6-13 5-9 3-9m-24 43l2-10 6-12 4-9 3-8m-28 41l2-14 6-14 4-12 3-10m-22 50l2-12 5-13 5-9 2-9m39-17l7-16 10-10 9-2c2 1 5 2 6 4a13 13 0 010 16l-6 3h-5c-3-1-4-3-5-5s-2-5-1-7 3-4 5-4h6l2 3v4c0 2-2 3-3 3l-3-2v-3m-47 19l5-16c3-4 5-9 9-12l9-3c2 1 5 2 6 4l2 7-2 6c-1 2-3 3-5 3h-5l-4-4c-1-2-2-4-1-5l4-5h5l2 3v4l-2 2-4-1v-4m23 20l5-7m-9 3l4-6m-10 5c2-5 5-8 8-11m-21 14l2-7m-8 5l3-8m-8 8c0-4 3-11 5-14m-17 14l4-12 5-9m-13 16l2-9 4-7"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3650 458l-7 10c-1 4-3 8-2 11l5 8c3 2 7 4 11 3 3 0 5-3 7-5s3-4 3-7l-2-8c0-3-2-4-3-6l-5-6 10-14-10-14 7-9 3-9-1-8c-1-2-3-4-6-5l-6-3c-3 0-6 1-8 3-2 1-3 4-4 6l-1 8c1 3 1 6 3 8 1 4 6 9 6 9l-9 14z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3654 463l6 9 1 5-2 5-5 2-5-2c-2-2-2-4-2-6-1-2 0-4 1-5 1-3 3-6 6-8zm0-38l6-10 1-5-2-5-5-2-5 2-2 6 1 6c1 3 3 6 6 8z"
-        fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3654 435l6 9-6 8-6-8z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3686 371l-7 14c-4 4-8 6-13 8l-12 1h-5v-6c2-3 5-4 8-5h8v-12l3-7" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3654 435l6 9-6 8-6-8z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3686 371l-7 14c-4 4-8 6-13 8l-12 1h-5v-6c2-3 5-4 8-5h8v-12l3-7" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3659 393v-3l-3-2h-6m-2 0l-3-1-2-4 2-3 5-2 5-2h5l2 1 1 2-1 2-3 1h-3l-1-3v-3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3645 380l-3-2v-3l3-3 4-2h5l5-1 2 1 1 2-1 2-2 1h-3l-2-1v-2l1-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3645 372l-2-3v-4l4-2 6-1h4l3 2 1 2-1 2-2 1h-3l-2-2v-2l1-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3645 380l-3-2v-3l3-3 4-2h5l5-1 2 1 1 2-1 2-2 1h-3l-2-1v-2l1-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3645 372l-2-3v-4l4-2 6-1h4l3 2 1 2-1 2-2 1h-3l-2-2v-2l1-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3646 363l-2-1 1-3 3-3h8l4 2v1l-2 3h-3c-2 0-2-1-2-3v-2l1-1m-1-1l5-4" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3826 390h-81s10 1 14 3l6 3 39 1 6-3h6a10 10 0 016 4l1 4v4l3-6z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3826 385h-87" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3826 390h-81s10 1 14 3l6 3 39 1 6-3h6a10 10 0 016 4l1 4v4l3-6z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3826 385h-87" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3794 359c-2 2 1 5 0 6-2 2-5 2-6 0-2-1 1-4 0-6-2-1-5 2-6 0-2-1-2-4 0-6 1-1 4 2 6 0 1-1-2-4 0-5 1-2 4-2 6 0 1 1-2 4 0 5 1 2 4-1 6 0v6c-2 2-5-1-6 0z"
         fill="#fff" />
@@ -3376,22 +3376,22 @@ const DeckSvgInline = () => (
       <path d="M3710 377l6-8-84-54v12z" />
       <path d="M3715 369l3-5-86-55v6z" fill="#f55" />
       <path d="M3631 268s16 13 23 21l14 22c3 7 5 23 5 23l8 5s-4-21-8-31-10-18-16-26c-8-9-26-23-26-23z" fill="#ff5"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3698 349s-2-25-5-37c-3-9-6-18-11-26-7-10-15-20-25-29-8-7-26-17-26-17v-7s21 12 30 20a113 113 0 0141 82l21-33 6 2-30 46z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M3631 150c10 3 20 5 29 9l6 3 17 11 4 4 13 12a195 195 0 0118 20l13 17c4 7 9 15 12 23l3 13a538 538 0 014 23l2 19 1 9 2 7 3 4 6 5 5 2h4s9 9 15 10c5 1 15-3 15-3s9 7 14 7c4-1 9-7 9-7s7 5 11 5c5-1 10-9 10-9"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3773 331l-28 44h81" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3773 331l-28 44h81" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3682 173l-3 20c0 9 0 17 2 25 2 9 5 17 10 24a83 83 0 0036 35c7 4 15 5 23 8l-7-34c-5-3-12-7-16-11l-9-10-7-14-2-10v-8l-13-13z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3688 178c-1 6-3 11-3 17a86 86 0 0025 64l19 13c5 3 12 4 18 6l-2-15-9-4a71 71 0 01-35-47l-1-12 1-11z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3744 256l-12-6a68 68 0 01-25-32l-2-12v-11" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3744 256l-12-6a68 68 0 01-25-32l-2-12v-11" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3738 283l8 5 1 9s-5-3-6-6c-2-2-3-8-3-8zm0 0l-8 6-7-2s3-4 6-5 9 1 9 1zm-2 6c1 0 3 2 3 4s-3 4-5 4c-2-1-4-4-3-5 0-2 3-4 5-3z"
         fill="#f55" />
@@ -3399,75 +3399,75 @@ const DeckSvgInline = () => (
         d="M3664 329s4-4 4-7l-1-4-5-1-10 4 4 3s3-3 5-3l2 2c1 2-1 4-1 4zm-13-9s6-2 8-5c2-1 3-3 3-6l-2-4c-1-2-4-2-6-2l-6 2-7 5-3 3 4 2 8-6 4-1 3 3c0 2-3 2-4 3l-6 4zm-14-9l10-8c2-2 5-4 5-6 0-3-1-5-3-6h-4l-6 5-8 6v4l6-5 7-5 3 1c1 2-3 3-4 5l-5 4-5 3zm-6-12s9-6 12-10l1-6-4-4-6 2c-2 2-3 7-3 7s4-5 6-4c2 0 2 2 2 3 0 2-1 2-2 3l-6 4z"
         fill="#ff5" />
       <path d="M3682 335s7 3 10 2l2-4-3-1c-4 0-9 3-9 3z" fill="#fff" />
-      <path d="M3731 272h6c1-1 3-3 3-5v-5l-4-3h-5l-4 4 1 5c0 2 2 3 3 4z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3733 268l3-2c1-1 0-3-1-3l-4 2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M3731 272h6c1-1 3-3 3-5v-5l-4-3h-5l-4 4 1 5c0 2 2 3 3 4z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3733 268l3-2c1-1 0-3-1-3l-4 2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3733 244c1 0 4-1 4-3l-2-3-4 2c-1 2 1 4 2 4zm-5-6c2 0 4-2 5-4 0-2-2-4-3-4-2-1-4 1-5 3 0 2 1 4 3 5zm-6-7c2 0 6-2 6-4s-1-5-3-5-5 1-6 3c0 2 1 5 3 6zm-4-9c1 1 4-1 5-3l-3-4c-2 0-5 1-5 3-1 2 1 4 3 4zm-4-8c1 1 3-1 4-2 0-1-1-3-3-3-1-1-3 0-4 2 0 1 1 3 3 3z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3821 381v-2h-10v2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3719 264h5l4-4-1-5c0-2-2-3-4-3h-4l-4 4v5c1 1 2 3 4 3z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3721 261l3-2c0-1 0-3-2-3-1-1-3 0-3 2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3709 255h5l4-4-1-5c0-2-2-3-4-3h-4l-4 4v5c1 1 2 3 4 3z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3711 252l3-2c0-1 0-3-2-3-1-1-3 0-3 2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3701 244h6c1-1 3-2 3-4v-5l-4-3h-5l-4 4 1 5z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3703 241l3-2c1-1 0-3-1-3-2-1-3 0-4 2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3695 232h6c1-1 3-3 3-5v-5l-4-3h-5l-4 4 1 5c0 2 2 3 3 4z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3697 228l3-2c1-1 0-3-1-3l-4 2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3691 219l5-1c2 0 3-2 4-4l-1-5c0-1-2-3-4-3h-5l-3 4v5z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3693 215l3-2-2-3c-1-1-3 1-3 2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3690 192h5l4 4-1 5c0 2-2 3-4 4l-4-1c-2 0-3-2-4-3v-6z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3692 196c1-1 3 0 3 2 0 1 0 3-2 3l-3-2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3689 180c-2 2-2 5-1 7 0 2 2 3 4 3 2 1 6 0 6-2" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3692 182v4h3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3745 264c-3 0-4 2-5 4s0 4 1 6c1 1 5 3 6 2" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3746 267l-3 3c0 1 2 3 3 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3821 381v-2h-10v2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3719 264h5l4-4-1-5c0-2-2-3-4-3h-4l-4 4v5c1 1 2 3 4 3z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3721 261l3-2c0-1 0-3-2-3-1-1-3 0-3 2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3709 255h5l4-4-1-5c0-2-2-3-4-3h-4l-4 4v5c1 1 2 3 4 3z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3711 252l3-2c0-1 0-3-2-3-1-1-3 0-3 2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3701 244h6c1-1 3-2 3-4v-5l-4-3h-5l-4 4 1 5z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3703 241l3-2c1-1 0-3-1-3-2-1-3 0-4 2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3695 232h6c1-1 3-3 3-5v-5l-4-3h-5l-4 4 1 5c0 2 2 3 3 4z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3697 228l3-2c1-1 0-3-1-3l-4 2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3691 219l5-1c2 0 3-2 4-4l-1-5c0-1-2-3-4-3h-5l-3 4v5z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3693 215l3-2-2-3c-1-1-3 1-3 2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3690 192h5l4 4-1 5c0 2-2 3-4 4l-4-1c-2 0-3-2-4-3v-6z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3692 196c1-1 3 0 3 2 0 1 0 3-2 3l-3-2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3689 180c-2 2-2 5-1 7 0 2 2 3 4 3 2 1 6 0 6-2" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3692 182v4h3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3745 264c-3 0-4 2-5 4s0 4 1 6c1 1 5 3 6 2" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3746 267l-3 3c0 1 2 3 3 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3715 271l6 8c1 2-1 8-1 8s-4-4-4-7zm0 0s-5 4-8 4-6-3-6-3l6-3zm-3 5l2 5c-1 2-4 3-6 2-1 0-2-3-1-5 0-2 3-2 5-2zM3697 254s4 5 4 8-3 7-3 7-3-4-3-7zm0 0s-7 2-10 1l-5-5s5-2 8-1zm-5 3c2 2 2 4 1 6h-6c-2-1-2-4 0-5 1-2 4-2 5-1zM3684 231l2 9c-1 3-5 6-5 6s-2-5-1-7c0-3 4-8 4-8zm0 0s-7 1-10-1c-2-1-4-6-4-6l8 1c3 1 6 6 6 6zm-6 3v5c-2 1-5 1-7-1-1-2 0-4 2-5 1-1 4-1 5 1zM3678 208s0 6-2 9c-1 2-7 4-7 4l2-8zm0-1s-7-2-9-4l-1-7 7 3zm-6 1c0 2-1 4-3 5-2 0-5-1-5-3-1-2 1-5 3-5s4 1 5 3zM3679 182s-2 7-4 9l-8 2 4-7zm0 0s-6-4-7-7c-1-2 1-7 1-7l5 5c2 3 1 9 1 9zm-6-1c0 2-2 4-4 4s-4-3-4-5c0-1 2-3 4-3s4 2 4 4z"
         fill="#f55" />
       <path
         d="M3680 323s7 2 10 0c1-1 2-3 1-5h-3zm-3-11s8 1 10-2c1-1 2-3 1-4h-3zm-4-11s8 0 9-3c1-1 2-4 0-5l-3 1zm-6-11s7-1 9-4v-4c-1-1-2 0-3 1zm-7-9s7-2 8-5c1-2 1-4-1-5l-3 2zm-10-10s8-2 9-5c1-1 0-4-1-4-1-1-2 1-3 1zm-9-8s7-3 8-6c1-1 0-4-1-4l-3 2zm-9-6s7-4 7-7c1-1 0-4-2-4l-2 2zM3737 318s-3-6-6-6c-2-1-4 0-5 1l2 3c3 2 9 2 9 2zm2 0c1-5 1-6-1-8-1-2-3-2-4-2v4zm-1 2s-7-2-9-1l-2 4 3 1c3 0 8-4 8-4zM3725 334s-2-6-5-7c-1 0-4 0-4 2l2 3zm3 0s1-7-1-9c-1-1-3-2-4-1v3zm-2 2s-5-2-8-1l-2 4 4 1zM3716 351s-3-6-6-7c-1-1-3 0-4 1l2 3c2 2 8 3 8 3zm2 0s2-7 0-9c-1-1-4-2-5-1v3zm-1 2s-6-3-9-2l-2 5h4z"
         fill="#fff" />
-      <path d="M3632 308l86 56m8 31l-95-60m76 48l45-70" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M3632 308l86 56m8 31l-95-60m76 48l45-70" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M3806 381v-2h-10v2zm-15 0v-2h-10v2zm-15 0v-2h-10v2zm-15 0v-2h-10v2zm-15 0v-2h-3l-2 2z" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M3875 385v-22l17 12z" fill="#f55" />
       <path d="M3866 389v-34l10 8-1 22z" />
-      <path d="M3862 391v-40l-13-15-2-1-2 3-4 4v50l4 2 4 2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3862 391v-40l-13-15-2-1-2 3-4 4v50l4 2 4 2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M3849 395l1-9 2-6 6-7c1-3 3-6 3-10 1-3 0-5-2-8-1-3-4-5-6-6l-4-4-2-8-5 4 2 6 4 5 5 6 2 5-3 8-5 7c-2 2-3 4-3 7l-1 8z"
-        font-weight="400" color="#000" fill="#ff5" stroke="#55a" stroke-width="2" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" stroke="#55a" strokeWidth="2" overflow="visible" fontFamily="Sans" />
       <path
-                d="M3853 393l6-1-1-11c-1-4-4-6-5-9-2-2-4-4-4-7v-6l2-6 3-4 2-4-4-5-4 7-3 4-2 7v8c1 4 3 6 5 9l4 7z" font-weight="400"
-        color="#000" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-        overflow="visible" font-family="Sans" />
-      <path d="M3849 396a219 219 0 0028-11l17-11" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M3826 370v-32" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M3848 334l7 10 6 6a119 119 0 0015 13l17 12" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+                d="M3853 393l6-1-1-11c-1-4-4-6-5-9-2-2-4-4-4-7v-6l2-6 3-4 2-4-4-5-4 7-3 4-2 7v8c1 4 3 6 5 9l4 7z" fontWeight="400"
+        color="#000" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+        overflow="visible" fontFamily="Sans" />
+      <path d="M3849 396a219 219 0 0028-11l17-11" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M3826 370v-32" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3848 334l7 10 6 6a119 119 0 0015 13l17 12" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M3775 301s5 1 5 6c0 2-3 5-5 5-3 0-5-3-6-5v-6l4-5 1-4 1-4 1 6a18 18 0 01-1 7zm19 6s6 1 5 6c0 2-2 5-5 5-2 0-5-3-6-5l1-7 4-6 1-4v-5l2 8v5zm21 5s6 1 5 6c0 2-2 5-5 5-2 0-5-3-5-5v-7l4-5 1-5v-6l2 9v5z" />
-      <path d="M3631 150v360h270M3661 30h270v360" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M3631 150v360h270M3661 30h270v360" fill="none" stroke="#55a" strokeWidth="2" />
       <path
         d="M3631 30v5h5v35a5 5 0 01-10 0v-5h-5v5a10 10 0 1020 0V30zm300 480v-5h-5v-35a5 5 0 0110 0v5h5v-5a10 10 0 00-20 0v40zm-235-409c1 4 5 14 12 14 9 0 13-8 13-18 0-7-3-11-5-17l-10-16-15-19-15 19-10 16c-2 6-5 10-5 17 0 10 4 18 13 18 7 0 11-10 12-14 1-1 1 0 1 1l-2 16-4 17c5-2 15-2 20 0l-4-17-2-16c0-1 0-2 1-1zm-62 17c0 2 2 7 6 7s6-4 6-9l-2-8-5-8-8-10-7 10-5 8c-2 3-3 5-3 8 0 5 2 9 7 9 3 0 5-5 6-7v1l-1 8-2 8h10l-2-8-1-8zm232 321c-1-4-5-14-12-14-9 0-13 8-13 18 0 7 3 12 5 17l10 16 15 19 15-19 10-16c2-5 5-10 5-17 0-10-4-18-13-18-7 0-11 10-12 14-1 1-1 0-1-1l2-16 4-17c-5 2-15 2-20 0l4 17 2 16c0 1 0 2-1 1zm63-17c-1-2-3-7-6-7-5 0-7 4-7 9 0 4 1 6 3 9l5 8 7 9 8-9 5-8 2-9c0-5-2-9-6-9s-6 5-6 7h-1l1-8 2-9h-10l2 9 1 8s0 1 0 0z" />
     </symbol>
@@ -3476,137 +3476,137 @@ const DeckSvgInline = () => (
       <path
         d="M4063 278l13-16h143l-13 16zm-72-248c-6 0-10 5-10 10v30a10 10 0 0011 10c2 3 5 5 9 5v-5c-2 0-3 0-4-2 2-1 4-4 4-8V40c0-5-4-10-10-10zm0 5c3 0 5 3 5 5v32c-2-4-6-7-10-7V40c0-2 2-5 5-5zm-5 35c3 0 5 3 5 5-3 0-5-2-5-5zm305 440c6 0 10-4 10-10v-30a10 10 0 00-11-10c-2-3-5-5-9-5v5l4 2c-2 2-4 5-4 8v30c0 6 4 10 10 10zm0-5c-3 0-5-2-5-5v-32c2 4 6 7 10 7v25c0 3-2 5-5 5zm5-35c-3 0-5-2-5-5 3 0 5 3 5 5z" />
       <path d="M4248 158l-22 75 1 9-3 8-4 5-5 1 8 1 16-21 51 36 1-81zm-257 35v78l2-1 16-29-10-12 10-8-15-25z" fill="#f55" />
-      <path d="M4095 188l-34 30-9-3-7-1-9 3-1-3-3-2-4 2-7-6 54-39 9 8z" fill="#5455aa" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4095 188l-34 30-9-3-7-1-9 3-1-3-3-2-4 2-7-6 54-39 9 8z" fill="#5455aa" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4177 257l34-1-7-6-2-10-101-91-20 16 16 13 11 12 6 11 1 13h16z" fill="#f55" />
-      <path d="M4252 161l39 30" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4252 161l39 30" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4092 30a131 131 0 018 49c-1 9-2 17-5 25a116 116 0 0123 6l46-80h-72" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4119 110l8 6 49-86h-12l-45 80" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4119 110l8 6 49-86h-12l-45 80" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4151 30s4 6 1 11c-2 3-10 4-10 4s3 9 1 12c-3 4-13 3-13 3s5 11 3 15c-4 7-11 5-11 5s4 8-1 14c-3 3-13 2-13 2l4 8v3"
-        fill="none" stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4121 84l-2 3c0 1-1 3-3 3-2 1-4 2-6 1l-2-6 5-5s-6-1-7-3 0-5 1-7 4-3 6-3c3 1 5 7 5 7l1-6 5-4 4 2c2 3 1 6 0 8l-6 5s1-4-2-5c-2-1-5 1-6 3s0 5 2 6c4 1 5-3 5-3zm19-35l-1 3-3 3c-2 1-5 2-6 1-2-1-3-4-2-6 0-2 4-5 4-5s-5-1-7-3c-1-2 0-5 1-7 2-2 5-3 7-3 2 1 4 7 4 7l2-6c2-3 7-3 9-2v8c-1 3-7 5-7 5s2-3-1-5c-2-1-6 1-7 3 0 2 0 6 2 6 4 1 6-2 6-2z"
-        stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4147 116c0 5 1 10 3 13m1-19l5 20m0-28c1 10 3 21 6 30m1-18l5 19m2-12l3 13m3-7l3 7M4212 30s0 13 7 20 16 10 16 10"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4216 30s1 11 6 17c6 6 12 8 12 8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4216 30s1 11 6 17c6 6 12 8 12 8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4219 30s2 8 6 13l10 7m-11-20s1 6 4 9c3 4 7 6 7 6m-7-15l3 7 4 3M4211 32s-1 9-9 18-22 8-22 8" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4207 31s-1 9-8 16c-7 8-16 7-16 7" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4203 31s-2 8-6 13c-4 4-12 5-12 5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4198 31s-1 6-4 9c-3 4-5 3-5 3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4207 31s-1 9-8 16c-7 8-16 7-16 7" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4203 31s-2 8-6 13c-4 4-12 5-12 5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4198 31s-1 6-4 9c-3 4-5 3-5 3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4236 67a518 518 0 0014 63l1 30-32-27s9-12 12-19c2-5 2-11 3-16l1-16z" fill="#55a" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4214 77v7l2 8 2 9-1 4c0 2-2 2-3 3l-2 3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4214 77v7l2 8 2 9-1 4c0 2-2 2-3 3l-2 3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4199 100l-3 6c1 1 2 3 4 3l4-1c2-1 3-4 5-3 1 0 2 1 1 2-1 2-4 1-6 1h-7l-1-4zm-21-32s7-4 10-4h10l7 4-8-3h-11z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4199 75l3-3-7-2h-8l-6 3-7 7" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4177 80l10-5h12l2 5-4 2 4-1c-1 5-7 8-9 10" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4199 75l3-3-7-2h-8l-6 3-7 7" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4177 80l10-5h12l2 5-4 2 4-1c-1 5-7 8-9 10" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4196 76s2 3 0 6c-2 2-5 1-7 1l-8-5 6-1c-1 2 0 4 1 5 2 1 4 2 6 1s3-4 3-5z" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4192 77l-2 2c0 1 2 2 3 1z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4233 66l-9-2c-3 1-8 7-8 7s5-5 9-5c3-1 8 2 8 2z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4214 76l7-5h9c2 0 4 3 4 3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4216 77l7-2 7 1 4 2s-2 3-4 3l-7 2-3-1-4-1 4 7" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4220 77c-2 3 0 3 0 4l1 2m4-5c-1 0-2 1-1 2h3v-2z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4196 121l8-2 5 2c3 0 6-3 9-2l1 2-2-1-7 2-8-1z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4203 128l5-2 6 2m-11-4l6 2 5-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4192 77l-2 2c0 1 2 2 3 1z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4233 66l-9-2c-3 1-8 7-8 7s5-5 9-5c3-1 8 2 8 2z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4214 76l7-5h9c2 0 4 3 4 3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4216 77l7-2 7 1 4 2s-2 3-4 3l-7 2-3-1-4-1 4 7" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4220 77c-2 3 0 3 0 4l1 2m4-5c-1 0-2 1-1 2h3v-2z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4196 121l8-2 5 2c3 0 6-3 9-2l1 2-2-1-7 2-8-1z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4203 128l5-2 6 2m-11-4l6 2 5-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4235 31v36c-1 13 0 26-2 39l-7 16c-2 5-3 9-7 12-3 3-6 4-10 5l-13-2a62 62 0 01-36-30l-2-9" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4263 92l10-17 9 17-10 15z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4268 91l4-7 4 7-4 7z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4263 92l10-17 9 17-10 15z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4268 91l4-7 4 7-4 7z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4271 110c0 3-2 6-5 6s-5-3-5-6 2-5 5-5 5 2 5 5zm12 0c0 3-3 6-6 6s-5-3-5-6c0-4 2-6 5-6s6 2 6 6zm-2 84c0 4-4 8-9 8s-9-4-9-8c0-5 4-9 9-9s9 4 9 9z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4272 185c-4-1-8-4-9-8-2-4 0-9 1-14l4-30 3-21c2 0 2 1 2 3l6 45c0 5 2 10 1 15-1 3-1 7-4 9-1 1-3 2-5 1z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4272 132l3 25 2 14-1 6-4 4m1 8l3 6c0 1-1 3-3 3h-2" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4272 132l3 25 2 14-1 6-4 4m1 8l3 6c0 1-1 3-3 3h-2" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4267 256l-2-27c-1-6-2-12-1-18 0-2 1-5 3-7l5-2 6 2c2 2 2 6 3 10l-2 17-3 20-1 10z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4272 207l4 4v8l-1 17-3 22" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4272 207l4 4v8l-1 17-3 22" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4141 127l-9 16 78 72 17-63 9-2-17-16-8 4h-11c-4 0-11-3-11-3l-20-1-18-4z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4138 132a354 354 0 0036 8 201 201 0 0033 1l15-2m-84 9a307 307 0 0038 7 160 160 0 0051-3m-71 6s18 3 28 3a154 154 0 0036-2l-12 48z"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4173 166l22 1 18-2-8 33z" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4196 188l7 3 5-4m-19-5l13 4 7-7" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4181 173l19 8 11-10" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4177 166l22 10 11-10" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4173 166l22 1 18-2-8 33z" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4196 188l7 3 5-4m-19-5l13 4 7-7" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4181 173l19 8 11-10" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4177 166l22 10 11-10" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4190 167l8 4 5-4m-24-21h6v5l-6-1zm-43-10l4 2-2 4-4-3zm8 4l6 1-1 5-6-2zm12 2l6 1-1 5-6-1zm12 3h6v5l-6-1zm23 2h6v4h-6zm11-1h6v5h-6zm11 0l5-1 1 4-5 1zM4223 143l2-2 3 5-4 1z"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4236 149l12 10-22 75v9c-1 3-2 7-4 9s-5 4-8 4c-2 0-4-2-6-4-2-1-3-4-4-6v-5l-103-94 13-12 13-18 49-86h18l-14 27-22 38-17 30-9 17 78 72 17-62z"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4101 147l-19 17-7 5-39 28-8 6-8 5-28-14" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4101 147l-19 17-7 5-39 28-8 6-8 5-28-14" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4019 208l10 7 2-2 5 2c1 2-2 4-2 6l-3 7v11c0 4 2 7 3 11l-1 4c-2 2-7-1-7-1l-27 13 23 15 20 14 10-13 16-21 13-13c5-4 11-7 16-13l8-16c1-5 2-10 1-16-2-6-6-10-10-15l-21-19 5-4 20 16c5 6 11 12 14 20v18l-7 17c-4 6-10 9-15 13-3 3-7 4-9 7-6 5-12 11-16 17l-14 19-8 13-52-35 16-28-11-13 11-8-15-26z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4028 215l-3 10-2 16 3 12" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4038 211c-2 1-5 1-8-1-3-1-4-5-6-8h8l7 4 5 4z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4028 215l-3 10-2 16 3 12" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4038 211c-2 1-5 1-8-1-3-1-4-5-6-8h8l7 4 5 4z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4026 189s1 4 3 5c2 3 5 4 8 5 4 2 8 3 11 6s6 11 6 11c-3-1-5-3-8-2l-4-7-9-4-8-3c-1-2-3-3-3-5l-1-7z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4015 206l9 18-7 7 6 10-8 17-9 3 10-19-6-12 7-7-11-21z" />
       <path
         d="M4018 169s-4-5-3-8 3-5 5-6l6 2c2 1 3 4 3 6l-2 5 6-3c2 0 5 1 6 3v7c-1 2-1 4-3 4-3 2-9-2-9-2s2 6 1 9c0 2-3 3-5 3-3 0-6-2-7-5-1-2 1-7 1-7s-5 3-7 2c-3-1-5-3-5-5 0-3 2-6 5-7s8 2 8 2z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4014 173c3-2 7-4 9-9 2 5 5 7 8 9-3 2-6 3-8 9-2-3-4-7-9-9z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4014 173c3-2 7-4 9-9 2 5 5 7 8 9-3 2-6 3-8 9-2-3-4-7-9-9z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4016 168l-8-4-1-7 7 3zm12-2l2-7 8-4-3 9zm0 12l1 7 8 4-1-9zm-11-1l-8 3-2 8 8-3z" fill="#f55" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4036 218c3-2 7-4 11-4 5 0 10 3 15 6 2 1 5 2 5 4s-2 4-4 4c-2 1-5-1-7-2l-7-1 13 4c2 1 4 3 4 5 0 1-2 3-4 3-3 1-6-2-10-3h-4c4 0 8 1 11 3 2 1 4 3 3 5 0 2-3 2-6 2-4 1-10-2-14-2l10 2c2 1 4 2 4 4s-3 2-5 2h-9l-7 1"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4055 215c-2-3-3-7-2-11l3-9 1-8 5 10a25 25 0 01-2 17l-2 3z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4084 204l13-5-5 15-1-4h-4s2-3 1-5z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4093 197v-1h1zm6 6s0 0 0 0h1s0 0 0 0z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4177 257l-46-42h-17c-1 10-4 16-9 24l16 1 19 18" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4055 215c-2-3-3-7-2-11l3-9 1-8 5 10a25 25 0 01-2 17l-2 3z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4084 204l13-5-5 15-1-4h-4s2-3 1-5z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4093 197v-1h1zm6 6s0 0 0 0h1s0 0 0 0z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4177 257l-46-42h-17c-1 10-4 16-9 24l16 1 19 18" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
-                d="M4129 218h-14l-1 3h15l38 37h2v-2l-39-37z" font-weight="400" color="#000" fill="#000200" overflow="visible"
-        font-family="Sans" />
-      <path d="M4112 227h14l31 30" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+                d="M4129 218h-14l-1 3h15l38 37h2v-2l-39-37z" fontWeight="400" color="#000" fill="#000200" overflow="visible"
+        fontFamily="Sans" />
+      <path d="M4112 227h14l31 30" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
-                d="M4110 232l-2 3 14 1 22 21h3v-2l-23-22h-1z" font-weight="400" color="#000" fill="#000200" overflow="visible"
-        font-family="Sans" />
-      <path d="M4082 258l140-1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                d="M4110 232l-2 3 14 1 22 21h3v-2l-23-22h-1z" fontWeight="400" color="#000" fill="#000200" overflow="visible"
+        fontFamily="Sans" />
+      <path d="M4082 258l140-1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M4256 166l-7 5c-4 5-7 13-6 19l3 8c1 3 1 6-1 8s-6-1-6 2c1 2 5 2 7 1 2 0 3-5 4-5l1 14-5 7c-3 2-7-1-7-4 0-2-4-4-4-1 1 4 3 8 7 8 3 1 6 0 8-3-1 4-3 8-1 11s8 5 8 1c-1-2-5 0-6-3l2-8c2-4 1-10 1-14-1-6-2-11-5-16l-2-4c2 2 5 2 8 1 2-1 6-6 2-7-2 1-3 6-6 4-3-1-6-3-5-6s3-11 10-15c2-1 2-3 0-3zM4099 158c-5-1-11 5-9 11 1 3 7 5 9 3 1-2 0-3-1-3-8 2-6-9 0-8 6-1 8 5 9 9 2 5 1 11 3 16 2 8 6 16 13 20 5 3 11 2 17 0 5 0 12-2 16 2 4 3 7 8 6 12-2 4-7 7-11 3-3-2 0-6-2-9-1-1-3 1-2 2-1 5 0 9 5 11 3 3 9-2 11-2 0 6 2 12 4 17 4 6 12 6 18 5 4-3 13-3 13 2-1 4-4 2-7 2-1 0-1 3 1 3 5 4 13-5 8-10-3-3-11-2-12-2 3-5 0-12-6-13-3-1-7 1-8 4-1 1 2 2 3 0 4-4 12 2 8 7-2 4-6 5-10 4-7-2-7-9-9-15-1-6 1-14-4-19-4-6-10-8-17-7-2 0-8 2-4-2 3-5 2-13-5-15l-7-3c-4-2-11-1-12-7-1-3 3-4 3-7-1-1-3-1-4 1-4 5-1 13 5 14 3 1 7 1 3 3s-2 8 2 10c1 0 2-3 0-3-4-6 6-9 10-5 5 2 4 9 1 13-2 4-8 3-11 1-8-3-11-10-13-18-2-5-1-12-3-17s-5-11-11-10z"
-        font-weight="400" color="#000" fill="#fff" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#fff" overflow="visible" fontFamily="Sans" />
       <path
         d="M4105 177c0 1-1 2-3 2l-2-2 2-2c2 0 3 1 3 2zm45 19c0 2-1 2-2 2s-2 0-2-2l2-2zm-7 18l-2 2-2-2 2-2zm32 8l-2 2-2-2c0-2 1-2 2-2s2 0 2 2z"
         fill="#fff" />
@@ -3622,160 +3622,160 @@ const DeckSvgInline = () => (
       <path d="M4235 154l1 3 2 2 2 1-2 2-3-1-1-4z" fill="#ff5" />
       <path
                 d="M4215 223c-4 0-7 3-8 6-2 3-3 7-2 10 0 3 0 7 2 10s5 6 8 6c4 0 6-3 8-6l2-10-2-10c-2-3-5-6-8-6zm0 3c2 0 4 1 5 4l2 9-2 9c-1 2-3 4-5 4s-4-2-5-4c-2-3-2-6-2-9-1-2 0-6 2-9 1-2 3-4 5-4z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M4214 239s-3-2-4-1l-1 2 2 1c1 1 3-2 3-2zm2 0l2-2h3l-2 3zm-2-2s-3-2-3-4l2-4c2 0 3 2 4 3 0 2-3 5-3 5zm1 5s-3 3-2 5l2 2c2 0 3-2 3-3 0-2-3-4-3-4z"
         fill="#ff5" />
-      <path d="M4077 231l14-7-6 16v-5c-1-1-5 1-5 1s2-3 1-4z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4087 223v-1h1zm6 6s0 0 0 0h1s0 0 0 0z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4069 217l13-6-5 16-1-5-4 1s2-3 1-5z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4078 209s-1 0 0 0c0-1 0-1 0 0 1 0 0 0 0 0zm6 7v-1l1 1s0 0 0 0z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4054 253l13-7-4 15v-5c-2-1-5 2-5 2l2-5z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4065 244v-1h1zm5 6l1-1s0 0 0 0v1z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4018 266l13-6-5 15-1-4h-4s2-3 1-4c-1-2-4-1-4-1z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4027 258v-1h1zm6 7v-1h1v1z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4033 277l14-6-5 15s0-3-2-4c-1-1-3 1-3 1v-5z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4042 269v-1h1zm7 7v-1h1l-1 1s0 0 0 0z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4077 231l14-7-6 16v-5c-1-1-5 1-5 1s2-3 1-4z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4087 223v-1h1zm6 6s0 0 0 0h1s0 0 0 0z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4069 217l13-6-5 16-1-5-4 1s2-3 1-5z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4078 209s-1 0 0 0c0-1 0-1 0 0 1 0 0 0 0 0zm6 7v-1l1 1s0 0 0 0z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4054 253l13-7-4 15v-5c-2-1-5 2-5 2l2-5z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4065 244v-1h1zm5 6l1-1s0 0 0 0v1z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4018 266l13-6-5 15-1-4h-4s2-3 1-4c-1-2-4-1-4-1z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4027 258v-1h1zm6 7v-1h1v1z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4033 277l14-6-5 15s0-3-2-4c-1-1-3 1-3 1v-5z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4042 269v-1h1zm7 7v-1h1l-1 1s0 0 0 0z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4034 382l22-75v-9l2-8 5-5 4-1h-8l-14 22-53-35-1 78zm257-35v-78l-2 2-16 28 11 12-10 9 14 24z" fill="#f55" />
-      <path d="M4187 352l35-30 8 3 7 1 9-3 1 3 3 2 4-2 7 7-54 38-9-8z" fill="#5455aa" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4187 352l35-30 8 3 7 1 9-3 1 3 3 2 4-2 7 7-54 38-9-8z" fill="#5455aa" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4106 284h-35l7 7 2 9 101 92 20-17-16-12-11-13-6-10-1-14h-16z" fill="#f55" />
-      <path d="M4030 379l-38-30" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4030 379l-38-30" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4190 510a131 131 0 01-8-49c1-9 2-17 5-25a116 116 0 01-23-6l-45 80h71" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4164 430l-8-6-50 86h13l45-80" fill="#f55" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4164 430l-8-6-50 86h13l45-80" fill="#f55" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4132 510s-4-6-1-11c2-3 9-4 9-4s-3-9 0-12c2-3 12-3 12-3s-5-11-2-15c4-7 10-4 10-4s-4-8 2-15c3-3 13-2 13-2-4-4-4-5-4-7l-1-3"
-        fill="none" stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4161 457l2-4 3-3c2-1 4-2 6 0 2 1 2 3 2 5s-4 5-4 5 5 1 6 4c1 2 1 5-1 6-1 2-4 4-6 3s-4-6-4-6l-2 6-4 3-5-2v-8c1-2 6-4 6-4s-1 3 2 4c2 1 5-1 6-3s0-5-2-6c-4-1-5 3-5 3zm-19 35l1-4c1-1 2-3 4-3 1-1 4-2 6-1l2 6-5 5s6 1 7 3c1 3 0 5-1 7l-6 3c-3-1-5-7-5-7l-1 6c-3 4-7 3-9 2-2-2-2-6 0-8l6-5s-1 4 1 5 6-1 7-3 0-5-2-6c-4-1-6 3-6 3z"
-        stroke="#000100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4135 424l-2-13m-2 19l-5-20m1 28c-2-10-3-20-7-30m-1 19l-4-20m-2 12c-1-7-3-9-4-12m-3 6l-2-7M4071 510s-1-13-8-20-15-10-15-10"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4067 510s-2-11-7-17-12-8-12-8" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4067 510s-2-11-7-17-12-8-12-8" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4063 510s-1-8-5-13l-10-7m11 20s-1-6-5-9c-3-4-6-5-6-5m6 14s0-4-2-6c-2-3-5-4-5-4M4072 509s0-10 8-19 22-8 22-8"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4075 509s1-8 8-16c7-7 16-6 16-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4080 509s1-8 5-12c4-5 12-5 12-5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4084 509s1-5 4-9l6-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4075 509s1-8 8-16c7-7 16-6 16-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4080 509s1-8 5-12c4-5 12-5 12-5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4084 509s1-5 4-9l6-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4047 473l-9-29a273 273 0 01-7-64l32 27s-9 12-12 19c-2 5-2 11-3 17l-1 15z" fill="#55a" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4068 464v-8l-2-8-2-8 1-5 4-2 2-3" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4068 464v-8l-2-8-2-8 1-5 4-2 2-3" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4083 441l3-7-3-3-5 2c-2 0-3 3-5 2l-1-1c1-2 4-1 6-2h7l1 4zm21 32s-6 3-10 3h-10c-3 0-6-3-6-3l8 2h10z"
-        fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4083 466l-3 2 7 2h8l6-3 7-6" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4105 461l-10 4h-11l-3-5 5-2-5 1c2-5 7-8 10-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4083 466l-3 2 7 2h8l6-3 7-6" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4105 461l-10 4h-11l-3-5 5-2-5 1c2-5 7-8 10-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4087 464s-2-3 0-6c1-2 4-1 6 0l8 4-6 1c1-2 0-3-1-4-1-2-4-3-6-2l-3 5z" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4090 463l2-2-2-1z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4049 474l9 2c3-1 8-7 8-7s-5 5-8 5c-3 1-9-1-9-1z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4068 465l-7 5h-9l-4-4m18-3l-7 2-7-1-4-2 4-3 7-2 3 1 4 1-4-6" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4062 463c2-3 0-3 0-4l-1-1m-3 5v-3h-3v2z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4086 419l-8 2-5-1-8 2-2-2h3l7-2 7 2z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4079 412l-5 2-5-2m11 4l-7-2-5 1" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4090 463l2-2-2-1z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4049 474l9 2c3-1 8-7 8-7s-5 5-8 5c-3 1-9-1-9-1z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4068 465l-7 5h-9l-4-4m18-3l-7 2-7-1-4-2 4-3 7-2 3 1 4 1-4-6" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4062 463c2-3 0-3 0-4l-1-1m-3 5v-3h-3v2z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4086 419l-8 2-5-1-8 2-2-2h3l7-2 7 2z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4079 412l-5 2-5-2m11 4l-7-2-5 1" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4047 509l1-35c0-13-1-27 2-40 1-5 3-11 6-16 2-4 4-9 7-12s7-4 11-5l12 2a62 62 0 0136 30c2 3 3 10 3 10"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4019 449l-9 16-9-16 9-16z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4014 449l-4 7-4-7 4-7z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4019 449l-9 16-9-16 9-16z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4014 449l-4 7-4-7 4-7z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4011 430c0-3 2-6 5-6s6 3 6 6-3 6-6 6-5-3-5-6zm-11 0c0-3 2-5 5-5s6 2 6 5c0 4-3 6-6 6s-5-2-5-6zm2-83c0-5 4-9 9-9 4 0 9 4 9 9 0 4-5 8-9 8-5 0-9-4-9-8z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4011 355c4 1 7 4 9 8 1 4-1 9-1 14l-5 31-3 20c-2 0-2-1-2-3l-6-45c0-5-2-10-1-14s2-8 4-10c2-1 3-2 5-1z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4010 408l-2-25-2-13 1-7c0-2 3-4 3-4m-1-8c-1-1-3-3-3-6l3-3h3" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4010 408l-2-25-2-13 1-7c0-2 3-4 3-4m-1-8c-1-1-3-3-3-6l3-3h3" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4015 284l3 27 1 18c-1 2-1 6-3 7-2 2-4 2-6 2s-4 0-5-2c-3-2-3-6-3-9-1-6 1-12 1-18l3-20 2-9z" fill="#ff5"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4010 333l-4-3v-9l2-17 2-22" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4010 333l-4-3v-9l2-17 2-22" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4142 413l9-15-79-73-16 63-10 3 18 15 8-4h10l11 3 21 2c6 0 11 2 17 3z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4144 408l-19-5a170 170 0 00-65-2m85-8l-19-5a186 186 0 00-71 0m72-5s-19-4-29-4a154 154 0 00-35 2l12-48z"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4110 374l-22-1-19 2 8-33z" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4087 352l-8-3-4 5m18 5l-13-5-7 7" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4101 367l-19-8-11 10" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4105 374l-22-10-11 10" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4110 374l-22-1-19 2 8-33z" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4087 352l-8-3-4 5m18 5l-13-5-7 7" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4101 367l-19-8-11 10" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4105 374l-22-10-11 10" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4093 373l-8-4-5 4m23 21h-6v-5l6 1zm43 10l-4-2 2-4 4 3zm-8-3l-6-2 1-5 6 2zm-11-3l-7-1 1-5 6 1zm-12-2l-7-1 1-5 6 1zm-24-2l-6-1 1-4h6zm-11 0h-6v-4l6-1zm-11 1h-5l-1-4 6-1zM4058 396l-2 2-3-5 4-1z"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4046 391l-11-9 21-75v-10c1-3 2-7 4-9s5-4 8-4c2 0 5 2 6 4l4 6 1 6 103 93-14 13a5257 5257 0 01-62 104l-18-1 14-27 22-38 17-29 10-17-78-73-18 62z"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4182 393l18-17 8-5 38-28 9-6 7-5 29 14" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4182 393l18-17 8-5 38-28 9-6 7-5 29 14" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4263 332l-9-7-3 2c-2 1-4 0-5-2s2-4 3-6l2-7 1-11c-1-4-3-7-3-11 0-1-1-3 1-4s7 1 7 1l26-13-22-14-20-15-10 13-16 21-13 13c-5 4-12 8-16 13s-7 10-9 16c-1 5-2 11-1 16 2 6 7 11 11 15l20 19-5 4s-14-10-19-16c-6-6-12-12-14-20-2-5-1-12 0-18s3-12 7-17c3-5 9-9 14-13l10-7 16-17 13-19 8-13 52 35-16 28 11 13-10 8 15 26z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4254 325l4-10 1-16-3-12" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4244 329l8 1 7 8h-9l-7-4-5-4z" fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4254 325l4-10 1-16-3-12" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4244 329l8 1 7 8h-9l-7-4-5-4z" fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4256 351s-1-4-3-5l-8-5c-3-2-8-3-11-6-3-2-6-10-6-10l8 2 5 6 8 4 8 4 4 4 1 7z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4267 334l-9-18 7-7-6-10 8-16 9-4-10 19 6 12-7 8 11 20z" />
       <path
         d="M4264 371s4 5 3 8c0 3-3 5-5 6-2 0-4 0-6-2l-2-6 2-5s-4 3-7 3c-2 0-5-1-6-3v-7l3-4c3-1 10 2 10 2s-3-6-2-9c1-2 3-3 5-3 3 0 6 2 7 5 1 2-1 7-1 7l8-2c2 1 4 3 4 5 0 3-2 6-5 7-2 1-8-2-8-2z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4268 367c-3 3-6 4-9 9-2-5-5-7-7-9 2-1 5-3 8-9 2 4 3 7 8 9z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4268 367c-3 3-6 4-9 9-2-5-5-7-7-9 2-1 5-3 8-9 2 4 3 7 8 9z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4266 373l8 3 2 7-7-2zm-12 1l-2 8-7 3 2-9zm0-11l-1-8-8-4 2 9zm11 0l9-3 1-8-8 3z" fill="#f55" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4247 323l-12 3c-5 0-10-3-15-5-2-2-5-3-5-5s2-4 4-4c2-1 5 1 7 2l8 1c-5-1-10-1-14-4-2-1-4-2-4-4 1-2 2-4 4-4 3-1 6 3 10 3h5c-4 0-9-1-12-3-2-1-4-3-3-4 0-3 4-2 6-3l14 2c-5 0-7 0-10-2l-4-3c0-2 3-3 5-3 3-1 6 1 9 1l7-2"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4227 325l3 11c0 4-2 6-3 9l-2 8-5-10a25 25 0 013-17l2-3z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4199 336l-14 6 5-16 1 5 4-1-1 5 4 1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4189 344l1 1-1-1s0 0 0 0zm-6-7v1h-1v-1z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4106 283l45 43h17c1-11 4-17 9-24l-15-2-20-17" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4227 325l3 11c0 4-2 6-3 9l-2 8-5-10a25 25 0 013-17l2-3z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4199 336l-14 6 5-16 1 5 4-1-1 5 4 1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4189 344l1 1-1-1s0 0 0 0zm-6-7v1h-1v-1z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4106 283l45 43h17c1-11 4-17 9-24l-15-2-20-17" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
-                d="M4153 322h15v-3h-14l-38-36h-2v2l38 36z" font-weight="400" color="#000" fill="#000200" overflow="visible"
-        font-family="Sans" />
-      <path d="M4171 313h-14l-32-30" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+                d="M4153 322h15v-3h-14l-38-36h-2v2l38 36z" fontWeight="400" color="#000" fill="#000200" overflow="visible"
+        fontFamily="Sans" />
+      <path d="M4171 313h-14l-32-30" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
-                d="M4172 308l2-3h-14l-22-22h-2v2l22 22 1 1z" font-weight="400" color="#000" fill="#000200" overflow="visible"
-        font-family="Sans" />
-      <path d="M4200 283h-139" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                d="M4172 308l2-3h-14l-22-22h-2v2l22 22 1 1z" fontWeight="400" color="#000" fill="#000200" overflow="visible"
+        fontFamily="Sans" />
+      <path d="M4200 283h-139" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
                 d="M4027 374l6-5c4-5 8-12 6-19 0-3-2-5-3-8 0-2-1-6 1-8s6 2 6-2c-1-2-5-2-7-1-2 0-3 5-3 5l-2-14c1-3 3-5 6-7s6 1 7 4c0 2 3 4 3 1-1-3-3-7-7-8-3-1-6 0-8 3 2-3 3-8 1-11-1-2-8-5-8-1 1 2 5 0 6 4 1 2-1 5-2 7l-1 14c1 6 2 11 5 16l2 4c-2-2-5-2-7-1-3 1-6 6-3 7 2-1 3-5 7-4 2 1 6 3 4 6-1 3-3 11-10 15-1 1-1 3 1 3zM4183 383c5 0 12-6 9-11-1-4-6-6-9-3-1 1 0 2 2 2 7-2 5 9-1 8-6 2-8-5-9-9-2-5-1-11-3-16-1-8-6-16-13-19-5-3-11-3-16-1-6 0-12 2-17-2-4-3-6-8-6-12 3-4 8-7 11-3 3 3 0 7 2 9 1 1 3-1 3-2 0-4-1-9-5-11-4-3-10 2-11 2-1-6-2-11-5-16-4-7-12-6-18-5-4 2-13 3-13-3 1-4 5-2 7-1 2-1 1-3 0-4-6-3-14 5-8 10 3 3 10 2 12 2-4 5 0 12 5 13 3 1 7-1 9-3 0-2-3-3-3-1-5 5-13-2-9-7 2-4 7-4 10-3 7 1 7 9 9 14 2 6 0 14 5 20 3 5 10 8 16 6 3 0 8-2 4 2-3 5-1 14 5 16l7 2c4 2 11 1 12 7 1 3-3 4-3 7 1 2 3 1 4-1 4-4 1-13-5-14-2 0-6-1-2-3 3-2 1-8-2-9-2-1-2 2-1 3 4 6-6 8-9 4-6-2-5-9-2-12 2-5 8-4 12-2 7 3 11 10 12 18 2 6 1 12 4 18 1 5 4 10 10 10z"
-        font-weight="400" color="#000" fill="#fff" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#fff" overflow="visible" fontFamily="Sans" />
       <path
         d="M4178 363l2-2 2 2-2 2zm-46-19l2-2c2 0 3 1 3 2s-1 2-3 2zm7-17c0-2 1-2 2-2 2 0 3 0 3 2 0 1-1 2-3 2zm-32-8l2-2c2 0 3 1 3 2s-1 2-3 2z"
         fill="#fff" />
@@ -3790,31 +3790,31 @@ const DeckSvgInline = () => (
         fill="#ff5" />
       <path
                 d="M4068 317c3 0 6-2 7-6 2-3 3-7 3-10s-1-7-3-10-4-6-8-6c-3 0-6 3-8 6l-2 10c0 3 1 7 3 10 1 4 4 6 8 6zm0-3c-3 0-4-1-6-4l-2-9 2-8c1-3 3-5 5-5s4 2 5 5c2 2 3 6 3 8l-2 9c-2 3-3 4-5 4z"
-        font-weight="400" color="#000" fill="#ff5" overflow="visible" font-family="Sans" />
+        fontWeight="400" color="#000" fill="#ff5" overflow="visible" fontFamily="Sans" />
       <path
         d="M4069 301s2 2 4 1l1-1-2-2c-2 0-3 2-3 2zm-3 0l-2 3-3-1 2-2zm2 2l4 4c0 2-2 4-3 4s-3-1-3-3c-1-1 2-5 2-5zm0-5s2-3 1-5l-2-2c-2 0-3 2-3 3 0 2 4 4 4 4z"
         fill="#ff5" />
-      <path d="M4204 308l-14 7 6-16v5c1 1 5-1 5-1s-2 3-1 4z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4194 317v1h-1zm-6-6s0 0 0 0h-1s0 0 0 0z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4214 323l-14 6 5-15s0 3 2 4l3-1v5z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4204 331l1 1-1-1s0 0 0 0zm-6-7v1h-1l1-1s0 0 0 0z" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4228 286l-13 7 4-15v5c2 1 5-2 5-2l-2 5z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4217 295v1h-1zm-5-6l-1 1s0 0 0 0v-1z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4265 275l-14 5 5-15 1 4h4l-1 5z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4255 282l1 1h-1zm-6-6s0 0 0 0h-1s0 0 0 0z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4249 263l-14 6 6-15 1 4h4s-2 3-1 4c1 2 4 1 4 1z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4240 271v1h-1zm-6-7l-1 1s0 0 0 0 0 0 0 0z" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4021 30h270v360m-300-240v360h270" fill="none" stroke="#55a" stroke-width="2" />
+      <path d="M4204 308l-14 7 6-16v5c1 1 5-1 5-1s-2 3-1 4z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4194 317v1h-1zm-6-6s0 0 0 0h-1s0 0 0 0z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4214 323l-14 6 5-15s0 3 2 4l3-1v5z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4204 331l1 1-1-1s0 0 0 0zm-6-7v1h-1l1-1s0 0 0 0z" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4228 286l-13 7 4-15v5c2 1 5-2 5-2l-2 5z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4217 295v1h-1zm-5-6l-1 1s0 0 0 0v-1z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4265 275l-14 5 5-15 1 4h4l-1 5z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4255 282l1 1h-1zm-6-6s0 0 0 0h-1s0 0 0 0z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4249 263l-14 6 6-15 1 4h4s-2 3-1 4c1 2 4 1 4 1z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4240 271v1h-1zm-6-7l-1 1s0 0 0 0 0 0 0 0z" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4021 30h270v360m-300-240v360h270" fill="none" stroke="#55a" strokeWidth="2" />
       <path
         d="M4056 101c1 4 5 14 12 14 9 0 13-8 13-18 0-7-3-11-5-17l-10-16-15-19-15 19-10 16c-2 6-5 10-5 17 0 10 4 18 13 18 7 0 11-10 12-14 1-1 1 0 1 1l-2 16-4 17c5-2 15-2 20 0l-4-17-2-16c0-1 0-2 1-1zm-62 17c0 2 2 7 6 7s6-4 6-9l-2-8-5-8-8-10-7 10-5 8c-2 3-3 5-3 8 0 5 2 9 7 9 3 0 5-5 6-7v1l-1 8-2 8h10l-2-8-1-8zm232 321c-1-4-5-14-12-14-9 0-13 8-13 18 0 7 3 12 5 17l10 16 15 19 15-19 10-16c2-5 5-10 5-17 0-10-4-18-13-18-7 0-11 10-12 14-1 1-1 0-1-1l2-16 4-17c-5 2-15 2-20 0l4 17 2 16c0 1 0 2-1 1zm63-17c-1-2-3-7-6-7-5 0-7 4-7 9 0 4 1 6 3 9l5 8 7 9 8-9 5-8 2-9c0-5-2-9-6-9s-6 5-6 7h-1l1-8 2-9h-10l2 9 1 8s0 1 0 0z" />
     </symbol>
@@ -3831,7 +3831,7 @@ const DeckSvgInline = () => (
       <path
         d="M4359 190l17-11 20-11 9-5 2 3-6 12-5 19v11l2 15 4 10 7 11 7 10 7 6 7 5 11 6v14l-1 8-2 11-21-10-1-16-4-18-7-18-6-10-13-17-12-12-9-7z"
         fill="#ff5556" />
-      <path d="M4437 30l32 58a244 244 0 01106-3l35-55z" fill="#ff5" stroke="#55a" stroke-width="2" />
+      <path d="M4437 30l32 58a244 244 0 01106-3l35-55z" fill="#ff5" stroke="#55a" strokeWidth="2" />
       <path
         d="M4512 61l5 2 4-3 2-2 2 3c2 1 3 2 5 1s3-3 3-5l-2-5-5-1 1-5c-1-2-3-4-5-4l-5 2-1 5 2 3-5 1-2 6zm9-6l1-3 2 2-2 2zm-37-9c-1 1-3 2-3 4v4l2 3-3 1c-2 0-4 2-4 4s2 4 4 5h5l3-4 4 2c2 0 5-1 6-3s0-4-1-6l-3-2-4 2c1-2 2-4 1-6l-5-4zm3 11l2 2c0 1-2 2-3 1v-2zm74-13c1 1 3 2 3 4v4l-2 3 3 1c2 0 4 2 4 4s-2 4-4 5h-5l-3-4-4 2c-2 0-5-1-6-3s0-4 1-6l4-2 3 2-1-6 5-4zm-3 11l-2 2c0 1 2 2 3 1v-2zm34-6l-5 2-1 6-3-3-3 1c-2 1-3 3-3 5s2 4 4 5l4-1 1 2 2-4c-1 1-2-1-2-2l2-1 1 1v1l6-10-1-1zm-138 2l4 2 1 6 3-2c1-1 2 0 3 1 2 1 3 3 3 5-1 2-3 4-5 4-1 1-3 0-4-1v2l-2-4 2-2-2-1-1 1v1l-6-10 1-2z" />
       <path d="M4535 66l-8-2-3-3-2-4 3 8 7 5a21 21 0 0019-2l5-5 2-3-6 4-6 2-6-3c-2 1-3 3-5 3z" />
@@ -3841,148 +3841,148 @@ const DeckSvgInline = () => (
       <path
         d="M4464 78l8 2 10-1 5-4 3-4 9 4h9l9-2c3-1 6-5 6-5s4 5 7 6h9l8-1 8-4 4 6 6 2 7 1 7-2-5 7-23-3a238 238 0 00-58 1l-13 2-11 4z"
         fill="#f55" />
-      <path d="M4469 88l-7 31c-3 9-8 18-13 26-2 3-5 5-8 4-3 0-3-3-2-4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4469 88l-7 31c-3 9-8 18-13 26-2 3-5 5-8 4-3 0-3-3-2-4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4474 87c-1 16-5 32-12 47-3 9-9 19-19 22-4 1-9-1-11-4-2-4-1-11 3-14 4-2 10 0 13 3l1 5" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4480 84a124 124 0 01-20 64c-3 5-6 10-12 11-3 1-6 1-8-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4486 84c-1 11-3 21-6 31-2 9-5 18-9 26-4 6-7 13-13 19-2 1-5 1-8-1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4491 83c-1 11-2 21-5 31l-8 26-12 18c-2 2-4 3-7 1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4497 82a218 218 0 01-12 54c-3 6-5 12-10 18-1 2-3 3-5 1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4502 81a207 207 0 01-9 52c-3 6-5 12-9 17-1 2-3 3-5 2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4508 81a207 207 0 01-9 50c-2 6-4 11-8 17-1 1-3 2-5 1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4490 149c1 1 2 2 3 1 2 0 3-1 4-3l3-6 3-7" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4480 84a124 124 0 01-20 64c-3 5-6 10-12 11-3 1-6 1-8-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4486 84c-1 11-3 21-6 31-2 9-5 18-9 26-4 6-7 13-13 19-2 1-5 1-8-1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4491 83c-1 11-2 21-5 31l-8 26-12 18c-2 2-4 3-7 1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4497 82a218 218 0 01-12 54c-3 6-5 12-10 18-1 2-3 3-5 1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4502 81a207 207 0 01-9 52c-3 6-5 12-9 17-1 2-3 3-5 2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4508 81a207 207 0 01-9 50c-2 6-4 11-8 17-1 1-3 2-5 1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4490 149c1 1 2 2 3 1 2 0 3-1 4-3l3-6 3-7" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4505 139l-5 11-3 5h-9l-2-6m22-7l-8 16m27-1l-6 11m22 9l6-13m2-1c1 4 1 8 3 11 3 3 6 5 10 4 3 0 7-3 8-7 2-6-3-12-5-18m-53-5c-2 3-6 7-5 11 1 2 3 4 5 3 2 0 3-3 4-5l2-5"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4511 145c-3 5-6 10-7 15 0 2 2 5 5 7 3 1 7 1 9-2l4-7 2-3m6 4c-2 3-5 8-4 12 1 3 3 6 6 7 2 0 5 0 7-2l5-12"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4533 161c-1 2-4 7-2 10 1 2 3 2 4 2 3-1 4-7 5-9m34-79c-1 17 0 34-2 50-1 8-3 15-8 21-3 4-8 6-14 7m24-52c3 5 6 11 7 17l-2 17"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4574 120c3 4 3 7 3 11l-1 8m-3-4c3 5 7 11 8 17 0 4-1 8-3 11-1 2-4 2-6 2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4572 141c3 5 6 11 4 16 0 3-3 5-5 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4572 141c3 5 6 11 4 16 0 3-3 5-5 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4570 146c2 4 4 7 2 11l-3 1m-4-1c1 5 5 10 2 14-1 2-5 3-8 2-3-2-4-7-5-10" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4558 161c1 4 2 9 5 8 2 0 0-4 0-6l-2-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4558 161c1 4 2 9 5 8 2 0 0-4 0-6l-2-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4607 165c-9 8-17 18-24 28-7 9-12 20-17 30l25 13c4-9 8-18 14-27l13-16v-21z" fill="#ff5" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4611 169l-14 14-16 22-10 20m46-40a154 154 0 00-24 32l-7 15" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4611 169l-14 14-16 22-10 20m46-40a154 154 0 00-24 32l-7 15" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4608 172l2 11h7m-18-2l1 12 10-1m-20-1l1 14 10-2m-18 1l1 12 10-2m-18 1l3 13 10-4" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4581 149l19 11 17 12" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4581 149l19 11 17 12" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4651 235l-23-2h-16c-3 1-7 2-9 4-1 3-2 7 1 10 2 2 8 2 11 0v-6l15-1 12 2 9-1z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4614 252l3-5 3-4h5l7-1 2 2 6-1 2 2v2l4-1 1 3v4l-2 3-2 1s3-2 4-1l2 2-1 3-2 3-3 2h3l2 2a5 5 0 01-3 5l-2 1s3 0 3 2l-2 3h-8l-4 2h-7l-5-2-3-5-2-6-1-9v-4z"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4642 247c-2 2-4 4-7 4h-6l-4 2-3 1m21 3l-11 4c-2 0-4 0-5-2-1-1 0-3 1-4l10-4" fill="#fff" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4630 254c2 0 5 2 5 4v2m8 6c-4 1-10 2-14 1l-4-2c0-2 2-3 3-4h4" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4630 254c2 0 5 2 5 4v2m8 6c-4 1-10 2-14 1l-4-2c0-2 2-3 3-4h4" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4633 262c1 0 2 2 1 4v1m-1-23c0 1 1 3 3 3l5-1m-11 22c-1 0-4 1-3 3 2 2 5 2 7 3h10m-10 0c-2 0-4 2-2 4l3 1"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4634 268l1 3-1 2m3 1c1 1 2 2 1 4v1" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4618 231V79l15-13 12 13v155" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4634 268l1 3-1 2m3 1c1 1 2 2 1 4v1" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4618 231V79l15-13 12 13v155" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4632 91s2 13 1 19c0 7-3 13-4 20l-1 17 5 19 1 17-3 19c-1 6-2 12-1 18l4 13" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4639 290c0 5-3 8-7 8s-7-3-7-8c0-4 3-7 7-7s7 3 7 7z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4639 290c0 5-3 8-7 8s-7-3-7-8c0-4 3-7 7-7s7 3 7 7z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4626 287c0 4 1 5 3 7h4l3-1 1-2M4543 177l-5 4-3 1-6 13a233 233 0 00-11 52h17l2-11a150 150 0 0121-50l4-7-5-2-8 13a166 166 0 00-14 36l-4 15h-7l3-21a204 204 0 0116-43zm-106-21c8 13 15 25 21 39 4 10 6 21 8 31l3 20h23l-3-30c-2-12-5-25-10-37l-11-22c0 2-4 2-4 4a184 184 0 0121 80h-11a196 196 0 00-19-65l-9-16c-3-1-5-1-6-4z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4501 189s-2-5 0-7 7-3 9-1c3 2 1 8 1 8s5-1 7 1 2 6 0 8c-1 2-7 1-7 1s1 5-1 7c-2 1-6 1-8-1-2-1-2-7-2-7s-5 2-7 0-1-7 1-9z"
-        fill="#ff5" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4510 194a4 4 0 11-8 0 4 4 0 018 0z" fill="#f55" stroke-width="2" stroke="#000" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4510 194a4 4 0 11-8 0 4 4 0 018 0z" fill="#f55" strokeWidth="2" stroke="#000" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4480 173l1-6c1-2 5-3 8-2 2 0 4 2 6 5l2 5 3-2 4 1-5 7v8l-7-13c-1-1-2-4-5-5l-4 1zm32 14l5-6h5l3 4-3 3c-2 0-2-2-3-2-2-1-7 1-7 1zm1 12l4 5v6c0 2-2 3-4 3-1 1-2 0-3-1l-1-1 3-2 1-5zm-13 1s-4 3-5 6v6c1 2 3 2 5 2h4l-1-4-3-2z"
-        fill="#ff5" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4503 225c-2 1-5 2-6 4-2 2-2 5-1 8 0 2 2 4 1 7 0 2-3 5-3 5l3 2 3-3 1-7v-5l2-4 3 2 1 5c0 2-2 5-1 7 0 2 1 3 3 4l1 1 2-3-2-2c-1-2 1-5 1-7v-8l-3-4z"
         fill="#ff5" />
-      <path d="M4406 164c12 16 22 34 29 54a195 195 0 015 77l-2 9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4406 164c12 16 22 34 29 54a195 195 0 015 77l-2 9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4359 191c14 10 28 23 38 38a120 120 0 0120 65l-26-12c-1-9-3-18-7-26-5-10-12-20-20-29l-13-8v-22z" fill="#ff5"
-        stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4356 194a140 140 0 0147 52c4 9 8 20 10 30v16m-61-78l16 13a86 86 0 0128 57" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4401 286v-4h4v3l4 1-1-9-7 1-2-9 3-1 1 5 4-1-2-8-8 2-4-8 5-2 1 4 4-1-3-9-8 4-4-8 4-3 2 4 4-2-5-8-7 5-5-7 4-3 2 3 3-2-5-7-7 6-5-7 3-3 3 3 3-2-6-7-7 6-6-6 3-4 4 4 2-4-7-6-6 7-7-5 4-4 3 3 3-3-7-5-3 4"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4410 162c12 17 23 35 29 55a182 182 0 015 79l-2 10" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4410 162c12 17 23 35 29 55a182 182 0 015 79l-2 10" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4406 166l-5 14c-2 5-4 9-4 14a69 69 0 004 38l8 12c3 4 6 9 10 12l9 8 13 7" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4423 192c-1 8-1 17 1 25 1 5 4 10 7 15l8 7-5-24z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4423 192c-1 8-1 17 1 25 1 5 4 10 7 15l8 7-5-24z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4410 171l-5 1c-1 1-2 3-1 5l2 5 6 5 6 2m-2 15l-7-1h-7l-4-4v-5c0-2 1-5 3-6l6-1 11 2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4417 192l-9-2-3 2-1 5c1 1 2 3 4 3h8z" fill="#55a" />
       <path d="M4418 218l-7 2-6 1c-2 0-4-1-5-3l-2-4 1-6c1-2 3-3 5-3 4-2 12-2 12-2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4416 207l-9 1-3 3 1 4 5 2 7-3z" fill="#55a" />
-      <path d="M4424 231l-6 4-6 2c-2 1-4 0-6-1l-3-3v-7l4-4 11-4" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4424 231l-6 4-6 2c-2 1-4 0-6-1l-3-3v-7l4-4 11-4" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4419 221l-8 4-2 3 2 3c1 1 3 2 5 1l7-4z" fill="#55a" />
-      <path d="M4433 242l-5 5-5 5h-5l-4-2c-2-2-2-5-2-7s1-3 3-5c2-3 9-7 9-7" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4433 242l-5 5-5 5h-5l-4-2c-2-2-2-5-2-7s1-3 3-5c2-3 9-7 9-7" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4425 234s-5 3-6 6c-1 1-2 3-1 4l3 3 4-1c3-1 6-6 6-6z" fill="#55a" />
-      <path d="M4419 185l-6-2-3-6 1-2 1-1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4433 242l-8 10v8l5 4 6 1 5-5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4419 185l-6-2-3-6 1-2 1-1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4433 242l-8 10v8l5 4 6 1 5-5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4436 244l-5 8v4c1 2 3 3 5 2l4-3v-8z" fill="#55a" />
-      <path d="M4544 98v-4l1-2-6 2-7-2-9-1-9 3-3 2 9-3 7-1 7 2 8-1h3l-1 2z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4541 101h-2c-2 0-3-2-5-3l-5-1-5 1-7 3-5 4-2 1h6l9-3h12z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4517 106l6 4h11l4-3 2-1-4-2-5-1h-6z" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4534 105c0 3-2 4-5 4s-5-1-5-4c0-1 2-2 5-2s5 1 5 2z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4531 106l-2 1-2-1 2-2zm45-7l-3-3c-1-2-3-3-5-3h-13l-2-1 1 6v-5l4 1h11z" fill="#55a" stroke-width="2"
-        stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4553 99l1 7 2 8 1 7 1 3-1 3c-1 2-4 2-5 3l-2 2m-10-10l-3 2v3l2 3h5l2-2 4-2" fill="none" stroke-width="2"
-        stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4544 98v-4l1-2-6 2-7-2-9-1-9 3-3 2 9-3 7-1 7 2 8-1h3l-1 2z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4541 101h-2c-2 0-3-2-5-3l-5-1-5 1-7 3-5 4-2 1h6l9-3h12z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4517 106l6 4h11l4-3 2-1-4-2-5-1h-6z" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4534 105c0 3-2 4-5 4s-5-1-5-4c0-1 2-2 5-2s5 1 5 2z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4531 106l-2 1-2-1 2-2zm45-7l-3-3c-1-2-3-3-5-3h-13l-2-1 1 6v-5l4 1h11z" fill="#55a" strokeWidth="2"
+        stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4553 99l1 7 2 8 1 7 1 3-1 3c-1 2-4 2-5 3l-2 2m-10-10l-3 2v3l2 3h5l2-2 4-2" fill="none" strokeWidth="2"
+        stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4530 131l-4-1-2 1-1 4 2 3c1 2 4 2 6 1l5-2 4-2 4-1 2 1-1 1h-5l-6 2-6 2-4-2-1-3 1-3 3-2zm35-1l3 1 1 3-1 5-3 1-4-1-3-2-4-2-2 1v-1l1-1 3 1 4 2 4 2 4-1 1-4-2-3zm-29 14l4-2 4-1 4 2h3l3-1 3 1 2 1-3-1-4 1h-5l-3-1h-3l-4 1z"
-        fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4543 148l4 1h3l4-1m1-45l5-4 4-1 5 1 3 1h3m-1 5l-5 3-4 1h-6l-3-2-2-2 4-2 4-1h5c3 0 7 3 7 3z" fill="none"
-        stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4559 105c0 3 1 4 4 4s4-1 4-4c0-2-2-3-4-3-3 0-4 1-4 3z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4561 104l2 2 2-2-2-1z" fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4537 110l-5 5m25-3l5 4" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4559 105c0 3 1 4 4 4s4-1 4-4c0-2-2-3-4-3-3 0-4 1-4 3z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4561 104l2 2 2-2-2-1z" fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4537 110l-5 5m25-3l5 4" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4545 265l2 2c2 0 3-2 4-4l-1-3-2-4-2-4-4 4-2 3-1 3c-1 2 0 4 2 4l2-1h1l-1 2-1 3h4l-1-3zm4-25l2 2c2 0 3-1 4-3l-1-4-1-3-2-5-4 3-2 3-2 3c0 2 0 4 2 4h3l-1 2-2 2 4 1v-3zm8-24l2 2 4-2v-4l-1-4-1-4-4 2-3 2-2 3c-1 2 0 4 1 5l2-1 1 1-1 1-2 3 3 1 1-3zm12-23l1 2c2 1 4 0 5-2l1-3v-4l-1-5-5 2-3 2-3 2c-1 2 0 4 1 5h3l-2 1-2 3 4 2v-3zm14-20l1 2c1 1 3 1 5-1l1-3 1-4v-5l-5 1-4 2-2 1c-2 2-2 4-1 5l3 1-2 1-2 2 3 2 1-2zm-154-9l1-3c1-1 3 0 4 2l1 3v9l-5-2-3-1-3-3c-1-1-1-3 1-4h2v-1l-1-1-3-2 4-2 1 3 1 1zm10 20l2-2c1-1 3 0 4 2v7l-1 5-5-3-3-2-2-2c-1-2 0-4 1-5h3l-2-2-1-2c2 0 2 0 3-2a47 47 0 001 5zm9 20l2-2 4 3v3l-1 4-1 5-4-3-3-2-2-3c-1-2 0-4 1-4h3l-1-2-2-3 3-1a47 47 0 001 5zm8 24l2-2c1 0 3 1 3 3v4l-1 3-2 5-4-3-3-3-2-3c0-2 1-4 3-4h2l-1-2-1-3h4zm3 24l2-1c1 0 3 1 3 3l-1 4-1 3-3 4-3-3-2-3-2-4c0-2 1-3 3-3h2l-1-2-1-3h4z"
         fill="#fff" />
-      <path d="M4432 152a309 309 0 00-81 45" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4432 152a309 309 0 00-81 45" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4556 381l-4 1-4-2-4 2-3-2-3 1-6-13-7-19-4-15-3-14-1-10v-10h11l2 15 4 18 5 14 5 11 5 10 3 7zm-104-4l8-15 8-17 5-18 4-17 2-10h-8l-4 16-7 19-5 12-6 10-5 7 4 2 2 6zm-41-72l-11-6-1 4-5 4-7 1-3 1v38l7-6 6-9a119 119 0 0010-19z"
         fill="#f55" />
       <path
         d="M4643 351l-17 11-20 11-9 5-1-3 5-13 5-18 1-12-3-14-4-11-6-11-8-9-6-6-8-5-11-6v-14l1-9 2-10 21 9 1 17 4 17 7 19 6 10 13 17 12 12 9 7z"
         fill="#ff5556" />
-      <path d="M4565 510l-31-57c-12 4-24 5-36 7a244 244 0 01-71-4l-35 54z" fill="#ff5" stroke="#55a" stroke-width="2" />
+      <path d="M4565 510l-31-57c-12 4-24 5-36 7a244 244 0 01-71-4l-35 54z" fill="#ff5" stroke="#55a" strokeWidth="2" />
       <path
         d="M4490 480l-5-2-4 2-2 3-2-3c-2-1-3-2-5-1-2 0-3 3-3 5l2 5 5 1-1 5 5 4c2 0 4-1 5-3l1-4-2-3c2 0 4 0 5-2l2-5zm-9 6l-1 3-2-2 2-2zm37 8c1 0 3-1 3-3v-5l-2-3h3c2-1 4-2 4-4s-2-4-4-5h-5l-3 4-4-2c-2 0-5 1-6 3-1 1 0 4 1 5l3 3 4-2c-1 2-2 4-1 6l5 4zm-3-10l-2-2c0-1 2-2 3-1v2zm-74 12c-1 0-3-1-3-3v-5l2-3h-3c-2-1-4-2-4-4s2-4 4-5h5l3 4 4-2c2 0 5 1 6 3 1 1 0 4-1 5l-4 3-3-2 1 6c-1 2-3 3-5 3zm3-10l2-2c0-1-2-2-3-1v2zm-34 5c2 1 4 0 5-1l1-6 3 2c1 1 2 0 3-1 2-1 3-3 3-5s-2-3-4-4h-4l-1-1-2 4v-1l2 2c0 1-1 2-2 1h-1v-2l-6 10 1 2zm138-1l-4-2-1-6-3 2-3-1c-2-1-3-3-3-5 1-2 3-4 5-4h4v-1l2 4c-1-1-2 0-2 1l2 2 1-1v-1l6 10-1 1z" />
       <path d="M4467 475l8 2 3 3 2 3-3-7c-2-3-5-4-7-5a21 21 0 00-19 2l-5 4-2 4 6-5 6-1 6 3c2-1 3-3 5-3z" />
@@ -3992,470 +3992,470 @@ const DeckSvgInline = () => (
       <path
         d="M4538 462l-8-1-10 1-5 4-3 4s-5-4-9-4l-9-1c-3 1-7 1-9 3-3 1-6 5-6 5s-4-5-7-6l-9-1-8 2-8 3-4-5-6-2-7-2-7 3 5-7a421 421 0 0042 4 289 289 0 0039-2l13-2 11-4z"
         fill="#f55" />
-      <path d="M4533 453l7-31c3-10 8-18 13-27 2-2 5-5 8-4s3 3 2 5" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4533 453l7-31c3-10 8-18 13-27 2-2 5-5 8-4s3 3 2 5" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4528 454c1-16 5-33 12-48 3-8 9-19 19-21 4-1 9 1 11 4 2 4 1 11-3 13-4 3-10 1-13-2l-1-5" fill="none"
-        stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4522 456c1-10 2-20 5-30 4-12 8-24 15-33 3-5 6-10 12-12 3 0 6 0 8 3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4516 457a165 165 0 0115-57c4-7 7-13 13-19h8" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4511 458c1-11 2-21 5-32l8-25c4-7 7-13 12-19 2-1 4-2 7-1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4505 459a218 218 0 0112-54c3-7 5-13 10-18 1-2 3-3 5-2" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4500 459a207 207 0 019-51l9-18c1-1 3-2 5-1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4494 459a207 207 0 019-49c2-6 4-12 8-17 1-1 3-2 5-1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4512 392l-3-2c-2 0-3 2-4 3l-3 7-3 7" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4516 457a165 165 0 0115-57c4-7 7-13 13-19h8" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4511 458c1-11 2-21 5-32l8-25c4-7 7-13 12-19 2-1 4-2 7-1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4505 459a218 218 0 0112-54c3-7 5-13 10-18 1-2 3-3 5-2" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4500 459a207 207 0 019-51l9-18c1-1 3-2 5-1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4494 459a207 207 0 019-49c2-6 4-12 8-17 1-1 3-2 5-1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4512 392l-3-2c-2 0-3 2-4 3l-3 7-3 7" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4497 402l5-11 3-5c3-1 6-2 9 0l2 6m-22 7l8-16m-27 1l6-11m-22-9l-6 13m-2 0c-1-3-1-8-3-11-3-2-6-4-10-4-3 1-7 4-8 7-2 6 3 13 5 18m53 6c2-3 6-8 5-12-1-1-3-3-5-2-2 0-3 3-4 5l-2 4"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4491 395c3-4 6-9 7-14 0-3-2-6-5-7s-7-1-9 1l-4 8-2 3m-6-4c2-4 5-8 4-12-1-3-3-6-6-7-2 0-5 0-7 2l-5 12"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4469 380c1-3 4-8 2-11-1-1-3-2-4-1-3 1-4 7-5 9m-34 79c1-17 0-34 2-50 1-8 3-16 8-21 3-4 8-7 14-7m-24 52c-3-6-6-12-7-18l2-17"
-        fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4428 421c-3-4-3-8-3-12l1-7m3 4c-3-6-7-11-8-18 0-3 1-8 3-10 1-2 4-2 6-3" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4430 400c-3-5-6-11-4-17 0-2 3-4 5-4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4430 400c-3-5-6-11-4-17 0-2 3-4 5-4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4432 394c-2-3-4-7-2-10l3-1m4 1c-1-5-5-10-2-14 1-2 5-3 8-2s4 6 5 10" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4444 379c-1-3-2-8-5-8-2 1 0 5 0 7l2 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4444 379c-1-3-2-8-5-8-2 1 0 5 0 7l2 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4351 306l23 2h16c3-1 7-2 9-5 1-2 2-7-1-9-2-2-8-3-11 0v6l-15 1-12-2-9 1z" fill="#ff5" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4388 289l-3 5c-1 1-1 3-3 3l-5 1h-7l-2-1h-6l-2-1v-2h-4l-1-2v-4l2-3 2-1-4 1-2-2 1-3 2-3 3-2h-3l-2-2a5 5 0 013-5l2-1-3-2 2-3h8l4-2 7-1 5 3 3 5 2 6 1 9z"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4360 294c2-3 4-5 7-5l6 1 4-2 3-1" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4359 284c3-2 8-4 11-4 2 0 4 0 5 2 1 1 0 3-1 3l-10 5" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4372 286c-2 0-5-1-5-3v-2m-8-6l14-2 4 3-3 3-4 1" fill="#fff" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4360 294c2-3 4-5 7-5l6 1 4-2 3-1" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4359 284c3-2 8-4 11-4 2 0 4 0 5 2 1 1 0 3-1 3l-10 5" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4372 286c-2 0-5-1-5-3v-2m-8-6l14-2 4 3-3 3-4 1" fill="#fff" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4369 279c-1-1-2-2-1-4v-1m1 23c0-2-1-3-3-3l-5 1m11-22c1 0 4-1 3-3-2-2-5-3-7-3h-10m10 0c2-1 4-3 2-4l-3-2"
-        fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4368 273l-1-3 1-2m-3-1c-1-1-2-2-1-4v-1" fill="#fff" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4395 376a187 187 0 0041-59l-25-12c-4 9-8 18-14 26l-13 17v20z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4391 372l14-14 16-22 10-20m-46 40a154 154 0 0024-33c3-4 5-9 7-15" fill="none" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4368 273l-1-3 1-2m-3-1c-1-1-2-2-1-4v-1" fill="#fff" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4395 376a187 187 0 0041-59l-25-12c-4 9-8 18-14 26l-13 17v20z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4391 372l14-14 16-22 10-20m-46 40a154 154 0 0024-33c3-4 5-9 7-15" fill="none" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4394 369l-2-11h-7m18 2l-1-12-10 1m20 0l-1-13-10 1m18 0l-1-12-10 2m18-2l-3-12-10 4" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4421 392l-19-12-17-11M4384 309v152l-14 13-13-13V307" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4421 392l-19-12-17-11M4384 309v152l-14 13-13-13V307" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4371 449s-3-12-2-19l3-19 2-17-5-20-1-16c0-7 3-13 3-19 1-6 2-13 1-19l-4-12" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4363 250c0-4 3-7 7-7s7 3 7 7-3 8-7 8-7-4-7-8z" fill="#ff5" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4363 250c0-4 3-7 7-7s7 3 7 7-3 8-7 8-7-4-7-8z" fill="#ff5" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4376 253c0-3-1-4-3-6h-4l-3 1-1 1M4459 364l5-5h3l6-14a233 233 0 0011-51h-17l-2 10a150 150 0 01-21 51l-4 7 5 2 8-13a166 166 0 0014-36l4-15h7l-3 21a204 204 0 01-16 43z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4501 351s2 6 0 8-7 3-9 0c-3-1-1-8-1-8s-5 2-7 0-2-6 0-9h7s-1-6 1-7c2-2 6-1 8 1 2 1 2 6 2 6s5-1 7 1 1 6-1 8-7 0-7 0z"
-        fill="#ff5" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4492 346a4 4 0 118 0 4 4 0 01-8 0z" fill="#f55" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4492 346a4 4 0 118 0 4 4 0 01-8 0z" fill="#f55" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4565 384c-8-12-15-25-21-38-4-10-6-21-8-32-2-6-3-13-3-19l-23-1 3 30c2 13 5 26 10 38l11 22c0-3 4-3 4-4a184 184 0 01-21-80h11c2 15 4 28 9 41 2 9 6 16 10 24l9 15c3 2 5 2 6 4z"
-        fill="#ff5" stroke="#55a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4521 369v6c-2 2-5 3-8 2s-5-3-6-5l-2-6-4 2-4-1c3-2 5-4 6-7v-8l7 13c1 2 2 5 4 5 2 1 4 0 5-1zm-31-15l-5 5-5 1-3-5 3-2c2 0 2 2 3 2zm-1-12l-4-5v-6c0-2 2-3 4-4l3 2 1 1-3 2-1 4zm13-1l5-6v-6c-1-2-3-2-5-3h-4l1 4 3 3z"
-        fill="#ff5" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4499 315c2 0 5-1 6-3 2-2 2-5 1-8 0-2-2-5-1-7 0-2 3-5 3-5l-3-2-3 3-1 7v5l-2 4-3-2-1-5c0-3 2-5 1-8l-3-4h-1l-2 3 2 2c1 2-1 5-1 7v7l3 5c2 1 4 2 5 1z"
         fill="#ff5" />
-      <path d="M4596 377c-12-17-22-35-29-54a195 195 0 01-5-77l2-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4596 377c-12-17-22-35-29-54a195 195 0 01-5-77l2-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4643 350c-14-11-28-23-38-38a120 120 0 01-20-65l26 12c1 9 3 17 7 25 5 11 12 21 20 29 4 4 8 7 13 9v22z"
-        fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4646 346a140 140 0 01-47-52c-4-9-8-19-10-29l-1-16m62 78l-16-13a86 86 0 01-28-57" fill="none" stroke="#000"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4601 255v4h-4v-4l-4-1 1 10 7-1 3 8-4 1-1-4-4 1 2 8 8-2 4 8-4 2-2-4-4 1 3 9 8-4 4 8-4 3-2-4-4 2 5 7 7-4 5 7-4 3-2-3-3 2 5 7 7-6 6 7-4 3-3-4-3 3 7 7 6-6 6 6-3 4-4-4-2 3 7 6 6-6 7 5-3 4-4-3-3 3 7 5 4-4"
-        fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4592 379c-12-17-23-35-29-55a181 181 0 01-5-80l2-9" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4596 374l5-13c2-5 4-10 4-15a69 69 0 00-4-37l-8-13-10-12-9-7-13-7" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4579 349c1-8 1-17-1-25-1-5-4-10-7-15l-8-8 5 25z" fill="#55a" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4592 379c-12-17-23-35-29-55a181 181 0 01-5-80l2-9" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4596 374l5-13c2-5 4-10 4-15a69 69 0 00-4-37l-8-13-10-12-9-7-13-7" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4579 349c1-8 1-17-1-25-1-5-4-10-7-15l-8-8 5 25z" fill="#55a" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4592 370l5-1c1-2 2-4 1-6l-2-4-6-5-6-2m2-15h7l7 1 4 4v5l-3 6-6 1-11-2" fill="none" stroke="#55a"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4585 349s6 2 9 1c1 0 3 0 3-2l1-4c-1-1-2-3-4-3-3-2-8 0-8 0z" fill="#55a" />
-      <path d="M4584 323l7-2 6-1 5 2 2 5-1 6c-1 2-3 2-5 3l-12 1" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4584 323l7-2 6-1 5 2 2 5-1 6c-1 2-3 2-5 3l-12 1" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4586 334s6 0 9-2c1 0 3-1 3-3l-1-3-5-2-7 2z" fill="#55a" />
-      <path d="M4578 309l6-3 6-3 6 1 3 4v7l-4 4-11 4" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4578 309l6-3 6-3 6 1 3 4v7l-4 4-11 4" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4583 320l8-4 2-3-2-4-5-1-7 5z" fill="#55a" />
-      <path d="M4569 298l5-5 5-4 5-1 4 3c2 2 2 4 2 7 0 2-1 3-3 5l-9 6" fill="none" stroke="#55a" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4569 298l5-5 5-4 5-1 4 3c2 2 2 4 2 7 0 2-1 3-3 5l-9 6" fill="none" stroke="#55a" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4577 307l6-6c1-1 2-3 1-4l-3-3-4 1c-3 1-6 6-6 6z" fill="#55a" />
-      <path d="M4583 356l6 2 3 6-1 2-1 1z" fill="#55a" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4569 298l8-9v-8l-5-4c-1-1-4-2-6-1l-5 5" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4583 356l6 2 3 6-1 2-1 1z" fill="#55a" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4569 298l8-9v-8l-5-4c-1-1-4-2-6-1l-5 5" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4566 297l5-8v-5l-5-2-4 4v8z" fill="#55a" />
       <path d="M4458 443v4l-1 2 6-2 7 2h9l9-2 3-3-9 4h-7l-7-1h-8l-3 1 1-2zm3-3l2-1 5 4h10l7-3 5-4 2-1h-6l-9 3h-12z"
-        fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4485 434l-6-3-4-1-7 1-4 2-2 2 4 2 5 1h6z" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4468 435c0-3 2-4 5-4s5 1 5 4c0 1-2 2-5 2s-5-1-5-2z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
+        fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4485 434l-6-3-4-1-7 1-4 2-2 2 4 2 5 1h6z" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4468 435c0-3 2-4 5-4s5 1 5 4c0 1-2 2-5 2s-5-1-5-2z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
       <path d="M4471 435l2-1 2 1-2 2zm-45 6l3 3 5 4h5l6-1 3 1h1l-1-5v5l-3-2h-6l-6 1c-3-1-7-6-7-6z" fill="#55a"
-        stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4449 442l-1-8-2-7-1-7-1-3 1-3c1-2 4-2 5-3l2-3m10 11l3-2v-3l-2-3h-5l-2 2-4 1" fill="none" stroke-width="2"
-        stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
+        strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4449 442l-1-8-2-7-1-7-1-3 1-3c1-2 4-2 5-3l2-3m10 11l3-2v-3l-2-3h-5l-2 2-4 1" fill="none" strokeWidth="2"
+        stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
       <path
         d="M4472 410h4l2-1 1-3-2-4-6-1-5 3-3 2-5 1-2-1c-1-1 0-1 1-1l6-1 5-2 6-1 4 2 1 3-1 3-3 2zm-35 1l-3-2-1-3 1-4 3-1 4 1 4 2 3 1h3v1l-2 1-3-1-4-2-4-2-4 1v4l1 3zm29-14l-4 1-4 1-4-1h-3l-2 1-4-1-2-1 3 1 4-1h5l3 1h3l4-1z"
-        fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4459 393l-4-2h-3l-4 2m0 45l-6 3-4 2-5-1-3-1-3-1" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4428 436l5-4 4-1 6 1 3 2 2 2-4 2-4 1h-5z" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4442 435c0-3-1-4-4-4s-4 1-4 4c0 2 2 3 4 3 3 0 4-1 4-3z" fill="none" stroke-width="2" stroke="#55a"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4440 436l-2-2-2 2 2 1z" fill="#55a" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path d="M4465 430l5-4m-25 3l-5-4" fill="none" stroke-width="2" stroke="#55a" stroke-linecap="round"
-        stroke-linejoin="round" />
+        fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4459 393l-4-2h-3l-4 2m0 45l-6 3-4 2-5-1-3-1-3-1" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4428 436l5-4 4-1 6 1 3 2 2 2-4 2-4 1h-5z" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4442 435c0-3-1-4-4-4s-4 1-4 4c0 2 2 3 4 3 3 0 4-1 4-3z" fill="none" strokeWidth="2" stroke="#55a"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4440 436l-2-2-2 2 2 1z" fill="#55a" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
+      <path d="M4465 430l5-4m-25 3l-5-4" fill="none" strokeWidth="2" stroke="#55a" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4457 276l-2-2c-2 0-3 1-4 3l1 4 2 3 2 4 4-3 2-3 1-3c1-2 0-4-2-4l-2 1h-1l1-2 1-3-4-1 1 3v2zm-4 25l-2-2c-2 0-3 1-4 3l1 4 1 3 2 5 4-4 2-2 2-3c0-2 0-4-2-5l-2 1h-1l1-2 2-3-4-1zm-8 24l-2-2c-1-1-3 0-4 2v4l1 3 1 5 4-2 3-3c1-1 2-1 2-3 1-1 0-3-1-4h-3l1-2 2-2c-2 0-2 0-3-2l-1 4zm-12 23l-1-2c-2-1-4 0-5 2l-1 3v4l1 5 5-2 3-2 3-2c1-2 0-4-1-5h-3l2-2 2-2-4-2v3zm-14 20l-1-2h-5l-1 4-1 3v5l5-1 4-1 2-2c2-1 2-3 1-4l-3-1 2-1 2-2-3-3-1 3zm154 9l-1 2c-1 1-3 1-4-1l-1-3v-9l5 1 3 2 3 2c1 2 1 4-1 5h-2l1 2 3 2-4 2-1-3zm-10-20l-2 2c-1 1-3 0-4-2v-7l1-5 5 2 3 2 2 3c1 2 0 4-1 5l-3-1v1a23844 23844 0 013 4l-3 1-1-3zm-9-20l-2 1c-1 1-3 0-4-2v-3l1-4 1-5 4 3 3 2c1 1 2 1 2 3 1 2 0 4-1 4h-3a21792 21792 0 013 4l-3 2-1-3zm-8-24l-2 1c-1 1-3-1-3-2v-4l1-4 2-4 4 3 3 3 2 3c0 2-1 4-3 4l-2-1v1l1 2 1 2-4 1v-3zm-3-25l-2 2c-1 0-3-1-3-3l1-4 1-3 3-4 3 3 2 3 2 3c0 2-1 4-3 4l-2-1 1 2 1 3-4 1v-5z"
         fill="#fff" />
-      <path d="M4500 253s-9 7-9 17 9 18 9 18 11-8 11-18-11-17-11-17z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4501 259s-6 3-6 12c0 6 6 11 6 11s6-5 6-11c0-7-6-12-6-12z" fill="#ff5" stroke="#000" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4501 264l-2 7 2 6 3-7z" fill="#ff5" stroke="#000" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4500 253s-9 7-9 17 9 18 9 18 11-8 11-18-11-17-11-17z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4501 259s-6 3-6 12c0 6 6 11 6 11s6-5 6-11c0-7-6-12-6-12z" fill="#ff5" stroke="#000" strokeWidth="2"
+        strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4501 264l-2 7 2 6 3-7z" fill="#ff5" stroke="#000" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path d="M4469 260v20h20s-3-5-3-10 3-10 3-10zm64 0v20h-20s3-5 3-10-3-10-3-10z" fill="#f55" />
-      <path d="M4351 150v360h270M4381 30h270v360" fill="none" stroke="#55a" stroke-width="2" />
-      <path d="M4570 389a309 309 0 0081-45" fill="none" stroke="#55a" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
+      <path d="M4351 150v360h270M4381 30h270v360" fill="none" stroke="#55a" strokeWidth="2" />
+      <path d="M4570 389a309 309 0 0081-45" fill="none" stroke="#55a" strokeWidth="2" strokeLinecap="round"
+        strokeLinejoin="round" />
       <path
         d="M4416 101c1 4 5 14 12 14 9 0 13-8 13-18 0-7-3-11-5-17l-10-16-15-19-15 19-10 16c-2 6-5 10-5 17 0 10 4 18 13 18 7 0 11-10 12-14 1-1 1 0 1 1l-2 16-4 17c5-2 15-2 20 0l-4-17-2-16c0-1 0-2 1-1zm-62 17c0 2 2 7 6 7s6-4 6-9l-2-8-5-8-8-10-7 10-5 8c-2 3-3 5-3 8 0 5 2 9 7 9 3 0 5-5 6-7v1l-1 8-2 8h10l-2-8-1-8zm232 321c-1-4-5-14-12-14-9 0-13 8-13 18 0 7 3 12 5 17l10 16 15 19 15-19 10-16c2-5 5-10 5-17 0-10-4-18-13-18-7 0-11 10-12 14-1 1-1 0-1-1l2-16 4-17c-5 2-15 2-20 0l4 17 2 16c0 1 0 2-1 1zm63-17c-1-2-3-7-6-7-5 0-7 4-7 9 0 4 1 6 3 9l5 8 7 9 8-9 5-8 2-9c0-5-2-9-6-9s-6 5-6 7h-1l1-8 2-9h-10l2 9 1 8s0 1 0 0z" />
     </symbol>
     <symbol id="back" viewBox="0 0 360 540" version="1.0">
-      <g fill="none" stroke="#17067a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+      <g fill="none" stroke="#17067a" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
         <path d="M167 261c0 4-3 8-7 8H6c-4 0-7-4-7-8V10c0-5 3-8 7-8h154c4 0 7 3 7 8z" fill="#fff" stroke="#000"
-          stroke-width=".5" stroke-linecap="butt" stroke-linejoin="miter" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+          strokeWidth=".5" strokeLinecap="butt" strokeLinejoin="miter" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
         <path d="M16 3C9 3 4 9 4 15v508c0 6 5 12 12 12h327c7 0 12-6 12-12V15c0-6-5-12-12-12z" fill="#fff"
-          fill-rule="evenodd" stroke="none" />
-        <path d="M7 4c-4 0-6 2-6 6v251c0 3 2 6 6 6h153c3 0 5-3 5-6V10c0-4-2-6-5-6z" stroke-width="3" stroke-linecap="butt"
-          stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M20 15c-2 0-4 1-4 4v500c0 3 2 4 4 4h319c1 0 2-1 2-4V19c0-3-1-4-2-4z" fill="#fff" fill-rule="evenodd"
+          fillRule="evenodd" stroke="none" />
+        <path d="M7 4c-4 0-6 2-6 6v251c0 3 2 6 6 6h153c3 0 5-3 5-6V10c0-4-2-6-5-6z" strokeWidth="3" strokeLinecap="butt"
+          strokeLinejoin="miter" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M20 15c-2 0-4 1-4 4v500c0 3 2 4 4 4h319c1 0 2-1 2-4V19c0-3-1-4-2-4z" fill="#fff" fillRule="evenodd"
           stroke="none" />
-        <path d="M8 10l-1 1v248l1 2h150l1-2V11l-1-1z" stroke-width="2.8" stroke-linecap="butt" stroke-linejoin="miter"
-          stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M82 81l-1 2v374l1 1h191l1-1V83l-1-2z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M38 42l-1 1v185l1 1h89V42z" stroke-width="1.7" stroke-linecap="butt" stroke-linejoin="miter"
-          stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M8 10l-1 1v248l1 2h150l1-2V11l-1-1z" strokeWidth="2.8" strokeLinecap="butt" strokeLinejoin="miter"
+          strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M82 81l-1 2v374l1 1h191l1-1V83l-1-2z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M38 42l-1 1v185l1 1h89V42z" strokeWidth="1.7" strokeLinecap="butt" strokeLinejoin="miter"
+          strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
         <path d="M114 95c-10 0-19 8-19 17v314c0 10 9 17 19 17h128c10 0 17-7 17-17V112c0-9-7-17-17-17z" fill="#fff"
-          fill-rule="evenodd" stroke="none" />
-        <path d="M52 49c-5 0-9 4-9 9v155c0 5 4 9 9 9h60c5 0 9-4 9-9V58c0-5-4-9-9-9z" stroke-width="2.2"
-          stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M115 109c-4 0-6 2-6 6v308c0 4 2 6 6 6h124c3 0 7-2 7-6V115c0-4-4-6-7-6z" fill="#313390" fill-rule="evenodd"
+          fillRule="evenodd" stroke="none" />
+        <path d="M52 49c-5 0-9 4-9 9v155c0 5 4 9 9 9h60c5 0 9-4 9-9V58c0-5-4-9-9-9z" strokeWidth="2.2"
+          strokeLinecap="butt" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M115 109c-4 0-6 2-6 6v308c0 4 2 6 6 6h124c3 0 7-2 7-6V115c0-4-4-6-7-6z" fill="#313390" fillRule="evenodd"
           stroke="none" />
-        <path d="M53 56c-2 0-3 1-3 3v153c0 1 1 3 3 3h58l3-3V59c0-2-2-3-3-3z" stroke-width="1.9" stroke-linecap="butt"
-          stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M20 19h14L20 33z" fill="#17067a" fill-rule="evenodd" stroke="none" />
-        <path d="M8 11h7l-7 8z" stroke-width=".9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+        <path d="M53 56c-2 0-3 1-3 3v153c0 1 1 3 3 3h58l3-3V59c0-2-2-3-3-3z" strokeWidth="1.9" strokeLinecap="butt"
+          strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M20 19h14L20 33z" fill="#17067a" fillRule="evenodd" stroke="none" />
+        <path d="M8 11h7l-7 8z" strokeWidth=".9" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M338 19h-14l14 15z" fill="#17067a" fill-rule="evenodd" stroke="none" />
-        <path d="M157 12h-6l6 7z" stroke-width=".9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+        <path d="M338 19h-14l14 15z" fill="#17067a" fillRule="evenodd" stroke="none" />
+        <path d="M157 12h-6l6 7z" strokeWidth=".9" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M339 519h-15l15-14z" fill="#17067a" fill-rule="evenodd" stroke="none" />
-        <path d="M157 259h-6l6-7z" stroke-width=".9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+        <path d="M339 519h-15l15-14z" fill="#17067a" fillRule="evenodd" stroke="none" />
+        <path d="M157 259h-6l6-7z" strokeWidth=".9" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M20 519h14l-14-14z" fill="#17067a" fill-rule="evenodd" stroke="none" />
-        <path d="M8 259h7l-7-7z" stroke-width=".9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+        <path d="M20 519h14l-14-14z" fill="#17067a" fillRule="evenodd" stroke="none" />
+        <path d="M8 259h7l-7-7z" strokeWidth=".9" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 290v13l49-26v-14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 145v7l23-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 290v13l49-26v-14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 145v7l23-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M26 315v13l48-25v-13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 158v7l23-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M26 315v13l48-25v-13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 158v7l23-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 303v-13l49 25v15z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 152v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 303v-13l49 25v15z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 152v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M26 263v14l48-26v-14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 132v7l23-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M26 263v14l48-26v-14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 132v7l23-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 277v-14l49 27v13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 139v-6l23 12v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 277v-14l49 27v13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 139v-6l23 12v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 237v14l49-25v-15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 120v6l23-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 237v14l49-25v-15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 120v6l23-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 251v-14l49 26v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 126v-6l22 12v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 251v-14l49 26v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 126v-6l22 12v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M26 226v-14l48 25v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 114v-7l23 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M26 226v-14l48 25v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 114v-7l23 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M26 341v14l48-25v-14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 171v7l23-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M26 341v14l48-25v-14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 171v7l23-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 330v-14l49 25v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 165v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 330v-14l49 25v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 165v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 160v14l49-27v-13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 81v7l22-13v-7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 185v14l49-25v-14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 94v7l23-13v-7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 174v-14l49 25v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 88v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M26 134v13l48-26v-14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 68v7l23-13v-7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 147v-13l49 26v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 75v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 107v14l49-26V81z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 55v7l22-13v-6z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 121v-14l49 27v13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 62v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 95V81l49 26v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 49v-6l23 12v7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 211v14l49-25v-15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 107v6l23-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 160v14l49-27v-13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 81v7l22-13v-7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M25 185v14l49-25v-14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 94v7l23-13v-7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M25 174v-14l49 25v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 88v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M26 134v13l48-26v-14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 68v7l23-13v-7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M25 147v-13l49 26v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 75v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M25 107v14l49-26V81z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 55v7l22-13v-6z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M25 121v-14l49 27v13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 62v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M25 95V81l49 26v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 49v-6l23 12v7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M25 211v14l49-25v-15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 107v6l23-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 199v-13l49 25v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 101v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 199v-13l49 25v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 101v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 419v14l49-26v-14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 210v6l23-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 419v14l49-26v-14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 210v6l23-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M26 444v14l48-25v-14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 222v7l23-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M26 444v14l48-25v-14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 222v7l23-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 433v-14l49 25v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 216v-6l22 12v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 433v-14l49 25v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 216v-6l22 12v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M26 393v14l48-26v-14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 197v6l23-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M26 393v14l48-26v-14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 197v6l23-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 407v-14l49 26v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 204v-7l23 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 407v-14l49 26v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 204v-7l23 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 367v14l49-25v-15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M11 184v7l23-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 367v14l49-25v-15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M11 184v7l23-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M25 381v-14l49 26v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 191v-7l22 13v6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M25 381v-14l49 26v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 191v-7l22 13v6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M26 355v-13l48 25v14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M11 178v-7l23 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M26 355v-13l48 25v14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M11 178v-7l23 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 251v-14l48 25v15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 126v-6l22 12v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 251v-14l48 25v15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 126v-6l22 12v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 225v-14l47 26v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 114v-7l22 12v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 225v-14l47 26v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 114v-7l22 12v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 237v14l48-26v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 120v6l22-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 237v14l48-26v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 120v6l22-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 277v-14l47 25v15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 139v-6l22 12v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 277v-14l47 25v15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 139v-6l22 12v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 263v13l47-25v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 132v7l22-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 263v13l47-25v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 132v7l22-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 303v-13l47 25v13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 152v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 303v-13l47 25v13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 152v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 290v13l48-26v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 145v7l22-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 290v13l48-26v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 145v7l22-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 315v13l47-25v-15z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 158v7l22-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 315v13l47-25v-15z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 158v7l22-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 199v-14l47 26v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 101v-7l22 13v6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 199v-14l47 26v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 101v-7l22 13v6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 211v14l48-25v-15z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 107v6l22-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 211v14l48-25v-15z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 107v6l22-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 381v-14l48 26v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 191v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 381v-14l48 26v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 191v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 356v-14l48 25v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 178v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 356v-14l48 25v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 178v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 367v14l48-25v-15z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M131 184v7l23-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 367v14l48-25v-15z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M131 184v7l23-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 407v-14l47 26v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 204v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 407v-14l47 26v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 204v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 393v14l48-26v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 197v6l22-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 393v14l48-26v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 197v6l22-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 433v-14l48 25v15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 217v-7l22 12v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 433v-14l48 25v15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 217v-7l22 12v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 419v14l48-26v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 210v6l22-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 419v14l48-26v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 210v6l22-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 444v14l48-25v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 222v7l22-12v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 444v14l48-25v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 222v7l22-12v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 330v-14l47 25v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 165v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 330v-14l47 25v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 165v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 341v14l48-25v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M131 171v7l23-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 341v14l48-25v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M131 171v7l23-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 121v-14l48 27v13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 62v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 121v-14l48 27v13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 62v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 95V81l47 26v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 49v-6l22 12v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 95V81l47 26v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 49v-6l22 12v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 107v14l48-25V81z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 55v7l22-13v-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 107v14l48-25V81z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 55v7l22-13v-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 147v-13l47 26v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 75v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 147v-13l47 26v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 75v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 134v13l47-26v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 68v7l22-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 134v13l47-26v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 68v7l22-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 174v-14l47 25v14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M132 88v-7l22 13v7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 174v-14l47 25v14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M132 88v-7l22 13v7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M283 160v14l48-27v-13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 81v7l22-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M283 160v14l48-27v-13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 81v7l22-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M284 185v14l47-25v-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M132 94v7l22-13v-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M284 185v14l47-25v-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M132 94v7l22-13v-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M147 24h-14l25 49h15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M68 14h-6l11 24h7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M121 25h-12l24 49h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M56 14h-6l11 24h7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M133 24h14l-25 49h-13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M62 14h6L56 38h-6z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M173 25h-13l25 49h13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M80 14h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M160 25h12l-25 48h-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M73 14h7L68 38h-7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M251 25h-14l25 49h13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M116 14h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M147 24h-14l25 49h15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M68 14h-6l11 24h7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M121 25h-12l24 49h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M56 14h-6l11 24h7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M133 24h14l-25 49h-13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M62 14h6L56 38h-6z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M173 25h-13l25 49h13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M80 14h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M160 25h12l-25 48h-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M73 14h7L68 38h-7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M251 25h-14l25 49h13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M116 14h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M198 25h-12l25 48h13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M92 14h-6l11 24h7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M185 24h13l-25 49h-13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M86 14h6L80 38h-6z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M224 25h-13l26 49h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M104 14h-6l12 25h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M198 25h-12l25 48h13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M92 14h-6l11 24h7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M185 24h13l-25 49h-13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M86 14h6L80 38h-6z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M224 25h-13l26 49h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M104 14h-6l12 25h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M211 25h13l-26 49h-13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M98 14h6L92 38h-6z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M237 25h14l-27 48h-13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M110 14h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M211 25h13l-26 49h-13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M98 14h6L92 38h-6z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M237 25h14l-27 48h-13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M110 14h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M275 25h-12l25 49h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M128 14h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M275 25h-12l25 49h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M128 14h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M262 25h13l-24 49h-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M122 14h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M262 25h13l-24 49h-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M122 14h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M96 25H82l25 49h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M44 14h-6l11 24h7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M70 24H57l25 49h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M32 14h-6l11 24h7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M107 24h14L96 73H82z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M49 14h7L44 38h-7z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M45 24H31l25 49h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M20 14h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M82 24h14L70 73H56z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M37 14h7L32 38h-6z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M57 24h13L45 73H31z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M26 14h6L20 38h-6z" stroke-width="1.4" stroke-miterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M302 25h-14l25 49h15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M140 14h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M96 25H82l25 49h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M44 14h-6l11 24h7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M70 24H57l25 49h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M32 14h-6l11 24h7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M107 24h14L96 73H82z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M49 14h7L44 38h-7z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M45 24H31l25 49h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M20 14h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M82 24h14L70 73H56z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M37 14h7L32 38h-6z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M57 24h13L45 73H31z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M26 14h6L20 38h-6z" strokeWidth="1.4" strokeMiterlimit="10" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M302 25h-14l25 49h15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M140 14h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M288 24h14l-25 49h-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M134 14h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M288 24h14l-25 49h-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M134 14h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M313 25h13l-24 49h-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M146 14h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M313 25h13l-24 49h-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M146 14h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M148 466h-13l25 48h13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M68 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M148 466h-13l25 48h13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M68 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M122 466h-13l26 48h13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M56 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M122 466h-13l26 48h13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M56 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M135 466h13l-26 48h-13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M62 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M135 466h13l-26 48h-13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M62 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M173 466h-12l25 48h13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M80 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M173 466h-12l25 48h13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M80 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M160 466h13l-25 48h-13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M74 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M160 466h13l-25 48h-13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M74 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M251 466h-14l26 48h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M116 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M251 466h-14l26 48h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M116 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M199 466h-13l25 48h15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M92 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M199 466h-13l25 48h15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M92 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M186 466h13l-24 48h-15z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M86 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M186 466h13l-24 48h-15z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M86 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M226 467h-14l25 48h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M104 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M226 467h-14l25 48h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M104 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M211 466h13l-25 48h-13z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M98 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M211 466h13l-25 48h-13z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M98 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M237 466h14l-25 48h-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M110 233h6l-11 24h-7z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M237 466h14l-25 48h-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M110 233h6l-11 24h-7z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M277 467h-14l25 48h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M128 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M277 467h-14l25 48h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M128 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M263 467h14l-26 47h-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M122 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M263 467h14l-26 47h-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M122 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M96 466H84l25 48h13z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M44 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M96 466H84l25 48h13z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M44 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M71 466H57l25 48h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M32 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M71 466H57l25 48h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M32 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M109 466h13l-25 48H82z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M50 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M109 466h13l-25 48H82z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M50 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M302 466h-14l26 48h14z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M140 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M302 466h-14l26 48h14z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M140 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M288 466h14l-25 48h-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M134 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M288 466h14l-25 48h-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M134 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M314 467h14l-26 47h-14z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M146 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M314 467h14l-26 47h-14z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M146 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M82 466h14l-25 48H57z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M38 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M82 466h14l-25 48H57z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M38 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M45 467H31l25 47h15z" fill="#313390" fill-rule="evenodd" stroke="none" />
-        <path d="M20 233h-6l12 24h6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M45 467H31l25 47h15z" fill="#313390" fillRule="evenodd" stroke="none" />
+        <path d="M20 233h-6l12 24h6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M57 466h13l-25 48H31z" fill="#fff" fill-rule="evenodd" stroke="none" />
-        <path d="M26 233h6l-12 24h-6z" stroke-width="1.4" stroke-miterlimit="10"
+        <path d="M57 466h13l-25 48H31z" fill="#fff" fillRule="evenodd" stroke="none" />
+        <path d="M26 233h6l-12 24h-6z" strokeWidth="1.4" strokeMiterlimit="10"
           transform="matrix(2.1365 0 0 2.0187 3 -4)" />
-        <path d="M167 261c0 4-3 8-7 8H6c-4 0-7-4-7-8V9c0-4 3-7 7-7h154c4 0 7 3 7 7z" stroke="#000" stroke-width=".5"
-          stroke-linecap="butt" stroke-linejoin="miter" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
+        <path d="M167 261c0 4-3 8-7 8H6c-4 0-7-4-7-8V9c0-4 3-7 7-7h154c4 0 7 3 7 7z" stroke="#000" strokeWidth=".5"
+          strokeLinecap="butt" strokeLinejoin="miter" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
       </g>
     </symbol>
   </svg>
