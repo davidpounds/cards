@@ -1,4 +1,4 @@
-import { SUIT } from '../data/deck';
+import SUIT from '../data/suits';
 
 export const shuffle = deck => [...deck].sort(() => Math.random() - 0.5);
 
