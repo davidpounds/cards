@@ -9,7 +9,16 @@ body {
 
 .cardlist {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  align-content: center;
+  /* flex-wrap: wrap; */
   margin-bottom: 1rem;
+}
+
+.card-wrapper {
+  overflow: hidden;
+}
+
+.card-wrapper:last-of-type,
+.card-wrapper:hover {
+  overflow: visible;
 }

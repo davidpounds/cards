@@ -13,15 +13,17 @@ const Card = props => {
    } = props;
   const suitPrefix = suit.toLowerCase().substr(0, 1);
   return (
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      width={CARD_SIZE.WIDTH} 
-      height={CARD_SIZE.HEIGHT} 
-      className="card"
-      onClick={onClick}
-    >
-      <use href={`#${suitPrefix}${value}`} />
-    </svg>
+    <div className="card-wrapper">
+      <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        width={CARD_SIZE.WIDTH} 
+        height={CARD_SIZE.HEIGHT} 
+        className="card"
+        onClick={onClick}
+      >
+        <use href={`#${suitPrefix}${value}`} />
+      </svg>
+    </div>
   );
 };
 
