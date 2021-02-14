@@ -36,6 +36,7 @@ function App() {
   const reset = () => {
     setDeck(DECK);
     setPlayers([]);
+    setInPlay([]);
   };
 
   const addToInPlay = (playerNo, card) => () => {
@@ -46,8 +47,8 @@ function App() {
   };
 
   return (
-    <>
-      <div className="app cardlist">
+    <main className="app" style={{ '--card-width': CONFIG.CARD_WIDTH, '--card-height': CONFIG.CARD_HEIGHT }}>
+      <div className="cardlist deck">
         {deck.map(card => <Card key={`${card.suit}${card.value}`} {...card} />)}
         <DeckSvgInline />
       </div>
@@ -58,7 +59,7 @@ function App() {
       </div>
       {players.map(player => <Hand key={player.playerNo} hand={player.hand} playerNo={player.playerNo} addToInPlay={addToInPlay} />)}
       <InPlay inPlay={inPlay} />
-    </>
+    </main>
   );
 }
 

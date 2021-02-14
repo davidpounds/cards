@@ -1,8 +1,17 @@
 .card {
-  width: 60px;
-  height: 90px;
-  width: 240px;
-  height: 360px;
-  width: 120px;
-  height: 180px;
+  width: var(--card-width);
+  height: var(--card-height);
+}
+
+.card-wrapper {
+  overflow: hidden;
+}
+
+.card-wrapper:last-of-type,
+.card-wrapper:hover {
+  overflow: visible;
+}
+
+.card-wrapper:hover {
+  transform: translateY(-1rem);
 }

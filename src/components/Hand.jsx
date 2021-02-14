@@ -1,3 +1,4 @@
+import './Hand.css';
 import { sortHand } from '../utils/cardorder';
 import Card from './Card';
 
