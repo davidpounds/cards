@@ -1,5 +1,12 @@
 import SUIT from './suits';
 
+export const CARD_STATUS = Object.freeze({
+  IN_DECK: 'IN_DECK',
+  IN_PLAYER_HAND: 'IN_PLAYER_HAND',
+  IN_PLAY: 'IN_PLAY',
+  PLAYED: 'PLAYED',
+});
+
 export default class PlayingCard {
   constructor(suit, value) {
     this.suit = suit;
@@ -14,6 +21,14 @@ export default class PlayingCard {
 
   get colour() {
     return [SUIT.DIAMONDS, SUIT.HEARTS].includes(this.suit) ? 'red' : 'black';
+  }
+
+  get status() {
+    if (this.player === null && this.inPlay === false) return CARD_STATUS.IN_DECK;
+    if (this.player !== null && this.inPlay === false) return CARD_STATUS.IN_PLAYER_HAND;
+    if (this.player !== null && this.inPlay === true) return CARD_STATUS.IN_PLAY;
+    if (this.player === null && this.inPlay === true) return CARD_STATUS.PLAYED;
+    return null;
   }
 };
 

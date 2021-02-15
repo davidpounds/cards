@@ -1,7 +1,9 @@
+import { useSelector } from 'react-redux';
+import { getInPlayCards } from '../store/selectors/deck';
 import Card from './Card';
 
 const InPlay = props => {
-  const { inPlay } = props;
+  const inPlay = useSelector(getInPlayCards);
   return <>
     <h2>In play</h2>
     <div className="cardlist inplay">

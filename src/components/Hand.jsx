@@ -1,19 +1,22 @@
 import './Hand.css';
-import { sortHand } from '../utils/cardorder';
+import { useSelector, useDispatch } from 'react-redux';
+import { getPlayerCards } from '../store/selectors/deck';
+import { addCardToInPlay } from '../store/actions/deck';
 import Card from './Card';
 
 const Hand = props => {
-  const { deck, player } = props;
-  const hand = deck.filter(card => card.player === player);
-  const sortedHand = sortHand(hand);
+  const dispatch = useDispatch();
+  const { player } = props;
+  const hand = useSelector(getPlayerCards(player));
+
   const addToInPlay = card => () => {
-    card.inPlay = true;
+    dispatch(addCardToInPlay(card));
   };
 
   return <section className="player">
-    <h2>{player}</h2>
+    <h2>{player.description}</h2>
     <div className="cardlist hand">
-      {sortedHand.map(card => (
+      {hand.map(card => (
         <Card 
           key={`${card.suit}${card.value}`} 
           value={card.value} 
