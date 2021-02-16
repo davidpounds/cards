@@ -1,8 +1,8 @@
 import * as ACTIONS from './actiontypes';
-import DECK from '../data/deck';
+import getResetDeck from '../data/deck';
 
 const initialState = {
-  deck: DECK,
+  deck: getResetDeck(),
   players: [],
 };
 
@@ -34,7 +34,10 @@ export default (state = initialState, action) => {
         deck: [...deck],
       };
     case ACTIONS.RESET:
-      return initialState;
+      return {
+        deck: getResetDeck(),
+        players: [],
+      };
     case ACTIONS.ADD_PLAYER:
       return {
         ...state,

@@ -1,59 +1,17 @@
 import PlayingCard from './PlayingCard.class';
 import SUIT from './suits';
 
-const DECK = Object.freeze([
-  new PlayingCard(SUIT.HEARTS, 1),
-  new PlayingCard(SUIT.HEARTS, 2),
-  new PlayingCard(SUIT.HEARTS, 3),
-  new PlayingCard(SUIT.HEARTS, 4),
-  new PlayingCard(SUIT.HEARTS, 5),
-  new PlayingCard(SUIT.HEARTS, 6),
-  new PlayingCard(SUIT.HEARTS, 7),
-  new PlayingCard(SUIT.HEARTS, 8),
-  new PlayingCard(SUIT.HEARTS, 9),
-  new PlayingCard(SUIT.HEARTS, 10),
-  new PlayingCard(SUIT.HEARTS, 11),
-  new PlayingCard(SUIT.HEARTS, 12),
-  new PlayingCard(SUIT.HEARTS, 13),
-  new PlayingCard(SUIT.DIAMONDS, 1),
-  new PlayingCard(SUIT.DIAMONDS, 2),
-  new PlayingCard(SUIT.DIAMONDS, 3),
-  new PlayingCard(SUIT.DIAMONDS, 4),
-  new PlayingCard(SUIT.DIAMONDS, 5),
-  new PlayingCard(SUIT.DIAMONDS, 6),
-  new PlayingCard(SUIT.DIAMONDS, 7),
-  new PlayingCard(SUIT.DIAMONDS, 8),
-  new PlayingCard(SUIT.DIAMONDS, 9),
-  new PlayingCard(SUIT.DIAMONDS, 10),
-  new PlayingCard(SUIT.DIAMONDS, 11),
-  new PlayingCard(SUIT.DIAMONDS, 12),
-  new PlayingCard(SUIT.DIAMONDS, 13),
-  new PlayingCard(SUIT.CLUBS, 1),
-  new PlayingCard(SUIT.CLUBS, 2),
-  new PlayingCard(SUIT.CLUBS, 3),
-  new PlayingCard(SUIT.CLUBS, 4),
-  new PlayingCard(SUIT.CLUBS, 5),
-  new PlayingCard(SUIT.CLUBS, 6),
-  new PlayingCard(SUIT.CLUBS, 7),
-  new PlayingCard(SUIT.CLUBS, 8),
-  new PlayingCard(SUIT.CLUBS, 9),
-  new PlayingCard(SUIT.CLUBS, 10),
-  new PlayingCard(SUIT.CLUBS, 11),
-  new PlayingCard(SUIT.CLUBS, 12),
-  new PlayingCard(SUIT.CLUBS, 13),
-  new PlayingCard(SUIT.SPADES, 1),
-  new PlayingCard(SUIT.SPADES, 2),
-  new PlayingCard(SUIT.SPADES, 3),
-  new PlayingCard(SUIT.SPADES, 4),
-  new PlayingCard(SUIT.SPADES, 5),
-  new PlayingCard(SUIT.SPADES, 6),
-  new PlayingCard(SUIT.SPADES, 7),
-  new PlayingCard(SUIT.SPADES, 8),
-  new PlayingCard(SUIT.SPADES, 9),
-  new PlayingCard(SUIT.SPADES, 10),
-  new PlayingCard(SUIT.SPADES, 11),
-  new PlayingCard(SUIT.SPADES, 12),
-  new PlayingCard(SUIT.SPADES, 13),
-]);
+const values = [...Array(13).keys()];
+const suits = Object.values(SUIT);
 
-export default DECK;
+const getResetDeck = () => {
+  const deck = [];
+  suits.forEach(suit => {
+    values.forEach(value => {
+      deck.push(new PlayingCard(suit, value + 1));
+    });
+  });
+  return Object.freeze(deck);
+};
+
+export default getResetDeck;
