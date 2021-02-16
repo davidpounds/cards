@@ -1,11 +1,11 @@
-import { CARD_STATUS } from '../../data/PlayingCard.class';
-import SUIT from '../../data/suits';
+import { CARD_STATUS } from '../data/PlayingCard.class';
+import SUIT from '../data/suits';
 
 const suitSortOrder = [SUIT.SPADES, SUIT.DIAMONDS, SUIT.CLUBS, SUIT.HEARTS];
 
 export const getDeck = store => {
   console.log(store);
-  return store.deck.deck;
+  return store.deck;
 };
 
 export const getAvailableCards = store => getDeck(store)
@@ -24,3 +24,5 @@ export const getInPlayCards = store => getDeck(store)
 
 export const getPlayedCards = store => getDeck(store)
   .filter(card => card.status === CARD_STATUS.PLAYED);
+
+export const getPlayers = store => store.players;

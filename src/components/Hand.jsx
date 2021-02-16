@@ -1,7 +1,7 @@
 import './Hand.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { getPlayerCards } from '../store/selectors/deck';
-import { addCardToInPlay } from '../store/actions/deck';
+import { getPlayerCards } from '../store/selectors';
+import { addCardToInPlay } from '../store/actions';
 import Card from './Card';
 
 const Hand = props => {
@@ -14,7 +14,7 @@ const Hand = props => {
   };
 
   return <section className="player">
-    <h2>{player.description}</h2>
+    <h2>{player}</h2>
     <div className="cardlist hand">
       {hand.map(card => (
         <Card 
