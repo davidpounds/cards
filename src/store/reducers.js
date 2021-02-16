@@ -8,7 +8,13 @@ const initialState = {
 
 export default (state = initialState, action) => {
   const { data = {}, type = null } = action;
-  const { player = 'Unknown player', numberOfCards = 0, availableCards = [], card = null, cardsInPlay = [] } = data;
+  const { 
+    player = 'Unknown player', 
+    numberOfCards = 0, 
+    availableCards = [], 
+    card = null, 
+    cardsInPlay = [], 
+  } = data;
   const { deck, players } = state;
 
   switch (type) {

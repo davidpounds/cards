@@ -1,12 +1,15 @@
 import './Hand.css';
+import CONFIG from '../data/config';
 import { useSelector, useDispatch } from 'react-redux';
-import { getPlayerCards, getInPlayCards } from '../store/selectors';
-import { addCardToInPlay } from '../store/actions';
+import { getPlayerCards, getInPlayCards, getAvailableCards } from '../store/selectors';
+import { addCardToInPlay, dealHand } from '../store/actions';
+
 import Card from './Card';
 
 const Hand = props => {
   const { player } = props;
   const dispatch = useDispatch();
+  const unassigned = useSelector(getAvailableCards);
   const hand = useSelector(getPlayerCards(player));
   const inPlay = useSelector(getInPlayCards);
   const canPlay = inPlay.find(card => card.player === player) === undefined;
@@ -17,10 +20,20 @@ const Hand = props => {
     }
   };
 
+  const dealHandHandler = () => {
+    dispatch(dealHand(player, CONFIG.CARDS_TO_DEAL, unassigned));
+  }
+
   return <section className="player">
     <h2>{player}</h2>
-    {canPlay && <p>Ready to play</p>}
-    {!canPlay && <p>Has played</p>}
+    {hand?.length === 0 && (
+      <>
+        <p>Waiting for cards</p>
+        <button onClick={dealHandHandler}>Deal hand</button>
+      </>
+    )}
+    {hand?.length > 0 && canPlay && <p>Ready to play</p>}
+    {hand?.length > 0 && !canPlay && <p>Has played</p>}
     <div className={`cardlist hand ${canPlay ? 'canplay' : 'cantplay'}`}>
       {hand.map(card => (
         <Card 

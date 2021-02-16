@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { getAvailableCards, getPlayedCards, getPlayers } from './store/selectors';
-import { shuffleDeck, dealHand, resetGame, addPlayer } from './store/actions';
+import { getAvailableCards, getPlayers } from './store/selectors';
+import { shuffleDeck, resetGame, addPlayer } from './store/actions';
 
 import './App.css';
 import CONFIG from './data/config';
@@ -29,7 +29,6 @@ function App() {
     const playerNo = playerCount + 1;
     const newPlayer = `Player ${playerNo}`;
     dispatch(addPlayer(newPlayer));
-    dispatch(dealHand(newPlayer, CONFIG.CARDS_TO_DEAL, unassigned));
   };
 
   const reset = () => {
