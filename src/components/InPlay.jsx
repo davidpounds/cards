@@ -18,7 +18,10 @@ const InPlay = props => {
     {inPlay?.length > 0 &&
       <>
         <div className="cardlist inplay">
-          {inPlay.map(card => <Card key={`${card.suit}${card.value}`} suit={card.suit} value={card.value} />)}
+          {inPlay.map(card => <div>
+            <p>{card.player}</p>
+            <Card key={`${card.suit}${card.value}`} suit={card.suit} value={card.value} />
+          </div>)}
         </div>
         <button onClick={addCardsToPlayedHandler} disabled={!allPlayersHavePlayed}>Move to played</button>
       </>
