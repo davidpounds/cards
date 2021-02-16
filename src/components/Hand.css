@@ -1,3 +1,11 @@
 .hand {
   max-width: calc(var(--card-width) * 3.5);
 }
+
+.hand.canplay .card-wrapper {
+  cursor: pointer;
+}
+
+.hand.cantplay .card-wrapper {
+  cursor: not-allowed;
+}
