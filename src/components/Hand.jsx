@@ -19,6 +19,8 @@ const Hand = props => {
 
   return <section className="player">
     <h2>{player}</h2>
+    {canPlay && <p>Ready to play</p>}
+    {!canPlay && <p>Has played</p>}
     <div className={`cardlist hand ${canPlay ? 'canplay' : 'cantplay'}`}>
       {hand.map(card => (
         <Card 

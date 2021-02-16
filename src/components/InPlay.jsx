@@ -11,10 +11,13 @@ const InPlay = props => {
   };
   return <>
     <h2>In play</h2>
-    <div className="cardlist inplay">
-      {inPlay.map(card => <Card key={`${card.suit}${card.value}`} suit={card.suit} value={card.value} />)}
-    </div>
-    {inPlay.length > 0 && <button onClick={addCardsToPlayedHandler}>Move to played</button>}
+    {inPlay?.length > 0 &&
+      <div className="cardlist inplay">
+        {inPlay.map(card => <Card key={`${card.suit}${card.value}`} suit={card.suit} value={card.value} />)}
+      </div>
+    }
+    {(inPlay?.length ?? 0) === 0 && <div>No player has played a card</div>}
+    {inPlay?.length > 0 && <button onClick={addCardsToPlayedHandler}>Move to played</button>}
   </>;
 };
 
