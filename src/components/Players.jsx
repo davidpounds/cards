@@ -12,6 +12,7 @@ const Players = props => {
       <Hand 
         key={player} 
         player={player} 
+        noOfPlayers={players.length}
       />
     ))}
   </div>;

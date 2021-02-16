@@ -7,12 +7,15 @@ import { addCardToInPlay, dealHand } from '../store/actions';
 import Card from './Card';
 
 const Hand = props => {
-  const { player } = props;
+  const { player, noOfPlayers } = props;
   const dispatch = useDispatch();
   const unassigned = useSelector(getAvailableCards);
   const hand = useSelector(getPlayerCards(player));
   const inPlay = useSelector(getInPlayCards);
   const canPlay = inPlay.find(card => card.player === player) === undefined;
+  const equalCardsPerPlayer = (CONFIG.CARDS_IN_DECK % noOfPlayers) === 0;
+  const cardsPerPlayer = CONFIG.CARDS_IN_DECK / noOfPlayers;
+  const cardsToDeal = equalCardsPerPlayer ? cardsPerPlayer : Math.floor(cardsPerPlayer); // TODO - decide how to deal with extra cards
 
   const addToInPlay = card => () => {
     if (canPlay) {
@@ -21,7 +24,7 @@ const Hand = props => {
   };
 
   const dealHandHandler = () => {
-    dispatch(dealHand(player, CONFIG.CARDS_TO_DEAL, unassigned));
+    dispatch(dealHand(player, cardsToDeal, unassigned));
   }
 
   return <section className="player">
