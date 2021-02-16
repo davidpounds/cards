@@ -1,5 +1,5 @@
 .hand {
-  max-width: calc(var(--card-width) * 3.5);
+  
 }
 
 .hand.canplay .card-wrapper {

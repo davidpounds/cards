@@ -1,4 +1,10 @@
 .players {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
+}
+
+.player {
+  max-width: calc(var(--card-width) * 3.5);
+  flex: 1 1 calc(var(--card-width) * 3.5);
 }

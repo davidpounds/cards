@@ -3,10 +3,7 @@ import SUIT from '../data/suits';
 
 const suitSortOrder = [SUIT.SPADES, SUIT.DIAMONDS, SUIT.CLUBS, SUIT.HEARTS];
 
-export const getDeck = store => {
-  console.log(store);
-  return store.deck;
-};
+export const getDeck = store => store.deck;
 
 export const getAvailableCards = store => getDeck(store)
   .filter(card => card.status === CARD_STATUS.IN_DECK);
