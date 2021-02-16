@@ -34,7 +34,7 @@ const Hand = props => {
     )}
     {hand?.length > 0 && canPlay && <p>Ready to play</p>}
     {hand?.length > 0 && !canPlay && <p>Has played</p>}
-    <div className={`cardlist hand ${canPlay ? 'canplay' : 'cantplay'}`}>
+    <div className={`cardlist hover-effect hand ${canPlay ? 'canplay' : 'cantplay'}`}>
       {hand.map(card => (
         <Card 
           key={`${card.suit}${card.value}`} 

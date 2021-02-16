@@ -7,12 +7,12 @@
   overflow: hidden;
 }
 
-.card-wrapper:last-of-type,
-.card-wrapper:hover {
+.card-wrapper:last-of-type {
   overflow: visible;
 }
 
-.card-wrapper:hover {
+.hover-effect .card-wrapper:hover {
+  overflow: visible;
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
 }

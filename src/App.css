@@ -10,8 +10,11 @@ body {
 .cardlist {
   display: flex;
   margin-bottom: 1rem;
+  min-height: var(--card-height);
 }
 
-.deck {
-  max-width: calc(var(--card-width) * 26);
+
+.cardlist.available .card-wrapper,
+.cardlist.played .card-wrapper {
+  flex: 0 1 1rem;
 }

@@ -8,7 +8,7 @@ const PlayedCards = props => {
     <h2>Played</h2>
     {played?.length > 0 && 
       <div className="cardlist played">
-        {played.map(card => <Card key={`${card.suit}${card.value}`} suit={card.suit} value={card.value} />)}
+        {played.map(card => <Card key={`${card.suit}${card.value}`} />)}
       </div>
     }
     {(played?.length ?? 0) === 0 && <div>No cards have been played</div>}
