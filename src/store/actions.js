@@ -24,13 +24,6 @@ export const resetGame = () => ({
   type: ACTIONS.RESET,
 });
 
-export const addPlayer = player => ({
-  type: ACTIONS.ADD_PLAYER,
-  data: {
-    player,
-  },
-});
-
 export const addCardsToPlayed = cardsInPlay => ({
   type: ACTIONS.ADD_CARDS_TO_PLAYED,
   data: {

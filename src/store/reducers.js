@@ -1,9 +1,12 @@
 import * as ACTIONS from './actiontypes';
+import CONFIG from '../data/config';
 import getResetDeck from '../data/deck';
+
+const initialPlayers = [...new Array(CONFIG.MAX_PLAYERS).keys()].map(i => `Player ${i + 1}`);
 
 const initialState = {
   deck: getResetDeck(),
-  players: [],
+  players: initialPlayers,
 };
 
 export default (state = initialState, action) => {
@@ -43,11 +46,6 @@ export default (state = initialState, action) => {
       return {
         deck: getResetDeck(),
         players: [],
-      };
-    case ACTIONS.ADD_PLAYER:
-      return {
-        ...state,
-        players: [...players, player],
       };
     case ACTIONS.ADD_CARDS_TO_PLAYED:
       cardsInPlay.forEach(card => {
