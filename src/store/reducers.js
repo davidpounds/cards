@@ -60,8 +60,7 @@ const reset = state => ({
 });
 
 const addCardsToPlayed = (state, data) => {
-  const { cardsInPlay } = data;
-  cardsInPlay.forEach(card => {
+  data.cardsInPlay.forEach(card => {
     card.player = null;
   });
   return {
