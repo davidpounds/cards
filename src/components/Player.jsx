@@ -1,11 +1,11 @@
-import './Hand.css';
+import './Player.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { getPlayerCards, getInPlayCards } from '../store/selectors';
 import { addCardToInPlay } from '../store/actions';
 
 import Card from './Card';
 
-const Hand = props => {
+const Player = props => {
   const { player } = props;
   const dispatch = useDispatch();
   const hand = useSelector(getPlayerCards(player));
@@ -39,4 +39,4 @@ const Hand = props => {
 const Waiting = () => <svg className="icon"><use href="#waiting" /></svg>;
 const Played = () => <svg className="icon"><use href="#tick" /></svg>;
 
-export default Hand;
+export default Player;

@@ -18,7 +18,7 @@ const GameControls = props => {
     dispatch(dealHand(players, numberOfCards, availableCards));
   };
 
-  return <div>
+  return <div className="game-controls">
     <button onClick={reset}>Reset game</button>
     <button onClick={dealHandler} disabled={availableCards.length === 0}>Deal hand</button>
   </div>;

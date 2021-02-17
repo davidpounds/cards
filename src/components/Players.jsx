@@ -1,7 +1,7 @@
 import './Players.css';
 import { useSelector } from 'react-redux';
 import { getPlayers } from '../store/selectors';
-import Hand from './Hand';
+import Player from './Player';
 
 const Players = props => {
 
@@ -9,7 +9,7 @@ const Players = props => {
 
   return <div className="players">
     {players.map(player => (
-      <Hand 
+      <Player 
         key={player} 
         player={player} 
         noOfPlayers={players.length}
