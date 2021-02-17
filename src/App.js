@@ -19,10 +19,10 @@ function App() {
 
   return (
     <main className="app" style={{ '--card-width': CONFIG.CARD_WIDTH, '--card-height': CONFIG.CARD_HEIGHT }}>
-      <AvailableCards />
       <div>
-        <button onClick={reset}>Reset</button>
+        <button onClick={reset}>Reset game</button>
       </div>
+      <AvailableCards />
       <Players />
       <InPlay />
       <PlayedCards />

@@ -6,12 +6,9 @@ const PlayedCards = props => {
   const played = useSelector(getPlayedCards);
   return <>
     <h2>Played</h2>
-    {played?.length > 0 && 
-      <div className="cardlist played">
-        {played.map(card => <Card key={`${card.suit}${card.value}`} />)}
-      </div>
-    }
-    {(played?.length ?? 0) === 0 && <div>No cards have been played</div>}
+    <div className="cardlist played" data-empty-message="No cards have been played">
+      {played.map(card => <Card key={`${card.suit}${card.value}`} />)}
+    </div>
   </>;
 };
 

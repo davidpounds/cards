@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -13,6 +15,17 @@ body {
   min-height: var(--card-height);
 }
 
+.cardlist:empty::after {
+  content: attr(data-empty-message);
+  display: block;
+  width: var(--card-width);
+  height: var(--card-height);
+  border-radius: 4px;
+  color: #666;
+  border: 1px dashed;
+  padding: 1rem;
+  font-size: 0.9em;
+}
 
 .cardlist.available .card-wrapper,
 .cardlist.played .card-wrapper {
