@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { shuffleDeck, resetGame } from './store/actions';
+import { resetGame } from './store/actions';
 
 import './App.css';
 import CONFIG from './data/config';
@@ -13,10 +13,6 @@ function App() {
 
   const dispatch = useDispatch();
 
-  const shuffleDeckHandler = () => {
-    dispatch(shuffleDeck());
-  };
-
   const reset = () => {
     dispatch(resetGame());
   }
@@ -25,7 +21,6 @@ function App() {
     <main className="app" style={{ '--card-width': CONFIG.CARD_WIDTH, '--card-height': CONFIG.CARD_HEIGHT }}>
       <AvailableCards />
       <div>
-        <button onClick={shuffleDeckHandler}>Shuffle</button>
         <button onClick={reset}>Reset</button>
       </div>
       <Players />

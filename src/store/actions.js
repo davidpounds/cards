@@ -1,9 +1,5 @@
 import * as ACTIONS from './actiontypes';
 
-export const shuffleDeck = () => ({
-  type: ACTIONS.SHUFFLE_DECK,
-});
-
 export const addCardToInPlay = card => ({
   type: ACTIONS.ADD_CARD_TO_IN_PLAY,
   data: {

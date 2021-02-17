@@ -1,6 +1,6 @@
 export default Object.freeze({
-  HEARTS: 'Hearts',
+  SPADES: 'Spades',
   DIAMONDS: 'Diamonds',
   CLUBS: 'Clubs',
-  SPADES: 'Spades',
+  HEARTS: 'Hearts',
 });

@@ -1,7 +1,7 @@
 import { CARD_STATUS } from '../data/PlayingCard.class';
-import SUIT from '../data/suits';
+import SUITS from '../data/suits';
 
-const suitSortOrder = [SUIT.SPADES, SUIT.DIAMONDS, SUIT.CLUBS, SUIT.HEARTS];
+const suitSortOrder = Object.values(SUITS);
 
 export const getDeck = store => store.deck;
 

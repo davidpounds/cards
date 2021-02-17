@@ -1,8 +1,8 @@
 import PlayingCard from './PlayingCard.class';
-import SUIT from './suits';
+import SUITS from './suits';
 
 const values = [...Array(13).keys()];
-const suits = Object.values(SUIT);
+const suits = Object.values(SUITS);
 
 const getResetDeck = () => {
   const deck = [];

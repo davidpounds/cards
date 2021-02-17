@@ -1,4 +1,4 @@
-import SUIT from './suits';
+import SUITS from './suits';
 
 export const CARD_STATUS = Object.freeze({
   IN_DECK: 'IN_DECK',
@@ -20,7 +20,7 @@ export default class PlayingCard {
   }
 
   get colour() {
-    return [SUIT.DIAMONDS, SUIT.HEARTS].includes(this.suit) ? 'red' : 'black';
+    return [SUITS.DIAMONDS, SUITS.HEARTS].includes(this.suit) ? 'red' : 'black';
   }
 
   get status() {

@@ -1,11 +1,12 @@
 import * as ACTIONS from './actiontypes';
 import CONFIG from '../data/config';
 import getResetDeck from '../data/deck';
+import { shuffleDeck } from '../data/randomizing';
 
 const initialPlayers = [...new Array(CONFIG.MAX_PLAYERS).keys()].map(i => `Player ${i + 1}`);
 
 const initialState = {
-  deck: getResetDeck(),
+  deck: shuffleDeck(getResetDeck()),
   players: initialPlayers,
 };
 
@@ -13,8 +14,6 @@ export default (state = initialState, action) => {
   const { data = {}, type = null } = action;
 
   switch (type) {
-    case ACTIONS.SHUFFLE_DECK:
-      return shuffleDeck(state);
     case ACTIONS.ADD_CARD_TO_IN_PLAY:
       return addCardToInPlay(state, data);
     case ACTIONS.DEAL_HAND:
@@ -28,17 +27,12 @@ export default (state = initialState, action) => {
   }
 };
 
-const shuffleDeck = state => ({
-  ...state,
-  deck: [...state.deck].sort(() => Math.random() - 0.5)
-});
-
 const addCardToInPlay = (state, data) => {
   data.card.inPlay = true;
   return {
     ...state,
     deck: [...state.deck],
-  }
+  };
 };
 
 const dealHand = (state, data) => {
@@ -56,7 +50,7 @@ const dealHand = (state, data) => {
 
 const reset = state => ({
   ...state,
-  deck: getResetDeck(),
+  deck: shuffleDeck(getResetDeck()),
 });
 
 const addCardsToPlayed = (state, data) => {
