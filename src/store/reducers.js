@@ -36,10 +36,13 @@ const addCardToInPlay = (state, data) => {
 };
 
 const dealHand = (state, data) => {
-  const { availableCards, numberOfCards, player } = data;
-  if (availableCards.length >= numberOfCards) {
-    availableCards.slice(0, numberOfCards).forEach(card => {
-      card.player = player;
+  const { availableCards, numberOfCards, players } = data;
+  const numberOfPlayers = players.length;
+  const numberOfCardsToDeal = numberOfCards * numberOfPlayers;
+  if (availableCards.length >= numberOfCardsToDeal) {
+    [...new Array(numberOfCardsToDeal).keys()].forEach(i => {
+      const playerIndex = Math.floor(i / numberOfCards);
+      availableCards[i].player = players[playerIndex];
     });
   }
   return {
