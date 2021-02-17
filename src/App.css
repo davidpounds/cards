@@ -25,6 +25,7 @@ body {
   border: 1px dashed;
   padding: 1rem;
   font-size: 0.9em;
+  text-align: center;
 }
 
 .cardlist.available .card-wrapper,

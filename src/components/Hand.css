@@ -1,5 +1,23 @@
-.hand {
-  
+.player {
+  --icon-size: 16px;
+}
+
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  margin-left: 0.5rem;
+}
+
+.deal-icon {
+  height: calc(var(--icon-size) * 1.5);
+}
+
+.btn-deal {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 .hand.canplay .card-wrapper {

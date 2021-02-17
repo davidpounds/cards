@@ -7,7 +7,7 @@ import AvailableCards from './components/AvailableCards';
 import Players from './components/Players';
 import InPlay from './components/InPlay';
 import PlayedCards from './components/PlayedCards';
-import DeckSvgInline from './components/DeckSvgInline';
+import SvgInlineSprite from './components/SvgInline';
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
       <Players />
       <InPlay />
       <PlayedCards />
-      <DeckSvgInline />
+      <SvgInlineSprite />
     </main>
   );
 }

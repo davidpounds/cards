@@ -4141,7 +4141,7 @@ const DeckSvgInline = () => (
       <path
         d="M4416 101c1 4 5 14 12 14 9 0 13-8 13-18 0-7-3-11-5-17l-10-16-15-19-15 19-10 16c-2 6-5 10-5 17 0 10 4 18 13 18 7 0 11-10 12-14 1-1 1 0 1 1l-2 16-4 17c5-2 15-2 20 0l-4-17-2-16c0-1 0-2 1-1zm-62 17c0 2 2 7 6 7s6-4 6-9l-2-8-5-8-8-10-7 10-5 8c-2 3-3 5-3 8 0 5 2 9 7 9 3 0 5-5 6-7v1l-1 8-2 8h10l-2-8-1-8zm232 321c-1-4-5-14-12-14-9 0-13 8-13 18 0 7 3 12 5 17l10 16 15 19 15-19 10-16c2-5 5-10 5-17 0-10-4-18-13-18-7 0-11 10-12 14-1 1-1 0-1-1l2-16 4-17c-5 2-15 2-20 0l4 17 2 16c0 1 0 2-1 1zm63-17c-1-2-3-7-6-7-5 0-7 4-7 9 0 4 1 6 3 9l5 8 7 9 8-9 5-8 2-9c0-5-2-9-6-9s-6 5-6 7h-1l1-8 2-9h-10l2 9 1 8s0 1 0 0z" />
     </symbol>
-    <symbol id="back" viewBox="0 0 360 540" version="1.0">
+    <symbol id="back" viewBox="0 0 360 540">
       <g fill="none" stroke="#17067a" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
         <path d="M167 261c0 4-3 8-7 8H6c-4 0-7-4-7-8V10c0-5 3-8 7-8h154c4 0 7 3 7 8z" fill="#fff" stroke="#000"
           strokeWidth=".5" strokeLinecap="butt" strokeLinejoin="miter" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
@@ -4457,6 +4457,16 @@ const DeckSvgInline = () => (
         <path d="M167 261c0 4-3 8-7 8H6c-4 0-7-4-7-8V9c0-4 3-7 7-7h154c4 0 7 3 7 7z" stroke="#000" strokeWidth=".5"
           strokeLinecap="butt" strokeLinejoin="miter" transform="matrix(2.1365 0 0 2.0187 3 -4)" />
       </g>
+    </symbol>
+
+    <symbol id="waiting" viewBox="0 0 100 100">
+      <path fill="#666" d="M100 50A50 50 0 000 50m9 0a41 41 0 1182 0">
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="1s" from="0 50 50" to="360 50 50" repeatCount="indefinite" />
+      </path>
+    </symbol>
+
+    <symbol id="tick" viewBox="0 0 100 100">
+      <path d="M100 50A50 50 0 100 50a50 50 0 00100 0zM88 31L41 78l-3 3-26-26 11-12 15 15 39-39z" fill="#41ad49"/>
     </symbol>
   </svg>
 );

@@ -28,10 +28,12 @@ const Hand = props => {
   }
 
   return <section className="player">
-    <h2>{player}</h2>
-    {hand?.length === 0 && <p><button onClick={dealHandHandler}>Deal hand</button></p>}
-    {hand?.length > 0 && canPlay && <p>Ready to play</p>}
-    {hand?.length > 0 && !canPlay && <p>Has played</p>}
+    <h2>
+      {player}
+      {hand?.length === 0 && <button className="btn-deal" title="Deal hand" onClick={dealHandHandler}><Deal /></button>}
+      {hand?.length > 0 && canPlay && <Waiting />}
+      {hand?.length > 0 && !canPlay && <Played />}
+    </h2>
     <div className={`cardlist hover-effect hand ${canPlay ? 'canplay' : 'cantplay'}`} data-empty-message="Hand is empty">
       {hand.map(card => (
         <Card 
@@ -43,5 +45,9 @@ const Hand = props => {
     </div>
   </section>;
 };
+
+const Waiting = () => <svg className="icon"><use href="#waiting" /></svg>;
+const Played = () => <svg className="icon"><use href="#tick" /></svg>;
+const Deal = () => <svg className="icon deal-icon"><use href="#back" /></svg>;
 
 export default Hand;
