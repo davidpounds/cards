@@ -11,50 +11,60 @@ const initialState = {
 
 export default (state = initialState, action) => {
   const { data = {}, type = null } = action;
-  const { 
-    player = 'Unknown player', 
-    numberOfCards = 0, 
-    availableCards = [], 
-    card = null, 
-    cardsInPlay = [], 
-  } = data;
-  const { deck, players } = state;
 
   switch (type) {
     case ACTIONS.SHUFFLE_DECK:
-      return {
-        ...state,
-        deck: [...deck].sort(() => Math.random() - 0.5)
-      };
+      return shuffleDeck(state);
     case ACTIONS.ADD_CARD_TO_IN_PLAY:
-      card.inPlay = true;
-      return {
-        ...state,
-        deck: [...deck],
-      }
+      return addCardToInPlay(state, data);
     case ACTIONS.DEAL_HAND:
-      if (availableCards.length >= numberOfCards) {
-        availableCards.slice(0, numberOfCards).forEach(card => {
-          card.player = player;
-        });
-      }
-      return {
-        ...state,
-        deck: [...deck],
-      };
+      return dealHand(state, data);
     case ACTIONS.RESET:
-      return {
-        deck: getResetDeck(),
-        players: [],
-      };
+      return reset(state);
     case ACTIONS.ADD_CARDS_TO_PLAYED:
-      cardsInPlay.forEach(card => {
-        card.player = null;
-      });
-      return {
-        ...state,
-      };
+      return addCardsToPlayed(state, data);
     default:
       return state;
   }
 };
+
+const shuffleDeck = state => ({
+  ...state,
+  deck: [...state.deck].sort(() => Math.random() - 0.5)
+});
+
+const addCardToInPlay = (state, data) => {
+  data.card.inPlay = true;
+  return {
+    ...state,
+    deck: [...state.deck],
+  }
+};
+
+const dealHand = (state, data) => {
+  const { availableCards, numberOfCards, player } = data;
+  if (availableCards.length >= numberOfCards) {
+    availableCards.slice(0, numberOfCards).forEach(card => {
+      card.player = player;
+    });
+  }
+  return {
+    ...state,
+    deck: [...state.deck],
+  };
+};
+
+const reset = state => ({
+  ...state,
+  deck: getResetDeck(),
+});
+
+const addCardsToPlayed = (state, data) => {
+  const { cardsInPlay } = data;
+  cardsInPlay.forEach(card => {
+    card.player = null;
+  });
+  return {
+    ...state,
+  };
+}
