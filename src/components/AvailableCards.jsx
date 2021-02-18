@@ -1,3 +1,4 @@
+import './AvailableCards.css';
 import { useSelector } from 'react-redux';
 import { getAvailableCards } from '../store/selectors';
 import Card from './Card';

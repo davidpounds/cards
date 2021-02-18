@@ -6,7 +6,7 @@ import { addCardToInPlay } from '../store/actions';
 import Card from './Card';
 
 const Player = props => {
-  const { player } = props;
+  const { player, className } = props;
   const dispatch = useDispatch();
   const hand = useSelector(getPlayerCards(player));
   const inPlay = useSelector(getInPlayCards);
@@ -18,7 +18,7 @@ const Player = props => {
     }
   };
 
-  return <section className="player">
+  return <section className={`player ${className}`}>
     <h2>
       {player}
       {hand?.length > 0 && canPlay && <Waiting />}

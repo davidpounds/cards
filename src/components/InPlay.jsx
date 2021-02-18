@@ -1,3 +1,4 @@
+import './InPlay.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { getInPlayCards, getPlayers } from '../store/selectors';
 import { addCardsToPlayed } from '../store/actions';

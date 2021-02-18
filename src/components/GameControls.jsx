@@ -1,3 +1,4 @@
+import './GameControls.css';
 import CONFIG from '../data/config';
 import { useDispatch, useSelector } from 'react-redux';
 import { resetGame, dealHand } from '../store/actions';

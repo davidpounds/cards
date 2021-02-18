@@ -1,3 +1,4 @@
+import './PlayedCards.css';
 import { useSelector } from 'react-redux';
 import { getPlayedCards } from '../store/selectors';
 import Card from './Card';
