@@ -25,15 +25,27 @@ wss.on('connection', ws => {
 
   ws.on('message', message => {
     console.log('Received: %s', message);
-    const data = JSON.parse(message);
-    if (data?.broadcast === true) {
-      wss.clients.forEach(client => {
-        if (client !== ws) {
-          client.send(message);
-        }
-      });
+    let data;
+    try {
+      data = JSON.parse(message);
+    }
+    catch (err) {
+      data = {
+        error: true,
+      };
+    }
+    if (!data.error) {
+      if (data?.broadcast === true) {
+        wss.clients.forEach(client => {
+          if (client !== ws) {
+            client.send(message);
+          }
+        });
+      } else {
+        ws.send(`You sent ${message}`);
+      }
     } else {
-      ws.send(`You sent ${message}`);
+      ws.send('Non-JSON string sent');
     }
   });
   ws.send('Connected to websocket');
