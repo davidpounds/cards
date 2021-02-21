@@ -4464,15 +4464,10 @@ const DeckSvgInline = () => (
       <path d="M653 255L500 408 347 255l-92 92 153 153-153 153 92 92 153-153 153 153 92-92-153-153 153-153-92-92z" fill="currentColor" />
     </symbol>
 
-    {/* <symbol id="waiting" viewBox="0 0 100 100">
-      <path fill="#666" d="M100 50A50 50 0 000 50m9 0a41 41 0 1182 0">
-        <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="1s" from="0 50 50" to="360 50 50" repeatCount="indefinite" />
-      </path>
+    <symbol id="reset" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M20 12a8 8 0 11-4.9-7.4l-2.5 2.7 7.5-.2-.6-7.1-2.2 2.4A11 11 0 1023 12h-3z" />
     </symbol>
 
-    <symbol id="tick" viewBox="0 0 100 100">
-      <path d="M100 50A50 50 0 100 50a50 50 0 00100 0zM88 31L41 78l-3 3-26-26 11-12 15 15 39-39z" fill="#41ad49"/>
-    </symbol> */}
   </svg>
 );
 

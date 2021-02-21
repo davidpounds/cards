@@ -16,7 +16,7 @@ const InPlay = props => {
   };
   return <div className="in-play">
     {allPlayersHavePlayed && <div className="move-to-played">
-      <button onClick={addCardsToPlayedHandler}>
+      <button onClick={addCardsToPlayedHandler} title="Move to played">
         <svg><use href="#clear" /></svg>
       </button>
     </div>}

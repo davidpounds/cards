@@ -2,3 +2,15 @@
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
+
+.game-controls button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.game-controls button svg {
+  color: #ccc;
+  width: 32px;
+  height: 32px;
+}

@@ -7,12 +7,10 @@ export const addCardToInPlay = card => ({
   },
 });
 
-export const dealHand = (players, numberOfCards, availableCards) => ({
+export const dealHand = (players) => ({
   type: ACTIONS.DEAL_HAND,
   data: {
     players,
-    numberOfCards,
-    availableCards,
   },
 });
 
