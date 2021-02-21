@@ -10,6 +10,8 @@ body {
 }
 
 .app {
+  --grid-width: calc(var(--card-width) * var(--hand-width-multiplier) * 2);
+  margin-left: calc((100vw - 2rem - var(--grid-width)) / 2);
   display: grid;
   grid-template-columns: var(--card-height) calc(var(--card-width) / 2) calc(var(--card-width) * var(--hand-width-multiplier)) calc(var(--card-width) / 2) var(--card-height);
   grid-template-rows: var(--card-height) calc(var(--card-width) / 2) calc(var(--card-width) * var(--hand-width-multiplier)) calc(var(--card-width) / 2) var(--card-height);

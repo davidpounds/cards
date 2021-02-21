@@ -15,7 +15,11 @@ const InPlay = props => {
     }
   };
   return <div className="in-play">
-    {allPlayersHavePlayed && <div className="move-to-played"><button onClick={addCardsToPlayedHandler}>Move to played</button></div>}
+    {allPlayersHavePlayed && <div className="move-to-played">
+      <button onClick={addCardsToPlayedHandler}>
+        <svg><use href="#clear" /></svg>
+      </button>
+    </div>}
     {inPlay.map(card => <Card 
       key={`${card.suit}${card.value}`} 
       suit={card.suit}

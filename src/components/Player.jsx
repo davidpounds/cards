@@ -21,8 +21,6 @@ const Player = props => {
   return <section className={`player ${className}`}>
     <h2 className="player-name">
       {player}
-      {hand?.length > 0 && canPlay && <Waiting />}
-      {hand?.length > 0 && !canPlay && <Played />}
     </h2>
     <div className={`cardlist hover-effect hand ${canPlay ? 'canplay' : 'cantplay'}`} data-empty-message="Hand is empty">
       {hand.map(card => (
@@ -35,8 +33,5 @@ const Player = props => {
     </div>
   </section>;
 };
-
-const Waiting = () => <svg className="icon"><use href="#waiting" /></svg>;
-const Played = () => <svg className="icon"><use href="#tick" /></svg>;
 
 export default Player;
