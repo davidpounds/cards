@@ -1,4 +1,45 @@
 .in-play {
-  grid-column: 2 / 3;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  display: grid;
+  grid-template-columns: calc(var(--card-width) * 0.25) calc(var(--card-width) * 0.5) var(--card-width) calc(var(--card-width) * 0.5) var(--card-width) calc(var(--card-width) * 0.5) calc(var(--card-width) * 0.25);
+  grid-template-rows: calc(var(--card-width) * 0.25) calc(var(--card-width) * 0.5) var(--card-width) calc(var(--card-width) * 0.5) var(--card-width) calc(var(--card-width) * 0.5) calc(var(--card-width) * 0.25);
+}
+
+.move-to-played {
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.in-play .card-wrapper {
+  overflow: visible;
+}
+
+.in-play .player1 {
+  grid-column: 3 / 4;
   grid-row: 2 / 4;
+}
+
+.in-play .player2 {
+  grid-column: 5 / 7;
+  grid-row: 3 / 4;
+}
+
+.in-play .player3 {
+  grid-column: 5 / 6;
+  grid-row: 5 / 7;
+
+}
+.in-play .player4 {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+}
+
+.in-play .player2,
+.in-play .player4 {
+  transform: rotate(-90deg);
+  transform-origin: calc(var(--card-width) * 0.5) calc(var(--card-width) * 0.5);
 }

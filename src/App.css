@@ -5,13 +5,14 @@
 }
 
 body {
-  background: #ccc;
+  background: rgb(4, 68, 9);
+  padding: 1rem;
 }
 
 .app {
   display: grid;
-  grid-template-columns: repeat(3, 33.33%);
-  grid-template-rows: repeat(43, 33.33%);
+  grid-template-columns: var(--card-height) calc(var(--card-width) / 2) calc(var(--card-width) * var(--hand-width-multiplier)) calc(var(--card-width) / 2) var(--card-height);
+  grid-template-rows: var(--card-height) calc(var(--card-width) / 2) calc(var(--card-width) * var(--hand-width-multiplier)) calc(var(--card-width) / 2) var(--card-height);
 }
 
 .cardlist {

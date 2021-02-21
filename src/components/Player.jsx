@@ -19,7 +19,7 @@ const Player = props => {
   };
 
   return <section className={`player ${className}`}>
-    <h2>
+    <h2 className="player-name">
       {player}
       {hand?.length > 0 && canPlay && <Waiting />}
       {hand?.length > 0 && !canPlay && <Played />}

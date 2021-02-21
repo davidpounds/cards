@@ -7,15 +7,14 @@ const CARD_SIZE = Object.freeze({
 
 const Card = props => {
   const { 
+    className = '',
     onClick = null,
-    player = null,
     suit = 'b', 
     value = 'ack',
    } = props;
   const suitPrefix = suit.toLowerCase().substr(0, 1);
   return (
-    <div className="card-wrapper">
-      {player && <span className="card-player">{player}</span>}
+    <div className={`card-wrapper ${className}`}>
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
         width={CARD_SIZE.WIDTH} 

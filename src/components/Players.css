@@ -2,27 +2,59 @@
   display: contents;
 }
 
-.player1 {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+.player {
+  position: relative;
 }
 
-.player2 {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
+.player-name {
+  font-size: 1rem;
+  z-index: 2;
+  position : absolute;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  top: calc(var(--card-height) + 0.5rem);
 }
 
-.player3 {
+.player3 .player-name {
+  top: -1.5rem;
+}
+
+.player.player1 {
   grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.player.player2 {
+  grid-column: 5 / 6;
   grid-row: 3 / 4;
 }
 
-.player4 {
+.player.player3 {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+
+.player.player4 {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
 
-/* .player {
-  max-width: calc(var(--card-width) * 3.5);
-  flex: 1 1 calc(var(--card-width) * 3.5);
+/* .player.player1 {
+  transform: rotate(180deg);
 } */
+
+.player.player2 {
+  height: var(--card-height);
+  width: calc(var(--card-width) * var(--hand-width-multiplier));
+  transform: rotate(90deg);
+  transform-origin: calc(var(--card-height) / 2) calc(var(--card-height) * 0.5);
+}
+
+.player.player4 {
+  height: var(--card-height);
+  width: calc(var(--card-width) * var(--hand-width-multiplier));
+  transform: rotate(-90deg);
+  transform-origin: calc(var(--card-width) * 2) calc(var(--card-width) * 2);
+}

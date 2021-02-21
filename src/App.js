@@ -9,10 +9,10 @@ import SvgInlineSprite from './components/SvgInline';
 
 function App() {
   return (
-    <main className="app" style={{ '--card-width': CONFIG.CARD_WIDTH, '--card-height': CONFIG.CARD_HEIGHT }}>
+    <main className="app" style={{ '--card-width': CONFIG.CARD_WIDTH, '--card-height': CONFIG.CARD_HEIGHT, '--hand-width-multiplier': CONFIG.PLAYER_HAND_CARD_WIDTH_MULTIPLIER }}>
       <GameControls />
-      <AvailableCards />
-      <PlayedCards />
+      {/* <AvailableCards />
+      <PlayedCards /> */}
       <Players />
       <InPlay />
       <SvgInlineSprite />

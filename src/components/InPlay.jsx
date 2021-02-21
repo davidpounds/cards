@@ -15,18 +15,13 @@ const InPlay = props => {
     }
   };
   return <div className="in-play">
-    <h2>
-      In play
-      {allPlayersHavePlayed && <button onClick={addCardsToPlayedHandler}>Move to played</button>}
-    </h2>
-    <div className="cardlist inplay" data-empty-message="No player has played a card">
-      {inPlay.map(card => <Card 
-        key={`${card.suit}${card.value}`} 
-        suit={card.suit}
-        value={card.value} 
-        player={card.player}
-      />)}
-    </div>
+    {allPlayersHavePlayed && <div className="move-to-played"><button onClick={addCardsToPlayedHandler}>Move to played</button></div>}
+    {inPlay.map(card => <Card 
+      key={`${card.suit}${card.value}`} 
+      suit={card.suit}
+      value={card.value} 
+      className={`player${players.indexOf(card.player) + 1}`}
+    />)}
   </div>;
 };
 
