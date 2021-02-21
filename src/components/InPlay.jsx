@@ -7,7 +7,7 @@ import Card from './Card';
 const InPlay = props => {
   const dispatch = useDispatch();
   const inPlay = useSelector(getInPlayCards);
-  const players = useSelector(getPlayers);
+  const players = useSelector(getPlayers());
   const allPlayersHavePlayed = inPlay?.length === players?.length;
   const addCardsToPlayedHandler = () => {
     if (allPlayersHavePlayed) {

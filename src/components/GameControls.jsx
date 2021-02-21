@@ -5,7 +5,7 @@ import { getPlayers } from '../store/selectors';
 
 const GameControls = props => {
 
-  const players = useSelector(getPlayers);
+  const players = useSelector(getPlayers());
   const dispatch = useDispatch();
 
   const dealHandler = () => {

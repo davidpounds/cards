@@ -1,8 +1,8 @@
 import './App.css';
 import CONFIG from './data/config';
 import GameControls from './components/GameControls';
-import AvailableCards from './components/AvailableCards';
-import PlayedCards from './components/PlayedCards';
+// import AvailableCards from './components/AvailableCards';
+// import PlayedCards from './components/PlayedCards';
 import Players from './components/Players';
 import InPlay from './components/InPlay';
 import SvgInlineSprite from './components/SvgInline';
@@ -13,7 +13,7 @@ function App() {
       <GameControls />
       {/* <AvailableCards />
       <PlayedCards /> */}
-      <Players />
+      <Players currentPlayer={'Player 1'} />
       <InPlay />
       <SvgInlineSprite />
     </main>

@@ -21,5 +21,13 @@ export const getInPlayCards = store => getDeck(store)
 
 export const getPlayedCards = store => getDeck(store)
   .filter(card => card.status === CARD_STATUS.PLAYED);
-
-export const getPlayers = store => store.players;
+ 
+export const getPlayers = currentPlayer => store => {
+  const { players } = store;
+  const currentPlayerIndex = players.indexOf(currentPlayer);
+  if (currentPlayerIndex === -1) {
+    return players;
+  }
+  const rotateArray = (arr, count = 1) => [...arr.slice(count, arr.length), ...arr.slice(0, count)];
+  return rotateArray(players, (2 + currentPlayerIndex) % players.length);
+}

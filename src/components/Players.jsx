@@ -4,19 +4,19 @@ import { getPlayers } from '../store/selectors';
 import Player from './Player';
 
 const Players = props => {
+  const { currentPlayer = null } = props;
+  const players = useSelector(getPlayers(currentPlayer));
 
-  const players = useSelector(getPlayers);
-
-  return <div className="players">
+  return <>
     {players.map((player, idx) => (
       <Player 
+        className={`player${idx + 1}`}
         key={player} 
         player={player} 
         noOfPlayers={players.length}
-        className={`player${idx + 1}`}
       />
     ))}
-  </div>;
+  </>;
 }
 
 export default Players;
