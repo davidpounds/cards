@@ -29,11 +29,12 @@ body {
   width: var(--card-width);
   height: var(--card-height);
   border-radius: 4px;
-  color: #666;
+  color: #ccc;
   border: 1px dashed;
   padding: 1rem;
   font-size: 0.9em;
   text-align: center;
+  margin: 0 auto;
 }
 
 .cardlist.available .card-wrapper,

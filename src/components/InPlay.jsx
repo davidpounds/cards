@@ -10,7 +10,7 @@ const InPlay = props => {
   const inPlay = useSelector(getInPlayCards);
   const players = useSelector(getPlayers());
   const currentPlayerIndex = useSelector(getCurrentPlayerIndex(currentPlayer));
-  const rotateAngle = ((currentPlayerIndex + 2) % players.length) * 90;
+  const rotateAngle = currentPlayerIndex > -1 ? ((currentPlayerIndex + 2) % players.length) * 90 : 0;
   const allPlayersHavePlayed = inPlay?.length === players?.length;
   const addCardsToPlayedHandler = () => {
     if (allPlayersHavePlayed) {
