@@ -38,10 +38,6 @@
   grid-row: 3 / 4;
 }
 
-/* .player.player1 {
-  transform: rotate(180deg);
-} */
-
 .player.player2 {
   height: var(--card-height);
   width: calc(var(--card-width) * var(--hand-width-multiplier));

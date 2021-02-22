@@ -6,7 +6,7 @@ import { addCardToInPlay } from '../store/actions';
 import Card from './Card';
 
 const Player = props => {
-  const { player, className } = props;
+  const { player, className, currentPlayer } = props;
   const dispatch = useDispatch();
   const hand = useSelector(getPlayerCards(player));
   const inPlay = useSelector(getInPlayCards);
@@ -23,13 +23,16 @@ const Player = props => {
       {player}
     </h2>
     <div className={`cardlist hover-effect hand ${canPlay ? 'canplay' : 'cantplay'}`} data-empty-message="Hand is empty">
-      {hand.map(card => (
-        <Card 
+      {hand.map(card => {
+        // const {value, suit} = player === currentPlayer ? card : {};
+        const {value, suit} = card;
+        return <Card 
           key={`${card.suit}${card.value}`} 
-          value={card.value} 
-          suit={card.suit}
+          value={value} 
+          suit={suit}
           onClick={addToInPlay(card)}
-        />))}
+        />;
+      })}
     </div>
   </section>;
 };

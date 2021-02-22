@@ -11,6 +11,7 @@ const Players = props => {
     {players.map((player, idx) => (
       <Player 
         className={`player${idx + 1}`}
+        currentPlayer={currentPlayer}
         key={player} 
         player={player} 
         noOfPlayers={players.length}

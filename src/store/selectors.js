@@ -22,9 +22,11 @@ export const getInPlayCards = store => getDeck(store)
 export const getPlayedCards = store => getDeck(store)
   .filter(card => card.status === CARD_STATUS.PLAYED);
  
+export const getCurrentPlayerIndex = currentPlayer => store => store.players.indexOf(currentPlayer);
+
 export const getPlayers = currentPlayer => store => {
   const { players } = store;
-  const currentPlayerIndex = players.indexOf(currentPlayer);
+  const currentPlayerIndex = getCurrentPlayerIndex(currentPlayer)(store);
   if (currentPlayerIndex === -1) {
     return players;
   }
