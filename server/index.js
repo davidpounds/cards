@@ -3,6 +3,7 @@ const http = require('http');
 const WebSocket = require('ws');
 const path = require('path');
 const bodyParser = require('body-parser');
+const { uid } = require('uid/single');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -15,7 +16,33 @@ app.get('/', (req, res) => {
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
+const players = [1, 2, 3, 4].map(i => ({
+  id: uid(16),
+  name: `Player ${i}`,
+  dealer: false,
+}));
+
+const dealer = {
+  id: uid(16),
+  name: 'Dealer',
+  dealer: true,
+};
+
+const connectedUsers = new Map();
+
 wss.on('connection', ws => {
+
+  const noOfConnectedUsers = connectedUsers.size;
+  if (noOfConnectedUsers > 5) {
+    ws.terminate();
+    return false;
+  }
+
+  if (noOfConnectedUsers === 0) {
+    connectedUsers.set(ws, dealer);
+  } else {
+    connectedUsers.set(ws, players[noOfConnectedUsers - 1]);
+  }
 
   ws.isAlive = true;
 
@@ -48,7 +75,7 @@ wss.on('connection', ws => {
       ws.send('Non-JSON string sent');
     }
   });
-  ws.send('Connected to websocket');
+  ws.send(JSON.stringify({message: 'Connected to websocket', user: connectedUsers.get(ws)}));
 });
 
 setInterval(() => {
