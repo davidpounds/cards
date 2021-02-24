@@ -22,6 +22,10 @@ export default class PlayingCard {
     return this.bitmask & 0x0f;
   }
 
+  get colour() {
+    return this.bitmask & 0x50 ? 'black' : 'red';
+  }
+
   get name() {
     const cardNames = new Map([
       [1, 'Ace'],
