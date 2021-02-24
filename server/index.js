@@ -1,10 +1,11 @@
-const express = require('express');
-const http = require('http');
-const WebSocket = require('ws');
-const path = require('path');
-const bodyParser = require('body-parser');
-const { uid } = require('uid/single');
+import express from 'express';
+import http from 'http';
+import WebSocket from 'ws';
+import path from 'path';
+import bodyParser from 'body-parser';
+import { uid } from 'uid/single';
 
+const __dirname = path.resolve();
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '..', 'build')));
