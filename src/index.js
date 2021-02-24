@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import store from './store';
+import store from './store/index.js';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './App.js';
+import * as ACTIONS from './store/actiontypes.js';
+
+const webSocket = new WebSocket('ws://localhost:8080/');
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,7 +17,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-const webSocket = new WebSocket('ws://localhost:8080/');
+const storedPlayerId = localStorage.getItem('playerId');
 
 webSocket.onopen = (e) => {
   console.log('web socket opened');
@@ -31,19 +33,23 @@ webSocket.onerror = (e) => {
 
 webSocket.onmessage = (e) => {
   try {
-    const data = e.data;
+    const data = JSON.parse(e.data);
     console.log('web socket message', data);
+    const { currentPlayer = null } = data;
+    if (storedPlayerId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
+      localStorage.setItem('playerId', currentPlayer.id);
+    }
   }
   catch (err) {
-    console.log('web socket data error', err);
+    console.log('web socket data error', e, err);
   }
 }
 
 window.setTimeout(() => {
-  webSocket.send(JSON.stringify({ broadcast: true, myData: 'a test' }));
+  webSocket.send(JSON.stringify({ type: ACTIONS.CONNECT_USER, data: { playerId: storedPlayerId } }));
+}, 1000);
+
+window.setTimeout(() => {
+  webSocket.send(JSON.stringify({ type: ACTIONS.ADD_CARD_TO_IN_PLAY, data: { cardBitmask: 17 } }));
 }, 5000);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

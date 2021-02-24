@@ -1,7 +1,7 @@
 import './PlayedCards.css';
 import { useSelector } from 'react-redux';
-import { getPlayedCards } from '../store/selectors';
-import Card from './Card';
+import { getPlayedCards } from '../store/selectors.js';
+import Card from './Card.jsx';
 
 const PlayedCards = props => {
   const played = useSelector(getPlayedCards);

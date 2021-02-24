@@ -1,11 +1,11 @@
 import './App.css';
-import CONFIG from './data/config';
-import GameControls from './components/GameControls';
-// import AvailableCards from './components/AvailableCards';
-// import PlayedCards from './components/PlayedCards';
-import Players from './components/Players';
-import InPlay from './components/InPlay';
-import SvgInlineSprite from './components/SvgInline';
+import CONFIG from './data/config.js';
+import GameControls from './components/GameControls.jsx';
+// import AvailableCards from './components/AvailableCards.jsx';
+// import PlayedCards from './components/PlayedCards.jsx';
+import Players from './components/Players.jsx';
+import InPlay from './components/InPlay.jsx';
+import SvgInlineSprite from './components/SvgInline.jsx';
 
 function App() {
   const currentPlayer = 'Admin';

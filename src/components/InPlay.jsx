@@ -1,8 +1,8 @@
 import './InPlay.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { getInPlayCards, getPlayers, getCurrentPlayerIndex } from '../store/selectors';
-import { addCardsToPlayed } from '../store/actions';
-import Card from './Card';
+import { getInPlayCards, getPlayers, getCurrentPlayerIndex } from '../store/selectors.js';
+import { addCardsToPlayed } from '../store/actions.js';
+import Card from './Card.jsx';
 
 const InPlay = props => {
   const { currentPlayer } = props;

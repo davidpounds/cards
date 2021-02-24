@@ -1,7 +1,7 @@
 import './AvailableCards.css';
 import { useSelector } from 'react-redux';
-import { getAvailableCards } from '../store/selectors';
-import Card from './Card';
+import { getAvailableCards } from '../store/selectors.js';
+import Card from './Card.jsx';
 
 const AvailableCards = props => {
   const available = useSelector(getAvailableCards);

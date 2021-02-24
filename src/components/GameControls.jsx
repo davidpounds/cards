@@ -1,7 +1,7 @@
 import './GameControls.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { resetGame, dealHand } from '../store/actions';
-import { getPlayers } from '../store/selectors';
+import { resetGame, dealHand } from '../store/actions.js';
+import { getPlayers } from '../store/selectors.js';
 
 const GameControls = props => {
 

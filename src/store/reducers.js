@@ -1,7 +1,7 @@
-import * as ACTIONS from './actiontypes';
-import CONFIG from '../data/config';
-import getResetDeck from '../data/deck';
-import { shuffleDeck } from '../data/randomizing';
+import * as ACTIONS from './actiontypes.js';
+import CONFIG from '../data/config.js';
+import getResetDeck from '../data/deck.js';
+import { shuffleDeck } from '../data/randomizing.js';
 
 const initialPlayers = [...new Array(CONFIG.MAX_PLAYERS).keys()].map(i => `Player ${i + 1}`);
 

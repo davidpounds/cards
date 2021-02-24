@@ -1,9 +1,9 @@
 import './Player.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { getPlayerCards, getInPlayCards } from '../store/selectors';
-import { addCardToInPlay } from '../store/actions';
+import { getPlayerCards, getInPlayCards } from '../store/selectors.js';
+import { addCardToInPlay } from '../store/actions.js';
 
-import Card from './Card';
+import Card from './Card.jsx';
 
 const Player = props => {
   const { player, className, currentPlayer } = props;

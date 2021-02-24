@@ -1,4 +1,4 @@
-import { CARD_STATUS } from '../data/PlayingCard.class';
+import { CARD_STATUS } from '../data/PlayingCard.class.js';
 
 export const getDeck = store => store.deck;
 

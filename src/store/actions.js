@@ -1,4 +1,4 @@
-import * as ACTIONS from './actiontypes';
+import * as ACTIONS from './actiontypes.js';
 
 export const addCardToInPlay = card => ({
   type: ACTIONS.ADD_CARD_TO_IN_PLAY,
@@ -22,5 +22,12 @@ export const addCardsToPlayed = cardsInPlay => ({
   type: ACTIONS.ADD_CARDS_TO_PLAYED,
   data: {
     cardsInPlay,
+  },
+});
+
+export const connectUser = playerId => ({
+  type: ACTIONS.CONNECT_USER, 
+  data: {
+    playerId,
   },
 });
