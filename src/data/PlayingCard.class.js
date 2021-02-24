@@ -8,19 +8,28 @@ export const CARD_STATUS = Object.freeze({
 });
 
 export default class PlayingCard {
-  constructor(suit, value) {
-    this.suit = suit;
-    this.value = value;
+  constructor(bitmask) {
+    this.bitmask = bitmask;
     this.player = null;
     this.inPlay = false;
   }
 
-  get name() {
-    return CARD_NAME[this.value - 1];
+  get suit() {
+    return SUITS.get(this.bitmask & 0xf0);
+  }
+  
+  get value() {
+    return this.bitmask & 0x0f;
   }
 
-  get colour() {
-    return [SUITS.DIAMONDS, SUITS.HEARTS].includes(this.suit) ? 'red' : 'black';
+  get name() {
+    const cardNames = new Map([
+      [1, 'Ace'],
+      [11, 'Jack'],
+      [12, 'Queen'],
+      [13, 'King'],
+    ]);
+    return cardNames.get(this.value) ?? String(this.value);
   }
 
   get status() {
@@ -31,19 +40,3 @@ export default class PlayingCard {
     return null;
   }
 };
-
-const CARD_NAME = Object.freeze([
-  'Ace',
-  '2',
-  '3',
-  '4',
-  '5',
-  '6',
-  '7',
-  '8',
-  '9',
-  '10',
-  'Jack',
-  'Queen',
-  'King',
-]);
