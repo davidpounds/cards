@@ -3,7 +3,7 @@ import http from 'http';
 import WebSocket from 'ws';
 import path from 'path';
 import bodyParser from 'body-parser';
-import { uid } from 'uid/single';
+import serverStore, { resetShuffleAndDeal } from './store.js';
 
 const __dirname = path.resolve();
 const app = express();
@@ -17,34 +17,22 @@ app.get('/', (req, res) => {
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-const players = [1, 2, 3, 4].map(i => ({
-  id: uid(16),
-  name: `Player ${i}`,
-  dealer: false,
-}));
-
-const dealer = {
-  id: uid(16),
-  name: 'Dealer',
-  dealer: true,
-};
+const [dealer, ...players] = serverStore.players;
+resetShuffleAndDeal();
 
 const connectedUsers = new Map();
 
 wss.on('connection', ws => {
 
   const noOfConnectedUsers = connectedUsers.size;
-  if (noOfConnectedUsers > 5) {
+  if (noOfConnectedUsers > serverStore.players.length) {
     ws.terminate();
     return false;
   }
 
-  if (noOfConnectedUsers === 0) {
-    connectedUsers.set(ws, dealer);
-  } else {
-    connectedUsers.set(ws, players[noOfConnectedUsers - 1]);
-  }
-
+  const currentPlayer = noOfConnectedUsers === 0 ? dealer : players[noOfConnectedUsers - 1];
+  connectedUsers.set(ws, currentPlayer);
+  
   ws.isAlive = true;
 
   ws.on('pong', () => {
@@ -76,7 +64,7 @@ wss.on('connection', ws => {
       ws.send('Non-JSON string sent');
     }
   });
-  ws.send(JSON.stringify({message: 'Connected to websocket', user: connectedUsers.get(ws)}));
+  ws.send(JSON.stringify({store: serverStore, currentPlayer}));
 });
 
 setInterval(() => {

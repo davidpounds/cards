@@ -1,5 +1,5 @@
-import PlayingCard from './PlayingCard.class';
-import SUITS from './suits';
+import PlayingCard from './PlayingCard.class.js';
+import SUITS from './suits.js';
 
 const values = [...Array(13).keys()].map(i => i + 1);
 

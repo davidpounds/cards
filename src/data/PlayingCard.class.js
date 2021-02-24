@@ -1,4 +1,4 @@
-import SUITS from './suits';
+import SUITS from './suits.js';
 
 export const CARD_STATUS = Object.freeze({
   IN_DECK: 'IN_DECK',
