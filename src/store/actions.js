@@ -1,5 +1,12 @@
 import * as ACTIONS from './actiontypes.js';
 
+export const updateStore = store => ({
+  type: ACTIONS.UPDATE_STORE,
+  data: {
+    store,
+  },
+});
+
 export const addCardToInPlay = card => ({
   type: ACTIONS.ADD_CARD_TO_IN_PLAY,
   data: {

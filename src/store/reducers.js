@@ -22,6 +22,8 @@ export default (state = initialState, action) => {
       return reset(state);
     case ACTIONS.ADD_CARDS_TO_PLAYED:
       return addCardsToPlayed(state, data);
+    case ACTIONS.UPDATE_STORE:
+      return updateStore(state, data);
     default:
       return state;
   }
@@ -62,4 +64,11 @@ const addCardsToPlayed = (state, data) => {
   return {
     ...state,
   };
-}
+};
+
+const updateStore = (state, data) => {
+  return {
+    ...state,
+    ...data.state,
+  };
+};
