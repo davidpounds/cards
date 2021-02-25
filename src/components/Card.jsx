@@ -7,12 +7,10 @@ const CARD_SIZE = Object.freeze({
 
 const Card = props => {
   const { 
+    bitmask = 0,
     className = '',
     onClick = null,
-    suit = 'b', 
-    value = 'ack',
    } = props;
-  const suitPrefix = suit.toLowerCase().substr(0, 1);
   return (
     <div className={`card-wrapper ${className}`}>
       <svg 
@@ -22,7 +20,7 @@ const Card = props => {
         className="card"
         onClick={onClick}
       >
-        <use href={`#${suitPrefix}${value}`} />
+        <use href={`#c${bitmask.toString(16).substr(-2)}`} />
       </svg>
     </div>
   );

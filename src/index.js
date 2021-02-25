@@ -5,6 +5,7 @@ import store from './store/index.js';
 import './index.css';
 import App from './App.js';
 import * as ACTIONS from './store/actiontypes.js';
+import { updateStore } from './store/actions.js';
 
 const webSocket = new WebSocket('ws://localhost:8080/');
 
@@ -39,6 +40,7 @@ webSocket.onmessage = (e) => {
     if (storedPlayerId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
       localStorage.setItem('playerId', currentPlayer.id);
     }
+    store.dispatch(updateStore(data.store));
   }
   catch (err) {
     console.log('web socket data error', e, err);

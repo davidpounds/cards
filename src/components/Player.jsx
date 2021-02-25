@@ -24,12 +24,10 @@ const Player = props => {
     </h2>
     <div className={`cardlist hover-effect hand ${canPlay ? 'canplay' : 'cantplay'}`} data-empty-message="Hand is empty">
       {hand.map(card => {
-        const {value, suit} = player === currentPlayer ? card : {};
-        // const {value, suit} = card;
+        const {bitmask = 0} = player === currentPlayer ? card : {};
         return <Card 
-          key={`${card.suit}${card.value}`} 
-          value={value} 
-          suit={suit}
+          key={`${bitmask}`} 
+          bitmask={bitmask}
           onClick={addToInPlay(card)}
         />;
       })}

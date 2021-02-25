@@ -24,9 +24,8 @@ const InPlay = props => {
       </button>
     </div>}
     {inPlay.map(card => <Card 
-      key={`${card.suit}${card.value}`} 
-      suit={card.suit}
-      value={card.value} 
+      key={`${card.bitmask}`} 
+      bitmask={card.bitmask}
       className={`player${players.indexOf(card.player) + 1}`}
     />)}
   </div>;

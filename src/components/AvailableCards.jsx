@@ -8,7 +8,7 @@ const AvailableCards = props => {
   return <div className="available-cards">
     <h2>Deck</h2>
     <div className="cardlist available" data-empty-message="No cards are available">
-      {available.map(card => <Card key={`${card.suit}${card.value}`} />)}
+      {available.map(card => <Card key={`${card.bitmask}`} />)}
     </div>
   </div>;
 };
