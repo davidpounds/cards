@@ -23,17 +23,16 @@ resetShuffleAndDeal();
 wss.on('connection', ws => connectionHandler(ws, serverStore));
 
 const stripWebSocket = player => {
-  if (!player) {
-    return null;
-  }
+  if (!player) return null;
   const { websocket, ...strippedPlayer } = player;
   return {...strippedPlayer, isConnected: websocket !== null};
 };
 
 export const updatePlayersState = () => {
-  const mappedPlayers = serverStore.players.map(player => stripWebSocket(player));
+  const { players } = serverStore;
+  const mappedPlayers = players.map(player => stripWebSocket(player));
   wss.clients.forEach(ws => {
-    const currentPlayer = stripWebSocket(serverStore.players.find(player => player.websocket === ws));
+    const currentPlayer = stripWebSocket(players.find(player => player.websocket === ws));
     ws.send(JSON.stringify({ store: {...serverStore, players: mappedPlayers}, currentPlayer}));
   });
 };
@@ -52,6 +51,8 @@ setInterval(() => {
     ws.ping(null, false, true);
   });
 }, 10000);
+
+console.log(serverStore.players);
 
 server.listen(process.env.PORT || 8080, () => {
   console.log(`Server started on port ${server.address().port}`);

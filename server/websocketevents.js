@@ -2,12 +2,9 @@ import * as ACTIONS from '../src/store/actiontypes.js';
 import { updatePlayersState } from './index.js';
 
 export const connectionHandler = (ws, serverStore) => {
-    
   ws.isAlive = true;
-
   ws.on('pong', () => pongHandler(ws));
   ws.on('message', messageHandler(ws, serverStore));
-
   updatePlayersState();
 };
 
@@ -16,18 +13,14 @@ const pongHandler = ws => {
 };
 
 const messageHandler = (ws, serverStore) => rawMessage => {
-  console.log('Received: %s', rawMessage);
   let message;
   try {
     message = JSON.parse(rawMessage);
   }
   catch (err) {
-    message = {
-      error: true,
-    };
+    message = { error: true };
   }
   if (!message.error) {
-
     const { type, data } = message;
     switch (type) {
       case ACTIONS.CONNECT_USER:
@@ -39,18 +32,8 @@ const messageHandler = (ws, serverStore) => rawMessage => {
       default:
         break;
     }
-
-    if (message?.broadcast === true) {
-      wss.clients.forEach(client => {
-        if (client !== ws) {
-          client.send(rawMessage);
-        }
-      });
-    } else {
-      ws.send(JSON.stringify({youSent: rawMessage}));
-    }
   } else {
-    ws.send(JSON.stringify({error: 'Non-JSON string sent'}));
+    console.log('Non-JSON string sent');
   }
 };
 
@@ -59,7 +42,8 @@ const connectUser = (serverStore, ws, playerId = null) => {
   const noOfConnectedUsers = users.filter(player => player.websocket !== null).length;
   if (noOfConnectedUsers <= users.length) {
     const [dealer, ...players] = users;
-    const currentPlayer = noOfConnectedUsers === 0 ? dealer : players[noOfConnectedUsers - 1];
+    const existingPlayer = users.find(player => player.id === playerId && playerId !== null);
+    const currentPlayer = existingPlayer || (noOfConnectedUsers === 0 ? dealer : players[noOfConnectedUsers - 1]);
     currentPlayer.websocket = ws;
   }
   updatePlayersState();

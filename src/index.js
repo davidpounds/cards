@@ -22,6 +22,7 @@ const storedPlayerId = localStorage.getItem('playerId');
 
 webSocket.onopen = (e) => {
   console.log('web socket opened');
+  webSocket.send(JSON.stringify({type: ACTIONS.CONNECT_USER, data: { playerId: storedPlayerId}}));
 };
 
 webSocket.onclose = (e) => {
