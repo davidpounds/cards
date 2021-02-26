@@ -1,16 +1,12 @@
 import './GameControls.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { resetGame, dealHand } from '../store/actions.js';
-import { getPlayers } from '../store/selectors.js';
+import * as ACTIONS from '../store/actiontypes.js';
 
 const GameControls = props => {
 
-  const players = useSelector(getPlayers());
-  const dispatch = useDispatch();
+  const { sendToServer } = props;
 
   const dealHandler = () => {
-    dispatch(resetGame());
-    dispatch(dealHand(players));
+    sendToServer(ACTIONS.DEAL_HAND);
   };
 
   return <div className="game-controls">

@@ -1,20 +1,17 @@
 import './InPlay.css';
-import { useSelector, useDispatch } from 'react-redux';
-import { getInPlayCards, getPlayers, getCurrentPlayerIndex } from '../store/selectors.js';
-import { addCardsToPlayed } from '../store/actions.js';
 import Card from './Card.jsx';
+import * as ACTIONS from '../store/actiontypes.js';
 
 const InPlay = props => {
-  const { currentPlayer } = props;
-  const dispatch = useDispatch();
-  const inPlay = useSelector(getInPlayCards);
-  const players = useSelector(getPlayers());
-  const currentPlayerIndex = useSelector(getCurrentPlayerIndex(currentPlayer));
+  const { store: {players, currentPlayer, deck}, sendToServer } = props;
+  console.log({ players, currentPlayer, deck });
+  const inPlay = deck.filter(card => card.inPlay);
+  const currentPlayerIndex = players.map(player => player.id).indexOf(currentPlayer ? currentPlayer.id : null);
   const rotateAngle = currentPlayerIndex > -1 ? ((currentPlayerIndex + 2) % players.length) * 90 : 0;
   const allPlayersHavePlayed = inPlay?.length === players?.length;
   const addCardsToPlayedHandler = () => {
     if (allPlayersHavePlayed) {
-      dispatch(addCardsToPlayed(inPlay));
+      sendToServer(ACTIONS.ADD_CARDS_TO_PLAYED);
     }
   };
   return <div className="in-play" style={{ '--rotate-angle': `-${rotateAngle}deg` }}>

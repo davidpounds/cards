@@ -33,7 +33,7 @@ export const updatePlayersState = () => {
   const mappedPlayers = players.map(player => stripWebSocket(player));
   wss.clients.forEach(ws => {
     const currentPlayer = stripWebSocket(players.find(player => player.websocket === ws));
-    ws.send(JSON.stringify({ store: {...serverStore, players: mappedPlayers}, currentPlayer}));
+    ws.send(JSON.stringify({ store: {...serverStore, players: mappedPlayers, currentPlayer}}));
   });
 };
 

@@ -10,7 +10,10 @@ const Card = props => {
     bitmask = 0,
     className = '',
     onClick = null,
-   } = props;
+    showBack = false,
+  } = props;
+  const svgId = showBack ? '#c00' : `#c${bitmask.toString(16).substr(-2)}`;
+
   return (
     <div className={`card-wrapper ${className}`}>
       <svg 
@@ -20,7 +23,7 @@ const Card = props => {
         className="card"
         onClick={onClick}
       >
-        <use href={`#c${bitmask.toString(16).substr(-2)}`} />
+        <use href={svgId} />
       </svg>
     </div>
   );

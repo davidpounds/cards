@@ -1,39 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import store from './store/index.js';
 import './index.css';
-import App from './App.js';
 import * as ACTIONS from './store/actiontypes.js';
-import { updateStore } from './store/actions.js';
+import App from './App.js';
 
 const webSocket = new WebSocket('ws://localhost:8080/');
-
-ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
 const storedPlayerId = localStorage.getItem('playerId');
 
-webSocket.onopen = (e) => {
-  console.log('web socket opened');
-  webSocket.send(JSON.stringify({type: ACTIONS.CONNECT_USER, data: { playerId: storedPlayerId}}));
+const sendToServer = (type, data) => {
+  webSocket.send(JSON.stringify({ type, data }));
 };
 
-webSocket.onclose = (e) => {
+const onOpenHandler = () => {
+  console.log('web socket opened');
+  sendToServer(ACTIONS.CONNECT_USER, { playerId: storedPlayerId });
+};
+
+const onCloseHandler = () => {
   console.log('web socket closed');
 };
 
-webSocket.onerror = (e) => {
-  console.log('web socket error', e);
+const onErrorHandler = e => {
+  console.log('web socket error', e);    
 };
 
-webSocket.onmessage = (e) => {
+const onMessageHandler = e => {
   try {
     const data = JSON.parse(e.data);
     console.log('web socket message', data);
@@ -41,18 +32,25 @@ webSocket.onmessage = (e) => {
     if (storedPlayerId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
       localStorage.setItem('playerId', currentPlayer.id);
     }
-    store.dispatch(updateStore(data.store));
+    window.dispatchEvent(new CustomEvent(ACTIONS.UPDATE_STORE, { detail: data.store }));
   }
   catch (err) {
     console.log('web socket data error', e, err);
   }
-}
+};
+
+webSocket.onopen = onOpenHandler;
+webSocket.onclose = onCloseHandler;
+webSocket.onerror = onErrorHandler;
+webSocket.onmessage = onMessageHandler;
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App sendToServer={sendToServer} />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 window.setTimeout(() => {
-  webSocket.send(JSON.stringify({ type: ACTIONS.CONNECT_USER, data: { playerId: storedPlayerId } }));
+  sendToServer(ACTIONS.CONNECT_USER, { playerId: storedPlayerId });
 }, 1000);
-
-window.setTimeout(() => {
-  webSocket.send(JSON.stringify({ type: ACTIONS.ADD_CARD_TO_IN_PLAY, data: { cardBitmask: 17 } }));
-}, 5000);
-

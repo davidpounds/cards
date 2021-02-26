@@ -13,6 +13,7 @@ const pongHandler = ws => {
 };
 
 const messageHandler = (ws, serverStore) => rawMessage => {
+  console.log(rawMessage);
   let message;
   try {
     message = JSON.parse(rawMessage);
