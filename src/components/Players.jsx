@@ -2,7 +2,6 @@ import './Players.css';
 import Player from './Player.jsx';
 
 const Players = props => {
-  console.log(props);
   const { store: { players, currentPlayer, deck}, sendToServer } = props;
   const inPlay = deck.filter(card => card.inPlay);
   const nonDealerPlayers = players.filter(player => !player.isDealer);
