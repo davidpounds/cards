@@ -28,7 +28,8 @@ const onMessageHandler = e => {
   try {
     const data = JSON.parse(e.data);
     console.log('web socket message', data);
-    const { currentPlayer = null } = data;
+    const { store } = data;
+    const { currentPlayer = null } = store;
     if (storedPlayerId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
       localStorage.setItem('playerId', currentPlayer.id);
     }

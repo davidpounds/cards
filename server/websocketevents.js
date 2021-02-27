@@ -46,13 +46,14 @@ const messageHandler = (ws, serverStore) => rawMessage => {
 };
 
 const connectUser = (serverStore, ws, playerId = null) => {
-  const { players: users } = serverStore;
-  const noOfConnectedUsers = users.filter(player => player.websocket !== null).length;
-  if (noOfConnectedUsers <= users.length) {
-    const [dealer, ...players] = users;
-    const existingPlayer = users.find(player => player.id === playerId && playerId !== null);
-    const currentPlayer = existingPlayer || (noOfConnectedUsers === 0 ? dealer : players[noOfConnectedUsers - 1]);
-    currentPlayer.websocket = ws;
+  const { players } = serverStore;
+  const availableUsers = players.filter(player => player.websocket === null);
+  const existingPlayer = players.find(player => player.id === playerId && playerId !== null);
+  console.log({availableUsers, existingPlayer});
+  if (existingPlayer) {
+    existingPlayer.websocket = ws;
+  } else if (availableUsers.length > 0) {
+    availableUsers[0].websocket = ws;
   }
   updatePlayersState();
 };

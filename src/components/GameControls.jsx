@@ -3,16 +3,19 @@ import * as ACTIONS from '../store/actiontypes.js';
 
 const GameControls = props => {
 
-  const { sendToServer } = props;
+  const { store, sendToServer } = props;
+  const { currentPlayer } = store;
+  const { name, id, isDealer = false } = currentPlayer ?? {};
 
   const dealHandler = () => {
     sendToServer(ACTIONS.DEAL_HAND);
   };
 
   return <div className="game-controls">
-    <button onClick={dealHandler} title="Reset and deal hand">
+    <p>You are {name} [{id}]</p>
+    {isDealer && <button onClick={dealHandler} title="Reset and deal hand">
       <svg><use href="#reset" /></svg>
-    </button>
+    </button>}
   </div>;
 }
 

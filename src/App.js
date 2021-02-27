@@ -29,7 +29,7 @@ const App = props => {
 
   return (
     <main className="app" style={{ '--card-width': CONFIG.CARD_WIDTH, '--card-height': CONFIG.CARD_HEIGHT, '--hand-width-multiplier': CONFIG.PLAYER_HAND_CARD_WIDTH_MULTIPLIER }}>
-      <GameControls sendToServer={sendToServer} />
+      <GameControls store={store} sendToServer={sendToServer} />
       <Players store={store} sendToServer={sendToServer} />
       <InPlay store={store} sendToServer={sendToServer} />
       <SvgInlineSprite />
