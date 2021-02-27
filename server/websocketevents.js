@@ -1,5 +1,6 @@
 import * as ACTIONS from '../src/store/actiontypes.js';
 import { updatePlayersState } from './index.js';
+import { resetShuffleAndDeal } from './store.js';
 
 export const connectionHandler = (ws, serverStore) => {
   ws.isAlive = true;
@@ -13,7 +14,6 @@ const pongHandler = ws => {
 };
 
 const messageHandler = (ws, serverStore) => rawMessage => {
-  console.log(rawMessage);
   let message;
   try {
     message = JSON.parse(rawMessage);
@@ -23,13 +23,20 @@ const messageHandler = (ws, serverStore) => rawMessage => {
   }
   if (!message.error) {
     const { type, data } = message;
+    console.log(message);
     switch (type) {
       case ACTIONS.CONNECT_USER:
         connectUser(serverStore, ws, data.playerId);
         break;
       case ACTIONS.ADD_CARD_TO_IN_PLAY:
-        addCardToInPlay(serverStore, ws, data.cardBitmask);
+        addCardToInPlay(serverStore, ws, data);
         break;
+      case ACTIONS.ADD_CARDS_TO_PLAYED:
+        addCardsToPlayed(serverStore);
+        break;
+      case ACTIONS.DEAL_HAND:
+        resetShuffleAndDeal();
+        updatePlayersState();
       default:
         break;
     }
@@ -50,14 +57,24 @@ const connectUser = (serverStore, ws, playerId = null) => {
   updatePlayersState();
 };
 
-const addCardToInPlay = (serverStore, ws, cardBitmask) => {
-  const { deck, players } = serverStore;
-  const currentPlayer = players.find(player => !player.isDealer && player.websocket === ws);
-  if (currentPlayer) {
-    const card = deck.find(card => card.bitmask === cardBitmask && card.player === currentPlayer.id);
+const addCardToInPlay = (serverStore, ws, cardToAdd) => { // TODO - add player check to cards
+  const { deck } = serverStore;
+  const cardsAlreadyInPlay = deck.filter(card => card.inPlay);
+  const playersAlreadyPlayed = [...new Set(cardsAlreadyInPlay.map(card => card.player))];
+  if (!playersAlreadyPlayed.includes(cardToAdd.player)) {
+    const card = deck.find(card => card.bitmask === cardToAdd.bitmask && card.player === cardToAdd.player);
+    console.log({card});
     if (card) {
       card.inPlay = true;
+      updatePlayersState();
     }
   }
+};
+
+const addCardsToPlayed = serverStore => {
+  const { deck } = serverStore;
+  deck.forEach(card => {
+    card.inPlay = false;
+  });
   updatePlayersState();
 };
