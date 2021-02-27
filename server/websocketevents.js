@@ -74,7 +74,10 @@ const addCardToInPlay = (serverStore, ws, cardToAdd) => { // TODO - add player c
 const addCardsToPlayed = serverStore => {
   const { deck } = serverStore;
   deck.forEach(card => {
-    card.inPlay = false;
+    if (card.inPlay) {
+      card.inPlay = false;
+      card.played = true;
+    }
   });
   updatePlayersState();
 };

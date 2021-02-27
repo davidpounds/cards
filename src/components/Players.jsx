@@ -9,7 +9,7 @@ const Players = props => {
 
   return <>
     {nonDealerPlayers.map((player, idx) => {
-      const hand = deck.filter(card => card.player === player.id);
+      const hand = deck.filter(card => card.player === player.id && !card.inPlay && !card.played);
       return <Player 
         className={`player${idx + 1}`}
         currentPlayer={currentPlayer}

@@ -4,11 +4,11 @@ import * as ACTIONS from '../store/actiontypes.js';
 
 const InPlay = props => {
   const { store: {players, currentPlayer, deck}, sendToServer } = props;
-  console.log({ players, currentPlayer, deck });
+  const playersWithoutDealer = players.filter(player => !player.isDealer);
   const inPlay = deck.filter(card => card.inPlay);
-  const currentPlayerIndex = players.map(player => player.id).indexOf(currentPlayer ? currentPlayer.id : null);
-  const rotateAngle = currentPlayerIndex > -1 ? ((currentPlayerIndex + 2) % players.length) * 90 : 0;
-  const allPlayersHavePlayed = inPlay?.length === players?.length;
+  const currentPlayerIndex = playersWithoutDealer.map(player => player.id).indexOf(currentPlayer ? currentPlayer.id : null);
+  const rotateAngle = currentPlayerIndex > -1 ? ((currentPlayerIndex + 2) % playersWithoutDealer.length) * 90 : 0;
+  const allPlayersHavePlayed = inPlay?.length === playersWithoutDealer?.length;
   const addCardsToPlayedHandler = () => {
     if (allPlayersHavePlayed) {
       sendToServer(ACTIONS.ADD_CARDS_TO_PLAYED);
@@ -23,7 +23,7 @@ const InPlay = props => {
     {inPlay.map(card => <Card 
       key={`${card.bitmask}`} 
       bitmask={card.bitmask}
-      className={`player${players.indexOf(card.player) + 1}`}
+      className={`player${playersWithoutDealer.map(player => player.id).indexOf(card.player) + 1}`}
     />)}
   </div>;
 };
