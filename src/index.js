@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Toast } from 'toaster-js';
+import 'toaster-js/default.css';
 import './index.css';
 import * as ACTIONS from './store/actiontypes.js';
 import App from './App.js';
@@ -49,3 +51,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+new Toast('Welcome', Toast.TYPE_MESSAGE, Toast.TIME_NORMAL);
