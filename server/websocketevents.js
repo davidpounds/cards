@@ -1,12 +1,17 @@
+import url from 'url';
 import * as ACTIONS from '../src/store/actiontypes.js';
 import { updatePlayersState } from './index.js';
 import { resetShuffleAndDeal } from './store.js';
 
-export const connectionHandler = (ws, serverStore) => {
+export const connectionHandler = (ws, req, serverStore) => {
+  const q = url.parse(req.url, true).query;
+  const existingPlayerId = q.playerId;
+  console.log({existingPlayerId});
+  connectUser(serverStore, ws, existingPlayerId);
+
   ws.isAlive = true;
   ws.on('pong', () => pongHandler(ws));
   ws.on('message', messageHandler(ws, serverStore));
-  updatePlayersState();
 };
 
 const pongHandler = ws => {
@@ -25,16 +30,13 @@ const messageHandler = (ws, serverStore) => rawMessage => {
     const { type, data } = message;
     console.log(message);
     switch (type) {
-      case ACTIONS.CONNECT_USER:
-        connectUser(serverStore, ws, data.playerId);
-        break;
-      case ACTIONS.ADD_CARD_TO_IN_PLAY:
+      case ACTIONS.SERVER_ADD_CARD_TO_IN_PLAY:
         addCardToInPlay(serverStore, ws, data);
         break;
-      case ACTIONS.ADD_CARDS_TO_PLAYED:
+      case ACTIONS.SERVER_ADD_CARDS_TO_PLAYED:
         addCardsToPlayed(serverStore);
         break;
-      case ACTIONS.DEAL_HAND:
+      case ACTIONS.SERVER_DEAL_HAND:
         resetShuffleAndDeal();
         updatePlayersState();
       default:

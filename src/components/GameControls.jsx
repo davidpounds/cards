@@ -8,7 +8,7 @@ const GameControls = props => {
   const { name, id, isDealer = false } = currentPlayer ?? {};
 
   const dealHandler = () => {
-    sendToServer(ACTIONS.DEAL_HAND);
+    sendToServer(ACTIONS.SERVER_DEAL_HAND);
   };
 
   return <div className="game-controls">

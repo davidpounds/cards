@@ -21,9 +21,9 @@ const App = props => {
   };
 
   useEffect(() => {
-    window.addEventListener(ACTIONS.UPDATE_STORE, updateStore, false);
+    window.addEventListener(ACTIONS.CLIENT_UPDATE_STORE, updateStore, false);
     return () => {
-      window.removeEventListener(ACTIONS.UPDATE_STORE, updateStore, false);
+      window.removeEventListener(ACTIONS.CLIENT_UPDATE_STORE, updateStore, false);
     };
   });
 

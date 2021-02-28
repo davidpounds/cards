@@ -12,9 +12,10 @@ const InPlay = props => {
   const currentPlayerIndex = playersWithoutDealer.map(player => player.id).indexOf(currentPlayer ? currentPlayer.id : null);
   const rotateAngle = currentPlayerIndex > -1 ? ((currentPlayerIndex + 2) % playersWithoutDealer.length) * 90 : 0;
   const allPlayersHavePlayed = inPlay?.length === playersWithoutDealer?.length;
+  console.log({playersWithoutDealer, currentPlayerIndex, rotateAngle, allPlayersHavePlayed});
   const addCardsToPlayedHandler = () => {
     if (allPlayersHavePlayed) {
-      sendToServer(ACTIONS.ADD_CARDS_TO_PLAYED);
+      sendToServer(ACTIONS.SERVER_ADD_CARDS_TO_PLAYED);
     }
   };
   return <div className="in-play" style={{ '--rotate-angle': `-${rotateAngle}deg` }}>

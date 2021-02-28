@@ -9,7 +9,7 @@ const Player = props => {
 
   const addToInPlay = card => () => {
     if (canPlay) {
-      sendToServer(ACTIONS.ADD_CARD_TO_IN_PLAY, card);
+      sendToServer(ACTIONS.SERVER_ADD_CARD_TO_IN_PLAY, card);
     }
   };
 

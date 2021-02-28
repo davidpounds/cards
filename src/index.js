@@ -4,8 +4,8 @@ import './index.css';
 import * as ACTIONS from './store/actiontypes.js';
 import App from './App.js';
 
-const webSocket = new WebSocket('ws://localhost:8080/');
 const storedPlayerId = localStorage.getItem('playerId');
+const webSocket = new WebSocket(`ws://localhost:8080/?playerId=${storedPlayerId}`);
 
 const sendToServer = (type, data) => {
   webSocket.send(JSON.stringify({ type, data }));
@@ -13,7 +13,6 @@ const sendToServer = (type, data) => {
 
 const onOpenHandler = () => {
   console.log('web socket opened');
-  sendToServer(ACTIONS.CONNECT_USER, { playerId: storedPlayerId });
 };
 
 const onCloseHandler = () => {
@@ -27,13 +26,15 @@ const onErrorHandler = e => {
 const onMessageHandler = e => {
   try {
     const data = JSON.parse(e.data);
-    console.log('web socket message', data);
     const { store } = data;
+    console.log('web socket message', store);
+    console.table(store.players);
     const { currentPlayer = null } = store;
     if (storedPlayerId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
+      console.log('Setting playerId', {storedPlayerId, currentPlayer: currentPlayer.id})
       localStorage.setItem('playerId', currentPlayer.id);
     }
-    window.dispatchEvent(new CustomEvent(ACTIONS.UPDATE_STORE, { detail: data.store }));
+    window.dispatchEvent(new CustomEvent(ACTIONS.CLIENT_UPDATE_STORE, { detail: store }));
   }
   catch (err) {
     console.log('web socket data error', e, err);
@@ -51,7 +52,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-window.setTimeout(() => {
-  sendToServer(ACTIONS.CONNECT_USER, { playerId: storedPlayerId });
-}, 1000);

@@ -20,7 +20,7 @@ const wss = new WebSocket.Server({ server });
 
 resetShuffleAndDeal();
 
-wss.on('connection', ws => connectionHandler(ws, serverStore));
+wss.on('connection', (ws, req) => connectionHandler(ws, req, serverStore));
 
 const stripWebSocket = player => {
   if (!player) return null;
