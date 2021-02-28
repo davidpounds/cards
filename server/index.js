@@ -33,7 +33,7 @@ export const updatePlayersState = () => {
   const mappedPlayers = players.map(player => stripWebSocket(player));
   wss.clients.forEach(ws => {
     const currentPlayer = stripWebSocket(players.find(player => player.websocket === ws));
-    ws.send(JSON.stringify({ store: {...serverStore, players: mappedPlayers, currentPlayer}}));
+    ws.send(JSON.stringify({ store: {...serverStore, players: mappedPlayers, currentPlayer: stripWebSocket(currentPlayer)}}));
   });
 };
 
@@ -51,8 +51,6 @@ setInterval(() => {
     ws.ping(null, false, true);
   });
 }, 10000);
-
-console.log(serverStore.players);
 
 server.listen(process.env.PORT || 8080, () => {
   console.log(`Server started on port ${server.address().port}`);

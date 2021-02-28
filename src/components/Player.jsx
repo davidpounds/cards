@@ -5,7 +5,7 @@ import * as ACTIONS from '../store/actiontypes.js';
 const Player = props => {
   const { player, className, currentPlayer, hand, inPlay, sendToServer } = props;
   const canPlay = inPlay.find(card => card.player.id === player.id) === undefined;
-  const sortedHand = [...hand].sort((a, b) => a.id - b.id);
+  const sortedHand = [...hand].sort((a, b) => a.bitmask - b.bitmask);
 
   const addToInPlay = card => () => {
     if (canPlay) {
@@ -19,13 +19,14 @@ const Player = props => {
     </h2>
     <div className={`cardlist hover-effect hand ${canPlay ? 'canplay' : 'cantplay'}`} data-empty-message="Hand is empty">
       {sortedHand.map(card => {
-        const showBack = player.id !== currentPlayer?.id;
+        const currentPlayerCard = player.id === currentPlayer?.id;
         const { bitmask } = card;
         return <Card 
           key={bitmask} 
+          className={currentPlayerCard ? null : 'nohover'}
           bitmask={bitmask}
-          onClick={addToInPlay(card)}
-          showBack={showBack}
+          onClick={currentPlayerCard ? addToInPlay(card) : null}
+          showBack={!currentPlayerCard}
         />;
       })}
     </div>

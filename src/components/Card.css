@@ -12,7 +12,7 @@
   overflow: visible;
 }
 
-.hover-effect .card-wrapper:hover {
+.hover-effect .card-wrapper:not(.nohover):hover {
   overflow: visible;
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out;

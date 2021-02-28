@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 
-.hand.canplay .card-wrapper {
+.hand.canplay .card-wrapper:not(.nohover) {
   cursor: pointer;
 }
 

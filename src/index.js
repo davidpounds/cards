@@ -27,11 +27,8 @@ const onMessageHandler = e => {
   try {
     const data = JSON.parse(e.data);
     const { store } = data;
-    console.log('web socket message', store);
-    console.table(store.players);
     const { currentPlayer = null } = store;
     if (storedPlayerId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
-      console.log('Setting playerId', {storedPlayerId, currentPlayer: currentPlayer.id})
       localStorage.setItem('playerId', currentPlayer.id);
     }
     window.dispatchEvent(new CustomEvent(ACTIONS.CLIENT_UPDATE_STORE, { detail: store }));

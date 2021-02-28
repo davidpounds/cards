@@ -6,7 +6,6 @@ import { resetShuffleAndDeal } from './store.js';
 export const connectionHandler = (ws, req, serverStore) => {
   const q = url.parse(req.url, true).query;
   const existingPlayerId = q.playerId;
-  console.log({existingPlayerId});
   connectUser(serverStore, ws, existingPlayerId);
 
   ws.isAlive = true;
@@ -28,7 +27,6 @@ const messageHandler = (ws, serverStore) => rawMessage => {
   }
   if (!message.error) {
     const { type, data } = message;
-    console.log(message);
     switch (type) {
       case ACTIONS.SERVER_ADD_CARD_TO_IN_PLAY:
         addCardToInPlay(serverStore, ws, data);
@@ -51,7 +49,6 @@ const connectUser = (serverStore, ws, playerId = null) => {
   const { players } = serverStore;
   const availableUsers = players.filter(player => player.websocket === null);
   const existingPlayer = players.find(player => player.id === playerId && playerId !== null);
-  console.log({availableUsers, existingPlayer});
   if (existingPlayer) {
     existingPlayer.websocket = ws;
   } else if (availableUsers.length > 0) {
@@ -66,7 +63,6 @@ const addCardToInPlay = (serverStore, ws, cardToAdd) => { // TODO - add player c
   const playersAlreadyPlayed = [...new Set(cardsAlreadyInPlay.map(card => card.player))];
   if (!playersAlreadyPlayed.includes(cardToAdd.player)) {
     const card = deck.find(card => card.bitmask === cardToAdd.bitmask && card.player === cardToAdd.player);
-    console.log({card});
     if (card) {
       card.inPlay = true;
       updatePlayersState();
