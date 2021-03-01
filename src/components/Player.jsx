@@ -15,7 +15,7 @@ const Player = props => {
 
   return <section className={`player ${className}`}>
     <h2 className="player-name">
-      {player.name}
+      {player.name} ({player.isConnected ? 'online' : 'offline' })
     </h2>
     <div className={`cardlist hover-effect hand ${canPlay ? 'canplay' : 'cantplay'}`} data-empty-message="Hand is empty">
       {sortedHand.map(card => {

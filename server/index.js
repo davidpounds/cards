@@ -5,6 +5,7 @@ import path from 'path';
 import bodyParser from 'body-parser';
 import serverStore, { resetShuffleAndDeal } from './store.js';
 import { connectionHandler } from './websocketevents.js';
+import * as ACTIONS from '../src/store/actiontypes.js';
 
 const __dirname = path.resolve();
 const app = express();
@@ -28,12 +29,15 @@ const stripWebSocket = player => {
   return {...strippedPlayer, isConnected: websocket !== null};
 };
 
-export const updatePlayersState = () => {
+export const updatePlayersState = (message = null) => {
   const { players } = serverStore;
   const mappedPlayers = players.map(player => stripWebSocket(player));
   wss.clients.forEach(ws => {
     const currentPlayer = stripWebSocket(players.find(player => player.websocket === ws));
-    ws.send(JSON.stringify({ store: {...serverStore, players: mappedPlayers, currentPlayer: stripWebSocket(currentPlayer)}}));
+    ws.send(JSON.stringify({ type: ACTIONS.CLIENT_UPDATE_STORE, store: {...serverStore, players: mappedPlayers, currentPlayer: stripWebSocket(currentPlayer)}}));
+    if (message) {
+      ws.send(JSON.stringify({ type: ACTIONS.CLIENT_TOAST_MESSAGE, message }));
+    }
   });
 };
 
@@ -43,7 +47,7 @@ setInterval(() => {
       const disconnectedPlayer = serverStore.players.find(player => player.websocket === ws);
       ws.terminate();
       disconnectedPlayer.ws = null;
-      updatePlayersState();
+      updatePlayersState(`${disconnectedPlayer.name} has disconnected`);
       return;
     }
     
