@@ -8,12 +8,14 @@ import { connectionHandler } from './websocketevents.js';
 import * as ACTIONS from '../src/store/actiontypes.js';
 
 const __dirname = path.resolve();
+const devSeperator = !process.env.PORT ? '..' : '';
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, '..', 'build')));
+app.use(express.static(path.join(__dirname, devSeperator, 'build')));
+
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, devSeperator, 'build', 'index.html'));
 });
 
 const server = http.createServer(app);
