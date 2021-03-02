@@ -3,7 +3,7 @@ import Card from './Card.jsx';
 import * as ACTIONS from '../store/actiontypes.js';
 
 const Player = props => {
-  const { player, className, currentPlayer, hand, inPlay, sendToServer } = props;
+  const { player, className, currentPlayer, isCurrentPlayer = false, hand, inPlay, sendToServer } = props;
   const canPlay = inPlay.find(card => card.player.id === player.id) === undefined;
   const sortedHand = [...hand].sort((a, b) => a.bitmask - b.bitmask);
 
@@ -13,7 +13,7 @@ const Player = props => {
     }
   };
 
-  return <section className={`player ${className}`}>
+  return <section className={`player ${className} ${isCurrentPlayer ? 'current' : ''}`}>
     <h2 className="player-name">
       {player.name} ({player.isConnected ? 'online' : 'offline' })
     </h2>

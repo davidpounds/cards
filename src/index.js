@@ -4,6 +4,7 @@ import { Toast } from 'toaster-js';
 import 'toaster-js/default.css';
 import './index.css';
 import * as ACTIONS from './store/actiontypes.js';
+import CONFIG from './data/config.js';
 import App from './App.js';
 
 let storedPlayerId = localStorage.getItem('playerId');
@@ -11,7 +12,6 @@ const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
 const hostname = window.location.hostname;
 const port = window.location.port === '3000' ? '8080' : window.location.port;
 const wsUrl = `${protocol}://${hostname}:${port}/?playerId=${storedPlayerId}`;
-console.log(wsUrl);
 const webSocket = new WebSocket(wsUrl);
 
 const sendToServer = (type, data) => {
@@ -60,6 +60,8 @@ webSocket.onopen = onOpenHandler;
 webSocket.onclose = onCloseHandler;
 webSocket.onerror = onErrorHandler;
 webSocket.onmessage = onMessageHandler;
+
+document.querySelector('body').style.cssText = `--card-width: ${CONFIG.CARD_WIDTH}; --card-height: ${CONFIG.CARD_HEIGHT}; --hand-width-multiplier: ${CONFIG.PLAYER_HAND_CARD_WIDTH_MULTIPLIER}`;
 
 ReactDOM.render(
   <React.StrictMode>

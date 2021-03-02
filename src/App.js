@@ -1,6 +1,5 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import CONFIG from './data/config.js';
 import * as ACTIONS from './store/actiontypes.js';
 import GameControls from './components/GameControls.jsx';
 import Players from './components/Players.jsx';
@@ -28,7 +27,7 @@ const App = props => {
   });
 
   return (
-    <main className="app" style={{ '--card-width': CONFIG.CARD_WIDTH, '--card-height': CONFIG.CARD_HEIGHT, '--hand-width-multiplier': CONFIG.PLAYER_HAND_CARD_WIDTH_MULTIPLIER }}>
+    <main className="app">
       <GameControls store={store} sendToServer={sendToServer} />
       <Players store={store} sendToServer={sendToServer} />
       <InPlay store={store} sendToServer={sendToServer} />

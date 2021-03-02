@@ -17,9 +17,11 @@ const Players = props => {
   return <>
     {sortedPlayers.map((player, idx) => {
       const hand = deck.filter(card => card.player === player.id && !card.inPlay && !card.played);
+      const isCurrentPlayer = player.id === currentPlayer?.id;
       return <Player 
         className={`player${idx + 1}`}
         currentPlayer={currentPlayer}
+        isCurrentPlayer={isCurrentPlayer}
         hand={hand}
         inPlay={inPlay}
         key={player.id} 
