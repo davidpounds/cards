@@ -7,9 +7,10 @@ import * as ACTIONS from './store/actiontypes.js';
 import App from './App.js';
 
 let storedPlayerId = localStorage.getItem('playerId');
+const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
 const hostname = window.location.hostname;
 const port = window.location.port === '3000' ? '8080' : window.location.port;
-const wsUrl = `ws://${hostname}:${port}/?playerId=${storedPlayerId}`;
+const wsUrl = `${protocol}://${hostname}:${port}/?playerId=${storedPlayerId}`;
 console.log(wsUrl);
 const webSocket = new WebSocket(wsUrl);
 
