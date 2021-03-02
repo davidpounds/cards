@@ -7,7 +7,9 @@ import * as ACTIONS from './store/actiontypes.js';
 import App from './App.js';
 
 let storedPlayerId = localStorage.getItem('playerId');
-const webSocket = new WebSocket(`ws://localhost:8080/?playerId=${storedPlayerId}`);
+const hostname = window.location.hostname;
+const port = window.location.port;
+const webSocket = new WebSocket(`ws://${hostname}:${port}/?playerId=${storedPlayerId}`);
 
 const sendToServer = (type, data) => {
   webSocket.send(JSON.stringify({ type, data }));
