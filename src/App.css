@@ -19,6 +19,7 @@ body {
 
 .app {
   width: calc(var(--card-width) * var(--hand-width-multiplier) * 2);
+  max-width: 100vw;
   display: grid;
   grid-template-columns: var(--card-height) calc(var(--card-width) / 2) calc(var(--card-width) * var(--hand-width-multiplier)) calc(var(--card-width) / 2) var(--card-height);
   grid-template-rows: var(--card-height) calc(var(--card-width) / 2) calc(var(--card-width) * var(--hand-width-multiplier)) calc(var(--card-width) / 2) var(--card-height);
@@ -56,7 +57,7 @@ body {
 
   .app {
       width: calc(var(--card-width) * var(--hand-width-multiplier) * 2);
-      grid-template-columns: 1fr 1px calc(var(--card-width) * var(--hand-width-multiplier)) 1px 1fr;
-      grid-template-rows: repeat(3, 1px) 1fr var(--card-height);
+      display: flex;
+      flex-direction: column-reverse;
   }
 }

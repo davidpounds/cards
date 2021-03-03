@@ -56,3 +56,25 @@
   transform: rotate(-90deg);
   transform-origin: calc(var(--card-width) * 0.5) calc(var(--card-width) * 0.5);
 }
+
+@media (max-width: 719px), (max-height: 719px) {
+
+  .in-play {
+    --rotate-angle: 0deg !important;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .in-play .player2, 
+  .in-play .player4 {
+      transform: rotate(0deg);
+  }
+
+  .in-play .card-wrapper svg {
+    display: none;
+  }
+  .in-play .card-wrapper .text {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}

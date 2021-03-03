@@ -23,11 +23,15 @@ const InPlay = props => {
         <svg><use href="#clear" /></svg>
       </button>
     </div>}
-    {inPlay.map(card => <Card 
-      key={`${card.bitmask}`} 
-      bitmask={card.bitmask}
-      className={`player${playersWithoutDealer.map(player => player.id).indexOf(card.player) + 1}`}
-    />)}
+    {inPlay.map(card => {
+      const cardPlayer = players.find(player => player.id === card.player);
+      return <Card 
+        key={`${card.bitmask}`} 
+        bitmask={card.bitmask}
+        player={cardPlayer}
+        className={`player${playersWithoutDealer.map(player => player.id).indexOf(card.player) + 1}`}
+      />;
+    })}
   </div>;
 };
 

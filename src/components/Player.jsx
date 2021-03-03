@@ -1,4 +1,5 @@
 import './Player.css';
+import { useState } from 'react';
 import Card from './Card.jsx';
 import * as ACTIONS from '../store/actiontypes.js';
 
@@ -6,11 +7,19 @@ const Player = props => {
   const { player, className, currentPlayer, isCurrentPlayer = false, hand, inPlay, sendToServer } = props;
   const canPlay = inPlay.find(card => card.player.id === player.id) === undefined;
   const sortedHand = [...hand].sort((a, b) => a.bitmask - b.bitmask);
+  const isTouchDevice = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+  const [selectedCardBitmask, setSelectedCardBitmask] = useState(null);
 
   const addToInPlay = card => () => {
-    if (canPlay) {
-      sendToServer(ACTIONS.SERVER_ADD_CARD_TO_IN_PLAY, card);
+    if (!canPlay) {
+      return;
     }
+    if (isTouchDevice && (selectedCardBitmask === null || selectedCardBitmask !== card.bitmask)) {
+      setSelectedCardBitmask(card.bitmask);
+      return;
+    }
+    sendToServer(ACTIONS.SERVER_ADD_CARD_TO_IN_PLAY, card);
+    setSelectedCardBitmask(null);
   };
 
   return <section className={`player ${className} ${isCurrentPlayer ? 'current' : ''}`}>
@@ -21,9 +30,10 @@ const Player = props => {
       {sortedHand.map(card => {
         const currentPlayerCard = player.id === currentPlayer?.id;
         const { bitmask } = card;
+        const className = `${currentPlayerCard ? '' : 'nohover'} ${isTouchDevice && selectedCardBitmask === card.bitmask ? 'selected' : ''}`;
         return <Card 
           key={bitmask} 
-          className={currentPlayerCard ? null : 'nohover'}
+          className={className}
           bitmask={bitmask}
           onClick={currentPlayerCard ? addToInPlay(card) : null}
           showBack={!currentPlayerCard}
