@@ -41,7 +41,7 @@ export default class PlayingCard {
   constructor(bitmask) {
     this.bitmask = bitmask;
     this.player = null;
-    this.inPlay = false;
+    this.inPlay = null;
     this.played = false;
   }
 };

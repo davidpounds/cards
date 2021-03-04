@@ -29,8 +29,8 @@ const App = props => {
   return (
     <main className="app">
       <GameControls store={store} sendToServer={sendToServer} />
-      <Players store={store} sendToServer={sendToServer} />
       <InPlay store={store} sendToServer={sendToServer} />
+      <Players store={store} sendToServer={sendToServer} />
       <SvgInlineSprite />
     </main>
   );

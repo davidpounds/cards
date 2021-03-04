@@ -61,12 +61,12 @@ const connectUser = (serverStore, ws, playerId = null) => {
 
 const addCardToInPlay = (serverStore, cardToAdd) => {
   const { deck, players } = serverStore;
-  const cardsAlreadyInPlay = deck.filter(card => card.inPlay);
+  const cardsAlreadyInPlay = deck.filter(card => card.inPlay !== null);
   const playersAlreadyPlayed = [...new Set(cardsAlreadyInPlay.map(card => card.player))];
   if (!playersAlreadyPlayed.includes(cardToAdd.player)) {
     const card = deck.find(card => card.bitmask === cardToAdd.bitmask && card.player === cardToAdd.player);
     if (card) {
-      card.inPlay = true;
+      card.inPlay = new Date().getTime();
       const player = players.find(player => player.id === card.player);
       updatePlayersState(`${player.name} played the ${getFullCardName(card.bitmask)}`);
     }
@@ -76,8 +76,8 @@ const addCardToInPlay = (serverStore, cardToAdd) => {
 const addCardsToPlayed = serverStore => {
   const { deck } = serverStore;
   deck.forEach(card => {
-    if (card.inPlay) {
-      card.inPlay = false;
+    if (card.inPlay !== null) {
+      card.inPlay = null;
       card.played = true;
     }
   });

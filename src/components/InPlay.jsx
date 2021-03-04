@@ -8,7 +8,7 @@ const InPlay = props => {
   const { isDealer = false } = currentPlayer ?? {};
 
   const playersWithoutDealer = players.filter(player => !player.isDealer);
-  const inPlay = deck.filter(card => card.inPlay);
+  const inPlay = deck.filter(card => card.inPlay !== null).sort((a, b) => a.inPlay - b.inPlay);
   const currentPlayerIndex = playersWithoutDealer.map(player => player.id).indexOf(currentPlayer ? currentPlayer.id : null);
   const rotateAngle = currentPlayerIndex > -1 ? ((currentPlayerIndex + 2) % playersWithoutDealer.length) * 90 : 0;
   const allPlayersHavePlayed = inPlay?.length === playersWithoutDealer?.length;

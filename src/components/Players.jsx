@@ -9,14 +9,14 @@ const rotateArray = (arr, n) => {
 
 const Players = props => {
   const { store: { players, currentPlayer, deck}, sendToServer } = props;
-  const inPlay = deck.filter(card => card.inPlay);
+  const inPlay = deck.filter(card => card.inPlay !== null);
   const nonDealerPlayers = players.filter(player => !player.isDealer);
   const currentPlayerIndex = nonDealerPlayers.map(player => player.id).indexOf(currentPlayer?.id);
   const sortedPlayers = rotateArray(nonDealerPlayers, 2 - (currentPlayerIndex === -1 ? 2 : currentPlayerIndex));
 
   return <>
     {sortedPlayers.map((player, idx) => {
-      const hand = deck.filter(card => card.player === player.id && !card.inPlay && !card.played);
+      const hand = deck.filter(card => card.player === player.id && card.inPlay === null && !card.played);
       const isCurrentPlayer = player.id === currentPlayer?.id;
       return <Player 
         className={`player${idx + 1}`}

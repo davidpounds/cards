@@ -61,7 +61,8 @@
 
   .in-play {
     --rotate-angle: 0deg !important;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-bottom: 2rem;
   }
 
@@ -70,11 +71,7 @@
       transform: rotate(0deg);
   }
 
-  .in-play .card-wrapper svg {
-    display: none;
-  }
-  .in-play .card-wrapper .text {
-    display: block;
-    margin-bottom: 0.5rem;
+  .in-play .card-wrapper {
+    margin: 1rem;
   }
 }

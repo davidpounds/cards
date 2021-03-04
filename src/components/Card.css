@@ -12,6 +12,10 @@
   overflow: visible;
 }
 
+.card-wrapper .card-player {
+  display: none;
+}
+
 .hover-effect .card-wrapper:not(.nohover).selected {
   overflow: visible;
   transform: scale(1.1);
@@ -26,29 +30,15 @@
   }
 }
 
-.card-player {
-  position: absolute;
-  transform-origin: top left;
-  transform: rotate(-90deg);
-  z-index: 2;
-  top: calc(var(--card-height) - 2px);
-  left: 2px;
-  white-space: nowrap;
-  font-size: 0.9rem;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 0.2rem;
-}
+@media (max-width: 719px), (max-height: 719px) {
+  .card-wrapper {
+    width: var(--card-width);
+  }
 
-.card-wrapper .text {
-  display: none;
-  color: #fff;
-  text-align: center;
-}
-
-.card-wrapper .text .red {
-  color: #fc5554;
-}
-
-.card-wrapper .text .black {
-  color: #000;
+  .card-wrapper .card-player {
+    display: block;
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+  }
 }

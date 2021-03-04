@@ -1,5 +1,4 @@
 import './Card.css';
-import { getShortCardInfo } from '../data/PlayingCard.class.js';
 
 const CARD_SIZE = Object.freeze({
   WIDTH: 360,
@@ -15,10 +14,10 @@ const Card = props => {
     player = null,
   } = props;
   const svgId = showBack ? '#c00' : `#c${bitmask.toString(16).substr(-2)}`;
-  const shortCardInfo = getShortCardInfo(bitmask);
 
   return (
     <div className={`card-wrapper ${className}`}>
+      <div className="card-player">{player?.name}</div>
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
         width={CARD_SIZE.WIDTH} 
@@ -28,11 +27,6 @@ const Card = props => {
       >
         <use href={svgId} />
       </svg>
-      <div className="text">
-        {player?.name}: 
-        <span className={shortCardInfo.colour}>{shortCardInfo.symbol}</span>
-        {shortCardInfo.value}
-      </div>
     </div>
   );
 };
