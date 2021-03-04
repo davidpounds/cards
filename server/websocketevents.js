@@ -1,6 +1,6 @@
 import url from 'url';
 import * as ACTIONS from '../src/store/actiontypes.js';
-import { updatePlayersState } from './index.js';
+import { updatePlayersState, disconnectAllPlayers } from './index.js';
 import { resetShuffleAndDeal } from './store.js';
 import { getFullCardName } from '../src/data/PlayingCard.class.js';
 
@@ -38,6 +38,9 @@ const messageHandler = (ws, serverStore) => rawMessage => {
       case ACTIONS.SERVER_DEAL_HAND:
         resetShuffleAndDeal();
         updatePlayersState('The dealer dealt a new hand');
+      case ACTIONS.SERVER_RESET_GAME:
+        disconnectAllPlayers();
+        resetShuffleAndDeal(true);
       default:
         break;
     }

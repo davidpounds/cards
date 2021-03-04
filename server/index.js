@@ -43,6 +43,10 @@ export const updatePlayersState = (message = null) => {
   });
 };
 
+export const disconnectAllPlayers = () => {
+  wss.clients.forEach(ws => ws.terminate());
+};
+
 setInterval(() => {
   wss.clients.forEach(ws => {
     if (!ws.isAlive) {

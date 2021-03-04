@@ -39,7 +39,7 @@ const serverStore = {
   deck: shuffleDeck(getResetDeck()),
 };
 
-export const resetShuffleAndDeal = () => {
+export const resetShuffleAndDeal = (resetPlayers = false) => {
   const shuffledResetDeck = shuffleDeck(getResetDeck());
   const players = serverStore.players.filter(player => !player.isDealer);
   const numberOfPlayers = players.length;
@@ -50,6 +50,12 @@ export const resetShuffleAndDeal = () => {
     shuffledResetDeck[i].player = players[playerIndex].id;
   });
   serverStore.deck = shuffledResetDeck;
+  if (resetPlayers) {
+    serverStore.players.forEach(player => {
+      player.id = uid(16);
+      player.websocket = null;
+    });
+  }
 };
 
 export default serverStore;
