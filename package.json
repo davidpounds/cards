@@ -35,7 +35,8 @@
     "test": "react-scripts test",
     "server": "node ./server/index.js",
     "killport": "lsof -t -i tcp:8080 | xargs kill",
-    "dev": "concurrently \"npm run killport && npm run server\" \"npm run start\""
+    "dev": "concurrently \"npm run killport && npm run server\" \"npm run start\"",
+    "deploy": "git push heroku main"
   },
   "eslintConfig": {
     "extends": [
