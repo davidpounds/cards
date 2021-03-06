@@ -1,0 +1,13 @@
+.connection {
+  --size: 0.7rem;
+  display: inline-block;
+  width: var(--size);
+  height: var(--size);
+  border-radius: calc(var(--size) / 2);
+  background-color: #666;
+  margin-right: calc(var(--size) / 2);
+}
+
+.online {
+  background-color: #0f0;
+}

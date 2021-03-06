@@ -1,0 +1,31 @@
+.name input {
+  border: none;
+  font-size: 1rem;
+  padding: 0.2rem;
+  background: rgba(255,255,255, 0.3);
+  color: white;
+}
+
+.btn-icon {
+  border: none;
+  background: transparent;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-icon svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.btn-icon.edit {
+  color: #999;
+}
+
+.btn-icon.save {
+  color: #fff;
+}
+
+.btn-icon.cancel {
+  color: #fc5554;;
+}

@@ -1,6 +1,8 @@
 import './Player.css';
 import { useState } from 'react';
 import Card from './Card.jsx';
+import PlayerName from './PlayerName.jsx';
+import ConnectionIndicator from './ConnectionIndicator.jsx';
 import * as ACTIONS from '../store/actiontypes.js';
 
 const Player = props => {
@@ -24,7 +26,8 @@ const Player = props => {
 
   return <section className={`player ${className} ${isCurrentPlayer ? 'current' : ''}`}>
     <h2 className="player-name">
-      {player.name} ({player.isConnected ? 'online' : 'offline' })
+      <ConnectionIndicator connected={player.isConnected} />
+      <PlayerName name={player.name} editable={isCurrentPlayer} sendToServer={sendToServer} />
     </h2>
     <div className={`cardlist hover-effect hand ${canPlay ? 'canplay' : 'cantplay'}`} data-empty-message="Hand is empty">
       {sortedHand.map(card => {
