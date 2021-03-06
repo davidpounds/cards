@@ -39,6 +39,7 @@ const messageHandler = (ws, serverStore) => rawMessage => {
         resetShuffleAndDeal();
         updatePlayersState('The dealer dealt a new hand');
       case ACTIONS.SERVER_RESET_GAME:
+        updatePlayersState('The dealer is ending this game and disconnecting all players');
         disconnectAllPlayers();
         resetShuffleAndDeal(true);
       case ACTIONS.SERVER_CHANGE_PLAYER_NAME:
@@ -92,8 +93,10 @@ const addCardsToPlayed = serverStore => {
 const changePlayerName = (serverStore, ws, data) => {
   const { players } = serverStore;
   const player = players.find(player => player.websocket === ws);
-  const oldName = player.name;
-  const newName = data.name;
-  player.name = newName;
-  updatePlayersState(`${oldName} changed their name to ${newName}`);
+  if (player) {
+    const oldName = player.name;
+    const newName = data.name;
+    player.name = newName;
+    updatePlayersState(`${oldName} changed their name to ${newName}`);
+  }
 };
