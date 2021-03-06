@@ -10,7 +10,6 @@ The first user to connect is given the role of dealer, subsequent users are allo
 
 ## TODO
 
-* Allow connected users to change their display name.
 * Allow many users to connect, but dealer allocates players.
 * Force play in a clockwise direction.
 * Enable the dealer to specify which player should play first in the next round.
