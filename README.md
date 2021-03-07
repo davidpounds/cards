@@ -11,9 +11,11 @@ The first user to connect is given the role of dealer, subsequent users are allo
 ## TODO
 
 * Allow many users to connect, but dealer allocates players.
+* When user disconnects reset their UI.
 * Force play in a clockwise direction.
 * Enable the dealer to specify which player should play first in the next round.
 * Enable the dealer to keep track of player scores.
+* Force following suit.
 
 ## Available Scripts
 
