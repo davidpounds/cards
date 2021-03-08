@@ -9,8 +9,16 @@
   cursor: pointer;
 }
 
+.game-controls button[disabled] {
+  cursor: not-allowed;
+}
+
 .game-controls button svg {
   color: #ccc;
   width: 32px;
   height: 32px;
+}
+
+.game-controls button[disabled] svg {
+  color: #666;
 }

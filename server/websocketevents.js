@@ -2,7 +2,7 @@ import url from 'url';
 import * as ACTIONS from '../src/store/actiontypes.js';
 import CONFIG from '../src/data/config.js';
 import User from './User.class.js';
-import { updateClientState, disconnectAllUsers } from './index.js';
+import { updateClientState } from './index.js';
 import { resetShuffleAndDeal } from './store.js';
 import { getFullCardName } from '../src/data/PlayingCard.class.js';
 
@@ -35,7 +35,7 @@ export const closeHandler = (ws, serverStore) => {
   updateClientState(`${disconnectingUser.name} has left`);
 };
 
-const messageHandler = (ws, serverStore) => rawMessage => { // TODO add an action for dealer to assign players
+const messageHandler = (ws, serverStore) => rawMessage => {
   let message;
   try {
     message = JSON.parse(rawMessage);
@@ -57,9 +57,8 @@ const messageHandler = (ws, serverStore) => rawMessage => { // TODO add an actio
         updateClientState('The dealer dealt a new hand');
         break;
       case ACTIONS.SERVER_RESET_GAME:
-        updateClientState('The dealer is ending this game and disconnecting all players');
-        disconnectAllUsers();
         resetShuffleAndDeal(true);
+        updateClientState('The dealer is ending this game and resetting all players');
         break;
       case ACTIONS.SERVER_CHANGE_USER_NAME:
         changeUserName(serverStore, ws, data);

@@ -2,7 +2,6 @@ import express from 'express';
 import http from 'http';
 import WebSocket from 'ws';
 import path from 'path';
-// import bodyParser from 'body-parser';
 import serverStore, { resetShuffleAndDeal } from './store.js';
 import { connectionHandler } from './websocketevents.js';
 import User from './User.class.js';
@@ -11,7 +10,6 @@ import * as ACTIONS from '../src/store/actiontypes.js';
 const __dirname = path.resolve();
 const devSeperator = !process.env.PORT ? '..' : '';
 const app = express();
-// app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, devSeperator, 'build')));
 
 
@@ -38,9 +36,9 @@ export const updateClientState = (message = null) => {
   });
 };
 
-export const disconnectAllUsers = () => {
-  wss.clients.forEach(ws => ws.terminate());
-};
+// export const disconnectAllUsers = () => {
+//   wss.clients.forEach(ws => ws.terminate());
+// };
 
 setInterval(() => {
   wss.clients.forEach(ws => {
