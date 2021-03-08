@@ -4,53 +4,31 @@ import { shuffleDeck } from '../src/data/randomizing.js';
 import { uid } from 'uid/single';
 
 const serverStore = {
-  players: [
-    { 
-      id: uid(16),
-      name: 'Dealer',
-      isDealer: true,
-      websocket: null,
-    },
-    { 
-      id: uid(16),
-      name: 'Player 1',
-      isDealer: false,
-      websocket: null,
-    },
-    { 
-      id: uid(16),
-      name: 'Player 2',
-      isDealer: false,
-      websocket: null,
-    },
-    { 
-      id: uid(16),
-      name: 'Player 3',
-      isDealer: false,
-      websocket: null,
-    },
-    { 
-      id: uid(16),
-      name: 'Player 4',
-      isDealer: false,
-      websocket: null,
-    },
-  ],
+  users: [],
+  players: [],
   deck: shuffleDeck(getResetDeck()),
+  currentUser: null,
+};
+
+const getUserIdForWebsocket = ws => {
+  const user = serverStore.users.find(user => user.websocket === ws);
+  return user ? user.id : null;
 };
 
 export const resetShuffleAndDeal = (resetPlayers = false) => {
   const shuffledResetDeck = shuffleDeck(getResetDeck());
-  const players = serverStore.players.filter(player => !player.isDealer);
-  const numberOfPlayers = players.length;
-  const numberOfCards = Math.floor(CONFIG.CARDS_IN_DECK / numberOfPlayers);
-  const numberOfCardsToDeal = numberOfCards * numberOfPlayers;
-  [...new Array(numberOfCardsToDeal).keys()].forEach(i => {
-    const playerIndex = Math.floor(i / numberOfCards);
-    shuffledResetDeck[i].player = players[playerIndex].id;
-  });
+  const { players } = serverStore;
+  const numberOfPlayers = players.length; // TODO - need to check that players have been allocated
+  if (numberOfPlayers === CONFIG.MAX_PLAYERS) {
+    const numberOfCards = Math.floor(CONFIG.CARDS_IN_DECK / numberOfPlayers);
+    const numberOfCardsToDeal = numberOfCards * numberOfPlayers;
+    [...new Array(numberOfCardsToDeal).keys()].forEach(i => {
+      const playerIndex = Math.floor(i / numberOfCards);
+      shuffledResetDeck[i].player = players[playerIndex].id;
+    });
+  }
   serverStore.deck = shuffledResetDeck;
-  if (resetPlayers) {
+  if (resetPlayers) { // TODO - disconnect websocket and reset user.
     serverStore.players.forEach(player => {
       player.id = uid(16);
       player.websocket = null;

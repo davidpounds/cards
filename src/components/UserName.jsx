@@ -1,11 +1,11 @@
-import './PlayerName.css';
+import './UserName.css';
 import { useState } from 'react';
 import * as ACTIONS from '../store/actiontypes.js';
 
-const PlayerName = props => {
+const UserName = props => {
   const { name, editable = false, sendToServer } = props;
   const [isEditing, setIsEditing] = useState(false);
-  const [playerName, setPlayerName] = useState(name);
+  const [userName, setUserName] = useState(name);
   const startEditHandler = () => {
     setIsEditing(editable);
   };
@@ -13,11 +13,16 @@ const PlayerName = props => {
     setIsEditing(false);
   };
   const saveEditHandler = () => {
-    sendToServer(ACTIONS.SERVER_CHANGE_PLAYER_NAME, {name: playerName});
+    sendToServer(ACTIONS.SERVER_CHANGE_USER_NAME, {name: userName});
     setIsEditing(false);
   };
-  const playerNameChangeHandler = e => {
-    setPlayerName(e.target.value);
+  const userNameChangeHandler = e => {
+    setUserName(e.target.value);
+  };
+  const keyDownHandler = e => {
+    if (e.key === 'Enter') {
+      saveEditHandler();
+    }
   };
 
   return <span className="name">
@@ -28,7 +33,7 @@ const PlayerName = props => {
       </button>
     )}
     {editable && isEditing && <>
-      <input type="text" value={playerName} maxlength="32" onChange={playerNameChangeHandler} />
+      <input type="text" value={userName} maxlength="32" onKeyDown={keyDownHandler} onChange={userNameChangeHandler} />
       <button className="btn-icon save" onClick={saveEditHandler} title="Save">
         <svg><use href="#tick" /></svg>
       </button>
@@ -39,4 +44,4 @@ const PlayerName = props => {
   </span>;
 };
 
-export default PlayerName;
+export default UserName;

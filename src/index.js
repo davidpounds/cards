@@ -7,11 +7,11 @@ import * as ACTIONS from './store/actiontypes.js';
 import CONFIG from './data/config.js';
 import App from './App.js';
 
-let storedPlayerId = localStorage.getItem('playerId');
+let storedUserId = localStorage.getItem(CONFIG.USER_ID_KEY);
 const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
 const hostname = window.location.hostname;
 const port = window.location.port === '3000' ? '8080' : window.location.port;
-const wsUrl = `${protocol}://${hostname}:${port}/?playerId=${storedPlayerId}`;
+const wsUrl = `${protocol}://${hostname}:${port}/?${CONFIG.USER_ID_KEY}=${storedUserId}`;
 const webSocket = new WebSocket(wsUrl);
 
 const sendToServer = (type, data) => {
@@ -37,9 +37,9 @@ const onMessageHandler = e => {
     switch (type) {
       case ACTIONS.CLIENT_UPDATE_STORE:
         const { currentPlayer = null } = store;
-        if (storedPlayerId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
-          storedPlayerId = currentPlayer.id;
-          localStorage.setItem('playerId', storedPlayerId);
+        if (storedUserId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
+          storedUserId = currentPlayer.id;
+          localStorage.setItem(CONFIG.USER_ID_KEY, storedUserId);
           new Toast(`You are ${currentPlayer.name}`, Toast.TYPE_INFO, Toast.TIME_LONG);
         }
         window.dispatchEvent(new CustomEvent(ACTIONS.CLIENT_UPDATE_STORE, { detail: store }));

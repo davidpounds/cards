@@ -8,23 +8,24 @@ const rotateArray = (arr, n) => {
 };
 
 const Players = props => {
-  const { store: { players, currentPlayer, deck}, sendToServer } = props;
+  const { store: { users = [], players = [], currentPlayer = null, deck = []}, sendToServer } = props;
   const inPlay = deck.filter(card => card.inPlay !== null);
-  const nonDealerPlayers = players.filter(player => !player.isDealer);
-  const currentPlayerIndex = nonDealerPlayers.map(player => player.id).indexOf(currentPlayer?.id);
-  const sortedPlayers = rotateArray(nonDealerPlayers, 2 - (currentPlayerIndex === -1 ? 2 : currentPlayerIndex));
+
+  const currentPlayerIndex = players.indexOf(currentPlayer?.id);
+  const sortedPlayers = rotateArray(players, 2 - (currentPlayerIndex === -1 ? 2 : currentPlayerIndex));
 
   return <>
-    {sortedPlayers.map((player, idx) => {
-      const hand = deck.filter(card => card.player === player.id && card.inPlay === null && !card.played);
-      const isCurrentPlayer = player.id === currentPlayer?.id;
+    {sortedPlayers.map((playerId, idx) => {
+      const player = users.find(user => user.id === playerId);
+      const hand = deck.filter(card => card.player === playerId && card.inPlay === null && !card.played);
+      const isCurrentPlayer = playerId === currentPlayer?.id;
       return <Player 
         className={`player${idx + 1}`}
         currentPlayer={currentPlayer}
         isCurrentPlayer={isCurrentPlayer}
         hand={hand}
         inPlay={inPlay}
-        key={player.id} 
+        key={playerId} 
         player={player} 
         noOfPlayers={players.length}
         sendToServer={sendToServer}

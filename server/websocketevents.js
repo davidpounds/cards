@@ -1,16 +1,23 @@
 import url from 'url';
 import * as ACTIONS from '../src/store/actiontypes.js';
-import { updatePlayersState, disconnectAllPlayers } from './index.js';
+import CONFIG from '../src/data/config.js';
+import User from './User.class.js';
+import { updateClientState, disconnectAllUsers } from './index.js';
 import { resetShuffleAndDeal } from './store.js';
 import { getFullCardName } from '../src/data/PlayingCard.class.js';
 
-export const connectionHandler = (ws, req, serverStore) => {
+export const connectionHandler = (ws, req, serverStore, connectedClientCount) => {
+  if (connectedClientCount > CONFIG.MAX_USERS) {
+    ws.terminate();
+    return false;
+  }
   const q = url.parse(req.url, true).query;
-  const existingPlayerId = q.playerId;
-  connectUser(serverStore, ws, existingPlayerId);
+  const existingUserId = q[CONFIG.USER_ID_KEY];
+  connectUser(serverStore, ws, existingUserId);
 
   ws.isAlive = true;
   ws.on('pong', () => pongHandler(ws));
+  ws.on('close', () => closeHandler(ws, serverStore));
   ws.on('message', messageHandler(ws, serverStore));
 };
 
@@ -18,7 +25,17 @@ const pongHandler = ws => {
   ws.isAlive = true;
 };
 
-const messageHandler = (ws, serverStore) => rawMessage => {
+export const closeHandler = (ws, serverStore) => {
+  ws.isAlive = false;
+  const disconnectingUser = serverStore.users.find(user => user.websocket === ws);
+  if (disconnectingUser) {
+    disconnectingUser.websocket = null;
+  }
+  serverStore.users = serverStore.users.filter(user => user !== disconnectingUser);
+  updateClientState(`${disconnectingUser.name} has left`);
+};
+
+const messageHandler = (ws, serverStore) => rawMessage => { // TODO add an action for dealer to assign players
   let message;
   try {
     message = JSON.parse(rawMessage);
@@ -37,13 +54,22 @@ const messageHandler = (ws, serverStore) => rawMessage => {
         break;
       case ACTIONS.SERVER_DEAL_HAND:
         resetShuffleAndDeal();
-        updatePlayersState('The dealer dealt a new hand');
+        updateClientState('The dealer dealt a new hand');
+        break;
       case ACTIONS.SERVER_RESET_GAME:
-        updatePlayersState('The dealer is ending this game and disconnecting all players');
-        disconnectAllPlayers();
+        updateClientState('The dealer is ending this game and disconnecting all players');
+        disconnectAllUsers();
         resetShuffleAndDeal(true);
-      case ACTIONS.SERVER_CHANGE_PLAYER_NAME:
-        changePlayerName(serverStore, ws, data);
+        break;
+      case ACTIONS.SERVER_CHANGE_USER_NAME:
+        changeUserName(serverStore, ws, data);
+        break;
+      case ACTIONS.SERVER_ALLOCATE_USER_TO_PLAYER:
+        allocateUserToPlayer(serverStore, data);
+        break;
+      case ACTIONS.SERVER_DEALLOCATE_USER_TO_PLAYER:
+        deallocateUserToPlayer(serverStore, data);
+        break;
       default:
         break;
     }
@@ -52,16 +78,17 @@ const messageHandler = (ws, serverStore) => rawMessage => {
   }
 };
 
-const connectUser = (serverStore, ws, playerId = null) => {
-  const { players } = serverStore;
-  const availableUsers = players.filter(player => player.websocket === null);
-  const existingPlayer = players.find(player => player.id === playerId && playerId !== null);
-  if (existingPlayer) {
-    existingPlayer.websocket = ws;
-    updatePlayersState(`${existingPlayer.name} has connected`);
-  } else if (availableUsers.length > 0) {
-    availableUsers[0].websocket = ws;
-    updatePlayersState(`${availableUsers[0].name} has connected`);
+const connectUser = (serverStore, ws, userId = null) => {
+  const { users } = serverStore;
+  const existingUser = users.find(user => user.id === userId && userId !== null);
+  if (existingUser) {
+    existingUser.websocket = ws;
+    updateClientState(`${existingUser.name} has connected`);
+  } else {
+    const isDealer = users.length === 0;
+    const name = isDealer ? 'Dealer' : null;
+    users.push(new User(ws, null, name, isDealer));
+    updateClientState(`${users[users.length - 1].name} has connected`);
   }
 };
 
@@ -74,7 +101,7 @@ const addCardToInPlay = (serverStore, cardToAdd) => {
     if (card) {
       card.inPlay = new Date().getTime();
       const player = players.find(player => player.id === card.player);
-      updatePlayersState(`${player.name} played the ${getFullCardName(card.bitmask)}`);
+      updateClientState(`${player.name} played the ${getFullCardName(card.bitmask)}`);
     }
   }
 };
@@ -87,16 +114,34 @@ const addCardsToPlayed = serverStore => {
       card.played = true;
     }
   });
-  updatePlayersState(`The dealer cleared the played cards`);
+  updateClientState(`The dealer cleared the played cards`);
 };
 
-const changePlayerName = (serverStore, ws, data) => {
-  const { players } = serverStore;
-  const player = players.find(player => player.websocket === ws);
-  if (player) {
-    const oldName = player.name;
+const changeUserName = (serverStore, ws, data) => {
+  const { users } = serverStore;
+  const user = users.find(user => user.websocket === ws);
+  if (user) {
+    const oldName = user.name;
     const newName = data.name;
-    player.name = newName;
-    updatePlayersState(`${oldName} changed their name to ${newName}`);
+    user.name = newName;
+    updateClientState(`${oldName} changed their name to ${newName}`);
+  }
+};
+
+const allocateUserToPlayer = (serverStore, data) => {
+  const { users, players } = serverStore;
+  const { user } = data;
+  if (!players.includes(user.id) && players.length < CONFIG.MAX_PLAYERS) {
+    players.push(user.id);
+    updateClientState(`Dealer added ${user.name} as a player`);
+  }
+};
+
+const deallocateUserToPlayer = (serverStore, data) => {
+  const { users, players } = serverStore;
+  const { user } = data;
+  if (players.includes(user.id)) {
+    serverStore.players = players.filter(playerid => playerid !== user.id);
+    updateClientState(`Dealer removed ${user.name} as a player`);
   }
 };

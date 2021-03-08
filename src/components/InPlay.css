@@ -5,6 +5,8 @@
   grid-template-columns: calc(var(--card-width) * 0.25) calc(var(--card-width) * 0.5) var(--card-width) calc(var(--card-width) * 0.5) var(--card-width) calc(var(--card-width) * 0.5) calc(var(--card-width) * 0.25);
   grid-template-rows: calc(var(--card-width) * 0.25) calc(var(--card-width) * 0.5) var(--card-width) calc(var(--card-width) * 0.5) var(--card-width) calc(var(--card-width) * 0.5) calc(var(--card-width) * 0.25);
   transform: rotate(var(--rotate-angle));
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
 }
 
 .move-to-played {

@@ -4,8 +4,8 @@ import * as ACTIONS from '../store/actiontypes.js';
 const GameControls = props => {
 
   const { store, sendToServer } = props;
-  const { currentPlayer } = store;
-  const { isDealer = false } = currentPlayer ?? {};
+  const { currentUser } = store;
+  const { isDealer = false } = currentUser ?? {};
 
   const dealHandler = () => {
     sendToServer(ACTIONS.SERVER_DEAL_HAND);
