@@ -10,11 +10,11 @@ const ConnectedUsers = props => {
   const playersFull = players.length >= CONFIG.MAX_PLAYERS;
 
   const addAsPlayerHandler = user => () => {
-    sendToServer(ACTIONS.SERVER_ALLOCATE_USER_TO_PLAYER, { user });
+    sendToServer(ACTIONS.SERVER_ALLOCATE_USER_TO_PLAYER, user);
   };
 
   const removeAsPlayerHandler = user => () => {
-    sendToServer(ACTIONS.SERVER_DEALLOCATE_USER_TO_PLAYER, { user });
+    sendToServer(ACTIONS.SERVER_DEALLOCATE_USER_TO_PLAYER, user);
   };
 
   return <div className="connected-users">

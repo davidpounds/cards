@@ -26,9 +26,11 @@ const pongHandler = ws => {
 };
 
 export const closeHandler = (ws, serverStore) => {
+  const { users } = serverStore;
   ws.isAlive = false;
-  const disconnectingUser = serverStore.users.find(user => user.websocket === ws);
+  const disconnectingUser = users.find(user => user.websocket === ws);
   if (disconnectingUser) {
+    deallocateUserToPlayer(serverStore, disconnectingUser);
     disconnectingUser.websocket = null;
   }
   serverStore.users = serverStore.users.filter(user => user !== disconnectingUser);
@@ -91,7 +93,8 @@ const connectUser = (serverStore, ws, userId = null) => {
   }
 };
 
-const addCardToInPlay = (serverStore, cardToAdd) => {
+const addCardToInPlay = (serverStore, data) => {
+  const { card: cardToAdd, currentPlayer } = data;
   const { deck, players } = serverStore;
   const cardsAlreadyInPlay = deck.filter(card => card.inPlay !== null);
   const playersAlreadyPlayed = [...new Set(cardsAlreadyInPlay.map(card => card.player))];
@@ -99,8 +102,7 @@ const addCardToInPlay = (serverStore, cardToAdd) => {
     const card = deck.find(card => card.bitmask === cardToAdd.bitmask && card.player === cardToAdd.player);
     if (card) {
       card.inPlay = new Date().getTime();
-      const player = players.find(player => player.id === card.player);
-      updateClientState(`${player.name} played the ${getFullCardName(card.bitmask)}`);
+      updateClientState(`${currentPlayer.name} played the ${getFullCardName(card.bitmask)}`);
     }
   }
 };
@@ -127,20 +129,18 @@ const changeUserName = (serverStore, ws, data) => {
   }
 };
 
-const allocateUserToPlayer = (serverStore, data) => {
-  const { users, players } = serverStore;
-  const { user } = data;
+const allocateUserToPlayer = (serverStore, user) => {
+  const { players } = serverStore;
   if (!players.includes(user.id) && players.length < CONFIG.MAX_PLAYERS) {
     players.push(user.id);
     updateClientState(`Dealer added ${user.name} as a player`);
   }
 };
 
-const deallocateUserToPlayer = (serverStore, data) => {
-  const { users, players } = serverStore;
-  const { user } = data;
+const deallocateUserToPlayer = (serverStore, user) => {
+  const { players } = serverStore;
   if (players.includes(user.id)) {
     serverStore.players = players.filter(playerid => playerid !== user.id);
-    updateClientState(`Dealer removed ${user.name} as a player`);
+    updateClientState(`${user.name} is no longer a player`);
   }
 };

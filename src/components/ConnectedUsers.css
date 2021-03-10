@@ -27,3 +27,15 @@
 .connected-users .btn-icon.remove {
   color: #fc5554;
 }
+
+@media (max-width: 719px), (max-height: 719px) {
+  .connected-users {
+    transform: translateX(0);
+  }
+  .connected-users ul {
+    display: flex;
+  }
+  .connected-users ul li {
+    margin: 0 2rem 0.5rem 1rem;
+  }
+}
