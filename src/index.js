@@ -23,6 +23,7 @@ const onOpenHandler = () => {
 };
 
 const onCloseHandler = () => {
+  window.dispatchEvent(new CustomEvent(ACTIONS.CLIENT_DISCONNECTED));
   console.log('web socket closed');
 };
 

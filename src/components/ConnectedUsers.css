@@ -31,11 +31,19 @@
 @media (max-width: 719px), (max-height: 719px) {
   .connected-users {
     transform: translateX(0);
+    max-width: 100vw;
+    overflow-x: auto;
+    padding: 0.5rem;
   }
   .connected-users ul {
     display: flex;
   }
   .connected-users ul li {
-    margin: 0 2rem 0.5rem 1rem;
+    margin: 0 1rem 0 0;
+    list-style: none;
+    flex: 0 0 20vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 }

@@ -21,10 +21,17 @@ const App = props => {
     setStore(e.detail);
   };
 
+  const disconnectUser = () => {
+    const newStore = { ...store, currentUser: null };
+    setStore(newStore);
+  };
+
   useEffect(() => {
     window.addEventListener(ACTIONS.CLIENT_UPDATE_STORE, updateStore, false);
+    window.addEventListener(ACTIONS.CLIENT_DISCONNECTED, disconnectUser, false);
     return () => {
       window.removeEventListener(ACTIONS.CLIENT_UPDATE_STORE, updateStore, false);
+      window.removeEventListener(ACTIONS.CLIENT_DISCONNECTED, disconnectUser, false);
     };
   });
 
