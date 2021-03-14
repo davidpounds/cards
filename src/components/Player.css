@@ -2,6 +2,11 @@
   --icon-size: 16px;
 }
 
+.player-index {
+  color: rgba(255,255,255, 0.3);
+  font-size: 0.7rem;
+}
+
 .icon {
   width: var(--icon-size);
   height: var(--icon-size);

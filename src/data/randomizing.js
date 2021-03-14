@@ -1,3 +1,5 @@
+import { uid } from 'uid/single';
+
 export const randomNumberGenerator = (min, max) => {
   const difference = Number.parseInt(max) - Number.parseInt(min);
   return min + Math.round(Math.random() * difference);
@@ -11,3 +13,5 @@ export const shuffleDeck = deck => {
   });
   return deckCopy;
 };
+
+export const getNewPlayers = maxPlayers => [...new Array(maxPlayers)].map(_ => uid(16));

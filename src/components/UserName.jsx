@@ -33,7 +33,7 @@ const UserName = props => {
       </button>
     )}
     {editable && isEditing && <>
-      <input type="text" value={userName} maxlength="32" onKeyDown={keyDownHandler} onChange={userNameChangeHandler} />
+      <input type="text" value={userName} maxLength="32" onKeyDown={keyDownHandler} onChange={userNameChangeHandler} />
       <button className="btn-icon save" onClick={saveEditHandler} title="Save">
         <svg><use href="#tick" /></svg>
       </button>

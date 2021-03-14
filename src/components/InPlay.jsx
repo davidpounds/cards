@@ -1,14 +1,15 @@
 import './InPlay.css';
 import Card from './Card.jsx';
 import * as ACTIONS from '../store/actiontypes.js';
+import { getPlayerIdForUserId, getUserForPlayerId, getPlayerIndex } from '../data/utils.js';
 
 const InPlay = props => {
   const { store, sendToServer } = props;
-  const { players, currentUser, deck } = store;
+  const { players = [], users = [], currentUser, deck } = store;
   const { isDealer = false } = currentUser ?? {};
 
   const inPlay = deck.filter(card => card.inPlay !== null).sort((a, b) => a.inPlay - b.inPlay);
-  const currentPlayerIndex = players.indexOf(currentUser ? currentUser.id : null);
+  const currentPlayerIndex = players.indexOf(getPlayerIdForUserId(players, users, currentUser?.id));
   const rotateAngle = currentPlayerIndex > -1 ? ((currentPlayerIndex + 2) % players.length) * 90 : 0;
   const allPlayersHavePlayed = inPlay?.length === players?.length;
   const addCardsToPlayedHandler = () => {
@@ -23,12 +24,13 @@ const InPlay = props => {
       </button>
     </div>}
     {inPlay.map(card => {
-      const cardPlayer = players.find(player => player === card.player);
+      const cardPlayer = getUserForPlayerId(users, card.player);
+      const playerIndex = getPlayerIndex(players, card.player);
       return <Card 
         key={`${card.bitmask}`} 
         bitmask={card.bitmask}
         player={cardPlayer}
-        className={`player${players.indexOf(card.player) + 1}`}
+        className={`player${playerIndex + 1}`}
       />;
     })}
   </div>;

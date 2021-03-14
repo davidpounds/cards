@@ -10,7 +10,6 @@ The first user to connect is given the role of dealer, subsequent users are allo
 
 ## TODO
 
-* Keep players visible at all times, but allow dealer to reallocate users to players.
 * Force play in a clockwise direction.
 * Enable the dealer to specify which player should play first in the next round.
 * Enable the dealer to keep track of player scores.

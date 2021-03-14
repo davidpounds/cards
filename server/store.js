@@ -1,23 +1,21 @@
 import CONFIG from '../src/data/config.js';
 import getResetDeck from '../src/data/deck.js';
-import { shuffleDeck } from '../src/data/randomizing.js';
+import { shuffleDeck, getNewPlayers } from '../src/data/randomizing.js';
 
 const serverStore = {
   users: [],
-  players: [],
+  players: getNewPlayers(CONFIG.MAX_PLAYERS),
   deck: shuffleDeck(getResetDeck()),
   currentUser: null,
 };
-
-// const getUserIdForWebsocket = ws => {
-//   const user = serverStore.users.find(user => user.websocket === ws);
-//   return user ? user.id : null;
-// };
 
 export const resetShuffleAndDeal = (resetPlayers = false) => {
   const shuffledResetDeck = shuffleDeck(getResetDeck());
   const { players } = serverStore;
   const numberOfPlayers = players.length;
+  if (resetPlayers) {
+    serverStore.players = getNewPlayers(CONFIG.MAX_PLAYERS);
+  }
   if (numberOfPlayers === CONFIG.MAX_PLAYERS) {
     const numberOfCards = Math.floor(CONFIG.CARDS_IN_DECK / numberOfPlayers);
     const numberOfCardsToDeal = numberOfCards * numberOfPlayers;
@@ -27,9 +25,6 @@ export const resetShuffleAndDeal = (resetPlayers = false) => {
     });
   }
   serverStore.deck = shuffledResetDeck;
-  if (resetPlayers) {
-    serverStore.players = [];
-  }
 };
 
 export default serverStore;

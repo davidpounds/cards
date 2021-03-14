@@ -30,7 +30,7 @@ export const closeHandler = (ws, serverStore) => {
   ws.isAlive = false;
   const disconnectingUser = users.find(user => user.websocket === ws);
   if (disconnectingUser) {
-    deallocateUserToPlayer(serverStore, disconnectingUser);
+    deallocateUserToPlayer(serverStore, {user: disconnectingUser});
     disconnectingUser.websocket = null;
   }
   serverStore.users = serverStore.users.filter(user => user !== disconnectingUser);
@@ -88,7 +88,7 @@ const connectUser = (serverStore, ws, userId = null) => {
   } else {
     const isDealer = users.length === 0;
     const name = isDealer ? 'Dealer' : null;
-    users.push(new User(ws, null, name, isDealer));
+    users.push(new User(ws, null, null, name, isDealer));
     updateClientState(`${users[users.length - 1].name} has connected`);
   }
 };
@@ -129,18 +129,24 @@ const changeUserName = (serverStore, ws, data) => {
   }
 };
 
-const allocateUserToPlayer = (serverStore, user) => {
-  const { players } = serverStore;
-  if (!players.includes(user.id) && players.length < CONFIG.MAX_PLAYERS) {
-    players.push(user.id);
-    updateClientState(`Dealer added ${user.name} as a player`);
+const allocateUserToPlayer = (serverStore, data) => {
+  const { playerId, user } = data;
+  const { players, users } = serverStore;
+  const existingUserForPlayerId = users.find(user => user.playerId === playerId);
+  if (existingUserForPlayerId && existingUserForPlayerId.id !== user.id) {
+    existingUserForPlayerId.playerId = null;
   }
+  const userToAssign = users.find(u => u.id === user.id);
+  userToAssign.playerId = playerId;
+  const playerIndex = players.indexOf(playerId);
+  updateClientState(`Dealer added ${user.name} as Player ${playerIndex + 1}`);
 };
 
-const deallocateUserToPlayer = (serverStore, user) => {
-  const { players } = serverStore;
-  if (players.includes(user.id)) {
-    serverStore.players = players.filter(playerid => playerid !== user.id);
-    updateClientState(`${user.name} is no longer a player`);
-  }
+const deallocateUserToPlayer = (serverStore, data) => {
+  const { user } = data;
+  const { players, users } = serverStore;
+  const isPlayer = players.includes(user.playerId); 
+  const message = isPlayer ? `${user.name} is no longer a player` : null;
+  serverStore.users.find(u => u.id === user.id).playerId = null;
+  updateClientState(message);
 };
