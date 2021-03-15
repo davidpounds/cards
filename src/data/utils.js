@@ -2,11 +2,7 @@ const isPopulatedArray = arr => Array.isArray(arr) && arr.length > 0;
 
 const hasPlayersAndUsers = (players, users) => isPopulatedArray(players) && isPopulatedArray(users);
 
-export const uniqueArray = arr => {
-  const unique = [...new Set(arr)];
-  console.log({arr, unique});
-  return unique;
-}
+export const uniqueArray = arr => [...new Set(arr)];
 
 export const getAllocatedPlayers = (players = [], users = []) => hasPlayersAndUsers(players, users)
   ? users.filter(user => user.playerId !== null && players.includes(user.playerId))
