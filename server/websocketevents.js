@@ -3,7 +3,7 @@ import * as ACTIONS from '../src/store/actiontypes.js';
 import CONFIG from '../src/data/config.js';
 import User from './User.class.js';
 import { updateClientState } from './index.js';
-import { resetShuffleAndDeal } from './store.js';
+import { resetShuffleAndDeal, resetScores } from './store.js';
 import { getFullCardName } from '../src/data/PlayingCard.class.js';
 
 export const connectionHandler = (ws, req, serverStore, connectedClientCount) => {
@@ -71,6 +71,8 @@ const messageHandler = (ws, serverStore) => rawMessage => {
       case ACTIONS.SERVER_DEALLOCATE_USER_TO_PLAYER:
         deallocateUserToPlayer(serverStore, data);
         break;
+      case ACTIONS.SERVER_UPDATE_PLAYER_SCORE:
+        updatePlayerScore(serverStore, data);
       default:
         break;
     }
@@ -144,9 +146,19 @@ const allocateUserToPlayer = (serverStore, data) => {
 
 const deallocateUserToPlayer = (serverStore, data) => {
   const { user } = data;
-  const { players, users } = serverStore;
+  const { players } = serverStore;
   const isPlayer = players.includes(user.playerId); 
   const message = isPlayer ? `${user.name} is no longer a player` : null;
   serverStore.users.find(u => u.id === user.id).playerId = null;
   updateClientState(message);
+};
+
+const updatePlayerScore = (serverStore, data) => {
+  const { playerId, score, resetAll = false } = data;
+  if (resetAll === true) {
+    resetScores();
+  } else {
+    serverStore.scores.find(score => score.playerId === playerId).score = score;
+  }
+  updateClientState();
 };

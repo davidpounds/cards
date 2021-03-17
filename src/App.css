@@ -18,11 +18,27 @@ body {
 }
 
 .app {
-  width: calc(var(--card-width) * var(--hand-width-multiplier) * 2);
+  --half-card-width: calc(var(--card-width) / 2);
+  --in-play-width: calc(var(--card-width) * var(--hand-width-multiplier));
+  --connected-users-width: calc(var(--card-height) * 3);
+  /* width: calc(var(--in-play-width) * 2); */
   max-width: 100vw;
   display: grid;
-  grid-template-columns: var(--card-height) calc(var(--card-width) / 2) calc(var(--card-width) * var(--hand-width-multiplier)) calc(var(--card-width) / 2) var(--card-height);
-  grid-template-rows: var(--card-height) calc(var(--card-width) / 2) calc(var(--card-width) * var(--hand-width-multiplier)) calc(var(--card-width) / 2) var(--card-height);
+  grid-template-columns: 
+    var(--card-height) 
+    var(--half-card-width) 
+    var(--in-play-width) 
+    var(--half-card-width) 
+    var(--card-height)
+    var(--half-card-width) 
+    var(--connected-users-width);
+
+  grid-template-rows: 
+    var(--card-height) 
+    var(--half-card-width) 
+    var(--in-play-width) 
+    var(--half-card-width) 
+    var(--card-height);
 }
 
 .cardlist {

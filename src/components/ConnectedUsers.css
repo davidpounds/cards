@@ -1,31 +1,73 @@
 .connected-users {
-  grid-column: -3 / -1;
+  grid-column: -2 / -1;
   grid-row: 1 / -1;
-  transform: translateX(calc(var(--card-height) * 1.5));
   color: #fff;
 }
 
-.connected-users ul {
-  margin: 0;
-  padding: 0;
+.connected-users .reset-scores {
+  text-align: right;
 }
 
-.connected-users ul li {
-  margin: 0 0 0.5rem 1rem;
+.connected-users .reset-scores .form-control {
+  cursor: pointer;
+}
+
+.connected-users table {
+  border-collapse: collapse;
+  width: 100%;
+}  
+
+.connected-users td,
+.connected-users th {
+  padding: 0.5rem;
+  text-align: left;
+}  
+
+.connected-users tr:nth-of-type(odd) td {
+  background-color: rgba(255, 255, 255, 0.05);
+}  
+
+.connected-users tr:nth-of-type(even) td {
+  background-color: rgba(255, 255, 255, 0.1);
+}  
+
+.connected-users .role {
+  width: 20%;
+}  
+
+.connected-users .score {
+  text-align: right;
+  width: 15%;
+}
+
+.connected-users .form-control {
+  font-size: 1rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: inherit;
+  padding: 0.2rem;
+}
+
+.connected-users .score input[type="number"] {
+  text-align: right;
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.connected-users select option {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #666;
 }
 
 .connected-users .btn-icon svg {
-  width: 0.8rem;
-  height: 0.8rem;
-}
-
-.connected-users .btn-icon.add {
-  color: #fff;
-  transform: rotate(45deg);
-}
-
-.connected-users .btn-icon.remove {
-  color: #fc5554;
+  --icon-size: 0.8rem;
+  width: var(--icon-size);
+  height: var(--icon-size);
 }
 
 @media (max-width: 719px), (max-height: 719px) {

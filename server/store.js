@@ -7,7 +7,17 @@ const serverStore = {
   players: getNewPlayers(CONFIG.MAX_PLAYERS),
   deck: shuffleDeck(getResetDeck()),
   currentUser: null,
+  scores: [],
 };
+
+export const resetScores = () => {
+  serverStore.scores = serverStore.players.map(player => ({
+    playerId: player,
+    score: 0,
+  }));
+};
+
+resetScores();
 
 export const resetShuffleAndDeal = (resetPlayers = false) => {
   const shuffledResetDeck = shuffleDeck(getResetDeck());
@@ -15,6 +25,7 @@ export const resetShuffleAndDeal = (resetPlayers = false) => {
   const numberOfPlayers = players.length;
   if (resetPlayers) {
     serverStore.players = getNewPlayers(CONFIG.MAX_PLAYERS);
+    resetScores();
   }
   if (numberOfPlayers === CONFIG.MAX_PLAYERS) {
     const numberOfCards = Math.floor(CONFIG.CARDS_IN_DECK / numberOfPlayers);
