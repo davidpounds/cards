@@ -73,6 +73,10 @@ const messageHandler = (ws, serverStore) => rawMessage => {
         break;
       case ACTIONS.SERVER_UPDATE_PLAYER_SCORE:
         updatePlayerScore(serverStore, data);
+        break;
+      case ACTIONS.SERVER_FORCE_FOLLOW_SUITE:
+        updateForceFollowSuite(serverStore, data);
+        break;
       default:
         break;
     }
@@ -96,15 +100,20 @@ const connectUser = (serverStore, ws, userId = null) => {
 };
 
 const addCardToInPlay = (serverStore, data) => {
-  const { card: cardToAdd, currentPlayer } = data;
-  const { deck, players } = serverStore;
+  const { card: cardToAdd, currentUser } = data;
+  const { deck } = serverStore;
   const cardsAlreadyInPlay = deck.filter(card => card.inPlay !== null);
+  const firstCardPlayed = cardsAlreadyInPlay.length === 0;
   const playersAlreadyPlayed = [...new Set(cardsAlreadyInPlay.map(card => card.player))];
   if (!playersAlreadyPlayed.includes(cardToAdd.player)) {
     const card = deck.find(card => card.bitmask === cardToAdd.bitmask && card.player === cardToAdd.player);
     if (card) {
       card.inPlay = new Date().getTime();
-      updateClientState(`${currentPlayer.name} played the ${getFullCardName(card.bitmask)}`);
+      if (firstCardPlayed) {
+        const suit = card.bitmask & 0xf0;
+        serverStore.currentSuit = suit;
+      }
+      updateClientState(`${currentUser.name} played the ${getFullCardName(card.bitmask)}`);
     }
   }
 };
@@ -117,6 +126,7 @@ const addCardsToPlayed = serverStore => {
       card.played = true;
     }
   });
+  serverStore.currentSuit = null;
   updateClientState(`The dealer cleared the played cards`);
 };
 
@@ -160,5 +170,11 @@ const updatePlayerScore = (serverStore, data) => {
   } else {
     serverStore.scores.find(score => score.playerId === playerId).score = score;
   }
+  updateClientState();
+};
+
+const updateForceFollowSuite = (serverStore, data) => {
+  const { forceFollowSuit } = data;
+  serverStore.forceFollowSuit = forceFollowSuit;
   updateClientState();
 };

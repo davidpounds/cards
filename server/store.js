@@ -8,6 +8,8 @@ const serverStore = {
   deck: shuffleDeck(getResetDeck()),
   currentUser: null,
   scores: [],
+  currentSuit: null,
+  forceFollowSuit: false,
 };
 
 export const resetScores = () => {
@@ -36,6 +38,7 @@ export const resetShuffleAndDeal = (resetPlayers = false) => {
     });
   }
   serverStore.deck = shuffledResetDeck;
+  serverStore.currentSuit = null;
 };
 
 export default serverStore;

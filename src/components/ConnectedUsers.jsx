@@ -33,9 +33,9 @@ const ConnectedUsers = props => {
   };
 
   return <div className="connected-users">
-    <div className="reset-scores">
+    {isDealer && <div className="reset-scores">
       <button className="form-control" onClick={resetScores}>Reset scores</button>
-    </div>
+    </div>}
     <table>
       <thead>
         <tr>

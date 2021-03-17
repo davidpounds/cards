@@ -22,6 +22,10 @@
   transition: transform 0.2s ease-in-out;
 }
 
+.hover-effect.follow-suit .card-wrapper {
+  cursor: not-allowed;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .hover-effect .card-wrapper:not(.nohover):hover {
     overflow: visible;

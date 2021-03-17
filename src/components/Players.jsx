@@ -9,7 +9,17 @@ const rotateArray = (arr, n) => {
 };
 
 const Players = props => {
-  const { store: { users = [], players = [], currentUser = null, deck = []}, sendToServer } = props;
+  const { 
+    store: { 
+      users = [], 
+      players = [], 
+      currentUser = null, 
+      deck = [], 
+      forceFollowSuit = false, 
+      currentSuit = null
+    }, 
+    sendToServer,
+  } = props;
   const inPlay = deck.filter(card => card.inPlay !== null);
 
   const currentPlayerIndex = getPlayerIndex(players, getPlayerIdForUserId(players, users, currentUser?.id));
@@ -33,6 +43,8 @@ const Players = props => {
         user={user} 
         noOfPlayers={players.length}
         sendToServer={sendToServer}
+        forceFollowSuit={forceFollowSuit}
+        currentSuit={currentSuit}
       />
     })}
   </>;

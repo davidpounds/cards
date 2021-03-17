@@ -1,6 +1,11 @@
 .game-controls {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  color: #ccc;
+}
+
+.game-controls > div {
+  margin: 0 0 1rem 0;
 }
 
 .game-controls button {
