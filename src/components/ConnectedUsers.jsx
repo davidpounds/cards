@@ -47,6 +47,7 @@ const ConnectedUsers = props => {
       </thead>
       <tbody>
         {users.map(user => <UserRow
+          key={user.id}
           players={players} 
           scores={scores}
           users={users} 
@@ -92,7 +93,7 @@ const UserRow = props => {
   };
 
   return <tr key={user.id}>
-    <td>
+    <td title={`${user.id} / ${user.playerId}`}>
       <UserName name={user.name} editable={isCurrentUser && !isDealer} sendToServer={sendToServer} />
     </td>
     {isDealer && (

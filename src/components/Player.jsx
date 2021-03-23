@@ -38,7 +38,7 @@ const Player = props => {
   };
 
   return <section className={`player ${className} ${isCurrentPlayer ? 'current' : ''}`}>
-    <h2 className="player-name">
+    <h2 className="player-name" title={`${user?.id} / ${user?.playerId}`}>
       <ConnectionIndicator connected={user?.isConnected ?? false} />
       {user?.name ?? 'Unassigned'}<br />
       <span className="player-index">Player {playerIndex}</span>

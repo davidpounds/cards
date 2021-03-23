@@ -33,7 +33,8 @@ export const closeHandler = (ws, serverStore) => {
     deallocateUserToPlayer(serverStore, {user: disconnectingUser});
     disconnectingUser.websocket = null;
   }
-  serverStore.users = serverStore.users.filter(user => user !== disconnectingUser);
+  // TODO - find a way to clear out old disconnected users while still allowing recently-disconnected to reconnect
+  //serverStore.users = serverStore.users.filter(user => user !== disconnectingUser);
   updateClientState(`${disconnectingUser.name} has left`);
 };
 

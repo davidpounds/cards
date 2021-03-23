@@ -37,11 +37,11 @@ const onMessageHandler = e => {
     const { type, store, message } = data;
     switch (type) {
       case ACTIONS.CLIENT_UPDATE_STORE:
-        const { currentPlayer = null } = store;
-        if (storedUserId !== currentPlayer?.id && (currentPlayer?.id ?? null) !== null) {
-          storedUserId = currentPlayer.id;
+        const { currentUser = null } = store;
+        if (storedUserId !== currentUser?.id && (currentUser?.id ?? null) !== null) {
+          storedUserId = currentUser.id;
           localStorage.setItem(CONFIG.USER_ID_KEY, storedUserId);
-          new Toast(`You are ${currentPlayer.name}`, Toast.TYPE_INFO, Toast.TIME_LONG);
+          new Toast(`You are ${currentUser.name}`, Toast.TYPE_INFO, Toast.TIME_LONG);
         }
         window.dispatchEvent(new CustomEvent(ACTIONS.CLIENT_UPDATE_STORE, { detail: store }));
         break;

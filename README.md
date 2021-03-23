@@ -10,10 +10,8 @@ The first user to connect is given the role of dealer, subsequent users are allo
 
 ## TODO
 
-* Fix bug remembering current user on refresh
 * Force play in a clockwise direction.
 * Enable the dealer to specify which player should play first in the next round.
-* Force following suit.
 
 ## Available Scripts
 
