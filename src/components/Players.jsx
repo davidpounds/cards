@@ -16,14 +16,21 @@ const Players = props => {
       currentUser = null, 
       deck = [], 
       forceFollowSuit = false, 
-      currentSuit = null
+      currentSuit = null,
+      forceClockwisePlay = false,
     }, 
     sendToServer,
   } = props;
+  const pl = players.length;
   const inPlay = deck.filter(card => card.inPlay !== null);
-
   const currentPlayerIndex = getPlayerIndex(players, getPlayerIdForUserId(players, users, currentUser?.id));
   const sortedPlayers = rotateArray(players, 2 - (currentPlayerIndex === -1 ? 2 : currentPlayerIndex));
+
+  // For clockwise play
+  const lastPlayedCard = inPlay.length === 0 ? null : [...inPlay].sort((a, b) => (b.inPlay ?? 0) - (a.inPlay ?? 0))[0];
+  const lastPlayedCardPlayerIndex = players.indexOf(lastPlayedCard?.player);
+  const nextPlayerIndex = (lastPlayedCardPlayerIndex + 1) % pl;
+  const nextPlayer = !forceClockwisePlay || lastPlayedCard === null ? [...players] : players.slice(nextPlayerIndex, nextPlayerIndex + 1);
 
   return <>
     {sortedPlayers.map((player, idx) => {
@@ -31,6 +38,8 @@ const Players = props => {
       const playerIndex = players.indexOf(player);
       const hand = deck.filter(card => card.player === player && card.inPlay === null && !card.played);
       const isCurrentPlayer = player === currentUser?.playerId;
+      const nextToPlay = nextPlayer.includes(player);
+
       return <Player 
         className={`player${idx + 1}`}
         currentUser={currentUser}
@@ -45,6 +54,7 @@ const Players = props => {
         sendToServer={sendToServer}
         forceFollowSuit={forceFollowSuit}
         currentSuit={currentSuit}
+        nextToPlay={nextToPlay}
       />
     })}
   </>;

@@ -10,6 +10,7 @@ const serverStore = {
   scores: [],
   currentSuit: null,
   forceFollowSuit: false,
+  forceClockwisePlay: false,
 };
 
 export const resetScores = () => {

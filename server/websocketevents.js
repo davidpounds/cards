@@ -78,6 +78,9 @@ const messageHandler = (ws, serverStore) => rawMessage => {
       case ACTIONS.SERVER_FORCE_FOLLOW_SUITE:
         updateForceFollowSuite(serverStore, data);
         break;
+      case ACTIONS.SERVER_FORCE_CLOCKWISE_PLAY:
+        updateForceClockwisePlay(serverStore, data);
+        break;
       default:
         break;
     }
@@ -177,5 +180,11 @@ const updatePlayerScore = (serverStore, data) => {
 const updateForceFollowSuite = (serverStore, data) => {
   const { forceFollowSuit } = data;
   serverStore.forceFollowSuit = forceFollowSuit;
+  updateClientState();
+};
+
+const updateForceClockwisePlay = (serverStore, data) => {
+  const { forceClockwisePlay } = data;
+  serverStore.forceClockwisePlay = forceClockwisePlay;
   updateClientState();
 };

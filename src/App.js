@@ -15,6 +15,8 @@ const App = props => {
     players: [],
     deck: [],
     currentUser: null,
+    forceFollowSuit: false,
+    forceClockwisePlay: false,
   });
 
   const updateStore = e => {

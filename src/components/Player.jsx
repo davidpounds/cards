@@ -17,9 +17,10 @@ const Player = props => {
     sendToServer,
     forceFollowSuit,
     currentSuit,
+    nextToPlay,
   } = props;
 
-  const canPlay = inPlay.find(card => card.player === player) === undefined;
+  const canPlay = inPlay.find(card => card.player === player) === undefined && nextToPlay;
   const sortedHand = [...hand].sort((a, b) => a.bitmask - b.bitmask);
   const mustFollowSuit = forceFollowSuit && currentSuit !== null && hand.find(card => card.bitmask & currentSuit);
   const isTouchDevice = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;

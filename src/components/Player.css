@@ -29,6 +29,10 @@
   cursor: pointer;
 }
 
+.hand.cantplay {
+  filter: grayscale(70%);
+}
+
 .hand.cantplay .card-wrapper {
   cursor: not-allowed;
 }
